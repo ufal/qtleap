@@ -1,0 +1,5 @@
+Util::SetGlobal language=en
+en_analysis_1.scen
+en_analysis_2.scen
+ner_en.scen
+a2t_en.scen

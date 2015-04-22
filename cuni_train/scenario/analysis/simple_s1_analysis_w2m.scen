@@ -1,0 +1,2 @@
+W2A::Tokenize
+W2A::Tag module=Treex::Tool::Tagger::Simple::XY lemmatize=1

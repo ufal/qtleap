@@ -1,0 +1,32 @@
+Util::SetGlobal language=en
+
+## to m-layer
+W2A::EN::Tokenize
+W2A::NormalizeForms
+W2A::EN::FixTokenization
+W2A::EN::TagMorce
+W2A::EN::FixTags
+W2A::EN::Lemmatize
+
+# named entities
+A2N::EN::StanfordNamedEntities model=ner-eng-ie.crf-3-all2008.ser.gz
+A2N::EN::NameTag
+A2N::EN::DistinguishPersonalNames
+
+# to a-layer
+W2A::MarkChunks min_quotes=3
+W2A::EN::ParseMST model=conll_mcd_order2_0.01.model
+W2A::EN::SetIsMemberFromDeprel
+W2A::EN::RehangConllToPdtStyle
+W2A::EN::FixNominalGroups
+W2A::EN::FixIsMember
+W2A::EN::FixAtree
+W2A::EN::FixMultiwordPrepAndConj
+W2A::EN::FixDicendiVerbs
+W2A::EN::SetAfunAuxCPCoord
+W2A::EN::SetAfun
+W2A::FixQuotes
+
+W2A::EN::PreferImperatives
+
+A2A::ConvertTags input_driver=en::penn

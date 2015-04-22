@@ -1,0 +1,3 @@
+Util::SetGlobal language=eu selector=orig
+A2W::Detokenize
+Util::Eval zone='print $zone->sentence . "\n";'

@@ -1,0 +1,23 @@
+A2A::BackupTree to_selector=origBTB
+HamleDT::BG::Harmonize
+A2T::BG::MarkEdgesToCollapse
+A2T::BuildTtree
+A2T::RehangUnaryCoordConj
+A2T::SetIsMember
+A2T::BG::SetCoapFunctors
+A2T::FixIsMember
+A2T::MarkParentheses
+A2T::MoveAuxFromCoordToMembers
+A2T::MarkClauseHeads
+A2T::MarkRelClauseHeads
+A2T::MarkRelClauseCoref 
+A2T::DeleteChildlessPunctuation
+A2T::SetNodetype
+A2T::SetFormeme 
+A2T::SetGrammatemes
+A2T::BG::SetGrammatemesFromAux
+A2T::AddPersPronSb
+A2T::MinimizeGrammatemes
+A2T::SetNodetype
+A2T::FixAtomicNodes
+A2T::MarkReflpronCoref 

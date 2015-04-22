@@ -1,0 +1,32 @@
+# === Synthesis ===
+# *** Copy the t-tree into a new zone (called "es_synthesis")
+Util::SetGlobal language=eu selector=synthesis
+T2T::CopyTtree
+T2T::SetClauseNumber
+
+# *** Starting synthesis, filling morphological attributes that are needed later
+T2A::CopyTtree
+T2A::MarkSubject
+T2A::InitMorphcat
+T2A::ImposeSubjpredAgr
+T2A::ImposeAttrAgr
+
+# *** Adding function words (articles, prepositions, auxiliary verbs, etc.)
+#T2A::EU::AddArticles
+T2A::EU::AddPrepos
+T2A::AddSubconjs
+#T2A::EU::AddComparatives
+#T2A::EU::AddAuxVerbCompoundPassive
+T2A::EU::AddAuxVerbModalTense
+T2A::EU::AddNegationParticle
+
+T2A::DropPersPronSb
+
+# *** Adding punctuation nodes
+T2A::AddCoordPunct
+T2A::ProjectClauseNumber
+T2A::AddParentheses
+T2A::AddSentFinalPunct
+T2A::AddSubordClausePunct
+
+Util::Eval anode='$.set_tag(join " ", $.get_iset_values())'

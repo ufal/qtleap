@@ -1,0 +1,17 @@
+# analysis
+Util::SetGlobal language=eu selector=src
+
+W2A::ResegmentSentences
+W2A::EN::HideIT
+
+../analysis/eu_s1_analysis_w2m.scen
+../analysis/eu_s3_analysis_m2a.scen
+../analysis/eu_s4_analysis_a2t.scen
+
+# transfer
+../transfer/eu_en_transfer_t2t.scen
+
+# synthesis
+../synthesis/en_synthesis_t2w.scen
+
+A2W::ShowIT

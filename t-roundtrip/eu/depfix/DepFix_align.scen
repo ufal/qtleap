@@ -1,0 +1,22 @@
+Read::CoNLLX from=Pilot0.eu.conll
+conll2tecto.scen
+
+Util::Eval doc='use File::Slurp; $self->{trans}=[read_file("Pilot0.en.txt", chomp=>1, binmode => ":utf8")]' bundle='$.create_zone("en")->set_sentence(shift @{$self->{trans}});'
+en_analysis.scen
+
+Util::SetGlobal language=eu
+Align::AlignSameSentence to_selector=orig align_type=orig
+Align::A::InsertAlignmentFromFile selector=orig to_language=en from=Pilot0.orig_align
+Align::AlignForward overwrite=0 preserve_type=0 align_type='int'
+#run_mgiza.scen
+
+Align::T::CopyAlignmentFromAlayer to_language=en language=eu
+
+A2A::EU::FixAspect
+Util::SetGlobal language=eu selector=orig
+A2A::EU::FixTest
+A2A::EU::FixDefIndef
+A2A::EU::FixMoveRoot
+
+write_sentences.scen
+Write::Treex

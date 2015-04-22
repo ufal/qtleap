@@ -1,0 +1,18 @@
+Util::SetGlobal language=en selector=tst
+T2T::CopyTtree source_language=cs source_selector=src
+
+T2T::CS2EN::TrFTryRules
+T2T::CS2EN::TrFAddVariants model_dir= static_model=__FORMEME_STATIC_TM__ discr_model=__FORMEME_MAXENT_TM__
+T2T::CS2EN::TrLTryRules
+T2T::CS2EN::TrLAddVariants model_dir= static_model=__TLEMMA_STATIC_TM__ discr_model=__TLEMMA_MAXENT_TM__
+T2T::CS2EN::TrLFixTMErrors
+T2T::CS2EN::TrLFPhrases
+T2T::CS2EN::RemovePerspronGender
+T2T::SetClauseNumber
+
+T2T::CS2EN::RearrangeNounCompounds
+T2T::CS2EN::DeleteSuperfluousNodes
+
+T2T::CS2EN::FixGrammatemesAfterTransfer
+
+#simple_transfer_t2t.scen

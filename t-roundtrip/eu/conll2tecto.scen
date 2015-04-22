@@ -1,0 +1,41 @@
+W2A::ResegmentSentences
+W2A::Tokenize
+W2A::EU::TagAndParse
+
+# To make the t-roundtrip faster, generate the parsed file with
+#Write::Treex to=proba_parsed.treex.gz
+# Then comment the above blocks and uncomment the two blocks below
+#Read::Treex from=proba_parsed.treex.gz
+#Util::Eval doc='$.set_file_stem("proba");'
+# and use as: make READER= IN=sample.treex SOURCE_LANG=en go lastdiff
+
+HamleDT::EU::Harmonize
+
+W2A::EU::FixTagAndParse
+
+W2A::FixQuotes
+
+A2T::EU::MarkEdgesToCollapse
+A2T::BuildTtree
+A2T::RehangUnaryCoordConj
+A2T::SetIsMember
+A2T::EU::SetCoapFunctors
+A2T::FixIsMember
+A2T::HideParentheses
+A2T::EU::SetSentmod
+
+A2T::MoveAuxFromCoordToMembers
+A2T::MarkClauseHeads
+A2T::MarkRelClauseHeads
+A2T::MarkRelClauseCoref
+
+#A2T::DeleteChildlessPunctuation # this block makes more elegant t-layer, but worse BLEU scores
+A2T::SetNodetype
+A2T::EU::SetFormeme 
+A2T::EU::SetGrammatemes
+A2T::SetGrammatemesFromAux
+A2T::AddPersPronSb
+A2T::MinimizeGrammatemes
+A2T::SetNodetype
+A2T::FixAtomicNodes
+A2T::MarkReflpronCoref 

@@ -1,0 +1,23 @@
+W2A::ResegmentSentences language=nl selector=src
+../analysis/nl_s1_analysis_w2m.scen
+Misc::JoinBundles language=nl selector=src
+
+../analysis/en_s1_analysis_w2m.scen
+
+## for tokenized input
+#
+#Util::SetGlobal language=nl selector=src
+#W2A::TokenizeOnWhitespace
+#A2P::NL::ParseAlpino 
+#Util::Eval zone='$.remove_tree("a");'
+## convert to a-layer
+#P2A::NL::Alpino
+#
+#Util::SetGlobal selector=src language=en
+### to m-layer
+#W2A::TokenizeOnWhitespace
+#W2A::EN::NormalizeForms
+#W2A::EN::FixTokenization
+#W2A::EN::TagMorce
+#W2A::EN::FixTags
+#W2A::EN::Lemmatize

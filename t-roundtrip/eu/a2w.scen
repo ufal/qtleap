@@ -1,0 +1,5 @@
+T2A::EU::GenerateWordforms
+#Util::Eval anode='$.set_tag(join " ", $.get_iset_values())'
+T2A::DeleteSuperfluousAuxCP
+T2A::CapitalizeSentStart
+A2W::EU::ConcatenateTokens

@@ -1,0 +1,6 @@
+Util::SetGlobal selector=src language=cs
+# m-layer
+W2A::CS::Tokenize
+W2A::CS::TagMorphoDiTa lemmatize=1
+W2A::CS::FixMorphoErrors
+W2A::CS::FixGuessedLemmas

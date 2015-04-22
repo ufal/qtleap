@@ -1,0 +1,7 @@
+Util::SetGlobal selector=src language=eu
+
+HamleDT::EU::Harmonize
+
+W2A::EU::FixTagAndParse
+
+W2A::FixQuotes

@@ -1,0 +1,106 @@
+SHELL=/bin/bash
+
+LRC=0
+
+ML_METHOD=maxent
+#ML_METHOD=vw
+#ML_METHOD=static
+
+##################### dirs and aux files ############################
+
+#DATA=???
+
+SCRIPT_DIR=$(TMT_ROOT)/treex/training/mt/transl_models
+#TMP_DIR=/COMP.TMP/train_tm_$$$$
+#SORT_TMP_DIR=$(TMP_DIR)/sort
+SORT_TMP_DIR_PATTERN=$(TMP_DIR)/sort_XXXXX
+TRAIN_LOG_DIR=$(TMP_DIR)/log.train_tm
+
+SORTED_DATA=$(TMP_DIR)/tm_train_table.sorted.gz
+DATA_SPLIT_DIR=$(TMP_DIR)/tm_data_split
+DATA_SPLIT_LIST=$(DATA_SPLIT_DIR)/list
+MODEL_SPLIT_DIR=$(TMP_DIR)/tm_model_split.$(ML_METHOD)
+TRANSL_MODEL_LRC1=$(TMP_DIR)/model.$(ML_METHOD).lrc1.gz
+TRANSL_MODEL_LRC0=$(TMP_DIR)/model.$(ML_METHOD).lrc0.gz
+TRANSL_MODEL=$(TMP_DIR)/model.$(ML_METHOD).gz
+
+###################### ML parameters #############################
+
+LINES_PER_PART=500000
+INSTANCES=10000
+MIN_INSTANCES=100
+#MIN_INSTANCES=10
+MIN_PER_CLASS=5
+CLASS_COVERAGE=1
+SMOOTH_SIGMA=0.99
+#FEATS=transl_mt
+FEAT_CUT=2
+#FEAT_WEIGHT_CUT=0.4
+FEAT_COL=2
+
+include makefile.config
+
+ifeq ($(ML_METHOD), maxent)
+ifdef FEAT_WEIGHT_CUT
+	FEAT_WEIGHT_CUT_FLAG = -w $(FEAT_WEIGHT_CUT)
+endif
+	PARAMS_BASH := --feature_column $(FEAT_COL) -f $(FEAT_CUT) $(FEAT_WEIGHT_CUT_FLAG) -p 'smooth_sigma $(SMOOTH_SIGMA)'
+endif
+ifeq ($(ML_METHOD), vw)
+	PARAMS_BASH := --feature_column $(FEAT_COL) -w 0.05
+endif
+
+TRANSL_MODEL_LRC_DEP=$(TRANSL_MODEL_LRC0)
+ifeq ($(LRC),1)
+	TRANSL_MODEL_LRC_DEP=$(TRANSL_MODEL_LRC1)
+endif
+
+######################### processing ###################################
+
+train_tm : $(TRANSL_MODEL)
+
+sort : $(SORTED_DATA)
+$(SORTED_DATA) : $(DATA)
+	@bin/log.sh INFO "Sorting the training data: $(DATA) => $(SORTED_DATA)" >&2
+	sort_tmp_dir=`mktemp -d $(SORT_TMP_DIR_PATTERN)`; \
+	zcat $< | sort -k1,1 -S 2G -T $$sort_tmp_dir | gzip -c  > $@; \
+	rm -rf $$sort_tmp_dir
+
+$(DATA_SPLIT_LIST) : $(SORTED_DATA)
+	@bin/log.sh INFO "Splitting the sorted training data by a source label: $(SORTED_DATA) => $(DATA_SPLIT_LIST)" >&2
+	mkdir -p $(DATA_SPLIT_DIR)
+	zcat $< | $(SCRIPT_DIR)/split_on_value.pl $(LINES_PER_PART) $(DATA_SPLIT_DIR)/part
+	find $(DATA_SPLIT_DIR) -name "part*" | sort | sed 's|$(DATA_SPLIT_DIR)/||' > $@
+$(TRANSL_MODEL_LRC1) : $(DATA_SPLIT_LIST)
+	@bin/log.sh INFO "Training partial TMs on cluster: $(DATA_SPLIT_LIST) => $(MODEL_SPLIT_DIR)/" >&2
+	mkdir -p $(MODEL_SPLIT_DIR)
+	cat $< | while read i; do \
+		qsubmit --jobname="train_tm.$$i" --mem="15g" --priority="-100" --logdir="$(TRAIN_LOG_DIR)" \
+			"zcat $(DATA_SPLIT_DIR)/$$i | $(SCRIPT_DIR)/train.pl \
+				$(ML_METHOD) \
+				-i $(INSTANCES) -m $(MIN_INSTANCES) \
+				--min_per_class $(MIN_PER_CLASS) --class_coverage $(CLASS_COVERAGE) \
+				$(PARAMS_BASH) \
+				$(MODEL_SPLIT_DIR)/$$i; \
+			touch $(MODEL_SPLIT_DIR)/done.$$i"; \
+	done; \
+	while [ `ls $(MODEL_SPLIT_DIR)/done.* 2> /dev/null | wc -l` -lt `cat $< | wc -l` ]; do \
+		sleep 5; \
+    done; \
+	rm $(MODEL_SPLIT_DIR)/done.*
+	@bin/log.sh INFO "Merging partial TMs: $(MODEL_SPLIT_DIR)/ => $(TRANSL_MODEL)" >&2
+	$(SCRIPT_DIR)/merge_models.pl $(ML_METHOD) $(MODEL_SPLIT_DIR) $@
+
+$(TRANSL_MODEL_LRC0) : $(SORTED_DATA)
+	@bin/log.sh INFO "Training the TM: $(SORTED_DATA) => $(TRANSL_MODEL)/" >&2
+	zcat $< | $(SCRIPT_DIR)/train.pl \
+		$(ML_METHOD) \
+		-i $(INSTANCES) -m $(MIN_INSTANCES) \
+		--min_per_class $(MIN_PER_CLASS) --class_coverage $(CLASS_COVERAGE) \
+		$(PARAMS_BASH) \
+		$@
+
+.INTERMEDIATE : $(TRANSL_MODEL_LRC1) $(TRANSL_MODEL_LRC0)
+
+$(TRANSL_MODEL) : $(TRANSL_MODEL_LRC_DEP)
+	cp $(TRANSL_MODEL_LRC_DEP) $(TRANSL_MODEL)

@@ -1,0 +1,920 @@
+1	Choveu	CHOVER	V	V	ppi-3s	0	ROOT	0	ROOT
+2	.	_	PNT	PNT	_	1	PUNCT	1	PUNCT
+
+1	Aquele	_	DEM	DEM	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	gosta	GOSTAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	apenas	_	ADV	ADV	_	5	M	5	M
+5	de	_	PREP	PREP	_	3	OBL	3	OBL
+6	vinho	VINHO	CN	CN	ms	5	C	5	C
+7	branco	BRANCO	ADJ	ADJ	ms	6	M	6	M
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	criança	CRIANÇA	CN	CN	fs	3	SJ	3	SJ
+3	obedece	OBEDECER	V	V	pi-3s	0	ROOT	0	ROOT
+4	apenas	_	ADV	ADV	_	5	M	5	M
+5	a_	_	PREP	PREP	_	3	IO	3	IO
+6	a	_	DA	DA	fs	7	SP	7	SP
+7	mãe	MÃE	CN	CN	fs	5	C	5	C
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	encomenda	ENCOMENDA	CN	CN	fs	3	SJ	3	SJ
+3	está	ESTAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	em_	_	PREP	PREP	_	3	PRD	3	PRD
+5	o	_	DA	DA	ms	6	SP	6	SP
+6	armazém	ARMAZÉM	CN	CN	ms	4	C	4	C
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	encomenda	ENCOMENDA	CN	CN	fs	3	SJ	3	SJ
+3	está	ESTAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	mesmo	_	ADV	ADV	_	5	M	5	M
+5	em_	_	PREP	PREP	_	3	PRD	3	PRD
+6	o	_	DA	DA	ms	7	SP	7	SP
+7	armazém	ARMAZÉM	CN	CN	ms	5	C	5	C
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	encomenda	ENCOMENDA	CN	CN	fs	3	SJ	3	SJ
+3	acabou	ACABAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	por	_	PREP	PREP	_	3	C	3	C
+5	chegar	CHEGAR	INF	INF	ninf	4	C	4	C
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	encomenda	ENCOMENDA	CN	CN	fs	3	SJ	3	SJ
+3	acabou	ACABAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	apenas	_	ADV	ADV	_	3	M	3	M
+5	por	_	PREP	PREP	_	3	C	3	C
+6	chegar	CHEGAR	INF	INF	ninf	5	C	5	C
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	encomenda	ENCOMENDA	CN	CN	fs	3	SJ	3	SJ
+3	acabou	ACABAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	por	_	PREP	PREP	_	3	C	3	C
+5	apenas	_	ADV	ADV	_	6	M	6	M
+6	chegar	CHEGAR	INF	INF	ninf	4	C	4	C
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	empresa	EMPRESA	CN	CN	fs	3	SJ	3	SJ
+3	faliu	FALIR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Salvo	_	PREP	PREP	_	5	M	5	M
+2	tu	_	PRS	PRS	gs2	1	C	1	C
+3	os	_	DA	DA	mp	4	SP	4	SP
+4	clientes	CLIENTE	CN	CN	mp	5	SJ	5	SJ
+5	estavam	ESTAR	V	V	ii-3p	0	ROOT	0	ROOT
+6	satisfeitos	SATISFEITO	ADJ	ADJ	mp	5	PRD	5	PRD
+7	.	_	PNT	PNT	_	5	PUNCT	5	PUNCT
+
+1	Para	_	PREP	PREP	_	5	M	5	M
+2	ti	_	PRS	PRS	gs2	1	C	1	C
+3	os	_	DA	DA	mp	4	SP	4	SP
+4	clientes	CLIENTE	CN	CN	mp	5	SJ	5	SJ
+5	estavam	ESTAR	V	V	ii-3p	0	ROOT	0	ROOT
+6	satisfeitos	SATISFEITO	ADJ	ADJ	mp	5	PRD	5	PRD
+7	.	_	PNT	PNT	_	5	PUNCT	5	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+5	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	baratíssimo	BARATO	ADJ	ADJ	ms-sup	5	M	5	M
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	baratíssimo	BARATO	ADJ	ADJ	ms-sup	3	PRD	3	PRD
+5	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	7	SJ	7	SJ
+3	contentíssimo	CONTENTE	ADJ	ADJ	ms-sup	2	M	2	M
+4	com	_	PREP	PREP	_	3	OBL	3	OBL
+5	A	_	DA	DA	fs	6	SP	6	SP
+6	compra	COMPRA	CN	CN	fs	4	C	4	C
+7	acabou	ACABAR	V	V	ppi-3s	0	ROOT	0	ROOT
+8	de	_	PREP	PREP	_	7	C	7	C
+9	sair	SAIR	INF	INF	ninf	8	C	8	C
+10	.	_	PNT	PNT	_	7	PUNCT	7	PUNCT
+
+1	O	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	estava	ESTAR	V	V	ii-3s	0	ROOT	0	ROOT
+4	contentíssimo	CONTENTE	ADJ	ADJ	ms-sup	3	PRD	3	PRD
+5	com	_	PREP	PREP	_	4	OBL	4	OBL
+6	A	_	DA	DA	fs	7	SP	7	SP
+7	compra	COMPRA	CN	CN	fs	5	C	5	C
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	está	ESTAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	contente	CONTENTE	ADJ	ADJ	ms	3	PRD	3	PRD
+5	com	_	PREP	PREP	_	4	OBL	4	OBL
+6	A	_	DA	DA	fs	7	SP	7	SP
+7	compra	COMPRA	CN	CN	fs	5	C	5	C
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	está	ESTAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	contente	CONTENTE	ADJ	ADJ	ms	3	PRD	3	PRD
+6	com	_	PREP	PREP	_	5	OBL	5	OBL
+7	A	_	DA	DA	fs	8	SP	8	SP
+8	compra	COMPRA	CN	CN	fs	6	C	6	C
+9	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	está	ESTAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	contentíssimo	CONTENTE	ADJ	ADJ	ms-sup	3	PRD	3	PRD
+5	com	_	PREP	PREP	_	4	OBL	4	OBL
+6	A	_	DA	DA	fs	7	SP	7	SP
+7	compra	COMPRA	CN	CN	fs	5	C	5	C
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Comprei	COMPRAR	V	V	ppi-1s	0	ROOT	0	ROOT
+2	um	_	UM	UM	ms	3	SP	3	SP
+3	computador	COMPUTADOR	CN	CN	ms	1	DO	1	DO
+4	diferente	DIFERENTE	ADJ	ADJ	ms	3	M	3	M
+5	de_	_	PREP	PREP	_	4	OBL	4	OBL
+6	este	_	DEM	DEM	ms	5	C	5	C
+7	.	_	PNT	PNT	_	1	PUNCT	1	PUNCT
+
+1	Comprei	COMPRAR	V	V	ppi-1s	0	ROOT	0	ROOT
+2	um	_	UM	UM	ms	3	SP	3	SP
+3	computador	COMPUTADOR	CN	CN	ms	1	DO	1	DO
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	diferente	DIFERENTE	ADJ	ADJ	ms	3	M	3	M
+6	de_	_	PREP	PREP	_	5	OBL	5	OBL
+7	este	_	DEM	DEM	ms	6	C	6	C
+8	.	_	PNT	PNT	_	1	PUNCT	1	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	maior	MAIOR	ADJ	ADJ	ms-comp	3	PRD	3	PRD
+5	de_	_	LCJ1	LCJ1	_	7	CONJ	7	CONJ
+6	o	_	LCJ2	LCJ2	_	7	CONJ	7	CONJ
+7	que	_	LCJ3	LCJ3	_	4	C	4	C
+8	A	_	DA	DA	fs	9	SP	9	SP
+9	Maria	_	PNM	PNM	_	7	C	7	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	maior	MAIOR	ADJ	ADJ	ms-comp	3	PRD	3	PRD
+5	que	_	CJ	CJ	_	4	C	4	C
+6	A	_	DA	DA	fs	7	SP	7	SP
+7	Maria	_	PNM	PNM	_	5	C	5	C
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	maior	MAIOR	ADJ	ADJ	ms-comp	3	PRD	3	PRD
+5	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Comprei	COMPRAR	V	V	ppi-1s	0	ROOT	0	ROOT
+2	um	_	UM	UM	ms	3	SP	3	SP
+3	computador	COMPUTADOR	CN	CN	ms	1	DO	1	DO
+4	melhor	MELHOR	ADJ	ADJ	ms-comp	3	M	3	M
+5	que	_	CJ	CJ	_	4	C	4	C
+6	aquele	_	DEM	DEM	ms	5	C	5	C
+7	.	_	PNT	PNT	_	1	PUNCT	1	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	criança	CRIANÇA	CN	CN	fs	3	SJ	3	SJ
+3	obedeceu	OBEDECER	V	V	ppi-3s	0	ROOT	0	ROOT
+4	a_	_	PREP	PREP	_	3	IO	3	IO
+5	a	_	DA	DA	fs	6	SP	6	SP
+6	mãe	MÃE	CN	CN	fs	4	C	4	C
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Comprei	COMPRAR	V	V	ppi-1s	0	ROOT	0	ROOT
+2	o	_	DA	DA	ms	3	SP	3	SP
+3	computador	COMPUTADOR	CN	CN	ms	1	DO	1	DO
+4	melhor	MELHOR	ADJ	ADJ	ms-comp	3	M	3	M
+5	.	_	PNT	PNT	_	1	PUNCT	1	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	6	SP	6	SP
+5	mero	MERO	ADJ	ADJ	ms	6	M	6	M
+6	pianista	PIANISTA	CN	CN	ms	3	PRD	3	PRD
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	o	_	DA	DA	ms	5	SP	5	SP
+5	pai	PAI	CN	CN	ms	3	PRD	3	PRD
+6	provável	PROVÁVEL	ADJ	ADJ	ms	5	M	5	M
+7	de_	_	PREP	PREP	_	5	OBL	5	OBL
+8	a	_	DA	DA	fs	9	SP	9	SP
+9	Maria	_	PNM	PNM	_	7	C	7	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	o	_	DA	DA	ms	6	SP	6	SP
+5	provável	PROVÁVEL	ADJ	ADJ	ms	6	M	6	M
+6	pai	PAI	CN	CN	ms	3	PRD	3	PRD
+7	de_	_	PREP	PREP	_	6	OBL	6	OBL
+8	a	_	DA	DA	fs	9	SP	9	SP
+9	Maria	_	PNM	PNM	_	7	C	7	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	isso	_	DEM	DEM	ms	2	SJ	2	SJ
+2	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+3	provável	PROVÁVEL	ADJ	ADJ	ms	2	PRD	2	PRD
+4	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	pianista	PIANISTA	CN	CN	ms	3	PRD	3	PRD
+6	simpático	SIMPÁTICO	ADJ	ADJ	ms	5	M	5	M
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	6	SP	6	SP
+5	simpático	SIMPÁTICO	ADJ	ADJ	ms	6	M	6	M
+6	pianista	PIANISTA	CN	CN	ms	3	PRD	3	PRD
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	simpático	SIMPÁTICO	ADJ	ADJ	ms	3	PRD	3	PRD
+5	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	comprou	COMPRAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	uma	_	UM	UM	fs	5	SP	5	SP
+5	camisola	CAMISOLA	CN	CN	fs	3	DO	3	DO
+6	amarela	AMARELO	ADJ	ADJ	fs	5	M	5	M
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	O	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	foi	IR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	a_	_	PREP	PREP	_	3	OBL	3	OBL
+5	a	_	DA	DA	fs	6	SP	6	SP
+6	loja	LOJA	CN	CN	fs	4	C	4	C
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	camisola	CAMISOLA	CN	CN	fs	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	amarela	AMARELO	ADJ	ADJ	fs	3	PRD	3	PRD
+5	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	O	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	foi	IR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	a_	_	PREP	PREP	_	3	OBL	3	OBL
+5	a	_	DA	DA	fs	6	SP	6	SP
+6	loja	LOJA	CN	CN	fs	4	C	4	C
+7	com	_	PREP	PREP	_	3	M	3	M
+8	a	_	DA	DA	fs	9	SP	9	SP
+9	Maria	_	PNM	PNM	_	7	C	7	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	O	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	foi	IR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	a_	_	PREP	PREP	_	3	OBL	3	OBL
+5	a	_	DA	DA	fs	6	SP	6	SP
+6	loja	LOJA	CN	CN	fs	4	C	4	C
+7	apenas	_	ADV	ADV	_	8	M	8	M
+8	com	_	PREP	PREP	_	3	M	3	M
+9	a	_	DA	DA	fs	10	SP	10	SP
+10	Maria	_	PNM	PNM	_	8	C	8	C
+11	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	O	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	foi	IR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	apenas	_	ADV	ADV	_	5	M	5	M
+5	a_	_	PREP	PREP	_	3	OBL	3	OBL
+6	a	_	DA	DA	fs	7	SP	7	SP
+7	loja	LOJA	CN	CN	fs	5	C	5	C
+8	com	_	PREP	PREP	_	3	M	3	M
+9	a	_	DA	DA	fs	10	SP	10	SP
+10	Maria	_	PNM	PNM	_	8	C	8	C
+11	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	O	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	foi	IR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	apenas	_	ADV	ADV	_	5	M	5	M
+5	a_	_	PREP	PREP	_	3	OBL	3	OBL
+6	a	_	DA	DA	fs	7	SP	7	SP
+7	loja	LOJA	CN	CN	fs	5	C	5	C
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	o	_	DA	DA	ms	5	SP	5	SP
+5	pai	PAI	CN	CN	ms	3	PRD	3	PRD
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	provável	PROVÁVEL	ADJ	ADJ	ms	5	M	5	M
+8	de_	_	PREP	PREP	_	5	OBL	5	OBL
+9	a	_	DA	DA	fs	10	SP	10	SP
+10	Maria	_	PNM	PNM	_	8	C	8	C
+11	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	o	_	DA	DA	ms	7	SP	7	SP
+5	muito	_	ADV	ADV	_	6	M	6	M
+6	provável	PROVÁVEL	ADJ	ADJ	ms	7	M	7	M
+7	pai	PAI	CN	CN	ms	3	PRD	3	PRD
+8	de_	_	PREP	PREP	_	7	OBL	7	OBL
+9	a	_	DA	DA	fs	10	SP	10	SP
+10	Maria	_	PNM	PNM	_	8	C	8	C
+11	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	isso	_	DEM	DEM	ms	2	SJ	2	SJ
+2	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+3	muito	_	ADV	ADV	_	4	M	4	M
+4	provável	PROVÁVEL	ADJ	ADJ	ms	2	PRD	2	PRD
+5	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	pianista	PIANISTA	CN	CN	ms	3	PRD	3	PRD
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	simpático	SIMPÁTICO	ADJ	ADJ	ms	5	M	5	M
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	7	SP	7	SP
+5	muito	_	ADV	ADV	_	6	M	6	M
+6	simpático	SIMPÁTICO	ADJ	ADJ	ms	7	M	7	M
+7	pianista	PIANISTA	CN	CN	ms	3	PRD	3	PRD
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	simpático	SIMPÁTICO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	comprou	COMPRAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	uma	_	UM	UM	fs	5	SP	5	SP
+5	camisola	CAMISOLA	CN	CN	fs	3	DO	3	DO
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	amarela	AMARELO	ADJ	ADJ	fs	5	M	5	M
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	camisola	CAMISOLA	CN	CN	fs	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	amarela	AMARELO	ADJ	ADJ	fs	3	PRD	3	PRD
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	6	SP	6	SP
+5	feliz	FELIZ	ADJ	ADJ	ms	6	M	6	M
+6	pianista	PIANISTA	CN	CN	ms	3	PRD	3	PRD
+7	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	7	SP	7	SP
+5	mais	_	ADV	ADV	_	6	M	6	M
+6	feliz	FELIZ	ADJ	ADJ	ms	7	M	7	M
+7	pianista	PIANISTA	CN	CN	ms	3	PRD	3	PRD
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	mais	_	ADV	ADV	_	7	M	7	M
+7	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	mais	_	ADV	ADV	_	5	M	5	M
+5	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	menos	_	ADV	ADV	_	7	M	7	M
+7	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	menos	_	ADV	ADV	_	5	M	5	M
+5	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	tão	_	ADV	ADV	_	7	M	7	M
+7	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	tão	_	ADV	ADV	_	5	M	5	M
+5	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	mais	_	ADV	ADV	_	7	M	7	M
+7	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+8	de_	_	LCJ1	LCJ1	_	10	CONJ	10	CONJ
+9	o	_	LCJ2	LCJ2	_	10	CONJ	10	CONJ
+10	que	_	LCJ3	LCJ3	_	7	C	7	C
+11	esse	_	DEM	DEM	ms	10	C	10	C
+12	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	mais	_	ADV	ADV	_	5	M	5	M
+5	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	de_	_	LCJ1	LCJ1	_	8	CONJ	8	CONJ
+7	o	_	LCJ2	LCJ2	_	8	CONJ	8	CONJ
+8	que	_	LCJ3	LCJ3	_	5	C	5	C
+9	esse	_	DEM	DEM	ms	8	C	8	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	menos	_	ADV	ADV	_	7	M	7	M
+7	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+8	de_	_	LCJ1	LCJ1	_	10	CONJ	10	CONJ
+9	o	_	LCJ2	LCJ2	_	10	CONJ	10	CONJ
+10	que	_	LCJ3	LCJ3	_	7	C	7	C
+11	esse	_	DEM	DEM	ms	10	C	10	C
+12	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	menos	_	ADV	ADV	_	5	M	5	M
+5	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	de_	_	LCJ1	LCJ1	_	8	CONJ	8	CONJ
+7	o	_	LCJ2	LCJ2	_	8	CONJ	8	CONJ
+8	que	_	LCJ3	LCJ3	_	5	C	5	C
+9	esse	_	DEM	DEM	ms	8	C	8	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	tão	_	ADV	ADV	_	7	M	7	M
+7	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+8	como	_	CJ	CJ	_	7	C	7	C
+9	esse	_	DEM	DEM	ms	8	C	8	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	tão	_	ADV	ADV	_	5	M	5	M
+5	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	como	_	CJ	CJ	_	5	C	5	C
+7	esse	_	DEM	DEM	ms	6	C	6	C
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	mais	_	ADV	ADV	_	5	M	5	M
+5	alto	ALTO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	de_	_	LCJ1	LCJ1	_	8	CONJ	8	CONJ
+7	o	_	LCJ2	LCJ2	_	8	CONJ	8	CONJ
+8	que	_	LCJ3	LCJ3	_	5	C	5	C
+9	eu	_	PRS	PRS	gs1	8	C	8	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	encomendou	ENCOMENDAR	V	V	ppi-3s	0	ROOT	0	ROOT
+4	um	_	UM	UM	ms	5	SP	5	SP
+5	computador	COMPUTADOR	CN	CN	ms	3	DO	3	DO
+6	muito	_	ADV	ADV	_	8	M	8	M
+7	,	_	PNT	PNT	_	6	DEP	6	DEP
+8	muito	_	ADV	ADV	_	9	M	9	M
+9	barato	BARATO	ADJ	ADJ	ms	5	M	5	M
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	6	M	6	M
+5	,	_	PNT	PNT	_	4	DEP	4	DEP
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	barato	BARATO	ADJ	ADJ	ms	3	PRD	3	PRD
+8	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	cliente	CLIENTE	CN	CN	ms	3	SJ	3	SJ
+3	está	ESTAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	6	M	6	M
+5	,	_	PNT	PNT	_	4	DEP	4	DEP
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	contente	CONTENTE	ADJ	ADJ	ms	3	PRD	3	PRD
+8	com	_	PREP	PREP	_	7	OBL	7	OBL
+9	A	_	DA	DA	fs	10	SP	10	SP
+10	compra	COMPRA	CN	CN	fs	8	C	8	C
+11	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Comprei	COMPRAR	V	V	ppi-1s	0	ROOT	0	ROOT
+2	um	_	UM	UM	ms	3	SP	3	SP
+3	computador	COMPUTADOR	CN	CN	ms	1	DO	1	DO
+4	muito	_	ADV	ADV	_	6	M	6	M
+5	,	_	PNT	PNT	_	4	DEP	4	DEP
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	diferente	DIFERENTE	ADJ	ADJ	ms	3	M	3	M
+8	de_	_	PREP	PREP	_	7	OBL	7	OBL
+9	este	_	DEM	DEM	ms	8	C	8	C
+10	.	_	PNT	PNT	_	1	PUNCT	1	PUNCT
+
+1	Ele	_	PRS	PRS	ms3	2	SJ	2	SJ
+2	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+3	perto	_	ADV	ADV	_	2	OBL	2	OBL
+4	de_	_	PREP	PREP	_	3	C	3	C
+5	o	_	DA	DA	ms	6	SP	6	SP
+6	centro	CENTRO	CN	CN	ms	4	C	4	C
+7	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	Ele	_	PRS	PRS	ms3	2	SJ	2	SJ
+2	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+3	perto	_	ADV	ADV	_	2	OBL	2	OBL
+4	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	Ele	_	PRS	PRS	ms3	2	SJ	2	SJ
+2	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+3	muito	_	ADV	ADV	_	4	M	4	M
+4	perto	_	ADV	ADV	_	2	OBL	2	OBL
+5	de_	_	PREP	PREP	_	4	C	4	C
+6	o	_	DA	DA	ms	7	SP	7	SP
+7	centro	CENTRO	CN	CN	ms	5	C	5	C
+8	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	Ele	_	PRS	PRS	ms3	2	SJ	2	SJ
+2	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+3	muito	_	ADV	ADV	_	4	M	4	M
+4	perto	_	ADV	ADV	_	2	OBL	2	OBL
+5	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	Ele	_	PRS	PRS	ms3	2	SJ	2	SJ
+2	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+3	mais	_	ADV	ADV	_	4	M	4	M
+4	perto	_	ADV	ADV	_	2	OBL	2	OBL
+5	de_	_	PREP	PREP	_	4	C	4	C
+6	o	_	DA	DA	ms	7	SP	7	SP
+7	centro	CENTRO	CN	CN	ms	5	C	5	C
+8	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	Ele	_	PRS	PRS	ms3	2	SJ	2	SJ
+2	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+3	mais	_	ADV	ADV	_	4	M	4	M
+4	perto	_	ADV	ADV	_	2	OBL	2	OBL
+5	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	Ele	_	PRS	PRS	ms3	2	SJ	2	SJ
+2	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+3	muito	_	ADV	ADV	_	4	M	4	M
+4	mais	_	ADV	ADV	_	5	M	5	M
+5	perto	_	ADV	ADV	_	2	OBL	2	OBL
+6	.	_	PNT	PNT	_	2	PUNCT	2	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	mais	_	ADV	ADV	_	5	M	5	M
+5	perto	_	ADV	ADV	_	3	OBL	3	OBL
+6	de_	_	PREP	PREP	_	5	C	5	C
+7	o	_	DA	DA	ms	8	SP	8	SP
+8	centro	CENTRO	CN	CN	ms	6	C	6	C
+9	de_	_	LCJ1	LCJ1	_	11	CONJ	11	CONJ
+10	o	_	LCJ2	LCJ2	_	11	CONJ	11	CONJ
+11	que	_	LCJ3	LCJ3	_	5	C	5	C
+12	A	_	DA	DA	fs	13	SP	13	SP
+13	Maria	_	PNM	PNM	_	11	C	11	C
+14	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	mais	_	ADV	ADV	_	6	M	6	M
+6	perto	_	ADV	ADV	_	3	OBL	3	OBL
+7	de_	_	PREP	PREP	_	6	C	6	C
+8	o	_	DA	DA	ms	9	SP	9	SP
+9	centro	CENTRO	CN	CN	ms	7	C	7	C
+10	de_	_	LCJ1	LCJ1	_	12	CONJ	12	CONJ
+11	o	_	LCJ2	LCJ2	_	12	CONJ	12	CONJ
+12	que	_	LCJ3	LCJ3	_	6	C	6	C
+13	A	_	DA	DA	fs	14	SP	14	SP
+14	Maria	_	PNM	PNM	_	12	C	12	C
+15	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	6	M	6	M
+5	,	_	PNT	PNT	_	4	DEP	4	DEP
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	mais	_	ADV	ADV	_	8	M	8	M
+8	perto	_	ADV	ADV	_	3	OBL	3	OBL
+9	de_	_	PREP	PREP	_	8	C	8	C
+10	o	_	DA	DA	ms	11	SP	11	SP
+11	centro	CENTRO	CN	CN	ms	9	C	9	C
+12	de_	_	LCJ1	LCJ1	_	14	CONJ	14	CONJ
+13	o	_	LCJ2	LCJ2	_	14	CONJ	14	CONJ
+14	que	_	LCJ3	LCJ3	_	8	C	8	C
+15	A	_	DA	DA	fs	16	SP	16	SP
+16	Maria	_	PNM	PNM	_	14	C	14	C
+17	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	mais	_	ADV	ADV	_	5	M	5	M
+5	perto	_	ADV	ADV	_	3	OBL	3	OBL
+6	de_	_	LCJ1	LCJ1	_	8	CONJ	8	CONJ
+7	o	_	LCJ2	LCJ2	_	8	CONJ	8	CONJ
+8	que	_	LCJ3	LCJ3	_	5	C	5	C
+9	A	_	DA	DA	fs	10	SP	10	SP
+10	Maria	_	PNM	PNM	_	8	C	8	C
+11	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	mais	_	ADV	ADV	_	6	M	6	M
+6	perto	_	ADV	ADV	_	3	OBL	3	OBL
+7	de_	_	LCJ1	LCJ1	_	9	CONJ	9	CONJ
+8	o	_	LCJ2	LCJ2	_	9	CONJ	9	CONJ
+9	que	_	LCJ3	LCJ3	_	6	C	6	C
+10	A	_	DA	DA	fs	11	SP	11	SP
+11	Maria	_	PNM	PNM	_	9	C	9	C
+12	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	mora	MORAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	6	M	6	M
+5	,	_	PNT	PNT	_	4	DEP	4	DEP
+6	muito	_	ADV	ADV	_	7	M	7	M
+7	mais	_	ADV	ADV	_	8	M	8	M
+8	perto	_	ADV	ADV	_	3	OBL	3	OBL
+9	de_	_	LCJ1	LCJ1	_	11	CONJ	11	CONJ
+10	o	_	LCJ2	LCJ2	_	11	CONJ	11	CONJ
+11	que	_	LCJ3	LCJ3	_	8	C	8	C
+12	A	_	DA	DA	fs	13	SP	13	SP
+13	Maria	_	PNM	PNM	_	11	C	11	C
+14	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	mais	_	ADV	ADV	_	5	M	5	M
+5	alto	ALTO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	que	_	CJ	CJ	_	4	C	4	C
+7	A	_	DA	DA	fs	8	SP	8	SP
+8	Maria	_	PNM	PNM	_	6	C	6	C
+9	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	tão	_	ADV	ADV	_	5	M	5	M
+5	alto	ALTO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	como	_	CJ	CJ	_	5	C	5	C
+7	A	_	DA	DA	fs	8	SP	8	SP
+8	Maria	_	PNM	PNM	_	6	C	6	C
+9	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	tão	_	ADV	ADV	_	5	M	5	M
+5	alto	ALTO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	quanto	_	CJ	CJ	_	5	C	5	C
+7	A	_	DA	DA	fs	8	SP	8	SP
+8	Maria	_	PNM	PNM	_	6	C	6	C
+9	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	maior	MAIOR	ADJ	ADJ	ms-comp	3	PRD	3	PRD
+6	de_	_	LCJ1	LCJ1	_	8	CONJ	8	CONJ
+7	o	_	LCJ2	LCJ2	_	8	CONJ	8	CONJ
+8	que	_	LCJ3	LCJ3	_	5	C	5	C
+9	A	_	DA	DA	fs	10	SP	10	SP
+10	Maria	_	PNM	PNM	_	8	C	8	C
+11	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	mais	_	ADV	ADV	_	6	M	6	M
+6	alto	ALTO	ADJ	ADJ	ms	3	PRD	3	PRD
+7	de_	_	LCJ1	LCJ1	_	9	CONJ	9	CONJ
+8	o	_	LCJ2	LCJ2	_	9	CONJ	9	CONJ
+9	que	_	LCJ3	LCJ3	_	6	C	6	C
+10	A	_	DA	DA	fs	11	SP	11	SP
+11	Maria	_	PNM	PNM	_	9	C	9	C
+12	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	menos	_	ADV	ADV	_	6	M	6	M
+6	alto	ALTO	ADJ	ADJ	ms	3	PRD	3	PRD
+7	de_	_	LCJ1	LCJ1	_	9	CONJ	9	CONJ
+8	o	_	LCJ2	LCJ2	_	9	CONJ	9	CONJ
+9	que	_	LCJ3	LCJ3	_	6	C	6	C
+10	A	_	DA	DA	fs	11	SP	11	SP
+11	Maria	_	PNM	PNM	_	9	C	9	C
+12	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	ainda	_	ADV	ADV	_	5	M	5	M
+5	mais	_	ADV	ADV	_	6	M	6	M
+6	alto	ALTO	ADJ	ADJ	ms	3	PRD	3	PRD
+7	de_	_	LCJ1	LCJ1	_	9	CONJ	9	CONJ
+8	o	_	LCJ2	LCJ2	_	9	CONJ	9	CONJ
+9	que	_	LCJ3	LCJ3	_	6	C	6	C
+10	A	_	DA	DA	fs	11	SP	11	SP
+11	Maria	_	PNM	PNM	_	9	C	9	C
+12	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	ainda	_	ADV	ADV	_	5	M	5	M
+5	maior	MAIOR	ADJ	ADJ	ms-comp	3	PRD	3	PRD
+6	de_	_	LCJ1	LCJ1	_	8	CONJ	8	CONJ
+7	o	_	LCJ2	LCJ2	_	8	CONJ	8	CONJ
+8	que	_	LCJ3	LCJ3	_	5	C	5	C
+9	A	_	DA	DA	fs	10	SP	10	SP
+10	Maria	_	PNM	PNM	_	8	C	8	C
+11	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	ainda	_	ADV	ADV	_	5	M	5	M
+5	menos	_	ADV	ADV	_	6	M	6	M
+6	alto	ALTO	ADJ	ADJ	ms	3	PRD	3	PRD
+7	de_	_	LCJ1	LCJ1	_	9	CONJ	9	CONJ
+8	o	_	LCJ2	LCJ2	_	9	CONJ	9	CONJ
+9	que	_	LCJ3	LCJ3	_	6	C	6	C
+10	A	_	DA	DA	fs	11	SP	11	SP
+11	Maria	_	PNM	PNM	_	9	C	9	C
+12	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	o	_	DA	DA	ms	2	SP	2	SP
+2	Manuel	_	PNM	PNM	_	3	SJ	3	SJ
+3	está	ESTAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	muito	_	ADV	ADV	_	5	M	5	M
+5	muito	_	ADV	ADV	_	6	M	6	M
+6	contente	CONTENTE	ADJ	ADJ	ms	3	PRD	3	PRD
+7	com	_	PREP	PREP	_	6	OBL	6	OBL
+8	isso	_	DEM	DEM	ms	7	C	7	C
+9	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	mais	_	ADV	ADV	_	5	M	5	M
+5	pequeno	PEQUENO	ADJ	ADJ	ms	3	PRD	3	PRD
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	Este	_	DEM	DEM	ms	2	SP	2	SP
+2	computador	COMPUTADOR	CN	CN	ms	3	SJ	3	SJ
+3	é	SER	V	V	pi-3s	0	ROOT	0	ROOT
+4	apenas	_	ADV	ADV	_	5	M	5	M
+5	melhor	MELHOR	ADJ	ADJ	ms-comp	3	PRD	3	PRD
+6	de_	_	LCJ1	LCJ1	_	8	CONJ	8	CONJ
+7	o	_	LCJ2	LCJ2	_	8	CONJ	8	CONJ
+8	que	_	LCJ3	LCJ3	_	5	C	5	C
+9	esse	_	DEM	DEM	ms	8	C	8	C
+10	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	loja	LOJA	CN	CN	fs	3	SJ	3	SJ
+3	fica	FICAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	ali	_	ADV	ADV	_	3	PRD	3	PRD
+5	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	loja	LOJA	CN	CN	fs	3	SJ	3	SJ
+3	fica	FICAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	para	_	PREP	PREP	_	3	PRD	3	PRD
+5	ali	_	ADV	ADV	_	4	C	4	C
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+
+1	A	_	DA	DA	fs	2	SP	2	SP
+2	loja	LOJA	CN	CN	fs	3	SJ	3	SJ
+3	fica	FICAR	V	V	pi-3s	0	ROOT	0	ROOT
+4	por	_	PREP	PREP	_	3	PRD	3	PRD
+5	ali	_	ADV	ADV	_	4	C	4	C
+6	.	_	PNT	PNT	_	3	PUNCT	3	PUNCT
+

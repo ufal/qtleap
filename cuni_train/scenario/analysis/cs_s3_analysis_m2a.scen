@@ -1,0 +1,12 @@
+Util::SetGlobal selector=src language=cs
+# named entities
+A2N::CS::NameTag
+A2N::CS::NormalizeNames
+
+# a-layer
+W2A::CS::ParseMSTAdapted
+W2A::CS::FixAtreeAfterMcD
+W2A::CS::FixIsMember
+W2A::CS::FixPrepositionalCase
+W2A::CS::FixReflexiveTantum
+W2A::CS::FixReflexivePronouns

@@ -1,0 +1,5 @@
+W2A::ResegmentSentences language=es selector=src
+../analysis/es_s1_analysis_w2m.scen
+Misc::JoinBundles language=es selector=src
+
+../analysis/en_s1_analysis_w2m.scen

@@ -1,0 +1,2002 @@
+I was typing in something and then a blank page appeared before my text, and I do not know how to remove it
+Move the mouse cursor to the beginning of the blank page and press the DELETE key as often as needed until the text is in the desired spot.
+I don't have internet access. Can you help me configure my router?
+In order to configure your router, try to access the internal page of the router. This varies from router to router. Consult the manual of your device for the address, username and password.
+I cannot copy music to an external disc.
+If your disc is not recognized, try changing the USB port.
+I cannot connect to the wireless network.
+Check the password you need to access your wireless network; it should be under your router, if the password has not been changed.
+I cannot access my email account. Can you help me?
+Please check if you have access to the email in your Webmail and then confirm the settings of your email client.
+I cannot configure my sapo account on my iPhone.
+Follow the instructions listed on this page: http://fotos.sapo.pt/sapoptmail/fotos/?uid=wp6t4AZGbkMVELZvItYK#grande
+I don't have WiFi on my mobile phone.
+Activate your wireless on your mobile phone and connect to your desired WiFi network using the correct password.
+I'vegot an email that been sent to the junk folder, how do I get it back?
+Select the emails and mark them as “Not Spam”.
+I'd like to boost my operating system
+Clean your system by going to Start > Run and typing in “CleanMgr”. If you have Windows 8, type the same command in the search area. Follow the instructions.
+How do I change the NAT type on my PS3?
+Turn on the PS3 from the network settings menu: “Settings "> “Network Settings ".
+My IP has been blacklisted.
+Contact your internet provider and report your problem.
+I want to know if my antivirus has detected a problem.
+Double-click on your anti-virus icon which is shown on the lower right corner of your Desktop. The antivirus panel will show you if there are any viruses
+I cannot receive e-mails. I think my IP's been blacklisted. What should I do?
+It could be a virus. Perform a scan with your antivirus software.
+Print PDF
+Try and install this PDF writer http://www.cutepdf.com/products/cutepdf/writer.asp.
+Without Wi-Fi
+Check if your PC can detect a wireless network. Otherwise, the wireless card may be disabled. Sometimes, computers have a physical button or switch that can turn the wireless network card on and off.
+How to restore the system
+Go to System Tools> System Restore and follow the instructions.
+How to update my computer
+Check if Windows Update is active.
+I cannot access the Internet on my mobile phone.
+Check if the phone is connected to the network.
+My computer does not turn on.
+Try plugging it into another outlet.
+Where can I find the password for my home wireless network?
+The original WiFi network password is located under the router provided by your ISP.
+I have a problem logging into Skype.
+Confirm your username and password. If the problem persists, , click on “I can't remember my username or password” and follow the instructions.
+I don't have Internet. An icon with a red cross appears.
+This symbol tells you that you are not connected to a network. If you are connected by cable, check the cable.If you are connecting by WiFi, make sure your wireless router is switched on and that your wireless network card is enabled.
+I need help deleting duplicate files from my computer.
+Select the files to remove and choose Delete or press the Del key on the keyboard.
+I do not have wireless internet.
+Make sure you are properly connected to your router.
+I do not detect my wireless network, but I do detect others .
+Connect your computer directly to the wireless router using network cables. If you can, access the internal wireless router settings page and make sure the wireless signal is turned on. Make sure the wireless is turned on. If your router has a wizard, you should run it.
+I don't have access to the cable network
+Try resetting the router.
+I cannot install my wireless USB modem adapter.
+The CD that comes with your device contains drivers for installation. Alternatively you can download them from the manufacturer's website.
+I get no wireless internet access on my iPad.
+Remove the wireless network and try reconnecting again using valid credentials.
+How to configure a ZON repeater
+Make sure your repeater is synchronised with your router and that the access key is correct.
+I can’t see anything on my screen. What should I do?
+Try connecting the computer to another monitor, or in the case of a laptop, to an external monitor. If it works, you have a problem with your monitor.
+Connect PS3 to the network.
+Turn on the PS3 and go to Settings> Network Settings, select the network and enter your credentials.
+I cannot open a port on the router.
+Access the internal settings page of the router and verify that the settings enable NAT port forwarding.
+I do not have wireless or cable internet.
+Unplug the router from the mains and reconnect after 30 seconds.
+I cannot see my wireless network.
+Try restarting the router.
+How do I connect a WOW router to a fixed PC?
+This is not possible at the moment.
+I have no wireless internet access.
+Check if you can detect your wireless network.
+I do not have access to my wireless network.
+Check if the Wi-Fi button on your laptop is active. If it is, check if it detect your wireless network.
+What is my network password?
+Check the key which is under the router.
+When I am watching videos, they often stop.
+This may be due to low bandwidth, or a slow computer. Try to clean the computer.
+Help on installing a printer.
+Try installing the drivers from the CD that came with the printer. If you do not have the CD, you can go to the manufacturer's website to obtain the drivers needed.
+Problems accessing www.isssp.pt.
+Go to the Java website, download and install the latest version.
+I left my PC in stand-by and it's stopped working.
+Try restarting the computer.
+How do I change the password of my router?
+Go into the internal settings page of the router, and modify the password
+How do I know if I have viruses on my computer
+Perform an update of your antivirus and then run a scan.
+My desktop has disappeared.
+Perform a system restore and a virus scan.
+How do I change the network key for my home wireless network?
+Check the wireless network password on the internal settings page of the router.
+Is it mandatory to put my phone number on Facebook?
+It is not mandatory to provide your mobile phone number to Facebook.
+How do I update Java?
+Go to the Java website, download the program and then install it.
+When I try to type, random menus pop up.
+Check if there is no key stuck on the keyboard.
+I cannot print to my network printer.
+Check if the printer is properly connected to the network.
+Where can I perform a speed test?
+You can do it here: http://www.speedtest.net/pt/.
+Changing the password on sapo email
+To change your password, go to https://id.sapo.pt (change password) go to Email Login > select again Change Password
+I receive emails but I cannot send them.
+You need to access the settings of youe email client and check that the outgoing server is correct.
+I cannot boot into Windows. Can you help me?
+Try to get into Safe Mode, as the computer is booting press the F8 key repeatedly. Then you have to perform a system restore.
+The antivirus is not working.
+Restart your computer and try again. If the problem persists, try to reinstall the software.
+My PlayStation 3 does not detect the network cable.
+There is probably a problem with the network cable. Test this by using another cable.
+The Wow router does not work with a USB cable, it only works on Wi-Fi.
+Install the updates for Wow.
+What are the necessary credentials to access the internet through PT Wi-Fi?
+Use the same login credentials you use for the PT client Area.
+Can an ADB router be used as signal repeater?
+An ADB router does not have this function.
+My computer slows down only when I'm using Gmail.
+Press the Ctrl Shift Delete keys simultaneously and select Clear Cache. Then press Cclear.
+Facebook has been blocked by requests. How do I fix this?
+You will have to wait for the block to expire.
+I would like to have a Hotmail shortcut.
+You need to copy the Hotmail link and create a Shortcut on the desktop.
+Which antivirus should I keep, MSE or AVG?
+Both anti-virus programs are good. Just choose what best fits your needs and remove the other one.
+I want to print an image placed on the desktop.
+Click the right mouse button and then "Print".
+I can't use the Wi-Fi on the mobile phone.
+Make sure that the Wi-Fi option on your phone is enabled.
+Wrong wireless network password.
+Check the key under your router.
+Change Wi-Fi networks name.
+Access the internal page of the router. Consult the IP, username and passwords in the device's manual and then look on the router menus for the SSID option.
+My PC does not have sound.
+On the bottom right corner of your screen you will see a symbol that looks like a loudspeaker. Check that it is at 100%.
+I cannot enter MyZON, data error.
+Recover the MyZon login access data.
+I want to see my bookmarks appear on the toolbar in IE .
+Alt>View> Toolbars> Favorites Bar.
+I cannot send emails through Outlook.
+Go to Tools > Account and make a test transmission. If it fails check with your email provider the credentials of the email client.
+I only get internet access if I am connected via my modem, I do not have internet on my router.
+Synchronize both modem and router by unplugging them both from the outlet and then reconnecting them after 30 seconds.
+I want to change the homepage in Google Chrome. How do I do this?
+Go to "Settings>" "Open a specific page or set of pages" and put the address of the page you want as your homepage.
+I do not have internet. The lights of my router are red.
+Restart the device.
+I have the toolbar on the right side of the screen and I want to move it to the bottom.
+Just drag the toolbar to where you want it to be.
+My antivirus detected a virus. What should I do?
+Move the virus to quarantine and perform a full scan of the computer.
+Read H.265 files
+Install VLC from this website: http://www.videolan.org/vlc/.
+How do I start my computer after hibernating?
+Press the button you use to turn on your computer.
+Connecting a router to the ZON modem.
+Connect the modem to the WAN port of the router, then unplug both devices from the outlet and turn them both on again.
+Problems accessing the game server.
+You need to access the router's internal settings web page (usually 192.168.1.1) and enable uPnP.
+I have not had wireless for 3 days.
+Check if you can see your wireless network.
+I have a faulty hard disk. Can I use the internet?
+If the disc has crashed you cannot access the operating system. The only way to do this is to get a CD with the live operating system that does not require disc installation. You will then need to download the software from this website http://www.ubuntu.com/download/desktop on another PC, burn it to the CD, and insert it in the damaged PC.
+I do not have internet. The init light is flashing red and green.
+Please reset the router. Do this by pressing the Reset pin for 30 seconds, then disconnect the device from the outlet and reconnect it.
+I changed the email password and now I do not receive emails on my PCs.
+Configure your new password in all email clients.
+How to do an email backup (webmail.sapo.pt)
+Install an email client such as Thunderbird.
+My router is constantly restarting.
+Unplug the router from the outlet for 2 minutes. If the problem persists you may need to perform a reset.
+I have no internet through wireless; I get a connection only if I connect directly through my modem.
+Synchronize both devices by turning them off. Turn on your modem and wait until all modem lights are illuminated then plug your router in to the outlet.
+The computer screen is striped.
+Check the VGA cable that connects the monitor to the computer.
+I do not have internet on one PC.
+Make sure you are connected to your network.
+I cannot access my router's internal page.
+Confirm that you are connected to the router by cable. Read the user's manual to find out the address of the router page. Then look for the menu that is more appropriate for the option you want.
+I want to scan a document and do not know how.
+See if you have a scanner or multifunction printer connected to and installed on your computer.
+Slow connection at a specific time.
+You will need to access the internal settings pages of the router, through your browser. This is usually the address (192.168.1.1). Change the parameters SSID, Channel, and Security.
+Create a new email account
+Go to the page of the provider where you want to create the email account and register.
+The Antivirus has expired.
+You must renew the license or acquire a new one.
+I do not have network and notifications icons next to the time display
+This may be a problem with the network card drivers. Try reinstalling the drivers for the network card.
+How do I clean the computer?
+Uninstall programs you do not need and perform a disk cleanup.
+I cannot enter the password of the net. It only lets you write numbers but it also has letters.
+To write the security key, click the field that is below the pin.
+Without internet access on my Smartphone.
+Try to check if the wireless symbol is visible on the screen of your mobile phone.
+Why is the internet so slow?
+Try opening another browser such as Firefox, Chrome or IE to see if this problem persists.
+Configure Outlook Express email account
+In Outlook, go to Tools> Accounts and enter the data referring to your email account
+My ZON router is rebooting constantly.
+We suggest you press the reset pin for 40 seconds and then turn off the power for three minutes.
+I changed my wireless network password and now I can't connect to my network.
+In the lower right corner click the wireless icon to open the wireless network connections. Right-click with your mouse on the name of your network. In the menu click forget network and then connect to the network again with your new credentials.
+How do I access ZON_FON?
+You will need to register on ZON_FON (www.zon.pt / myzon).
+I cannot connect to my wireless network. It asks for an 8 digit PIN and the router has a 9 digit PIN.
+Try to connect to your wireless network with the security key that is underneath the router.
+No internet access through the wireless network.
+Try to connect to your wireless network using the key that is underneath the router.
+How do I delete Outlook 2007 emails?
+Select the email(s) you wish to delete and press 'Delete'
+My internet's really slow.
+Check if you have active downloads or downloading software. If you do, turn them off and repeat the speed test
+It says the email cannot attach files of a certain size
+The servers of the email provider have set a limit relating to the size of their attachments, which varies from provider to provider.
+How do I activate Microsoft Office?
+Check the activation key that should be in the software package, and when the software requests the key, enter it.
+I cannot access my Facebook account.
+Try to retrieve the account from the Facebook website.
+No internet access
+EMPTY
+Subscribe to PT Wi-Fi
+Access PT client area (https://www.ptcliente.pt/Pages/Login/Login.aspx), and register.
+How do I send photos from the cellphone to the computer?
+Try to connect your cell phone to the computer via USB cable. In my Computer folder, the phone should show up as a Removable Device.
+How to configure email on an Android OS?
+Open the email application > Settings > Add Account and enter the email provider's settings.
+I don't have email on Outlook.
+Check the settings in your Outlook account.
+What is the name of Meo's free wi-fi network
+The free wireless network for MEO clients is WIFI PT.
+A DNS error messageis showed in my browser.
+Check if the error is related to any antivirus. If the problem persists, enter the DNS from Google (8.8.8.8 and 8.8.4.4)
+My network card is displaying as not installed
+Install the correct drivers for the respective card.
+I can't enter MyZON.
+Retrieve your data (username and password) from MyZON and change the password.
+A message saying “limited access” appears on the right hand corner.
+Remove the network and reconnect entering the access key.
+Is the Internet better accessed through wireless or through cable?
+An internet connection through a cable is always more stable.
+Opening of aspx files
+To open files of aspx format, you can use notepad or Microsoft Visual Studio.
+How do I view many TV channels during my stay in the hospital?
+If your ISP has an online TV service, you may use it, using a broad band USB modem.
+I would like to create a free Fon ZON account.
+Access your client area on MyZON.pt and register for the service.
+I have files that don’t open.
+Check out the file extensions so we can identify the programs that are needed to open them.
+How do I create a SAPO email being a MEO client?
+Access webmail.sapo.pt and create the email account. Then, if you wish to be connected to the service, access the PT client area.
+How to access ZON online
+You must register with MyZON.pt, and then access the page http://www.ZONline.pt/
+Without PT Wi-Fi access
+Try to re-enter your access data.
+I cannot access PT Wi-Fi.
+Try to re-enter your login details into the page that appears when attempting to open a web page.
+Watch Sport TV on the iPad
+To watch Sport TV on the iPad, you must have the Sport TV app that is downloadable at https://itunes.apple.com/pt/app/sport-tv-multiscreen/id710897506?mt=8
+How do I access a wireless network using an Android tablet?
+Go to Settings > Wi-Fi, select a network and connect.
+I cannot receive emails on Outlook
+Check if you have internet, if you do try to reconfigure your Outlook account.
+Without ADSL connection
+Check if the ADSL cable is connected correctly.
+There is no image on the external monitor
+Check the cable between the devices and try to change screen resolution.
+The antivirus gets a constant errors.
+Try to re-install the antivirus.
+I can't access a specific internet page.
+Check if the link you are typing in is correct.
+A program that I don't want has been installed on my computer
+In windows you should click Start > Control Panel > Programs and Functionalities > Add or Remove Programs and uninstall the respective application.
+Without access via wireless, pc does not detect any wireless network
+Try to verify if the wireless button is on. Check in the computer manual the position of the button on your computer.
+I can't access my cameras.
+On the same network where there are cameras, open the following website http://www.whatismyip.com/ and check if the IP that appears is the same that you are entering to access the cameras.
+Connect the monitor to a desktop
+You must first connect the monitor to the PC, and then access the settings through the monitor menu.
+I can't access the application 3D subtitle.
+Check the version of your Java, you may need to install the 64bit version.
+the video card with manufacturer drivers in normal mode does not work.
+Try to reinstall the drivers.
+Activate hibernation mode in Windows XP
+Activate the feature in the Energy Options in Control Panel.
+Can I do a Windows Update?
+Yes, it's possible.
+Whenever I open a page in Internet Explorer, a message shows up about add-on errors. Can you help me?
+Try to reinstall Internet Explorer
+I want to install ccCleaner.
+To install the software just follow the steps from the page ww.piriform.com/Ccleaner.
+I cannot access webmail.
+Check if you can access Webmail through another browser, or find out more from the ISP of the email server.
+How do I change the position of the windows bar?
+Unlock the bar and drag it to your preferred location.
+When I connect the broad band USB modem to the computer, it shows that it is starting up and then does not go further than this step.
+Uninstall the USB modem software and reinstall it using another USB port of the device.
+I cannot see YouTube videos properly
+Try to Update Adobe Flash Player
+I get a wrong password in my Outlook email.
+Check if you can access your e-mails through the webmail of your email provider.
+Wi-Fi network connection with the local access only.
+Update the network card driver.
+I formatted my PC and now I don’t have internet
+Install the drivers for your wireless card.
+Doesn't open a specific website.
+Try with another computer and browser. If the situation persists, the problem is with the website itself.
+I don’t have internet access by cable.
+Please check if the network cable is properly connected.
+I can't access the DVR from the outside.
+Check the IP settings and open the respective ports on the router
+I don't know the values of vpi and vci
+VPI=0, VCI=35
+How do I open the ports for a game?
+You must access the internal page of the router and perform the opening via 'port forwarding' or DMZ host.
+I cannot access the internal page of the router with the factory settings.
+In case you changed the password, I suggest you reset the equipment to get back to factory settings.
+I don't have internet with my USB modem and I get error 678
+Error 678 means the number you are dialing is incorrect.
+Without sound on a Skype call
+Check the Skype sound settings in Tools > Options > Audio Settings
+The iPad has no wireless internet but the Pc has
+Check if you have Wi-Fi functionality active on the iPad
+I cannot access the settings of ZONhub by wireless
+By default the router is configured for cable access only.
+Only one PC has no wireless access
+Check if it's connected to your wireless network
+I do not have cabled internet
+Try to re-install the network card.
+Ads show up when I open an internet page.
+Try to delete the navigation history, the temporary files and restore to default the browser settings
+I'd like to deactivate the wireless on my router
+You must access the internal settings page of the router and deactivate the wireless.
+I do not have internet on my PC through cable, on my cell phone I have wireless internet
+Check if the network cable is connected properly.
+The wireless connection icon does not appear.
+Check the wireless network card drivers.
+Remove the Outlook 2007 email account
+You have to go to Settings > Accounts Settings. Choose the account and press Delete.
+How do I change the homepage in Internet Explorer?
+In Internet Explorer, go to Properties, and change the homepage
+No internet access either by wireless or by cable
+Turn off the router and turn it on again.
+How do I shut down a Windows 8 computer?
+Move the mouse to the lower right-hand corner, then Settings > Shutdown
+How do I get an email address?
+You can access a website such as Gmail or Hotmail, and create an account, entering infromation as requested.
+No access to website http://www.clubeamizade.com/
+Check if the login data are correct.
+Error 720 in kanguru USB modem
+Go to the command line and type in the following commands: 'netsh winsock reset' then 'netsh int ip reset resetlog.txt'
+I cannot download games from google play onto my tablet. I get a white blank page when I open google play.
+Try to re-install the device.
+My laptop turns itself off when I unplug the charger from the outlet. How should I proceed?
+Check if the battery is plugged in correctly. If it is, replace the battery.
+I need help to install my webcam on my new PC with windows 8
+For that you only need to place the CD that comes in the box and follow the steps to install the program.
+How to open files with adobe reader?
+Right-click on the file, select 'Open with' and choose Adobe Reader.
+How do I connect a new laptop to the wireless network?
+Check the password written on the bottom of the router.
+I cannot take a photo on skype
+Check ‘Video Options > Change Profile Picture’ and press ‘Take picture’.
+My PC does not turn on.
+Try using another power plug.
+How do I change the desktop wallpaper on my mac?
+Press the apple menu > System Preferences > Desktop and Screen Saver’ and select an image.
+Slow boot up
+Try to uninstall unnecessary programs and perform a disk cleanup.
+Restore a backup of the emails to Outlook
+Follow the steps on this website http://support.microsoft.com/kb/982839/pt-br
+I would like to create a Gmail account
+Go to the gmail.com website and create a new account.
+Problems with MEO GO
+Try to update Microsoft Silverlight.
+My PC has frozen and I can't shut it down.
+Press the power button until it shuts down. Wait a minute and then turn the computer back on.
+My Start menu does not have the color I want.
+Try to change the Desktop theme.
+My monitor has the OSD option blocked
+Press the Menu button + ON/OFF and restart the PC.
+I don't have internet access through my signal amplifier.
+Try to turn off both the router and the signal repeater, then turn them on again.
+Wireless keyboard does not work.
+Check if the batteries are charged, also try to synchronize the device and its base.
+I have two computers that cannot connect.
+Try to use other power plug.
+Can I connect to ZON@Fon Free in any location?
+Yes, as long as that functionality is active in your router.
+I do not have sound on my desktop
+Check if the speakers are correctly connected to the computer
+I want to activate Gmail's anti-spam
+Gmail has an anti-spam active by default.
+I work with google but now it shows the Ask and I don't know how to remove it.
+In 'Control Panel > Internet Options > Change Homepage', uninstall the Ask Toolbar.
+My iTunes does not detect the Ipad
+Try to re-install iTunes and check the connections
+When I open the internet ,Google does not open, it opens another website.
+Enter the desired website as homepage in the browser settings
+My anti-virus is blocked because I have to pay for it
+If you do not want to buy the antivirus, we suggest you uninstall it and install a free one. We recommend Microsoft Security
+After a thunderstorm 3 of the router's LAN ports have stopped working.
+It could be an energy discharge due to the thunderstorm. You will need to replace the equipment.
+I can´t perform the speed test.
+Depending on the website you might have to update Java or Flash.
+I have an IP conflict and I can´t connect to the server.
+Change your network card settings in order to obtain your IP automatically.
+I need help installing Skype
+Go to the link: https://login.skype.com/account/signup-form and fill in the form.
+I need help installing Open Office
+You can download the installation file from the Open Office website and run the installation according to instructions given.
+What are WEP and WPA?
+They are encrypted protocols for wireless connections of which WPA is newer and more secure.
+Internet Explorer runs very slowly and it displays errors when opening certain pages.
+Try to reinstall the browser.
+My ZON phone free Wireless network disconnects frequently.
+Try to find a spot with a better signal.
+Problems downloading the updated version of the PlayStation network.
+If you are connected to a network through wireless, try to connect through a network cable.
+How to configure an e-mail account in Thunderbird
+Try to access the software inputting the required data from your email provider
+There is a spot in the house where I get a very weak signal, but I'm only 20 steps away from the router.
+Try to change your router channel.
+Whenever I open an internet webpage it shows me that the server certificate is not available.
+It might be due to your antivirus blockage. Try to reinstall it.
+What is my contracted internet speed?
+You will have to check this information on one of the invoices supplied by the internet service provider to which you are subscribed
+Free home video editing program
+You can use Windows Movie Maker.
+My PC Wireless connection is limited or non-existent.
+Check if you have manual IPs and that they are within the range of the router’s IPs
+I can´t make a video call on Gmail.
+Try to download this plug-in (https://www.google.com/tools/dlpage/hangoutplugin), and try again.
+How do I remove a toolbar from the Chrome toolbar
+Go to Settings> Extensions, find the desired toolbar and remove it.
+Where can I access Gmail?
+You can access it through www.gmail.com or through www.google.pt, then clicking on the Gmail button that appears on the page.
+My mobile phone doesn´t find any networks.
+Make sure that the Wi-Fi connection on your phone is active.
+I can´t connect to the wireless network. It displays the message “Incorrect Key”.
+On the bottom of your router you will find the network name (SSID) and the password. Try to access using these credentials.
+I can´t view movies in IE
+Depending on the website, you might have to update Java or Flash.
+My computer screen is upside down.
+Try to press ALT+GR key together with the arrow keys to put the screen right side up.
+I can´t run Skype.
+Try to type in your e-mail and your password correctly. If the problem persists try to retrieve your data by e-mail.
+When I open Internet Explorer by clicking the start button, there is a message telling me that it will run without adds-on enabled.
+Try to upgrade the Internet Explorer to the latest version. If the problem persists, try to reinstall the program.
+I want to install Microsoft Security Essentials
+Go to the page: http://windows.microsoft.com/pt-pt/windows/security-essentials-all-versions, download the software and follow the installation steps.
+Can I connect my Android device to a wireless network?
+Yes, at the bottom of the router you have the name of the network and its password.
+When I receive emails on my Pc I do not receive in any other computer.
+In the email client, you must enable the option to keep the emails on the server.
+I cannot open Google Chrome.
+Try restarting your computer and try again. If the problem persists, try to uninstall Google Chrome and re-install it.
+What are the MEO DNSes?
+The DNSes of MEO are: 194.65.3.21 and 194.65.14.27.
+The TV image freezes when I turn on the app TP-link.
+This problem can occur because of an IP conflict. Try changing the IP of the app TP-link.
+Where can I find the network key?
+Check the network data at the bottom of the router.
+I lose my internet connection when I turn on Skype. What should I do?
+Try reinstalling Skype.
+Problems viewing PDFs.
+Check if you have the PDF reader installed. If you do not, you can download it here http://get.adobe.com/br/reader/.
+The keyboard has stopped working.
+Check the connection between the keyboard and the computer; also press the Caps Lock and check that a light appears on the keyboard. If it does not, the keyboard may be damaged.
+I have more than one antivirus, is there a problem?
+You should have only one antivirus, having two can generate conflicts. We advise you to uninstall one of them.
+Low speed.
+It may be a program that is using the connection or it may be your antivirus which is blocking the connection. Try testing with another computer. If the problem persists it is your connection.
+I cannot access the Bank of Brazil website.
+Try another browser, and see if this problem persists.
+How do I open port 80 on the router for an ip?
+Access the internal page of the router and make the opening through port forwarding or through the DMZ host.
+I do not know how to share videos and music.
+Copy the link of the video you want to send or share, then simply paste it where you want to share it.
+Ever since I changed the password of the wireless network, I've lost access to the wireless network.
+You have to configure each of the devices to use the new password that connect to this network.
+I have a picture on Facebook that I would like to set as profile picture.
+On Facebook go to the photo and then press "Use as Profile Picture".
+I want to deactivate my Facebook account.
+Go to Facebook Account Settings> Security> Deactivate your account.
+IP conflict
+Make sure all PCs are set up with automatic IP
+My computer is very slow.
+Try uninstalling unnecessary programs, disable services / startup programs, and perform a disk cleanup.
+I cannot access the cable internet in the garage.
+Make sure the network cable is correctly connected. You may also try another cable.
+I do not have internet on my computer.
+Make sure you are connected to your network.
+My mouse has frozen and not responding. How can I unfreeze it?
+If it is a USB mouse, unplug and replug your mouse into the USB port. If it isn't, restart the computer.
+I cannot open pages through Internet Explorer.
+Try resetting Internet Explorer to its factory settings by accessing the internet options.
+I changed the network name and the password on a computer. How can I connect to the network with another computer?
+You must enter the new wireless details on the new PC.
+I want to change the network name.
+You will need to access the router and configure the SSID.
+I cannot view web pages. It gives me a certificate error.
+Make sure the date and time on your computer is correct, if not set the current date and time.
+I cannot get on the computer because it does not accept my usual password.
+Try to check if you have Caps Lock enabled. It shows a light on the keyboard when it is turned on.
+How can I view documents from Gmail Drive?
+They can be accessed by using the following link: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&continue=https%3A%2F%2Fdrive.google.com%2F%3Ftab%3Dwo%26urp%3Dhttps%3A%2F%2Fwww.google.pt%2F%23&followup=https%3A%2F%2Fdrive.google.com%2F%3Ftab%3Dw
+I want to install printer software on the computer.
+Connect the USB cable to the printer and the PC and install it from the CD. Follow the steps that appear there.
+I am receiving all emails in duplicate in the mailbox.
+Try to see if the email account is configured for IMAP. If not, it is best to set it to IMAP.
+Edit PDF files
+In order to edit PDF files you need a PDF editing program, such as Acrobat XL. These programs need to be paid for.
+Changing the e-mail password.
+Try to access the webmail server, and make the change there.
+How do I check if I have internet?
+Open the page http://www.speedtest.net/pt/ and perform a speed test.
+I want to change my IP but I always get the same one.
+Try to go to the command line and type "ipconfig release" then "ipconfig renew".
+I want to remove my Windows account password.
+You will need to access the Control Panel> User Accounts and remove password
+Letters are very small.
+Press ctrl 0.
+My computer is updating. Can I leave it turned on?
+Yes, it is better to leave it on.
+I cannot access my gmail because I lost the password.
+You can make a password recovery through the Gmail password recovery system.
+My keyboard does not work.
+If it is an USB try connecting it to another port. If it is a wireless keyboard, check the batteries.
+I lost access to the surveillance cameras.
+Make sure the cameras are connected to the network.
+My router is restarting constantly.
+Try turning off the router and turning it on again.
+I performed a system restore and do not have access to internet.
+Click Start> Run and type devmgmt.msc if you have Windows Vista or 7. If you have Windows 8, type the same command in the search box.
+I cannot open emails from IE
+Try clearing your cache and cookies in the browser you are using.
+They've changed my router and now my printer has stopped printing
+If the printer uses the wireless network, make sure it is connected to your network.
+I need to copy a list of addresses to a new email, but the list that was saved in Word disappeared.
+Check if the document is stored, or if it is displayed in Recent Documents.
+I'm trying to send an email with an attachment, but the attachment in the message is discarded.
+Check that you have the option to save the attachment with an active message
+I cannot add VoIP numbers.
+Access the client area to check the service status.
+What is the best machine for gaming?
+The best would be a computer with I7 processor, 8G memory and a dedicated graphics card with at least 2G of RAM.
+I cannot delete photos from Facebook.
+Try to select the photo and choose the delete option.
+I cannot receive email in Outlook but on another device I can.
+Check if the settings of the Outlook account match those of the other device
+My computer is asking to install updates.
+You must perform all the updates required by the system.
+The Phone Zon free page appears and I cannot leave it.
+You are connected to a network that may not be yours. Try to see on the bottom of the router the name and password of your network, then try to reconnect to your network.
+I want to install Google Chrome. Can you help me?
+Go to this link https://www.google.com/intl/pt-PT/chrome/browser/, download the software and follow the installation instructions.
+When I turn on my computer it beeps, only stops when windows starts and I cannot insert/delete the password.
+Probably you have a stuck key on the keyboard. Try another keyboard if possible.
+I cannot connect the PS3 to the wireless network.
+Connect the PS3 and go to Settings> Network Settings, select the network and enter your credentials.
+I'm without internet access. Can you help me?
+In case of cable internet, try to see if the network cable is properly connected. In case of wireless, try to check if the name and the password, which are on the bottom of the router, are the same as those entered.
+A virus appears when I start my PC.
+Go to Start> Run and type "cleanmgr". Select the Temporary Internet files and clear them.
+I want to open ports in Technicolor for the FIFA game
+Check the settings of the router's port forwarding options. To find out which ports to use, read the official documentation (https://help.ea.com/article/what-online-ports-should-i-open-for-fifa-14).
+I cannot connect a PC to the internet via wireless.
+Make sure the PC finds the wireless network; otherwise try to determine if the wireless button is on.
+I cannot access the emails
+Check that you can access email via webmail.
+The Word disappeared.
+Try to see if the program is in the Start menu of your computer.
+Can the student version of Office be used in a business environment? I am a working student.
+Microsoft Office Home and Student cannot be used in a business environment. You should use Microsoft Office Professional instead.
+I have a printer that is not working. What can I do?
+Make sure the connections between the computer and printer are working and try reinstalling the printer
+I want to uninstall some programs from Windows.
+You should go to Control Panel> Programs and Features
+I cannot open Google. It gives me an error saying “this connection is not trusted”
+The problem is with the browser's security. Try to reset it to factory settings.
+Google Chrome freezes when I open multiple web pages.
+Try reinstalling the software.
+I cannot register.
+Try to check the data you are entering.
+I lost access to my Facebook page.
+Try another browser, and confirm that the user data you are entering are correct.
+I cannot install Java.
+Download it from this link http://java.com/pt_BR/download/index.jsp.
+I got a message that Windows is not genuine.
+Check if you have the sticker with the Windows Key on the computer case.
+Printer does not print through wireless.
+Try re-configuring the wireless settings of the printer.
+I cannot connect to network. I get a keyword error, despite having the correct key.
+Access the router directly via cable in order to verify the password and change it if necessary.
+Error 797 with the Kanguru USB modem.
+Try reinstalling the drivers.
+The image from the PC appears stretched on the TV screen
+You need to change the display resolution in the display settings.
+I cannot send emails on the iPhone
+Try to re-enter the data from your email account.
+I formatted my computer and now I have no access to the internet with an USB wireless modem.
+Try installing the drivers of the USB wireless modem from the CD
+I cannot find a person on Facebook. I do not know if he is blocked.
+Check the settings on your account for blocked contacts.
+I cannot connect one of my computers to my wireless network.
+Try to see if the drivers for the wireless card are active, and if the wireless button on the computer is connected.
+I want to install a program.
+To install a program just insert the CD with the program or run the .Exe file and follow the installation steps.
+I cannot access my Gmail account.
+On the Gmail page, try recovering your account.
+A game gives me an error in Windows 8.
+Make sure the game is compatible with Windows 8. Check on the box of the game or in the instruction manual.
+Registration of ZON fon.
+You can register in the Zon client's area page.
+I want to connect the router to the ZON modem.
+You will need a network cable to connect it to the router's WAN port and at the other end of the modem. Then turn off both devices and reconnect.
+Viber disappeared from my smartphone.
+Try to access the Play Store and install the application.
+How do I delete browsing data from Google Chrome?
+Just press Ctrl + Shift + Del keys then select "clear browsing history".
+I want to edit photos.
+Windows provides Paint by default. You can also use free programs like GIMP, or professional programs such as Photoshop, for which you must pay.
+I cannot log in fon ZON.
+Try to confirm the access data.
+The lights of the router are not correct.
+Try resetting the router and turn it off and on again. If they are not correct there may be a problem with your ISP.
+I cannot open websites with the .com domain. Can you help me?
+It may be a DNS issue. It is best to put the DNS manually into the router and set it to 8.8.8.8 and secondary 8.8.4.4.
+Antivirus installation
+If you have the antivirus on the CD, insert it and follow the requested steps. If you have downloaded it from the internet run the EXE file and follow the requested steps.
+How can I put ZON online on the tablet?
+It is currently not possible to do this due to the fact that Silverlight technology is not available for tablets.
+Where can I find the password for the wireless network?
+You can check under the router or on its internal page.
+I have a micro SD card in the cellphone. Can I put one in with a larger capacity?
+You will have to see what the maximum capacity supported by your cellphone is. If yours has less capacity you can purchase one with more space.
+I want to change my wireless network password.
+You must access the router page (check router manual for the address)
+I don't know how to access the internet on my tablet
+If it is an Android device, there should be an icon in the shape of a globe. Try to click it. If it is an iOS device, there should be a compass icon.
+Error installing an update
+Try to reboot the computer and try to update again.
+The computer does not turn on.
+Check the power connection and try to plug it into another outlet.
+I have a problem with the screen display.
+Access 'Control Panel > Display Options' and check if you are using the recommended resolution.
+I want to install a free email program.
+You can install Thunderbird at http://www.mozilla.org/pt-PT/thunderbird/
+The screen went dark after rebooting.
+Try the key combination of the monitor brightness
+Without access to a printer connected to ZONhub
+Check the printer's compatibility with ZONhub. You may use this page as reference: http://www.openprinting.org/printers
+I need help to create a password to enter windows
+Go to 'Control Panel > User Account' and create a password
+When connecting to a network, it asks for a PIN
+These window has an indication to connect via password.
+Does the Tablet Samsung Activ Tab support a kanguru 3G card?
+This device supports neither 3G nor 4G.
+What is the PT service management page?
+The page you should access is www.ptcliente.pt
+Keyboard characters are in a different position
+Check if the keyboard language is in PT
+How can I optimize the Operating System?
+Try to uninstall unnecessary programs, deactivate services/ start-up programs, clean the disk.
+How do I copy pictures from the pc to an USB flash drive?
+Select photos or folders you wish to copy, right-click and then select Copy. Then go to the USB flash drive, right click and select Paste.
+I cannot access the Facebook Page, it says it is under maintenance.
+You should try again later.
+My internet explorer has stopped responding.
+Reset to the default options in Internet Explorer
+Office installation has frozen.
+Try to install it again.
+I want to know how to activate my Facebook notifications
+Access the Facebook page, then click the icon with the gear > Account Settings > Notifications
+I get a message with Licensing Terms
+If the software you are installing is trustworthy, accept the Licensing Terms.
+How do I access PT WIFI?
+When you find the wireless network, you only have to enter your login details for the PT customer area.
+My computer is connected to another network.
+Try to disable that network connection and connect directly to your network.
+How do I change Facebook settings relating to the Timeline?
+Access the Facebook page, click the Gear icon > Account Settings > Timeline and Identification and change the settings.
+I want to create a Skype account, how should I proceed?
+Access www.skype.com and follow the registration process
+I want to change my network name and channel.
+Re-configure the desired wireless settings on the router
+My pc shows several security analysis alerts that I don't know about.
+These kinds of programs and messages are usually associated with viruses. Scan with an antivirus software.
+How do I leave Gmail?
+Click the blue symbol in the upper right corner and click logout
+How to uninstall antivirus in Windows 7?
+In Start > Programs and Features select the antivirus and uninstall it
+How to change the background picture in Windows 8?
+Click the right button on the Desktop > Personalize > Choose picture > Save
+I cannot open Skype
+Check the login access details including username and password
+Computer stops at the BIOS .
+It is possible that there is a problem with some USB device. Try to remove all USB attached to the computer and turn on your computer again.
+I don't know the wireless network password.
+Check below your router, using the original wireless password.
+Facebook App does not work on my iPhone
+Try to reinstall the app.
+I am having problems with the signal repeater, after 20 minutes of it being turned on, it is not possible to connect the devices to the repeater network. Then I must shut it down and turn it back on to make the connection.
+Try to RESET the repeater and reconfigure it
+Where can I check my security password for the wireless network?
+If there is no modification you can check below the router. If it was changed, you should connect the network cable to the pc and access the router page and check the password that can be found in the router.
+I cannot access the wireless network because there is a letter in the router's password that is not readable.
+Connect a computer to the router by cable and access the internal page to view and change the password.
+. When I open pages in IE10 I get an error and the program closes itself.
+Try to re-install the software
+I do not have sound in my PS3 Bluetooth headset..
+Try to turn off and on the PS3 Bluetooth headset
+I cannot connect anything on the wireless network because I forgot the network key
+Check if the key is below the router. If the key is not accepted, you must enter the router and re-configure it.
+How do I create a windows 7 safety back-up?
+Try to go to Start > Control Panel > System and Maintenance > Perform Back-up
+I want to make google my homepage.
+Try to access internet options, and in the homepage section, set the page as Google
+I have short range in my wireless network
+Check the router settings related to channel and place the router in a central location of the house.
+How to access the router?
+In a browser, you must input the router's IP, which is mentioned in the appropriate manual.
+I can't receive emails on Outlook after changing the password
+You must update the email client details
+I do not have any kind of sound on my computer.
+Check if in the bottom right corner, the sound is at 100%
+How to remove Facebook notifications on a cell phone?
+Go to'Account Settings > Mobile > Remove/Edit the number
+I have vulnerabilities in my antivirus, what should I do?
+Try to update it , and perform a complete scan on the computer
+I don't know where I saved my musicbox songs .
+In MAC the songs are downloaded to the folder ~/downloads. In WINDOWS, the musics are downloaded to the folder musicbox that can be found inside the folder my music
+How do I configure a repeater?
+You must access the repeater's internal page, and insert your network details (username and password)
+How to input @
+Press 'alt gr' and then @
+Does the clix connection use pppoe?
+Does the clix connection use pppoe?
+I have a very high ping rate
+Restart the computer and try again without any open application.
+Which is my router's IP?
+Go to Start > Run' and write 'cmd' and in the black window write 'ipconfig'. If it is MAC, you must write the command in the terminal
+How do I connect my pc to my wireless network?
+You must open the network list (network icon in the bottom right corner) and connect to the respective network.
+Speed tests give normal speeds but it takes too long for pages to open.
+Try to access the web page through another browser and check if the problem persists.
+My 3G router does not turn on.
+Unplug it from the outlet and try to plug into another outlet. If the problem persists, the device may be damaged.
+How do I access foreign websites blocked in my country?
+You can use public proxies like http://hidemyass.com/
+What is the device that I can use to connect my MEOBOX via cable and a Desktop pc?
+You can use a switch to split the connection for two devices
+I cannot print since I subscribed to the WOW service.
+Check if your printer has the ability to print via wireless, and if it can, you must connect it to the network.
+The 3G modem does not work.
+Check the manufacturer website for the available drivers and re-install the 3G modem.
+The WPS button of the Thomson tg799vn router does not work.
+Try to disconnect the router and turn it back on
+I cannot access my ZON webmail account
+Try and access it via mail.live.com
+How do I make my wireless more secure?
+Access the router page and activate the highest security setting, that is, WPA2-AES
+without access to the internet through the kanguru USB modem
+Check if you have 3G network coverage where your modem is connected
+Uninstalled iTunes, but the files still point to iTunes
+If it is MAC, right click, then go to open (or on Windows Open with :) > Another, choose the program that you want to open, ensuring that you tick always open with
+I cannot change my email password.
+You must access your account's webmail to make the change.
+I sent the Pc to format, but now it is very slow and has errors when opening some programs
+It could be due to a failure during formatting and some programs may have been damaged, you should try to format it again.
+I only have internet via wireless
+Test it with another network cable.
+I am using too much bandwidth on my pc
+Your computer may be infected with a virus. Also, pay attention to watching YouTube videos because that also consumes a lot of bandwidth..
+”OLX” Access Password
+If you don't know what the password is, you must do password retrieval on the OLX page.
+How do I restart the server?
+Try to go to Start menu, then Restart.
+I am often unable to see my network. Restarting the computer usually solves this problem.
+Try to re-install the network card using its manufacturer's drivers.
+How do I configure my email for Portuguese Bar Association?
+Use this information to configure the client http://www.oa.pt/upl/%7B9e482c51-1046-440e-a6dc-b0da4eb9cd9c%7D.pdf
+I don't have access to the cards I connected to the pc.
+If it is an external card reader confirm if you have all your drivers installed. They should come with the device.
+WhatsApp does not work on my iPhone.
+Disconnect from and reconnect to the network. In the worst case scenario: re-install the app.
+Windows detected a problem and will shut down.
+If the problem persists, you must do a system restore
+I want to migrate my email to another Outlook.
+You must copy the .pst files to another outlook and reconfigure the account.
+I want to change my ZON IP.
+Perform a router reset and leave the router off for more than 30 minutes
+My antivirus does not appear on my computer.
+It is best to re-install the antivirus
+My computer shuts down by itself.
+This may be related to heating and another kind of anomaly at the hardware level.
+My PC has been stolen. Is it possible to find the computer’s serial number knowing the network card´s MAC address
+It is not possible because the MAC doesn´t identify the network card.
+How to export bookmarks from Google Chrome?
+Click on Bookmarks> Bookmark manager> Organize Bookmarks> Export Bookmarks. Select the folder you wish to save the bookmarks in.
+My Gmail shortcut icon has disappeared from the desktop.
+To get it back on your desktop, you need to click the right mouse button on the desktop, select the shortcut option and paste the website URL.
+Other wireless networks are shown but not mine.
+Stand next to your wireless router and check whether you can see your network or not
+I can´t connect to my ZON FON area.
+Check your login details. If it doesn´t help, try to retrieve your password.
+I want to change my ZON password
+Go to my ZON in Personal Area> Login Data> Change.
+I want to install Office
+If you have the Microsoft Office on CD/DVD, insert the disc and follow the installation steps. If Microsoft Office is in ISO Image format run setup.exe.
+How to find friends on Facebook
+At the top of the page there is a blank field that says" search "people, places, and things", Type the person´s name there
+How do I save a Word document?
+Click on File and select Save or Save as
+How do I change my Safari homepage?
+Open Safari preferences and in the General Tab insert the desired page .
+I want to open YouTube but the error “internal server 500" appears
+Try to clean your browser cache and cookies. If the problem persists, try to open the site with another browser.
+Static IPs has been configured at my workplace and now I have no internet wireless access at home.
+You should open network card proprieties in the Control Panel and double-click on TCP/ipv4. Next, select “Obtain automatically” for both IP and DNS.
+IP 169 cable
+The network cable can be broken or there might be some problems with the router. Try to change the cable, disconnect and re-connect both the router and the computer.
+I want help installing Facebook on my Tablet
+Go to the Play Store on your mobile, search for Facebook and download the application.
+I can´t send my identity card photo.
+You can scan the photo, take a photo with your mobile or camera and save the photo on the computer.
+Browser crashed
+Try to open the browser again. If it doesn´t help, try to restart your computer. If the problem persists you may have to reinstall your browser.
+I want to use Facebook on my mobile.
+You can both connect to Facebook via the browser or go to the Play Store and download the Facebook Application.
+Problems playing Farmvile2
+Try to upgrade Flash Player to the most recent version (http://get.adobe.com/br/flashplayer/).
+I can´t view ZON LINE channels.
+You will have to Upgrade Silverlight to the most recent version (http://www.microsoft.com/silverlight/).
+My hard drive is almost full.
+You will have to copy some of your files (music, videos) to an external drive.
+How do I install Silverlight on a Tablet?
+If it is a Tablet with Windows Pro, you can download it using this link: http://www.microsoft.com/silverlight/. If it has another operating system, installation is not possible.
+How to logout from a Thomson Router
+You have to wait it logs out automatically.
+Organize information by date
+Click once on the date tab.
+I can´t see the Google page with news, weather forecast etc…
+appeared was a Google service called IGoogle that is no longer available.
+I can´t open YouTube neither Facebook games.
+Make sure that you have Adobe Flash installed/updated.
+They posted a photo on someone else wall.
+On the photo there is a ``V`` symbol. If you click it, the delete option will appear”
+How do I switch the Gmail window into a full screen mode
+In order to maximize, click the second button in the window at the top right hand corner. If you want to see full screen mode, click on F11.
+I have a few icons next to the clock that have disappeared.
+This happens because the programs are not running. Try to start them again.
+How do I zoom in on the internet?
+Press the ctrl and + key as many times as needed
+How to install Google Chrome on my Mac?
+You need to go to http://www.google.com/mac/ to download and install it.
+I want to copy photos from the SD card.
+When you insert the SD card a window will open; select Open Folder. Then select all the photos you want to copy and press the right mouse button on one of them and then Copy. Then paste them where you want them to go.
+If I sell my PC to someone, can that person access my Facebook account?
+If your details are not stored on the computer, the person cannot access your Facebook account. To prevent this, in the browser you use to access Facebook, press the following keys: ctrl shift delete. Select all the options that appear, and press clear.
+I cannot install the router software.
+Try going to the manufacter's website, look for your router model, download the appropriate software and follow the steps.
+I Want to rip a CD to my computer
+Windows Media Player has the option to rip a CD.
+I want to install using the given Norton key.
+Check the program box or the envelope of the CD for the key.
+When I go to Gmail, a rectangle appears under my email and a button that says login appears.
+Put your password in the rectangle and click Log In.
+There is no sound coming out from the speakers.
+Try going to Control Panel> Sounds and change the output device.
+Excel has stopped appearing.
+Try to see if it is in Programs. If you do not find it there, you will have to reinstall Office.
+If I delete a virus, will I also delete personal files?
+If the virus has infected the file/files, you can delete or move the file.
+I installed a program and a green bar appears on the internet.
+A toolbar that came with the software was installed. You will have to go to Control Panel> Programs and Features, and search for any item in the list that says toolbar and remove it.
+I suspect that my email was hacked.
+It is best to make a change of password with a password made with a combination of letters, numbers and special characters.
+Can I download European model CV in .doc format?
+Visit www.europass.cedefop.europa.eu and follow the instructions.
+I have problem with Meo Go: I cannot watch it.
+Install Silverlight from this link http://www.microsoft.com/silverlight/.
+I did the factory reset for my Android and now I cannot access my Sapo e-mail.
+You will need to reconfigure your email client with data from your email.
+Is it possible to delete the contents of a DVD and re-record it?
+Make sure the DVD is RW that is rewritable. If not, you cannot do this.
+I have difficulty using Windows 8.
+You can watch this video for an introduction to Windows 8 http://www.youtube.com/watch?v=F1InUGhok5A
+A Facebook message appears to slow down the likes.
+This is a measure to prevent automated scripts to perform mass likes. Try to reduce the times that you hit like.
+I receive advertisements and pop ups on Google Chrome.
+We advise you scan your computer with antivirus; you can also install AddBlock (https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=pt-PT), to reduce the amount of windows that are opened.
+Someone broke into my PC.
+You need to change the computer's login password or make one if you do not have one already. You must also change the password of the wireless network.
+Changing the language in Win 8.1
+Go to Control Panel> Language, and then add the desired language.
+Changing the email password @ Clix.
+You must change the password in the client area of Clix.
+Changing the font size in Safari.
+Press the Cmd and + keys
+When pressing on the printer power button, the display does not light up.
+Try connecting the printer to another outlet. If this does not work, it may be a printer malfunction.
+A page that says welcome to MEO appears.
+You must register on this page. To do this, follow the steps requested on the page.
+Outlook folders do not correspond to Sapo mail folders.
+You will need to set up your account as IMAP account; you can see the settings needed at http://ajuda.sapo.pt/servicos.html?faq_id=119756&servico_id=4617
+When I'm on YouTube the video freezes.
+This may be due to internet being slow, or due to weak PC hardware. Press these 3 keys simultaneously:." "Ctrl" "," "_" "," "Esc"
+When I press a key on the keyboard, the items written in blue appear on the screen instead of the key I want to type
+Check for an "FN" button on the keyboard, press it and try again.
+How do I access Gmail via webmail?
+You will need to access www.gmail.com.
+How to install an earlier version of Windows
+You must have an earlier version of the Windows CD. Make backups of existing data and install the operating system you want using these CDs.
+How do I copy text from a website?
+Select the text you want, click the right mouse button and select Copy. Then paste the text where you desire.
+How to leave a message on Facebook.
+You will need to open a chat, select someone and type something into the text field.
+How to disable the option to work offline in IE?
+In the File menu, uncheck the “work offline" option.
+How to make page breaks in a Word text document.
+Go to the Insert tab, and in the Pages group, click Page Break.
+How to format SD on Android.
+Try going to Settings> Phone storage and SD Card> Unmount SD card> Format SD Card.
+How to import a photo to Picasa.
+In Picasa click “Import”> "Import from" and select the file location.
+How do I insert contacts in Skype?
+Skype has a field that says "search". Type the skype name of the desired person.
+How to Install Microsoft Security Essentials.
+Go to http://windows.microsoft.com/pt-pt/windows/security-essentials-download, download it and run the installer.
+How to move apps to the SD Card?
+It is best to install the application " App 2 SD " . It can be found in the Play Store.
+How do I enter the email straight away?
+Try to see if the page has an option to store the login details. If it does, you must select this option.
+How can I recover the Facebook password?
+You will need to access this page https://www.facebook.com/login/identify?ctx=recover.
+How can I synchronize photos through iTunes?
+With Apple equipment connected, go to iTunes and click the photos button at the top of the program.
+How to know if I have the contracted speed for the internet?
+You can do a speed test on http://www.speedtest.net/pt/ and see if it matches with the speed shown on your invoice.
+Port configuration for the game BATTLEFIELD.
+You will need to access the internal settings page of your router and enable a DMZ for the device, or do port forwarding for the device. You can see the required ports here: https://help.ea.com/article/online-ports-for-battlefield-3.
+Gmail settings for Outlook.
+You can see the settings needed in this tutorial: http://www.configuraroutlook.com/outlook2013gmail.php
+Converting a word file into an image.
+You need to install the PDF Creator http://www.pdfforge.org/download.
+I created an email client in the Optimus area and wish to configure it in Outlook.
+You must follow the steps from this tutorial: http://cliente.clix.pt/apoiotecnico/software/email/windowsmv/criarcc/windows-mail-vista---criar-conta-de-correio-2.html.
+My Internet Explorer shortcut has disappeared.
+In Start > All Programs look for Internet Explorer. Press the right mouse button and then click "Send to desktop”.
+I want to know how to scan.
+You can do a scan using the printer software or the printer may have a scan button.
+Offensive posts were made about me on Facebook.
+You should report this and ask for these posts to be removed.
+Installing Bitdefender on Tablet.
+Search for Bitdefender on Google Play.
+My iPad is blocked. I press the buttons but nothing happens.
+Try pressing the iPad power button for 10 seconds.
+I cannot distinguish the different email accounts from which to send mail.
+In the mail client in the accounts area, you can assign a name to each account.
+I cannot install the Facebook program for video conferencing.
+On Facebook when trying to make a video call, install the application. If you have already installed a previous version, then reinstall the latest version.
+I cannot open pdf documents.
+Install or Reinstall Adobe Acrobat Reader (http://get.adobe.com/br/reader/)
+I cannot access my server via SSH.
+Probably what is missing is the opening of ports on the router to the server. Try to access the internal page of the router and forward the port. The standard port is 22.
+I cannot access Skype on the tablet. Can you help me?
+Try to see if you have internet. If you have, try to re-enter the login details. If it does not work, try to reinstall Skype.
+I cannot add a YouTube shortcut in Chrome.
+Go to youtube.com and click the symbol on the top right corner. On the menu, go to and select Bookmarks and add this page to your bookmarks.
+I cannot put accents on my words in Word.
+Try pressing ALT + SHIFT simultaneously to switch the language, and try again.
+I cannot login to Windows 8 after performing the upgrade for windows 8.1.
+On login page select the “do not have an account” option. A new window will pop up and you must select "Connect without a Microsoft account “. Choose a user name and a password.
+I cannot send a message on Facebook to a specific friend.
+Access your friend's profile to see if the account is still active.
+I cannot log in to another Gmail account.
+You must log out of the account to which you are connected. Only then you can login to a new account.
+I cannot install Opera on Windows XP.
+Make sure you have installed the latest service pack, and have already run the Windows update.
+How can I connect multiple computers to the same cable modem when it only has one ethernet input?
+A modem cannot connect more than one device because it has no DHCP service. For this purpose you have to purchase a router.
+I cannot see a specific video format.
+Try using VLC, a reader which opens almost all video formats. You can download it here: http://www.videolan.org/vlc/.
+I do not know where are my emails. They are not in the inbox.
+Check the folders and spam box. If you do not find them, they have probably been removed.
+My PC only has 512mb of RAM. Is this enough for Windows 7?
+According to the information from Microsoft, the minimum to run Windows 7 requirements are 1GB of RAM. As such we recommend upgrading your computer.
+I have no subject field in my Outlook.
+In a received message, on the view menu, click Message Header.
+I'm about to install Adobe Premiere Pro CS5 on my PC. I have an Acer Extensa 5635ZG Graphics Card: GEFORCE G105M - 512MB Processor: Pentium Dual - Core 2.10GHz RAM: 4GB. Will I have problems running it on my computer?
+It will be compatible at hardware level. However, the software must run on 64-bit Windows.
+What is the best music and video player for Windows 8?
+You can use Windows Media Player, which comes pre-installed with the system.
+How can I remove the double window of Windows Live Messenger on the Windows 7 Taskbar?
+Go to Start; look for a shortcut to Windows Live Messenger. Click the right mouse button on it, and click Properties. Then click the Compatibility tab and select Windows XP, and press ok.
+I have Windows 7. How can I see the version?
+Go to Start then right-click on the option “Computer”, choose the “Properties” and you can see all the specifications of your computer including the version of the operating system.
+In Windows Vista how do I activate back the side bar without restarting the pc?
+To place the windows side bar you must press ‘Start > All Programs > Accessories > Windows Sidebar Bar’
+Does Kaspersky’s Internet Security 2013 neutralize the viruses automatically or do I need to exclude them manually?
+Try to re-open the browser. If you cannot, try to restart the computer. If the problem persists, you must re-install the browser
+In Google Chrome, how do you place a bookmark bar under the address bar?
+In Google Chrome, click on ‘Settings > bookmarks and select the option ‘Show bookmarks bar’
+Why does my laptop overheat?
+With time, devices have a tendency to accumulate dirt, making the cooling system less effective.
+How do I install Internet Explorer?
+You can download it via the Microsoft website, then follow the instructions to perform the installation.
+What is GIMP?
+It is a free software for image manipulation that works on different operating systems
+Can I install Office XP in Windows 8?
+Because it is a fairly old version of Windows (from 2001), it may not work at first. However you can try it, since, if it is not compatible, this information will show up.
+What is inkscape?
+Inkscape is freeware for image manipulation that works on different operating systems.
+How do I watch MEO TV channels on my computer?
+To watch MEO TV channels on your PC, you can subscribe to the MEO GO service on MEO’s web page.
+Is a subscription to the MEO GO service paid or free? Since I am a MEO Client
+If you are a MEO client, the MEO GO package will be free, inside the MEO network. If you wish to have access outside of the MEO network, you must subscribe to a paid service.
+Can I install MacOS Maverick on MacBook 5.1?
+To check the compatibility for this OS, check http://support.apple.com/kb/HT5842.
+How to I make a video call through Facebook?
+For that you must open a chat with a friend and in the upper right corner, click on the video option
+How can I deactivate ActiveX?
+Click on ‘Tools > Manage Add-ons’ select ActiveX Control and click on disable, then Apply and finally OK.
+My mouse doesn’t move
+Try another USB port. If it runs on batteries, change them.
+How do I know if my windows software is updated?
+In Control Panel, click on the automatic updates/windows update option. You may search for available updates
+How to I take a print screen of the PC?
+You must press the key ‘Prt Sc’ or ‘PrintScreen’ and paste the image into any editor.
+How can I retrieve the data from my iPad?
+In order to recover iPad data, you must connect to a computer with a data cable and have the most updated version of iTunes. The Settings Reset option will be shown via computer back-up or iCloud.
+How can I watch MEO GO?
+In order to use MEO GO you have to use an appropriate application in the case you are using a mobile device, or go to the respective website if you are using a computer (meogo.meo.pt).
+Airplane mode is on in Windows 8.
+In the lower right corner, you will see the wireless indicator (5 lines). Click on it and press where it says ‘airplane mode’
+What is Windows Live Essentials?
+Windows Live Essentials is Microsoft’s free antivirus.
+What is McAfee?
+It is an antivirus.
+My BIOS is password protected, and I don’t know what is the password
+The retrieval of that data can only be done after resetting your motherboard.
+I had Windows 8 and updated it to Windows 8.1, but now I cannot print because it says I don’t have any printer installed nor do any of the following works: Send to one note 2010, Fax, and Microsoft XPS Document Writer. Why is it?
+If the printer does not appear installed, you must re-install it because the necessary drivers for one version may not be compatible with your new version of the Operating System.
+How can I format my pc without a CD or flash drive, only via keyboard?
+Formatting and/re-installing the Operating System is only possible by means of a recovery cd/dvd
+My PC freezes when I watch YouTube videos, why is that?
+The problem can be related to a lack of bandwidth (upload/download), a missing or out of date plug-in, or a bad browser configuration.
+How many Windows 8 versions are there? My window says only Windows 8.
+There are many distributions of Windows 8: Windows 8, Windows 8 Pro, and Windows 8 Enterprise. Of those, there are also many compilations that vary according to the updates done so far.
+The pc restarts by itself. Why could that be?
+If the computer restarts by itself, you may have a hardware problem or a virus.
+How do I remove the Bing bar from the Chrome bar?
+In the upper right corner of the page on the toolbar, click on ‘Tools > Extensions’. There you can remove the Bing bar
+How to change the headphones output of a laptop
+Go to Control Panel > Sound and Audio Devices’ and choose the intended audio output.
+I have a Windows 2013 Server as a terminal server. What is happening is that, after a while, I receive an error stating that access is denied. This error occurs for any user. If I restart the server, everything is ok, but only for a few days. What could it be?
+That problem may be related to Operating System services that are not starting up automatically. Check in ‘services.msc’ if you have any services that are stopped and check if they are related to the ones required by the terminal (server).
+How do I know if my computer with Windows Vista is performing well?
+You can analyze the performance of your computer by accessing the properties menu of My Computer, where this analysis is done by assigning values to the performance of Windows.
+I have a problem on my computer since I can’t turn it on. What should I do?
+Check if the equipment is plugged into the outlet. If it is, try to connect the equipment to another outlet.
+On the ‘Start’ menu, the bar where I perform the program search has disappeared. How can I bring the bar back?
+This setting is available in ‘Control Panel’, through the ‘Task bar’ in the ‘Start’ menu
+I just connected the MEO box, but I still don’t have internet access. What should I do?
+The MEO box only provides TV service, check if you have a router providing that service
+The monitor does not turn on.
+Check if the electricity cable and the VGA cable are properly connected to both the monitor and the PC.
+How to open the ZONhub router ports
+Enter the following address 192.168.1.1 into your browser. Then go to ‘Services > Firewall > Port Routing > New Entry’. Input the desired ports and input the device’s IP where you want to open the ports.
+Which program can I use to defragment my PC?
+To defragment the PC, click ‘Start > Programs > Accessories > System Tools > Disk Defragment.
+Windows 8 Internet Explorer 10 takes a long time to open web pages.
+Try to perform a browser clean-up, deleting the cache and temporary files. Also check for the existence of toolbars. If you have them but you don’t use them often, we recommend you uninstall them.
+I have two users: the admin and other. When I enter the password for admin, it does not work, and a sentence appears saying the profile service has failed
+The user’s account may be damaged. Try to enter Windows in Safe Mode and change an account detail, like the password.
+How can I find out the ID and the password of the website: 192.168.1.254?
+Normally this address corresponds to the router’s default setting for accessing its internal configuration interface page. The access login varies according to the brand and model of the equipment. You can look for it in the manual.
+My computer overheats.
+There may be an accumulation of dust in the cooling system and/or some anomaly in its functioning.
+My disk is broken, how do I know which connection interface it uses?
+Removing your disk you may verify if it is an IDE or SATA interface.
+The laptop’s monitor is broken, how can I identify the model?
+Through the brand and model of your laptop.
+How to format a disk?
+It will be necessary to use your Operating System’s original CD .Place the CD in your PC’s drive, access the BIOS and change the BOOT option for drive and restart the PC. After that, you only need to follow the steps
+How do I activate a wireless network?
+You must have a wireless router to make the network available and have a computer with a wireless card.
+How do I make the wireless network work?
+Access network connections and see if it is turned off. It if is, right mouse click on it and activate it. If it is already active, the wireless button may be turned off. Try to find the button on the keyboard with an antenna.
+I am having difficulty using the External Disk NAS Seagate Central with the MEO router.
+Check what the file system of your disk is. For it to function correctly, the file system should be FAT32.
+How do I check the file system of my disk on windows?
+On Windows, with the disk connected, you must check its properties in ‘My computer’ menu.
+The printer does not print via wireless.
+If there is any change in the wireless name or the password, it is necessary to reconfigure the printer again.
+How can I get an AC adaptor?
+You can get an original adaptor or you can acquire a universal charger that has a connector which is compatible with your device.
+My printer does not print when connected to the PC.
+The problem may occur from a flaw in installing the printer drivers or from the windows printing service being stopped. Try to re-install the drivers.
+What is XXS?
+Cross-Site Scripting (XXS) is a type of security vulnerability system of a computer.
+Backspace keys’, ‘enter’, ‘d’ and unconfigured accent keys do not produce the output they should, that is, they write other characters. What should I do?
+Check the language that your keyboard is set. You may have a stuck key as well, like ‘Shift’. If it is a laptop, check that Num Lock is off.
+What is the Operating System for?
+The Operating System is responsible for controlling the functioning of a computer. It starts the computer’s hardware, maintains the integrity of the system among other tasks.
+What is an iOS?
+iOS is the Operating System used on iPhones.
+What is a DDOS?
+A DDOS is an attempt to make the system’s resources unavailable for its users.
+Differences between Ubuntu and Windows 8
+The operating system Ubuntu is open source. It is a system that can be acquired for free, however it has more compatibility issues with some of the more popular applications. Windows 8 is property of Microsoft, which is responsible for offering support. It is a paid operating system. It is compatible with the majority of the most popular applications.
+How to improve ping
+To improve ping , you should check all the software that use internet connection and deactivate them. You could also decrease Firewall safety so that traffic can pass more easily.
+My laptop only works with an external monitor
+In Control Panel, in Display Properties you will be able to confirm the default screen, or you can test the monitor switch through a combination of keys (Usually Fn F4).
+How to install a Lexmark P6350 printer on Windows 8 64-bit
+First, check on the Lexmark portal if there are any drivers compatible with Windows 8 64-bit. The included CD that comes with the printer should have information about this.
+My laptop doesn’t produce sound.
+Your computer has a phisical button that tuns the sound on or off. Check if it is turned on. If it is, it could be a problem with the configuration of the sound card.
+Various red dots in the monitor (Acer Aspire 5715z)
+You could have burnt-out pixels on the screen or some problem associated with the laptop graphics card.
+Transferring files from one computer to a portable disk
+First, you will have to make sure that the portable disk is correctly connected to your computer. After that, select all of the files and/or folders that are on the hard drive of your computer. Then copy and paste
+Adobe Reader does not open files.
+Try to reinstall the software. Uninstall Adobe Reader through the Control Pannel > Programs > Uninstall a Program. Download a new version at http://get.adobe.com/br/reader/ and install it again.
+What is IP?
+IP refers to internet protocol, information that indicates the internet connection number of your router
+How to connect several computers to the same modem
+It is not possible to connect several computers to a modem. To do that you will have to acquire a router or a switch.
+How do I change permissions to administrator?
+To run as an administrator, right-click on the application and select “Run as administrator”.
+Is it possible to recover emails sent from the iPad iCloud’s account?
+iCloud accounts can only be configured in IMAP. If the emails were deleted, it is impossible to recover them.
+How do I configure Thunderbird to see my mail from Gmail?
+There are a few steps you will need to follow. I recommend following this tutorial http://www.configuraroutlook.com/thunderbirdgmail.php
+How do I verify if I have Windows 64-bit?
+Hold down the Windows key and “e” at the same time. Next, right-click on a blank part of the screen and select Properties. The required information will appear.
+How can I record something if it happens on my screen in a video?
+You can use a software like camStudio (http://camstudio.org/)
+I don’t remember the password to connect to the internet. Is it recorded somewhere on my Apple computer?
+In Finder, search for “KeyChain Access”. Open the program and look for “airport network” and find the name of the network. Double Cick, and then click on “Show Password”.
+Can I install Office 2010 on Windows 8?
+Yes, you can install it.
+How do I delete my temporary files?
+Start Menu > Run > Select “temp” and then delete all.
+How do I add the start menu in Windows 8?
+You will need to download Windows 8.1, in order to do that you only need to perform the updates available from windows.
+How do I recover my Outlook.com password?
+You will have to go to this link: https://account.live.com/ResetPassword.aspx?wreply=https://login.live.com/login.srf%3fwa%3dwsignin1.0%26ct%3d1389282937%26rver%3d6.1.6206.0%26sa%3d1%26ntprob%3d-1%26wp%3dMBI_SSL_SHARED%26wreply%3dhttps:%252F%252Fmail.live.com%25
+Can I block websites in ZON Hub Fiber?
+Yes, it is possible to block websites. Go to: Options > Services> Firewall > Access Controls.
+I want to uninstall Adobe Flash Player but I can´t manage to do it.
+You will have to go to the link (http://forums.adobe.com/message/4041846) and download the uninstaller for Windows.
+Can I use Time Capsule on a Windows as an external device with a USB cable?
+With USB cable it is not possible, but you can connect to Time Capsule through a Wireless network.
+Can I connect to my Time Capsule via wireless on an iPad or an iPhone to see the stored files?
+It is not possible to access the Time Capsule files with an iPhone or an iPad.
+What are the Oniduo POP and SMTP servers?
+The respective addresses are pop.clix.pt and mail.clix.pt, respectively.
+I want to configure my Sapo account in Windows Live Mail.
+Use these details: POP: pop.sapo.pt; SMTP: smtp.sapo.pt
+I want to create a Gmail account and connect to Google Play in my mobile
+Go to this website and enter your details: https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=pt-PT
+I want to upload files onto the Drive
+Download the application drive https://tools.google.com/dlpage/drive , next click on the Drive icon at the lower right drive corner, select Open Google Drive folder. Then you only need to drop the files that you want to upload onto the folder.
+I want to print an image
+Click the mouse right button on the image and select Print.
+How can I see files download speed in Dropbox?
+It’s not possible to see the download speed, but only the download time.
+How to access Dropbox
+You can access via the site https://www.dropbox.com
+My PC is connected to the TV Set by cable and I have no sound.
+If you are using VGA cable it only transmits video signals. You would need also a HDMI cable to transmit audio.
+The date and time of the PC are always changing.
+It happens when the BIOS battery is damaged. You will need to replace it.
+My battery keeps asking to connect charger even after I have connected
+Try to disconnect the power from the computer, remove the battery, then place it again in your PC and reconnect to the outlet.
+My Epson does not recognize cartridges.
+Try removing the cartridges, blow on the connectors and place the cartridges in the printer again. If they are recycled cartridges, there may be some problem with compatibility.
+I cannot empty the Recycle Bin
+Click the mouse right button on the Recycle Bin icon on the desktop and then empty it.
+Is it possible to find out an address through IP?
+It is not possible to know the accurate address, you can try to use this site, for example: http://www.geoiptool.com/ -, but the results might not be precise.
+Add my Facebook contacts on Skype
+You will have to go to the Contacts>Import contacts and then insert your Facebook login details.
+How to access My Computer in Windows 8
+Click on the Windows key and the e key.
+How to enable Home page button in Google Chrome
+In Settings select Show Home Page Button
+How do I create a video channel in You Tube?
+Go to youtube.com and login using your Gmail account. Then go to this link http://youtube.com/user and insert the required data
+I don´t know how to see streets in Google Earth.
+You have to drag the yellow doll that appears on the screen on the street that you want to view.
+How do I do a multiple selection?
+Hold the Ctrl key.Then click the left mouse button on each file you want to select.
+How to do a print screen and edit the captured image
+Press the Print Screen Button on the keyboard, then open any image editor, for example Paint and select Paste.
+How do I make a Skype video call?
+Click on the contact you want to call and the Video call button will appear.
+How do I close a window without clicking on Close?
+You will have to press the keys Ctrl+F4.
+I want to login to Skype with my Hotmail account.
+In Skype click on Start Session with a different Account, then click on the Microsoft Account Button.
+How to share a PPTon Facebook
+It is not possible to share a PPT on Facebook.
+How do I remove start-up programs in Windows 7 OS?
+Go to Start Menu then type msconfig and go to the start-up tab. Deselect the items you want to stop running at start up.
+How do I know if my PC has Bluetooth?
+he best way is to look it up in the computer handbook or at the PC manufacturer’s website.
+How do I know if a program is safe?
+The best solution is always download software from trusted websites. When you run the installation you will see manufacturer name if it says unknown it may not be trustworthy.
+Should I always turn off my PC pressing the On/Off button?
+No, you should turn it off using Windows: Start Menu> Shut down.
+Is it possible to back up my PS3 hard drive?
+You have to go to PS3 Settings>System Settings>Backup User. If you have any doubts go to the page: http://manuals.playstation.net/document/pb/ps3/current/settings/backuputility.html
+Remove a contact from Skype
+Click the mouse right button on the contact that you want to remove and select Delete Contact.
+How do I synchronize the contacts from Facebook with an iPhone 5 that has iOS 6.1?
+In Settings > Facebook, activate the permission, so Facebook can access your contact list. Then in contacts activate the option to synchronize with Facebook.
+I would like to know if, with a Mac, I can run Facebook games, like Farmville, and if Flash works.
+Mac runs Flash and Safari works well with Facebook games.
+I want to know if there is the possibility to share my achievements obtained on Xbox on Facebook.
+You may access RAPT page (http://raptr.com/login) and link Facebook to your gamer tag.
+In what way does adding my cell phone number increase my Gmail account’s security?
+Gmail has a double check up system, that is, whenever you access your email, you are requested to enter a special code that may be sent via SMS, Telephone or printed text. The retrieval of an account can also be done via SMS. So the cell phone number acts as an authenticity certificate.
+How to delete Safari cookies?
+Go to “Preferences > Privacy > Details > Remove all data from websites.
+How can I connect Facebook to iMessage?
+You can follow the instructions on the following tutorialhttp://www.hongkiat.com/blog/facebook-chat-macosx/
+Some time ago my Facebook started crashing on my iPhone, closing the program returning to the initial menu.
+Try to remove the application and install it again.
+Is there any automatic way Gmail can obtain photos from the people that are in my contacts and have Facebook?
+You can use Google Contact Sync, an application that associates Gmail contacts to Facebook Friends
+Is there any way to share YouTube videos on Facebook on an iPad 1 with iOS5?
+On the YouTube.app you can click on send URL by email and copy the link.
+I am having problems with Facebook chat. Some friends show as offline, even being online. Other cannot see me online.
+Try going to Account > Safety > Active Sessions and close all sessions.
+If I connect the iPhone to the computer via USB, will it update the contact’s images from Facebook?
+Only Iif you are connected to the internet (wireless, GPRS/3G), you can synchronize the contacts with the ones from Facebook (updating the photos).
+Is it possible to talk with 2 people at the same time on Facebook?
+On the chat window you need to click on the gear icon and choose Invite a friend to this conversation.
+How do I reactivate an Instagram account?
+Contact Instagram support, report this problem to them and follow their given instructions.
+How to find friends on Instagram?
+Click on the icon with 3 squares at the top of the screen and click on Find Friends. Choose one of the options and select the desired friends or click in Follow All.
+When I add a person as favorite on Facebook, do I also become their favorite?
+No, you do not become their favorite.
+For how long can Facebook be inactive?
+Facebook can stay inactive for as long as you want, you just need to login again to reactivate the account.
+I cannot deactivate the parental control on a Magalhães
+Follow the described steps on this page, http://suportemagalhaes.com/kb_2/index.php?View=entry&EntryID=39 and attempt to follow them.
+How can I delete Skype’s conversation history?
+You must go to Tools > Options > Privacy > Clear history.
+I want to delete a conversation in Skype
+Right mouse click on the conversation and choose delete conversation. In the pop-up window click on Delete.
+On Skype, how can I delete all conversations that appear on the side bar?
+On the main menu, click on Conversations > Delete Recent. A message asking if you want to delete all recent conversations will appear. Click on Delete Recent.
+I would like to get voice messages on Skype.
+In Manage Features, click on Voice Messages. Then click on Set up voice messages.
+How do I know if a friend of mine has voice messages on Skype?
+If you mouse over your friend’s state icon, you will be able to see if the contact has the voice message resource configured.
+Can I redirect Skype calls on Linux?
+Of course. On Skype, select Options > Redirecting. Define a number to which the calls will be redirected and for how long the call should ring before it is redirected.
+What are SpinVox alerts?
+SpinVox converts your voice messages into text and then, sends them to your cell phone via SMS, on payment of a small fee.
+I cannot connect to Skype.
+Check if you are using the correct password and the latest version. Try to re-install Skype.
+How do I synchronize Dropbox on all my computers and cellphones?
+You must install the Dropbox app on all your devices and insert your login details. When the devices are connected to the internet, synchronization takes place automatically.
+How do I know how much free space I have on Dropbox?
+Access your account on the Drop box page, and click on your user name on the top right corner. Information will appear regarding your space usage.
+How do I know if Dropbox is synchronized?
+Check the Dropbox icon on the menu bar. If the icon has a blue circle with arrows, it is synchronizing. When it changes to a green circle with a check symbol, it means the data are synchronized.
+How do I watch a video that I have in my Dropbox on my Android Tablet?
+Install the Dropbox application for Android on your tablet from Google Play. Enter your login details and access the video. The Dropbox application for Android uses the native player for playing videos.
+How do I enter brackets on Mac?
+{ - Shift+Alt+8 } - Shift+Alt+9
+I cannot perform searches about violin?
+Go to the www.google.pt page and in the search field, type violins then click on search.
+I cannot type the letter P.
+The key must be stuck or contain some dirt underneath. If it is an external keyboard, try to flip over the keyboard and shake it. The keyboard could also be broken.
+I cannot print the body of an email message.
+Open the message you want to print, and press Ctrl+P.
+I do not want the email to be stored in webmail, only in Outlook.
+You must check if your email provider supports pop3 connections. If it does, you must configure the account as pop3 and remove the check symbol in the setting that states a copy is left on the server.
+I don’t know if my computer is using a 32 or 64 bit version?
+Simultaneously click on the keys Ctrl ”E”, then right mouse click and select Properties.
+My mouse moves quickly to the end of the screen.
+If it is an optic mouse, it could be the surface. If you don’t have a mouse pad, we recommend acquiring one.
+My Skype does not perform auto-correction.
+Skype does not have an in-built spelling corrector.
+What is Shockwave for?
+It is a plug-in used by browsers to show multimedia content (movies, games, etc..) on web pages.
+What are the buttons on top of my computer for?
+They are special functions keys that are set differently from manufacturer to manufacturer. To interact with them, there is a key on your keyboard with the letters FN. You must press the key and then the blue key of your choice. Please consider that you can easily deactivate functions such as wireless.
+The pc turns on, but only beeps.
+This sound signal represents a hardware fault, for example RAM faults, disk faults, etc… In the manual of the motherboard, there is a description of each beep, indicating the appropriate fault.
+Why can’t I play tablet games on the computer?
+Tablet games are designed for the tablet systems and architecture, which are different from a normal computer.
+I want to access my PC through the tablet
+In the Play Store, search for the app TeamViewer, then install the same application on the computer too.
+I want to change the name of my computer
+Go to Start > Run and write ‘sysdm.cpl’ if it is Windows Vista or 7. On Windows 8 type the same command in the search box. Then click on the button change, and choose a name for the computer.
+I want to find out what the motherboard brand is.
+Go to Start > Run and write ‘msinfo32.exe’ if it is Windows Vista or 7. On Windows 8 type the same command in the search box. A summary of your computer will appear.
+I want to block people on Facebook
+To block people on Facebook follow the steps from this website: http://www.tecmundo.com.br/6679-como-bloquear-e-desbloquear-usuarios-no-facebook.htm
+synchronize contacts between iCloud and Outlook 2010
+You will have to download the Apple application: http://support.apple.com/downloads/DL1455/en_US/iCloudSetup.exe . After it has been installed, you´ll see an option to synchronize your Outlook contacts.
+My icons are hidden
+Follow the instructions on the following website: http://windows.microsoft.com/pt-pt/windows-vista/show-or-hide-icons-in-the-taskbar
+I have been trying to login to Facebook and it says that the username is incorrect
+This occurs when you enter a wrong password
+I have been trying, unsuccessfully, to update Windows 8.1. It appears in the Windows Store but it doesn´t download.
+Click the Windows key and the r key simultaneously, type wsreset.exe and re-install the update.
+How do I remove the yellow padlock from a folder
+Right click the folder, select Properties. In the window, go to the Security Tab and click Edit>Add and type all then click check Authenticated Users and next OK. Select the new group all and tick on Full Control and on Permit and then click on Apply.
+How do I rotate a video in Windows Media Player
+It is not possible to rotate videos in Media Player. You can use Movie Maker.
+I can´t find the Windows 8 calculator
+Press the Windows Key and type ``calculator``. Next press the Enter Key.
+What is the username and the password to login to MEO router?
+Try this: Username: meo Password:meo or Username: Administrator, Password: 3!play
+How do I backup my e-mail data? I have Outlook 2007
+You can download the following Microsoft application:http://www.microsoft.com/en-us/download/details.aspx?id=9003
+I want to remove Office but it doesn´t appear on the program list.
+Run this application to remove the Office: http://go.microsoft.com/?linkid=9669698
+I have Outlook 2007 and when trying to receive an e- mail this message appears: ``This operation has been cancelled due to restrictions on this computer. Contact your system administrator``
+Download Fix It from the Microsoft website: http://support.microsoft.com/kb/310049/pt
+How do I summarize text in Microsoft Word 2007
+Go to this link and follow the instructions: http://office.microsoft.com/pt-br/word-help/resumir-automaticamente-um-documento-HP005189680.aspx
+How to put a border in Word 2007
+In Word click on the Page Layout menu and then on Page Border.
+How do I remove the side bar from the Office Starter?
+It is not possible to remove this advertising banner.
+How do I insert a picture into an Excel cell?
+Select the cell where you want to insert the picture. In Insert tab, there is a button called Picture in the Illustrations group, click on the Picture button.
+Is there any text converter for Power Point 2007?
+Check if you have the Pack 2 Office 2007 Service. If you don´t download it from the site: http://www.microsoft.com/downloads/details.aspx?FamilyId=B444BF18-79EA-46C6-8A81-9DB49B4AB6E5&displaylang=pt-BR
+My columns in Excel changed from letters to numbers
+Click the Office button>Excel Options>Formula and uncheck Reference L1C1 Style.
+Outlook doesn´t save e-mails in the Sent Items folder.
+In the Tool Menu click Options>Preferences>E-mail options> message manipulation, tick the option Save Message Copies in Sent Items folder.
+How do I insert comments into Excel 2010 cells?
+Right click button on the cell of your choice and next click on Insert Comment.
+Where can I find the ``Print Preview`` option in Word 2012?’’
+Click on the File Menu>Print and on the right side of the screen you will see a Print preview of your document
+I can´t edit a document. It seems like it is blocked. What should I do?
+Make sure that you have your Office Licence activated. Go to the File Menu> help. If it asks for activation, it is because it is not activated.
+The image inserted in the email body appears smaller
+Click on the email message body and then in the Insert menu> Images
+How to change commas to dots in Excel Office 2007?
+Click the Office Button, at the top-left of the screen. Then in the lower right corner go to Advanced and select “use the system tabs”and OK.
+How do I block emails that I receive from a particular sender
+Go to this page and try to follow the steps: http://office.microsoft.com/pt-br/outlook-help/adicionar-nomes-as-listas-de-filtro-de-lixo-eletronico-HA001230163.aspx
+How can I delete a message stuck in the Outbox in Outlook 2007
+Click on File Menu and select the Work Off-line option. Close the Outlook and open it again. Delete the message from de outbox. Click on File Menu and uncheck the Work Offline option.
+Office 2013 doesn´t have the Microsoft Office Picture Manager?
+This software is not available any more. It has been replaced by Photo Gallery. http://windows.microsoft.com/pt-br/windows-live/photo-gallery#photogallery=overview~
+I’d like to know how do I change language in Office 2010 from Portuguese to English?
+Click the File Menu> Options> Language and define the Display Language and the Help language as English
+Outlook doesn´t show pictures
+Open the message and click Other Tasks button. Next click on the View button in the browser.
+Word 2010 Starter - insert a footnote
+This action is not allowed in Word Starter. You can review unavailable program functions here: http://office.microsoft.com/pt-br/starter-help/suporte-a-recursos-do-word-starter-HA010374498.aspx.
+How can I export contacts in Vcard format and import them into my mobile?
+Go to this site and try to follow the steps http://support.microsoft.com/kb/290840/pt-br?p=1
+How do I open a txt in Excel
+Excel can already open txt files. When opened, you will see the File Assistant. A successful opening of a txt in Excel depends on text formatting.
+Where can I download a Journal Office Template?
+You can go to this website and check if some of them meet your criteria: http://office.microsoft.com/pt-pt/templates/modelos-FX010059549.aspx?pid=CL100632981046
+Open two Excel windows
+Go to File >Options>Advanced>General. Select the validation’s box : ignore other applications that Uses Dynamic Data Exchange (DDE)
+How do I cancel a Scheduled automatic email send out
+Go to File Menu> File>Options>Advanced. Uncheck the option send automatically when connected.
+How can I protect a PowerPoint slide
+Go to this website and try to follow the steps http://office.microsoft.com/pt-pt/powerpoint-help/proteger-documentos-pastas-de-trabalho-e-apresentacoes-com-senha-HA010148333.aspx
+How can I create and send a newsletter?
+Try to follow the steps on this website http://office.microsoft.com/pt-pt/publisher-help/criar-e-enviar-publicacoes-por-correio-electronico-utilizando-o-publisher-HA001074338.aspx
+I cannot open links in Outlook.
+Try to follow the steps described on this website http://support.microsoft.com/kb/981149/pt-br
+How do I export a contact list from Microsoft Outlook 2010 to Excel?
+In the menu File > Open > Import, click on Export to File and then click Next. In the box Create a Type of File click on Microsoft Excel, and then click Next. In the box Select Folder to Export click on Contacts and then click on Next. Type the name of the file, click on Next and then click Finish. In Excel, open the file created in the previous stage.
+How do I recover a corrupted file from Excel?
+Try to follow the steps on this web site: http://office.microsoft.com/pt-br/excel-help/reparando-uma-pasta-de-trabalho-corrompida-HA010097017.aspx
+How can I create a signature in Thunderbird?
+You will need to go to Tools > Account Settings, click on the account that for which you want to create a signature, and where the signature text is, write what you want to appear.
+How to reset the router to factory settings
+On the router, there is a small hole, which should say “Reset”. With a paperclip, press this hole until the lights of the router start to blink.
+How to create a safe password
+A password must have a minimum of 8 characters, the more the better, and should have numbers and symbols.
+How do the Dropbox Favorite files work on Android?
+If you mark a file as a Favorite, your device saves the file for offline viewing and guarantees that it is always synchronized.
+I want to share a Dropbox folder with another person
+On the Dropbox page, click on the empty space to the right of the name of the folder that you want to share to select it. Click on “Invite to Folder” and type the email addresses of whom you want to invite.
+I have conflicted copies of files in Dropbox.
+This happens when two people edit the same file at the same time. You have to decide manually which files you want to keep.
+How do I stop sharing a folder on Dropbox?
+In the left side bar, select Sharing > Options > Leave folder
+In Dropbox, can I change the owner of a shared folder?
+You can, if you are the owner, in the left side bar under Sharing > Options. On the gear icon, click next to the name of the member that you want to be the new owner and click on “Make owner”
+Can I eliminate a member from a Dropbox folder?
+You can, if you are the owner. On the left side bar under Sharing > Options, go onto the gear icon, click next to the name of the person and click on “Kick Out”
+How do I attach a file to a Facebook message?
+When you are typing a message, just click on the paperclip icon and add the files.
+How can I appear invisible on Facebook chat?
+Access the chat in the lower right-hand corner of the screen, click on the gear icon then click on “Turn off Chat”
+I want to deactivate sound from Facebook chat
+Click on the gear icon on the chat side bar and uncheck “Chat Sounds”
+Can I chat with several people on Facebook chat?
+In a chat, click on the action menu and select the icon “Add friends to chat” and type in the names of the friends that you want to add.
+How can I leave a conversation in Facebook chat?
+In a conversation, click on the Options menu (the Gear icon) and select “Leave conversation”
+Facebook chat on iChat
+On the iChat menu, select Preferences > Accounts > Select Jabber and type in the username Name_on_Facebook@chat.facebook.com and the Facebook password. Click on the arrow next to “Server options” and verify that the “Automatically find server and port” box is checked.
+How can I stop receiving updates from a Facebook page?
+Access the page and below the cover, move the mouse cursor over “Like”, then uncheck the box “Show in News Feed”
+Does Dropbox only work online or can I have it on my computer?
+If you install the Dropbox application, you have direct access to your Dropbox through a folder on the hard drive of your computer.
+How does the Dropbox history work?
+Dropbox saves a history of all the previous versions of the files for 30 days. That allows you to recover a previous version of a file or a deleted file.
+Can I share a Dropbox file with a friend who does not have Dropbox?
+You can create a link by selecting the file and then “Share link” in the Dropbox menu. You will be able to send this link to anybody.
+When I share a Dropbox file with a friend, am I also using space from my limit?
+The size of a shared file occupies space from the limit of each member who shares it.
+How can I obtain more space on Dropbox?
+If you invite a friend to try Dropbox and he registers and installs the Dropbox desktop application in a computer and accesses his account through the application, both of you will earn 500 MB of bonus space.
+Can I have two Dropbox accounts on the same computer?
+You can only have one installation of Dropbox on the same computer, which can only be linked to a single account.
+I have an iPad and I wanted to know how to edit an Excel that is in Dropbox, and after it is edited, save it again to Dropbox.
+Access the Dropbox application to open the file, and click on “Open with”. Select the intended program to edit the file. Then, click on “Export” and select Dropbox.
+How can I send photos to Dropbox from an iPhone?
+On the main menu of the Dropbox application, or rather, with the option selected from the bottom left of the bar, click on the three dots on the top right of the screen and select “Upload” Then, just select the photos and click Upload on the top right.
+How do you limit access to Dropbox from other users who have access to my PC in Windows?
+If the “My Documents” is configured as private in the terms of restrictions (under the “Security” tab), it will not be visible to other users of the computer. This is valid for any items that are contained within.
+I want to delete content from a folder that I share in Dropbox. Is the other person left without access to these files if I delete them?
+Yes, by deleting the files from one side, they are deleted from the other.
+How do I make an image on Dropbox public?
+You must put the image in the “Public” folder.
+I can’t find the “Public” folder in Dropbox
+Open this link: www.dropbox.com/enable_public_folder and follow the instructions
+I ran out of space on Dropbox. I only have friends’ shared folders, but none of mine.
+All of the shared folders also occupy your limit, because they are saved in the accounts of everyone who shares them. You can leave some shared folders to free up space.
+I installed Dropbox on iPad 2 and now I want a free program to edit Excel files.
+Install the application Document To Go.
+How much space do I have on Gmail?
+Gmail accounts have 25GB of space.
+How can I check Gmail email while I’m offline?
+To configure Gmail for offline access, click on the gear icon in the upper right corner of your email window. Click on settings, open the offline guide and click Install Gmail Offline.
+On Gmail I want to mark an email I opened as unread.
+Select the message and on the ‘More’ list select Mark as Unread.
+How can I check the orthography of a message on Gmail?
+Click on the arrow on the lower left corner of the message that you are writing and select ‘Check Orthography’
+I can’t send an attachment with Gmail.
+Gmail does not accept file attachments that are executable files or are bigger than 25MB.
+How do I organize messages on Gmail?
+You can organize the emails using Labels. It is possible to add multiple markers to one message to categorize it in many ways.
+Is there a maximum number of labels I can create on Gmail?
+It is possible to create up to 5000 different labels.
+May I use more than one label on a single message on Gmail?
+Yes, it is possible to apply any number of labels to a message.
+On Gmail, is it possible to create Labels under other Labels?
+By creating a new label, you may define it as a sub label of another label that is already in your account, by checking the box next to the option “Nest label under”
+If I erase a label on Gmail, do I also delete all related messages?
+The messages will not be deleted.
+Is Gmail’s trash bin automatically deleted?
+Yes, the messages are removed after 30 days.
+I mistakenly deleted an email on Gmail, what do I do now?
+On Gmail’s trash bin, find the deleted message and on the drop-down menu Move on top of the Mail window, select Inbox.
+Is Gmail’s spam automatically deleted?
+Yes, the spam messages are removed after 30 days.
+I bought a smartphone with Windows Mobile, do I already have Office?
+Yes, you have Office Mobile. On the app list click on the office icon to access the Office hub and start working on Microsoft Office documents.
+Does Office Mobile have the same characteristics as Office 2010?
+Office Mobile possesses a smaller set of resources in comparison to Microsoft Office 2010 or later
+I want to open an Office protected document on my cellphone.
+Click on the protected document. On the Necessary Credentials message box, click Yes to use the specified user name and email account password.
+I wanted to download a video on YouTube to my computer.
+You can copy the video link to this website: http://keepvid.com/ to load the video in to a folder in your computer.
+Having magnets glued to the computer creates problems?
+Magnets do not damage the computer, but they wear out the screen colors. Avoid using magnetized equipment too close to monitors.
+Is it necessary to have space between the screen and the wall behind it?
+The environment in general must be ventilated, but it is not strictly necessary a large distance.
+If a computer has been left on all night, is it then better to shut down and reboot it?
+In most cases, it will continue to function as normal.
+Does a computer spends more energy turning on rather than staying turned on for hours?
+Turning on does not consume as much as staying on for hours. Shutting the pc down saves energy.
+Is it better to let the PC rest for a few seconds before turning it back on?
+It is recommended to wait a few seconds before turning it back on, 10 seconds should be enough.
+Can I move the computer when it is turned on, or will it burn the hard drive?
+There is no problem in moving the computer while it is turned on.
+When there is a thunder storm, should I unplug my computer from the socket?
+It is recommended that you remove all power supply cables from all devices
+On a notebook, should I first turn on the electricity cable to the machine and then plug it in the socket?
+The order is indifferent. Almost all current portable devices have short-circuit protection and are multi-voltage, enabling the connection to use between 90 and 240 volts.
+My computer is next to the window and gets a lot of sun. Can that be a problem?
+If it overheats more than usual, its lifespan tends to decrease. So it is never a good idea to install the PC next to a window where the sun is shining.
+If I have many icons on my desktop, does it make my computer slower?
+What happens is the graphic card constantly refreshes the screen, and the more icons there are on the desktop, the slower it refreshes.
+A friend sent me an email on Facebook, but I didn’t receive it.
+Check if the message is not in the ‘Other’ folder. On your facebook page, on the message screens click on ‘Other’ next to the Inbox.
+What is this 4G that comes with cellphones?
+4G designates a new generation of mobile cellphones. In general, 4G mobile networks reach speeds close to ADSL or cable connections.
+How do I install Firefox add-ons?
+To install Firefox add-ons it is necessary to enter the Mozilla add-ons website and select the add-ons.
+How do I download only the audio on YouTube videos?
+Place the YouTube video link on this website, http://www.youtube-mp3.org/ , which converts videos into mp3 files.
+I want to deactivate the Followers option on Facebook.
+On the Facebook News’ Feed page, click the gear symbol, and then Privacy Settings. On the new screen, click on Followers, on the page’s upper left corner. Then, uncheck the option “Active followers” which is in the Followers’ Settings section.
+Can you suggest a simple program to create animated GIFs?
+PhotoScape is easy to use. But for a more professional result we advise Adobe Photoshop.
+What is Flickr?
+Flickr is an image storage and sharing website. After following a quick registration process on the website, you can publish images stored in your PC, notebook, cellphone, tablet, etc.
+A friend of mine doesn’t follow me on Instagram, but I follow him. Can he see what I publish?
+He can see what you publish, but not in his timeline. He must search for your @username and go to your Instagram.
+My Android cellphone may catch a virus.
+Yes, when downloading an application, that application may contain a virus.
+I bought music on Google Play, can I listen to it on another Android device?
+To listen to it, you may have to configure the google account on that second device.
+It takes too long to transfer files from the computer to the pen.
+On ‘My Computer’ right button click over your portable device, then select Properties. Go to Preferences and select Better Performance.
+When I try to watch videos on the internet, on Windows Media Player, I can only hear the sound and I see no image.
+Download this software, http://www.divx.com/en/software/divx, install it and try again.
+Today, when turning on the computer, all the icons appeared bigger .
+If only the icons are bigger, you must select all icons, click and hold Ctrl then use the scroll wheel on the mouse to make the icons smaller.
+Where can I get the HP Scanjet 2400 Scanner software?
+You must go to this page, http://h10025.www1.hp.com/ewfrf/wc/softwareCategory?cc=pt&dlc=pt&lc=pt&product=297430&, and download it.
+When I try to install Office Publisher, It says it requires a key.
+Office is paid software, if you bought it, a validation key should be visible on the box. If you didn’t buy or install the software, you may be able to obtain a 1 month demo at the following link: http://office.microsoft.com/pt-pt/versao-de-avaliacao-gratuita-experimente-o-microsoft-office-2013-e-o-office-365-FX102858196.aspx?WT%2Eintid1=ODC_PTPT_FX010048782_XT103927624
+I formatted my ASUS laptop and since then, I no longer have access to the FN key functions.
+Try to verify if you have this file on your computer: C:\Program Files (x86)\ASUSATK PackageATK\HotkeyHControl.exe. To do this, open a window, for example, ‘My Documents’ and paste this address directly.
+I accidently removed the photos from the SD Card, is it possible to retrieve them?
+It may be possible to retrieve them. You can check if the software of this link does it.: http://www.total-data-recovery.com/
+How can I restrict access to a folder on my computer?
+The best way would be to create multiple user accounts, that way only each user has access to their respective folders.
+I am installing AutoCAD and I get a DirectX error.
+Attempt to download DirectX here: http://www.microsoft.com/download/en/details.aspx?displayLang=en&id=35 , and in the case where it is already installed, remove it and install again.
+I can’t open RAW format files on Photoshop.
+Download this upgrade: http://www.adobe.com/support/downloads/thankyou.jsp?ftpID=4682&fileID=4362
+A friend of mine said Avast is a good antivirus, so where can I download Avast?
+Download the software at this address: http://www.avast.com/pt-pt/index
+I have Vista and my DVD drive is not visible from time to time.
+Perform all Windows updates. That problem was fixed in Vista’s SP1 update.
+How do I find out my DirectX version?
+On the keyboard, press the Windows and the R key at the same time. Then type dxdiag.
+When installing Skype, I get the following error: skype setup.exe is not a valid Win 32 application
+You are probably installing a version incompatible with the Operating System on your computer. Attempt to install the 32 bit version.
+I removed AVG, then tried to install Kaspersky and it says I have to remove AVG again.
+You must download this utility: http://www.avg.com/us-en/utilities, run it and then install Kaspersky.
+My antivirus expired and now I don’t have internet.
+Remove the antivirus with its uninstaller and then install a free one or buy the license for a paid antivirus.
+I downloaded from the internet a file called games.rar and can’t open it. It says the extension is not known.
+You must download this software: http://www.win-rar.com/predownload.html?&no_cache=1&L=0. Install and try again.
+My external hard drive works well when connected to my desktop computer, but not so well on my laptop.
+If your hard drive has two USB outputs, try to connect it to both.
+How do I change the creation date of a file to today´s date?
+Try to download this software http://www.petges.lu/download/ac.exe
+My PC screen turns off after a few minutes, how can I deactivate this option.
+In the Start Menu, type: Power Options in the search window. Next, in the window that will appear, select: Balanced>Change plan settings. In ``Turn off the display``, select ``never``.
+I have installed Windows Mail. How can I configure an account?
+In Windows Mail select Tools>Accounts>Add and fill in the form with your e-mail account details.
+I can´t see attachments in Windows Live Mail.
+Go to Tools> Options, select the Security Tab, then uncheck the options that don´t let you save and open attachments that can contain viruses.
+My Windows Life doesn´t correct the errors.
+Go to Tools>Options>Mail. Next, in the Orthography Tab, define the spell-checker language.
+When you click on an e-mail address on a website, Windows Mail doesn´t open.
+Go to Tools> Options> Mail. Next, in the General Tab click on Default button.
+When I make a search in Windows Mail it doesn’t always show the correct results.
+There may be a problem of indexing. Try to download this application: http://go.microsoft.com/?linkid=9740819
+While trying to sign into Outlook.com, it says that the account has been blocked.
+You should access the account that has been blocked and end the session. Next, go to https://outlook.com and follow the instructions on the page.
+How can I extend my laptop battery life
+Go to Control Panel>Power, select Power Saver and decrease the screen brightness to a comfortable level.
+Can I install Music Box on a Mac?
+Yes, you can. Music Box is available for Mac on this website http://musicbox.sapo.pt/download
+How can I turn on Music Box on Facebook?
+Go to Definitions>Social>Facebook, click on Connect and authenticate yourself using your Facebook Account access details.
+How do I upload new photos to Picasa
+In Picasa, click the Import button and select the sorce and the destination folder of the pictures.
+How can I upload a video to You Tube, using Picasa
+In Picasa go to the Library then double click on the video that is to be sent. Next click the Upload to YouTube button. Next click the link Change User to sign into YouTube. Click on Upload Video.
+I have organized my Picasa Photos on my Timeline and now this option has disappeared.
+Click the View Menu and select Timeline.
+I have Picas and I’d like to create albums
+Select the pictures that you want to put in the album. At the bottom you should see a book symbol. Click this icon and select New Album.
+How do I add new pictures to an album that has already been created
+You will have to select the photos and drag and drop them into the desired folder.
+How do I hide a folder in Picasa
+Right click the folder and select hide.
+In my Picasa, some Photoshop files appear and I don´t want them to.
+Go to Tools>Options and in file types uncheck the .psd files.
+I have my picasa in English and I would like to have it in portuguese
+Go to Tools>Options and in the General tab, set the language. Close Picasa and open in it again.
+How can I highlight only a few Picasa Album pictures
+Tick the pictures that you want to highlight. At the bottom of the software, you should see a strar shaped ,click on it.
+How do I know what Picasa version I have got?
+Go to Help (Windows) or Picasa (Mac) and select About Picasa.
+I can´t remove Picasa from Mac.
+Open the Finder. In Applications Folder drag and drop the Picasa application into the Trash.
+Picasa doesn´t play music files.
+Update Media Player using this link http://windows.microsoft.com/en-us/windows/windows-media-player
+My Google Chrome is very slow. Is there any way to make it faster?
+Go to Tools> Task Manager and check which tabs are using more processor time and memory. If you don´t need them, close them.
+When I open Chrome many websites open .
+You probably have Adware/Malware on your computer. Go to Control Panel> Remove Programs and delete all toolbars. Read some suggestions on what to do here: http://productforums.google.com/forum/#!category-topic/chrome-pt/wPyKvQfQGfQ
+I click the ``x`´ on Chrome to close the Tab and it doesn´t work.
+It’s probably due to a bug, try to upgrade your software to the most recent version.
+When I open Chrome, Bing’s page appears.
+In the Google Chrome Toolbar type: chrome://settings/startup and delete Bing.
+In the Chrome Menu Tab, there is a sound symbol. What does it mean?
+This means that the open page is emitting sound.
+I have lost my chrome bookmarks. How can I get it back?
+Try to access this directory C:Users\%username%\AppData\Local\GoogleChrome\User \DataDefault, find the bokkmarks.bak file and rename it to bookmarks.
+How do I print a Google Chrome page
+Click Ctrl and P simultaneously.
+How do I add a spell-checker in Chrome
+In Tools>Options click Advanced Settings. In the Languages section click Languages and Input Settings and select Portuguese.
+How can I block Chrome ads?
+Try to install: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom
+How can I view Google Chrome history I´ve Windows.
+Press the Ctrl and H keys on the keyboard .
+Chrome ‘s history date is wrong.
+Chrome’s date is based on the computer´s date. If the computer´s date was wrong when Google history data was being collected the history register is also wrong.
+How can I forward an e-mail to another Gmail account
+Login to Gmail. Next Click the gear and then Settings. In Forwarding and POP/IMAP tab click Add a Forwarding Address.
+How do I remove more than one e-mail from my Gmail?
+Each e-mail line has a box on the left. Tick the boxes of e-mails that you want to delete. A trash icon will appear on the top. Click it.
+I was receiving advertisments in Gmail. I don´t receive them anymore.
+Make sure that they are not in the Promotions Tab in the top part of Gmail.
+How can I change the Gmail language to Portuguese
+In Gmail click the gear, then on Settings. In the General tab click on Language and select Portuguese.
+How can I see more e- mails on the page?
+In Gmail click the Settings gear then Settings. In the General tab change the numbers in the fields next to Maximum Page Size.
+How do I change a font type in Gmail
+In Gmail click the gear then Settings, in the General Tab change the Default Text Styling Information
+What is a webmail
+Webmail is a website where you can view your e-mails from any computer with Internet access, anywhere in the world.
+I am a ZON client and I want to access my email account from another country. How can I do this
+You can access ZON webmail from this address: webmail.zonmail.pt.
+I want to configure my ZON e-mail in Thunderbird. What are the details I need to
+The details needed are: POP: pop.netcabo.pt. SMTP: smtpa.netcabo.pt POP SSL obligatory: Yes, through the 995 SMTP port, Authenticated: Yes, using the same POP credentials; Username: Your zonmail address, for example: osemailonmail.pt; Password: the one entered at the time of creation of the email
+I have an e-mail labelled as a spam, in ZON , but actually it is not spam. What can I do about it?
+You will have to login, using your login details, to http://webmail.zonmail.pt and select the gear in the right part of the screen, close to your first and second name. Select the More Settings Option. Below the option that blocks incoming spam, you should find the option“safe senders and blocked senders”. Click Safe Senders and within the field, on the left hand side, type in the e-mail address of the secure sender that you want to add to the secure senders list. Then click the Add button.
+How do I forward mail in ZON?
+In Webmail, throughhttps://webmail.zonmail.pt, click the link Options>More Options and click the Mail Forwarding option.
+How can I upload files to a server through SFTP
+You will have to download and install this software: http://winscp.net/eng/download.php#download2 . Next, enter your details, username, password and server address. Then you just need to drag and drop the files from one side to the other.
+How can I connect to my server via SSH .
+To connect via ssh, download and run this software: http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe, then enter your server address, username and password.
+How can I access a web site via https?
+You can access a web site through https, if it has this technology. Try to access the site through the page
+1440 12818 What are the Google DNSes?
+Google DNS addresses are 8.8.8.8 or 8.8.4.4
+How do I copy and paste text
+Select the fragment that you want to copy, right click on the selected text and select the copy option. Next, right click where you want to paste the text and select the paste option.
+How can I change the Office 2013 colours?
+Go to File>Accounts and in the General Tab choose the theme.
+How to add a picture as a message background
+Go to File>Options>E-mail>Paper and Fonts. On the Personal Letter Paper click the theme.
+How do I send automatic replies in Office 2013?
+In About Accounts, click on Automatic >Replies>send automatic replies.
+How do I insert a picture or a clip-art in an e-mail?
+In a new e-mail message, click Illustrations> Images> Images Online> Forms> SmartArt> Graphic or Snapshot.
+Insert a symbol or special character in an email.
+In a new email message, click Symbols > Symbol.
+Adding holidays on Office 2013’s calendar.
+Click on Options > Calendar. In Calendar Options, click on Holidays.
+Sharing a calendar on Office 2013.
+From the calendar’s exhibition mode, in the group Sharing, click on Send Calendar via Email > Share Calendar.
+How can I create an email signature on Outlook 2013?
+Click on File > Options > Email. On Write Messages, click on Signatures. On the Email Signature Tab, click on New and type a name for the signature. In the Edit Signature box, type the text you want to include in the signature and use the internal tools to format it.
+Automatically add a signature to Office 2013’s messages.
+Click on File > Options > Email. On Write Messages, click on Signatures. In Choose the default Signature, select a signature to add to New Messages. If you wish, select a different signature for Answers/Forwards. To manually add a signature to a new email, on the Message tab, in the group Include, click on Signature, then click on the signature you want.
+How can I search for PDFs with Google?
+After typing in what you want to look for, at the end, add filetype:pdf
+In Excel 2013, where is the automatic sum (AutoSum)?
+Click on Home > Automatic Sum, or press ALT + =.
+In Excel 2013 I have a cell that does not appear as a currency.
+Click on Home > Arrow next to General.
+In Word 2013, how can I print multiple copies of the file
+Click on File > Print. On top of the Print page, next to the Print button, you will find a box named Copies with arrows pointing up and down to choose the intended number of copies. Select a number (Typing it in directly or using the arrows), select a printer, change or keep the remaining settings and click on Print.
+How do I create an index in Word 2013?
+Click on the location where you want to insert the index, normally at the beginning of the document. Click on References > Index, then select Automatic Index from the Style Gallery.
+How do I insert a table on Word 2013?
+Click on Insert > Table > Insert Table. Define the number of rows and columns.
+On Outlook 2013, can I remove an email exchange?
+On the message list, click on the conversation or any message in a conversation that you want to ignore. Click on Home. On the group Delete, click Ignore. Click Ignore Conversation.
+On Outlook 2013, how do I write a new message?
+Click on Home > New email.
+How do I attach a file on Outlook 2013?
+Create a message, or in a preexisting message, click on Answer, Answer All or Forward. On the message window, click on Message > Attach File.
+How do I save attachments received on Outlook 2013?
+Click on the attachment on the Reading Panel or in the open message. On the Attachments tab, in the group Actions, click on Save As. You can also right click with the mouse on the attachment, then click on Save As.
+How do I create an appointment on Outlook 2013?
+Click on Home > New Appointment.
+How do I schedule a meeting on Outlook 2013?
+Click on the keys Ctrl+ Shift+Q.
+I want to insert a new cell on Excel 2013.
+You must go to Home > Cells
+Galaxy Y freezes a lot, what can I do?
+Clear the RAM. Then in Settings, click on Applications then stop every running application, except the ones being used.
+When I try to change my monitor’s resolution, it won’t leave 800x600. When I change to 1024x768 and click on Apply, the screen goes black and then appears a message (mode in optimal recommended mode 1360X768 60Hz).
+A graphic card driver could be missing or your monitor does not support high resolutions.
+What is a program I can use to reduce the video speed without lowering its quality.
+You can use Camtasia Studio, preferably Camtasia Studio 8.
+What is Whatsapp?
+Whatsapp is a cellphone application used for free communication between friends.
+Where do I find Whatsapp?
+You can download it from your cellphone on the website www.watsapp.com. You may also download it from the associated store to your cellphone’s operating system.
+Is it possible to format a computer without losing the data?
+When you format a computer, all the data are erased. It is required to store the data in an external hard drive.
+What is Linux?
+It is an operating system like Windows. The difference is that it is for free. There are many distributions, Ubuntu being the most complete.
+I have a computer with an AMD Athlon 64 x2 Dual Core, 2.60 GHz Processor and 2.5GB RAM with Windows 7. If I install Windows 8, will it become slow?
+Windows 8 is programmed to be lighter, so your computer should become faster.
+I am looking for a free and complete program to mix music.
+Virtual DJ is the best free music editing and mixing program, easy to use.
+Can I see a mobile version of a web page on a computer?
+Yes, just enter the address of the mobile version of the site in your browser.
+Can I have more than one CD recording program on the computer?
+There is no problem in having more than one CD/DVD recording programs in the same computer.
+Where can I download DirectX?
+You can download DirectX from Microsoft’s website: http://www.microsoft.com/en-us/download/details.aspx?id=11448
+How do I converto an .MP4 file into an avi file?
+You can use the program Format Factory.
+If I install a DirectX version, is the pixel shader’s version changed?
+The pixel shader is a setting of the hardware of the graphic card, so it cannot be changed by a program.
+How do I unblock someone from my Facebook?
+In Account Settings, click on Blocking (in the column to the left) and Edit List. People you have blocked will appear, click on the person’s photo to unblock him/her.
+How do I block someone on Facebook?
+In Account Settings, click on Blocking (in the column to the left) and enter the name or email you want to block.
+I don’t want to be contacted by an application on Facebook.
+In Account Settings, click on Blocking (on the column to the left) and in Block applications, enter the name of the application you want to block.
+I am always receiving invites for events that I don’t want on Facebook
+You can block invites you received from a certain person. On account settings, click on Blocking (on the column to the left) and in the Block Event Invitations, enter the person’s name.
+What is GNOME?
+It’s a graphical user interface and a desktop environment for Linux.
+I need a free photo editor in Portuguese.
+You can use GIMP and choose the preferred language.
+When I try to login into Facebook, a page appears to verify the identity. What is it?
+You probably tried to access your account from a different location or browser that is unusual. So Facebook blocks the account for security reasons. A message will be sent, with the procedures to retrieve the account to your registered email used when you signed up to Facebook. Just type in the code sent to your registered cellphone number in Facebook.
+How can I watch GIFs on Windows 8 without using Windows Display or the browser?
+Try to use the program IrfanView.
+Can I use the Canon’s printer USB cable on HP?
+USB cables are standardized and work with all equipment.
+Is the HP 8100 compatible with Windows 8?
+The drivers are available for free download on the manufacturer’s (HP) website for Windows 8 and Windows 8.1 in both 32 and 64 bits.
+I cannot install the Lexmark x1270 printer on Windows 7.
+Go to the manufacturer’s website and download the proper driver version for your operating system.
+How do I know if a phone has been damaged by water?
+Take the phone to a technical assistance centre to check the sensor that indicates this problem
+My HP printer requests me to insert the printer cartridge. Given it is inserted, what do I do?
+Check if the cartridges are appropriate for your equipment. Check if you removed every protective strips or packaging .Try to remove them and insert them again.
+Can I change the black cartridge on my computer without changing the colors?
+Yes, that won’t be a problem. Only change the empty cartridge.
+Why does my printer cartridge level sometimes not appear, even when full?
+If it is recycled (recharged) cartridge, especially from HP, that problem may occur. Many HP models only recognize original cartridges.
+What is a Firefox add-on?
+Add-ons are small pieces of software that add new functions to Firefox. You can customize Firefox according to your needs and tastes.
+How do I install add-ons without restarting Firefox?
+Add-ons marked with ‘No need to restart’ can be installed without needing to restart Firefox. Others require restarting before usage.
+How do I keep Firefox’s add-ons updated?
+Add-ons are automatically verified for updates which are installed automatically by default.
+Can extras add-ons Firefox slower?
+Most add-ons don’t decrease Firefox’s performance, however installing too many can have adverse effects.
+Firefox says an add-on is not compatible. Can I use it anyway?
+It is not recommended to skip compatibility recommendations, because they can lead to the browser’s instability and in some cases, data loss.
+How do I configure Thunderbird for POP access?
+Click in tools > Account Settings > Account Actions > New Email Account. Fill the empty fields. Your name: type your name. Email address: your complete email. Password: email password. Then, click on Continue.
+I want to delete the history in Chrome.
+Access Tools > Clear Browsing data, select the items you want to delete and click on Clean Browsing Data.
+Where do I find the Favorites in Chrome?
+Access your Favorites by clicking on Favorites.
+I want to set Chrome as my default browser.
+In Settings, in the Default Browser tab, click on the button Set Google Chrome as the default browser.
+I want to change the Google Chrome initial page.
+Go to Chrome > Settings > Appearance and Select the "Show Home button" checkbox .Click on Change and type in the address of the page you want to use as the initial page.
+How do I deactivate cookies on Chrome?
+Go to Settings > View Advanced Settings. In the privacy Section, click on Content Settings to change the cookies’ settings.
+Is it possible to change Google Chrome’s appearance?
+Access the Theme Gallery (https://chrome.google.com/webstore?category=theme). Click on a theme to preview it. If you like the theme, click on Select Theme to apply it.
+What is Chrome’s anonymous browsing mode?
+In anonymous browsing mode, the browsing history, the download history and the cookies are not saved when Chrome is closed.
+What is the best browser for Android?
+Among the best browsers, there is Firefox and Chrome. Both allow synchronization with your computer.
+How do I synchronize my cellphone’s Firefox with the computer’s?
+Access Firefox on your cellphone and in Settings, click on Synchronize. A code will be displayed. Now access Firefox on your computer and in Settings, click on Synchronize > Add a Device and enter the code that appears on your cellphone.
+Can you explain what System Recovery is?
+System Recovery is a Windows resource with which the computer returns to a state (time and date) in the past. It is useful when programs the user has installed compromise the system functioning and the user wants the computer back to a state prior the installation.
+What is a disk defragmenter?
+It is an application that aims to improve the speed at which the computer reads partitions of fragmented files . It looks at all the hard drive for files that are fragmented (in pieces) and unites them again making its reading easier and quicker.
+What is disk fragmentation?
+Fragmentation occurs when hard drive files are not periodically modified, leading to a storage in fragments and making its reading and writing a lot slower.
+Thunderbird sends TXT/GIF/JPG attachments inside the message, instead of as an attachment.
+On Settings > Options > advanced, click on the Settings Editor. Filter the preferences by mail.content_disposition_type. Double click over the found result, and change the preference value to 1.
+How do I insert the hyperlink for an image inThunderBird?
+While writing the message, click on Insert > Image. In Location, enter the image location address. Unmask the ‘Attach this image to the message’ option and select ‘Don’t use the alternative text’, and then OK.
+How do I close Facebook conversations on an iPod Touch?
+Click on the Menu icon on the upper right corner of the Facebook application. Click on the chat icon. Slide your finger on any of the highlighted conversations. Click on the red ‘Exclude’ button to close the Facebook conversation.
+What Android applications are compatible with Face Time?
+Google+, Skype, Fring, Qik Video.
+What is Face Time?
+Face Time is an Apple application that lets you make video calls between iPhone, iPad and Mac.
+How can I transfer music into my iPod?
+In order to transfer music to your iPod, connect the device via USB cable and enable automatic synchronization in your iTunes Library.
+What is a viral video?
+Viral videos are short clips spread in the internet through specialized video websites like YouTube. They become extremely popular and gain large scale visibility.
+I want to format my iPod Shuffle.
+Connect your iPod to your computer with a USB cable. Open iTunes and go to Summary in the upper part of the window. Click Restore and, when asked, select Restore and Update option. iTunes will start to format your iPod. It will subsequently search for the iPod software update and will install it on the device.
+Can I create application folders on iPhones?
+Tap and hold one of the icons until it starts shaking. Drag the icon and drop it onto another. A new folder including both applications will appear. Such folders are named automatically. The folder names are based on AppStore categories, but you can rename them.
+What is a mini USB?
+It is a USB cable which port is smaller than in a standard USB connector. It is a standard connector between small devices. A mini USB transfer speed can reach a rate of 800Mb/s.
+What is a micro USB?
+It is a USB cable which port is smaller than that of a standard USB and a mini USB connector, allowing connections between small devices.
+Explain the differences between class 4 and 6 SDHC micro cards.
+The class refers to the minimum transfer rate speed of the card. In general, the higher the class, the faster data transfer.
+How do I know if my 4 GB card is a SDHC card?
+Check if there is a SDHC logo in the front part of the memory card. If it is this kind of card, the letters HC should be below the SD letters.
+Can I create a partition on SDHC card?
+Insert the micro SDHC card into the appropriate slot of the computer. Go to control panel>System and Security>Administrative Tools and then double click Computer Management. Click Disk Management in the left panel and double click the micro SCHC card icon. Next, right-click on an unallocated region of the micro card. Click New Simple Volume. Click Next to continue in the New Simple Volume wizard. Type in the size you want the partition to have or choose the default size. Click Next. Select a letter to designate your new partition and click Next. When the Format Box appears, it will be possible to format a new partition, if needed. Click Finish to close the program.
+How do I know the size of my PS3 Disk?
+In the Main Menu, go to Settings>System Settings>System Information in order to view the Console Hard Disk properties. First you will see the used space and then the total hard drive capacity.
+I wanted to know what is my computer RAM in Windows 7.
+Click the Start Menu. Right-click My Computer and Properties. Find the Installed Memory (RAM) and check its amount, which is expressed in gigabytes.
+How do I check the RAM type in my notebook?
+Go to Start Menu> All Programs>Accessories>Systems Tools and select System Information. Double click Hardware Resources Menu, on the left side of the window. Click the Memory tab to view all the information about the RAM currently installed.
+I want to know my Mac’s RAM
+Click the Apple icon in the upper left corner of the notebook screen and select About this Mac>More information. In the window that will appear expand the category titled Hardware. Click Memory option to view all the information about the RAM memory installed.
+What is a memory density?
+Memory density is the measure of a chip´s width versus its depth. When the information is included on a memory module it appears as DxEW-S. These markings are read as Depth by Width - Speed. The depth is measured in megabytes and the width is a speed expressed in nanoseconds.
+What is a low density memory?
+It is a memory where the chip´s depth is smaller that it´s width. For example, a 1-gigabyte low density memory module has 16 chips that measure 64Mx8.
+What is a high density memory?
+High density memory is configured with a high depth and a very narrow width. For example, a typical 1-gigabyte high density memory module has 16 chips that measure 128Mx4
+How do I know if I have high or low density memory?
+Go to Start Menu> Control panel, in the search field in the upper right corner type: System. Click on: System. Read the number listed next to RAM. If the number is 16 it is a high density memory. If the number is 8 the memory density is low.
+I want my Laptop to go to sleep mode when I close the lid.
+Go to Start > Control Panel>System and Security ,click on power options and next select the power option for the lid. In the option called: ``when I close the lid``, choose hibernate from the drop down menu finish by clicking: Save changes
+How do I block someone on Twitter?
+Go to the Twitter Page of a user that you want to block and click on the gear below the user´s name and picture. Select Block from the options list.
+How can I check who has blocked me on Twitter?
+In the twitter page of the user you suspected has bloked you click the Follow button. If nothing appears and the button Follow is green and the subtitle says ``following``, the user has not blocked you.
+If I change my Twitter user name, will I lose my followers?
+Changing your Twitter username does not affect your followers.
+I would like to change my Twitter username.
+In your account click on Settings in the list from the drop down menu on the top right corner. Change your username in the box Username and click Save changes to confirm your choice.
+What is my Twitter URL?
+In your account click on Profile. On your browser addresses bar there will be your Twitter URL:
+Can I insert a line break in a tweet?
+Yes, you can. Just press Enter.
+What is a hashtag?
+Each hashtag is a unique word or a phrase without spaces, preceded by # (without brackets), like #sport, for example. It is a way of organizing chats, classifying or adding context to a tweet.
+How can I reduce a URL size?
+There are a lot of on-line services like the Bit.Iy or Tiny URL, for example. You just need to paste the link in the text box in one of these websites.
+I want to delete my Twitter account.
+Go to your Twitter account. Click your username icon in the top right corner of the page. Select Settings. At the bottom of the page click: Deactivate my Account.
+How do I find friends on Twitter?
+In the Main Menu go to Find People>Find Friends. Login to your e-mail account, entering your username and the password. Select: find friends. The search engine will look in your contact list looking for any twitter user that is already a contact of yours.
+Can I see if a friend of mine has Twitter, knowing his e-mail ?
+In your Twitter account main menu, select Find People; in Options, there is an option for searching by e-mail. If your friend´s e-mail address is associated to his Twitter Profile, he will appear in the search results.
+Can I restrict access to my Twitter?
+Access your Twitter account. Click on the icon of your username in the top right corner of the page. Select the option Settings > Tweet Privacy and click the box "Protect my Tweets."
+My friends have a symbol next to their name on Twitter. I want one too!
+Copy the intended symbol. In your Twitter account, click on your name, in the upper right corner, and in Settings > Profile. Click inside the Name box, where you would like for the symbol to appear and paste the symbol. Click "Save".
+How do I delete a Retweet?
+In your Twitter account, click on "Retweets" to see your retwitted Tweets. Click on the link "Retweeted by You" to see the Tweets that you retweeted. Click on the retweet that you want to eliminate and click on "Undo".
+I don't want to show one of my jobs on Facebook.
+In the Profile Page of your Facebook account, click on "About". On the left side of the page, click on "Work and Education." Delete the educational and employment information by clicking on "Edit".
+I want to be visible only to my Facebook friends.
+In the Profile page of your Facebook account, click on the gear icon and then "Privacy" Edit the box "Who can see my stuff".
+I started using Thunderbird, but I can't find the calendar.
+Thunderbird does not have an included calendar,. You must add it as an add-on. In Tools > Add-ons > Get Add-ons, type Lightning, and install the add-on that will create a calendar in Thunderbird.
+I wanted to change the language of Thunderbird.
+You must go to the official Thunderbird page, find the installation file in the desired language, and install the program again.
+What is an Applet?
+It is a small program written in the Java programming language to put into a Web page.
+What does FAT mean?
+File Allocation Table. A table, recorded on the hard drive, indicates which sectors are available and which have file data.
+How do I find out which version of Android I have on my phone?
+Go to Settings > About the Phone to find the desired information.
+Is there a notification history on Android 4.3?
+In Applications, go to Widgets and look for the "Shortcut to Settings" widget. Drag this widget to the main screen. This will show the Configuration screen of the Widget. Select "Notifications". An icon will be created in the work area, and it will give you access to the notification history.
+In Excel 2013, how can I make a field bold?
+Go to the Home tab and there is a letter B. Click it.
+In Excel 2013, how can I underline a word?
+Select the word, and then go to the Home Page tab. There is a letter U with an underline. Click on it.
+In Excel 2013, how can I put a word in italics?
+Select the word that you want to put in italics, then go to the Home tab, where there is a letter I. Click on it.
+I have Excel 2013 and I want to highlight a word in yellow.
+You will need to go to the Home tab and there will be a symbol in the shape of a bucket. Click on the small arrow to the right of this icon and select the desired color.
+I made a mistake while writing. Is there a way to go back?
+Try to use the following combination: Ctrl + Z
+In Excel 2013, I want to highlight a word with a different colour than the rest. How do I do that?
+On the Home tab, there is a letter A with a bar underneath. Click the arrow which is on the right side, and then select the color. Highlight the word and click on the A.
+How can I center the text of a cell in Office 2013?
+Go to the Home tab, then look for an icon that has a set of four dashes. Click the one in the middle.
+How do I create a hyperlink in Excel 2013?
+In the Insert tab, click on hyperlink and insert the link.
+Where are the graphs in Excel 2013?
+They are under the Insert tab.
+How can I insert a background image in Excel 2013?
+In the Page Layout separator, click on the icon that says "Background image"
+How can I password protect a file in Excel 2013?
+In the Review tab, click on the icon "Protect template".
+My Excel is too big. How can I make it normal?
+In the View tab, click the icon with the magnifying glass and select 100%.
+How can I change my Excel 2013 spreadsheet from horizontal to vertical?
+In the Page Layout tab, click on the icon that says, "Orientation".
+In Excel 2013, how can I insert a page break?
+In the Page Layout tab, click where it says "Breaks"
+In Word, how can I increase the space between lines?
+In Word, go to the Home tab. There you will see a button with two arrows, one pointing up and the other pointing down next to four lines. Click on this icon.
+How do I insert bullets in Word 2013?
+In Word, go to the home tab. There you will see an icon with three balls and three dashes in front. Click on this icon.
+How do I insert a header into Word 2013?
+To to the Insert tab, and then click where it says "Header."
+How do I insert footer into Word 2013?
+In word, go to the Insert tab. Then click where it says "Footer."
+How do I insert page numbers in 2013?
+You will have to go to the Insert tab, and then click where it says "Page number."
+Which is the version of Android called GingerBread?
+The version of GingerBread is Android 2.3.6.
+My computer does not have an HDMI input and neither does my LCD monitor. Is there an adapter that converts VGA to HDMI?
+There are adapters of this kind, but the quality will never be the same as HDMI.
+How do I insert a date into a Word 2013 document?
+Go to the Insert tab and click where it says "Time and Date."
+How do I embellish my Word 2013 documents?
+In the Design tab, you have at your disposal a group of tools that you can use.
+The background color of my Word document is not white. How do I change that?
+You will have to go to the Design tab and then click where it says, "Page color." Click the color that best suits you.
+In Word 2013, is there a way to make all the pages the same font?
+Yes, you will have to go to the Design tab and then go to "Fonts".
+In Word 2013, how do I define the size of the page?
+In the Page Layout tab, click where it says "Size".
+How do I make the pages in Word horizontal?
+In the Page Layout tab, click where it says orientation.
+In Word 2013, how do I insert a footnote?
+Go to the References tab and then click where it says, "Insert footnote."
+In Word 2013 how do I know how many words are in my document?
+In the Review tab, click on the Word Count icon.
+My Word 2013 has the spell checker in English. How do I change it to Portuguese?
+In the review tab, click where it says "Language", and then "Set Proofing Language"… select Portuguese.
+In Word 2013, how do I insert a ruler into the page?
+In the View tab, click on the box that says "Ruler"
+In word 2013, how do I insert a page break?
+In the Page Layout tab, click where it says breaks.
+How do I insert text with effects in Word 2013?
+You will have to go to the Insert tab and then it has an icon that says "WordArt."
+The menu in my Word 2013 automatically disappears.
+Click on one of the tabs, for example Insert, and then in the bottom right corner, in the menu that you opened, there is an icon with the form of a pin. Click there.
+In PowerPoint 2013, how do I add new slides?
+In the Home tab, click where it says "New Slide".
+How do I create a selection of slides in PowerPoint 2013?
+Right click on the first slide (The white part) which is to the left, and select "Create Selection".
+I have PowerPoint 2013. How do I insert text side by side?
+You will have to go to the Home tab, click where it says layout, and select what best adapts to what you want.
+In PowerPoint 2013, how do I increase the spacing between the letters of a word?
+In the Home tab, click where it says "AV"
+I have PowerPoint 2013 and I don't know how to change the animations between the slides.
+You will have to go to the Transitions tab where you will see various kinds of animations available.
+In PowerPoint 2013, is it possible to apply sounds between the page changes?
+Yes, you will have to go to the Transitions tab and click where it says, "Sound."
+In PowerPoint 2013, how can I increase the time between page changes?
+In the Transitions menu, increase the field that says, "Duration".
+I made a PowerPoint 2013 presentation and there is a slide where when I click, it doesn't go to the next one.
+Select the slide that you want, then go to the Transitions tab. Check if the option " on mouse click" is activated
+In PowerPoint 2013, how do I apply effects to the text and images of a slide?
+In the Animations tab, you have a wide selection of effects that you can choose.
+How do I make text appear when a chart is clicked?
+You will have to create an animation in the text, and then in the Animation tab, click where it says, "Trigger"
+I made a presentation in PowerPoint 2013 and now I can't see it!
+Press the F5 key or go to the Slide Show tab and click where it says, "Start."
+I have a presentation with many slides in PowerPoint 2013. How do I view just one slide?
+Click on the Shift key plus F5, or go to the Slide Show tab and click where it says "Current Slide."
+I made a presentation in PowerPoint 2013 and now I would like to test the timing of my presentation. Is that possible?
+Yes, go to the Slide Show tab and there, click where it says "Rehearse Timing".
+I want to make a presentation to send and I need to add voice commentaries. Is it possible? I have Office 2013.
+Yes, it is possible. Go to the Slide Show tab and choose to record narration.
+I finished my presentation in PowerPoint 2013, but I don't know if I have spelling errors. How do I check the document?
+On the keyboard, click the F7 key.
+How do I alter the username when I save a document in PowerPoint 2013?
+You will need to go to the File tab and then in general you have a field saying, "Username". Write there the name that you want to appear.
+I made a presentation in PowerPoint 2013. How do I improve the appearance of the presentation?
+Try to go to the Home tab, then where it says Quick Styles, you will also be able to access Design, and select a premade background.
+I have OpenOffice, and I want to use a card template. How do I do that?
+Go to File menu > Assistants, then choose from the card templates.
+I created a document in Office and I want to export it to PDF. Is that possible?
+Yes, go to the File menu, and then click"Export as a PDF…"
+I want to substitute the same word for another in all the documents I made in Office. How do I do this?
+In the Edit menu, click in Find and Replace, type in the word that you want to substitute and below, the new word, then click on "Replace All".
+Inserting a page break in OpenOffice
+In the Insert menu, select "Manual break"
+I wanted to insert a heading in OpenOffice.
+In the Insert menu, select "Header".
+In OpenOffice, how do I insert a footer?
+In the Insert menu, select "Footer".
+I don't know how to insert a comment in OpenOffice.
+Position the cursor in the location where you want to insert the comment, then in the Insert menu, select "Comment."

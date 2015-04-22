@@ -1,0 +1,2522 @@
+1	tráfico	TRÁFICO	CN	CN	ms	3	NSUBJ	_	_
+2	armas	ARMA	CN	CN	fp	1	POBJ	_	_
+3	envenena	ENVENENAR	V	V	pi-3s	0	ROOT	_	_
+4	relações	RELAÇÃO	CN	CN	fp	3	DOBJ	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	ameaça	AMEAÇA	CN	CN	fs	3	NSUBJ	_	_
+3	cresce	CRESCER	V	V	pi-3s	0	ROOT	_	_
+4	exponencialmente	_	ADV	ADV	_	3	ADVMOD	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	nova	NOVO	ADJ	ADJ	fs	2	AMOD	_	_
+2	travessia	TRAVESSIA	CN	CN	fs	6	NSUBJ	_	_
+3	rodoviária	RODOVIÁRIO	ADJ	ADJ	fs	2	AMOD	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	douro	_	PNM	PNM	_	2	PREP_DE	_	_
+6	homenageia	HOMENAGEAR	V	V	pi-3s	0	ROOT	_	_
+7	o	_	DA	DA	ms	8	DET	_	_
+8	infante	_	STT	STT	ms	6	DOBJ	_	_
+9	d.	_	STT	STT	ms	8	MWE	_	_
+10	henrique	_	PNM	PNM	_	8	MWE	_	_
+
+1	a	_	DA	DA	fs	3	DET	_	_
+2	nova	NOVO	ADJ	ADJ	fs	3	AMOD	_	_
+3	ponte	PONTE	CN	CN	fs	5	NSUBJ	_	_
+4	já	_	ADV	ADV	_	5	ADVMOD	_	_
+5	tem	TER	V	V	pi-3s	0	ROOT	_	_
+6	nome	NOME	CN	CN	ms	5	DOBJ	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	porto	_	PNM	PNM	_	6	PREP_EM	_	_
+3	as	_	DA	DA	fp	4	DET	_	_
+4	coisas	COISA	CN	CN	fp	6	NSUBJ	_	_
+5	não	_	ADV	ADV	_	6	NEG	_	_
+6	estão	ESTAR	V	V	pi-3p	0	ROOT	_	_
+7	melhores	MELHOR	ADJ	ADJ	fp-comp	6	ACOMP	_	_
+8	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	comentário	COMENTÁRIO	CN	CN	ms	0	ROOT	_	_
+2	a	_	DA	DA	fs	3	DET	_	_
+3	mesa	MESA	CN	CN	fs	1	PREP_EM	_	_
+4	presidencial	PRESIDENCIAL	ADJ	ADJ	fs	3	AMOD	_	_
+5	:	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	o	_	DA	DA	ms	3	DET	_	_
+2	mesmo	MESMO	ADJ	ADJ	ms	3	AMOD	_	_
+3	actor	ACTOR	CN	CN	ms	4	NSUBJ	_	_
+4	representa	REPRESENTAR	V	V	pi-3s	0	ROOT	_	_
+5	vários	_	QNT	QNT	mp	6	DET	_	_
+6	personagens	PERSONAGEM	CN	CN	mp	4	DOBJ	_	_
+7	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	a	_	DA	DA	fs	3	DET	_	_
+2	sua	_	POSS	POSS	fs	3	POSS	_	_
+3	maioria	MAIORIA	CN	CN	fs	6	PREP_EM	_	_
+4	os	_	DA	DA	mp	5	DET	_	_
+5	clandestinos	CLANDESTINO	CN	CN	mp	6	NSUBJ	_	_
+6	são	SER	V	V	pi-3p	0	ROOT	_	_
+7	oriundos	ORIUNDO	ADJ	ADJ	mp	6	ACOMP	_	_
+8	países	PAÍS	CN	CN	mp	7	POBJ	_	_
+9	de	_	PREP	PREP	_	8	PREP	_	_
+10	língua	LÍNGUA	CN	CN	fs	9	POBJ	_	_
+11	oficial	OFICIAL	ADJ	ADJ	fs	10	AMOD	_	_
+12	portuguesa	PORTUGUÊS	ADJ	ADJ	fs	10	AMOD	_	_
+13	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	socialistas	SOCIALISTA	CN	CN	gp	2	NSUBJ	_	_
+2	lançam	LANÇAR	V	V	pi-3p	0	ROOT	_	_
+3	campanha	CAMPANHA	CN	CN	fs	2	DOBJ	_	_
+4	nacional	NACIONAL	ADJ	ADJ	fs	3	AMOD	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	regionalização	REGIONALIZAÇÃO	CN	CN	fs	3	POBJ	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	alteração	ALTERAÇÃO	CN	CN	fs	6	NSUBJ	_	_
+3	os	_	DA	DA	mp	4	DET	_	_
+4	estatutos	ESTATUTO	CN	CN	mp	2	POBJ	_	_
+5	já	_	ADV	ADV	_	6	ADVMOD	_	_
+6	está	ESTAR	V	V	pi-3s	0	ROOT	_	_
+7	marcha	MARCHA	CN	CN	fs	6	PREP_EM	_	_
+8	o	_	DA	DA	ms	9	DET	_	_
+9	psd	_	PNM	PNM	_	6	PREP_EM	_	_
+10	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	depois	_	ADV	ADV	_	9	ADVMOD	_	_
+2	'	_	PNT	PNT	_	3	DEP	_	_
+3	as	_	DA	DA	fp	1	PREP_DE	_	_
+4	bacantes	_	PNM	PNM	_	3	MWE	_	_
+5	'	_	PNT	PNT	_	3	DEP	_	_
+6	,	_	PNT	PNT	_	1	DEP	_	_
+7	os	_	DA	DA	mp	9	DET	_	_
+8	novos	NOVO	ADJ	ADJ	mp	9	AMOD	_	_
+9	confessionários	CONFESSIONÁRIO	CN	CN	mp	0	ROOT	_	_
+10	.	_	PNT	PNT	_	9	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	ideia	IDEIA	CN	CN	fs	6	NSUBJ	_	_
+3	de_	_	PREP	PREP	_	2	PREP	_	_
+4	este	_	DEM	DEM	ms	5	DET	_	_
+5	espectáculo	ESPECTÁCULO	CN	CN	ms	3	POBJ	_	_
+6	surgiu	SURGIR	V	V	ppi-3s	0	ROOT	_	_
+7	o	_	DA	DA	ms	8	DET	_	_
+8	cabeleireiro	CABELEIREIRO	CN	CN	ms	6	PREP_EM	_	_
+9	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	decisiva	DECISIVO	ADJ	ADJ	fs	2	ACOMP	_	_
+2	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	opinião	OPINIÃO	CN	CN	fs	2	NSUBJ	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	treinador	TREINADOR	CN	CN	ms	4	POBJ	_	_
+7	portista	PORTISTA	ADJ	ADJ	ms	6	AMOD	_	_
+8	joseph	_	PNM	PNM	_	6	APPOS	_	_
+9	mlynarczik	_	PNM	PNM	_	8	MWE	_	_
+10	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	'	_	PNT	PNT	_	3	DEP	_	_
+2	não	_	ADV	ADV	_	3	NEG	_	_
+3	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+4	limites	LIMITE	CN	CN	mp	3	DOBJ	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	sol	SOL	CN	CN	ms	3	NSUBJ	_	_
+3	aqueceu	AQUECER	V	V	ppi-3s	0	ROOT	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	pelotão	PELOTÃO	CN	CN	ms	3	DOBJ	_	_
+
+1	electrificação	ELECTRIFICAÇÃO	CN	CN	fs	2	NSUBJ	_	_
+2	compromete	COMPROMETER	V	V	pi-3s	0	ROOT	_	_
+3	prazos	PRAZO	CN	CN	mp	2	DOBJ	_	_
+
+1	operadores	OPERADOR	CN	CN	mp	2	NSUBJ	_	_
+2	recorrem	RECORRER	V	V	pi-3p	0	ROOT	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	tribunal	TRIBUNAL	CN	CN	ms	2	POBJ	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	posição	POSIÇÃO	CN	CN	fs	4	NSUBJ	_	_
+3	compradora	COMPRADOR	ADJ	ADJ	fs	2	AMOD	_	_
+4	ficou	FICAR	V	V	ppi-3s	0	ROOT	_	_
+5	os	_	DA	DA	mp	7	DET	_	_
+6	1797	_	DGT	DGT	_	7	NUM	_	_
+7	escudos	ESCUDO	CN	CN	mp	4	PREP_EM	_	_
+8	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	'	_	PNT	PNT	_	5	DEP	_	_
+2	a	_	DA	DA	fs	3	DET	_	_
+3	ciência	CIÊNCIA	CN	CN	fs	5	NSUBJ	_	_
+4	não	_	ADV	ADV	_	5	NEG	_	_
+5	precisa	PRECISAR	V	V	pi-3s	0	ROOT	_	_
+6	deus	_	PNM	PNM	_	5	PREP_DE	_	_
+7	'	_	PNT	PNT	_	5	DEP	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	jubilação	JUBILAÇÃO	CN	CN	fs	7	NSUBJ	_	_
+3	,	_	PNT	PNT	_	7	DEP	_	_
+4	porém	_	ADV	ADV	_	7	ADVMOD	_	_
+5	,	_	PNT	PNT	_	7	DEP	_	_
+6	não	_	ADV	ADV	_	7	NEG	_	_
+7	vai	IR	V	V	pi-3s	0	ROOT	_	_
+8	significar	SIGNIFICAR	INF	INF	ninf	7	AUX	_	_
+9	nem	_	CJ	CJ	_	8	DOBJ	_	_
+10	uma	_	UM	UM	fs	11	DET	_	_
+11	reforma	REFORMA	CN	CN	fs	8	DOBJ	_	_
+12	nem	_	CJ	CJ	_	15	PRECONJ	_	_
+13	sequer	_	ADV	ADV	_	15	ADVMOD	_	_
+14	o	_	DA	DA	ms	15	DET	_	_
+15	fim	FIM	CN	CN	ms	8	DOBJ	_	_
+16	a	_	DA	DA	fs	18	DET	_	_
+17	sua	_	POSS	POSS	fs	18	POSS	_	_
+18	ligação	LIGAÇÃO	CN	CN	fs	15	POBJ	_	_
+19	a	_	DA	DA	fs	21	DET	_	_
+20	'	_	PNT	PNT	_	21	DEP	_	_
+21	nova	_	PNM	PNM	_	18	PREP_A	_	_
+22	'	_	PNT	PNT	_	21	DEP	_	_
+23	.	_	PNT	PNT	_	7	PUNCT	_	_
+
+1	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+2	atitudes	ATITUDE	CN	CN	fp	1	DOBJ	_	_
+3	diferentes	DIFERENTE	ADJ	ADJ	fp	2	AMOD	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	ciência	CIÊNCIA	CN	CN	fs	3	POBJ	_	_
+6	e	_	CJ	CJ	_	8	PRECONJ	_	_
+7	a	_	DA	DA	fs	8	DET	_	_
+8	religião	RELIGIÃO	CN	CN	fs	3	PREP_EM	_	_
+9	...	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	católicos	CATÓLICO	CN	CN	mp	3	NSUBJ	_	_
+3	têm	TER	V	V	pi-3p	0	ROOT	_	_
+4	uma	_	UM	UM	fs	5	DET	_	_
+5	ética	ÉTICA	CN	CN	fs	3	DOBJ	_	_
+6	pré-fabricada	PREFABRICAR,PREFABRICADO	PPA	PPA	fs	5	AMOD	_	_
+7	?	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	aspecto	ASPECTO	CN	CN	ms	5	NSUBJ	_	_
+3	religioso	RELIGIOSO	ADJ	ADJ	ms	2	AMOD	_	_
+4	não	_	ADV	ADV	_	5	NEG	_	_
+5	muda	MUDAR	V	V	pi-3s	0	ROOT	_	_
+6	as	_	DA	DA	fp	7	DET	_	_
+7	respostas	RESPOSTA	CN	CN	fp	5	DOBJ	_	_
+8	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	conselho	CONSELHO	CN	CN	ms	3	NSUBJ	_	_
+3	emitiu	EMITIR	V	V	ppi-3s	0	ROOT	_	_
+4	17	_	DGT	DGT	_	5	NUM	_	_
+5	pareceres	PARECER	CN	CN	mp	3	DOBJ	_	_
+6	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	cena	CENA	CN	CN	fs	3	NSUBJ	_	_
+2	lusófona	_	PNM	PNM	_	1	MWE	_	_
+3	inicia	INICIAR	V	V	pi-3s	0	ROOT	_	_
+4	nova	NOVO	ADJ	ADJ	fs	5	AMOD	_	_
+5	fase	FASE	CN	CN	fs	3	DOBJ	_	_
+
+1	três	_	CARD	CARD	gp	2	NUMBER	_	_
+2	realizações	REALIZAÇÃO	CN	CN	fp	0	ROOT	_	_
+3	marcadas	MARCAR,MARCADO	PPA	PPA	fp	2	AMOD	_	_
+4	uma	_	UM	UM	fs	5	DET	_	_
+5	raiva	RAIVA	CN	CN	fs	3	POBJ	_	_
+6	visceral	VISCERAL	ADJ	ADJ	fs	5	AMOD	_	_
+7	e	_	CJ	CJ	_	8	PRECONJ	_	_
+8	provocatória	PROVOCATÓRIO	ADJ	ADJ	fs	5	AMOD	_	_
+9	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	legislação	LEGISLAÇÃO	CN	CN	fs	2	NSUBJ	_	_
+2	provoca	PROVOCAR	V	V	pi-3s	0	ROOT	_	_
+3	demora	DEMORA	CN	CN	fs	2	DOBJ	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	diário	DIÁRIO	CN	CN	ms	6	NSUBJ	_	_
+3	'	_	PNT	PNT	_	4	DEP	_	_
+4	ma'ariv	_	PNM	PNM	_	2	MWE	_	_
+5	'	_	PNT	PNT	_	4	DEP	_	_
+6	escreveu	ESCREVER	V	V	ppi-3s	0	ROOT	_	_
+7	um	_	UM	UM	ms	8	DET	_	_
+8	editorial	EDITORIAL	CN	CN	ms	6	PREP_EM	_	_
+9	:	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	as	_	DA	DA	fp	2	DET	_	_
+2	famílias	FAMÍLIA	CN	CN	fp	10	PREP_PARA	_	_
+3	,	_	PNT	PNT	_	10	DEP	_	_
+4	porém	_	ADV	ADV	_	10	ADVMOD	_	_
+5	,	_	PNT	PNT	_	10	DEP	_	_
+6	a	_	DA	DA	fs	7	DET	_	_
+7	causa	CAUSA	CN	CN	fs	10	NSUBJ	_	_
+8	a	_	DA	DA	fs	9	DET	_	_
+9	explosão	EXPLOSÃO	CN	CN	fs	7	POBJ	_	_
+10	tem	TER	V	V	pi-3s	0	ROOT	_	_
+11	uma	_	UM	UM	fs	12	DET	_	_
+12	importância	IMPORTÂNCIA	CN	CN	fs	10	DOBJ	_	_
+13	relativa	RELATIVO	ADJ	ADJ	fs	12	AMOD	_	_
+14	.	_	PNT	PNT	_	10	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	praia	PRAIA	CN	CN	fs	7	PREP_EM	_	_
+3	de	_	PREP	PREP	_	2	MWE	_	_
+4	brookhaven	_	PNM	PNM	_	2	MWE	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	dia	DIA	CN	CN	ms	7	NSUBJ	_	_
+7	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+8	triste	TRISTE	ADJ	ADJ	ms	7	ACOMP	_	_
+9	.	_	PNT	PNT	_	7	PUNCT	_	_
+
+1	'	_	PNT	PNT	_	2	DEP	_	_
+2	foram	SER	V	V	ppi-3p	0	ROOT	_	_
+3	identificados	IDENTIFICAR,IDENTIFICADO	PPA	PPA	mp	2	AUXPASS	_	_
+4	vários	_	QNT	QNT	mp	5	DET	_	_
+5	locais	LOCAL	CN	CN	mp	2	NSUBJPASS	_	_
+6	execução	EXECUÇÃO	CN	CN	fs	5	POBJ	_	_
+7	'	_	PNT	PNT	_	2	DEP	_	_
+
+1	foram	SER	V	V	ppi-3p	0	ROOT	_	_
+2	vistos	VER,VISTO	PPA	PPA	mp	1	AUXPASS	_	_
+3	cadáveres	CADÁVER	CN	CN	mp	1	NSUBJPASS	_	_
+4	alinhados	ALINHAR,ALINHADO	PPA	PPA	mp	3	AMOD	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	local	LOCAL	CN	CN	ms	1	PREP_EM	_	_
+7	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	perto	_	ADV	ADV	_	5	ADVMOD	_	_
+2	o	_	DA	DA	ms	3	DET	_	_
+3	campo	CAMPO	CN	CN	ms	1	PREP_DE	_	_
+4	futebol	FUTEBOL	CN	CN	ms	3	POBJ	_	_
+5	existem	EXISTIR	V	V	pi-3p	0	ROOT	_	_
+6	três	_	CARD	CARD	gp	8	NUMBER	_	_
+7	potenciais	POTENCIAL	ADJ	ADJ	fp	8	AMOD	_	_
+8	valas	VALA	CN	CN	fp	5	NSUBJ	_	_
+9	comuns	COMUM	ADJ	ADJ	fp	8	AMOD	_	_
+10	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+2	uma	_	UM	UM	fs	3	DET	_	_
+3	vala	VALA	CN	CN	fs	1	DOBJ	_	_
+4	comum	COMUM	ADJ	ADJ	fs	3	AMOD	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	local	LOCAL	CN	CN	ms	1	PREP_EM	_	_
+7	a	_	DA	DA	fs	8	DET	_	_
+8	execução	EXECUÇÃO	CN	CN	fs	6	POBJ	_	_
+9	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	existe	EXISTIR	V	V	pi-3s	0	ROOT	_	_
+2	uma	_	UM	UM	fs	4	DET	_	_
+3	potencial	POTENCIAL	ADJ	ADJ	fs	4	AMOD	_	_
+4	vala	VALA	CN	CN	fs	1	NSUBJ	_	_
+5	comum	COMUM	ADJ	ADJ	fs	4	AMOD	_	_
+6	esse	_	DEM	DEM	ms	7	DET	_	_
+7	local	LOCAL	CN	CN	ms	1	PREP_EM	_	_
+8	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+2	uma	_	UM	UM	fs	3	DET	_	_
+3	vala	VALA	CN	CN	fs	1	DOBJ	_	_
+4	comum	COMUM	ADJ	ADJ	fs	3	AMOD	_	_
+5	estes	_	DEM	DEM	mp	6	DET	_	_
+6	locais	LOCAL	CN	CN	mp	1	PREP_EM	_	_
+7	execução	EXECUÇÃO	CN	CN	fs	6	POBJ	_	_
+8	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	julgamento	JULGAMENTO	CN	CN	ms	4	NSUBJ	_	_
+2	as	_	DA	DA	fp	3	DET	_	_
+3	activistas	ACTIVISTA	CN	CN	fp	1	POBJ	_	_
+4	começa	COMEÇAR	V	V	pi-3s	0	ROOT	_	_
+5	hoje	_	ADV	ADV	_	4	ADVMOD	_	_
+6	liverpool	_	PNM	PNM	_	4	PREP_EM	_	_
+
+1	torre	TORRE	CN	CN	fs	5	NSUBJ	_	_
+2	de_	_	PREP	PREP	_	1	MWE	_	_
+3	o	_	DA	DA	ms	1	MWE	_	_
+4	tombo	_	PNM	PNM	_	1	MWE	_	_
+5	conclui	CONCLUIR	V	V	pi-3s	0	ROOT	_	_
+6	microfilmagens	MICROFILMAGEM	CN	CN	fp	5	DOBJ	_	_
+7	o	_	DA	DA	ms	8	DET	_	_
+8	período	PERÍODO	CN	CN	ms	6	POBJ	_	_
+9	colonial	COLONIAL	ADJ	ADJ	ms	8	AMOD	_	_
+
+1	investigadores	INVESTIGADOR	CN	CN	mp	2	NSUBJ	_	_
+2	discutem	DISCUTIR	V	V	pi-3p	0	ROOT	_	_
+3	metodologias	METODOLOGIA	CN	CN	fp	2	DOBJ	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	pré-escolar	PRÉ-ESCOLAR	CN	CN	ms	3	PREP_DE	_	_
+
+1	todos	_	QNT	QNT	mp	3	DET	_	_
+2	os	_	DA	DA	mp	3	DET	_	_
+3	países	PAÍS	CN	CN	mp	4	NSUBJ	_	_
+4	irão	IR	V	V	fi-3p	0	ROOT	_	_
+5	fazer	FAZER	INF	INF	ninf	4	AUX	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	acompanhamento	ACOMPANHAMENTO	CN	CN	ms	5	DOBJ	_	_
+8	as	_	DA	DA	fp	9	DET	_	_
+9	crianças	CRIANÇA	CN	CN	fp	7	POBJ	_	_
+10	envolvidas	ENVOLVER,ENVOLVIDO	PPA	PPA	fp	9	AMOD	_	_
+11	os	_	DA	DA	mp	14	DET	_	_
+12	seus	_	POSS	POSS	mp	14	POSS	_	_
+13	nove	_	CARD	CARD	gp	14	NUMBER	_	_
+14	anos	ANO	CN	CN	mp	7	PREP_ATÉ	_	_
+15	de	_	PREP	PREP	_	14	PREP	_	_
+16	idade	IDADE	CN	CN	fs	15	POBJ	_	_
+17	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	finalmente	_	ADV	ADV	_	4	ADVMOD	_	_
+2	,	_	PNT	PNT	_	1	DEP	_	_
+3	os	_	DA	DA	mp	4	DET	_	_
+4	estatutos	ESTATUTO	CN	CN	mp	0	ROOT	_	_
+5	!	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	capítulo	CAPÍTULO	CN	CN	ms	10	PREP_EM	_	_
+3	de_	_	PREP	PREP	_	2	PREP	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	financiamento	FINANCIAMENTO	CN	CN	ms	3	POBJ	_	_
+6	o	_	DA	DA	ms	8	DET	_	_
+7	novo	NOVO	ADJ	ADJ	ms	8	AMOD	_	_
+8	articulado	ARTICULADO	CN	CN	ms	10	NSUBJ	_	_
+9	não	_	ADV	ADV	_	10	NEG	_	_
+10	adianta	ADIANTAR	V	V	pi-3s	0	ROOT	_	_
+11	grandes	GRANDE	ADJ	ADJ	fp	12	AMOD	_	_
+12	alterações	ALTERAÇÃO	CN	CN	fp	10	DOBJ	_	_
+13	.	_	PNT	PNT	_	10	PUNCT	_	_
+
+1	comércio	COMÉRCIO	CN	CN	ms	2	NSUBJ	_	_
+2	dá	DAR	V	V	pi-3s	0	ROOT	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	mão	MÃO	CN	CN	fs	2	DOBJ	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	turismo	TURISMO	CN	CN	ms	2	PREP_A	_	_
+
+1	betão	BETÃO	CN	CN	ms	2	NSUBJ	_	_
+2	concentra	CONCENTRAR	V	V	pi-3s	0	ROOT	_	_
+3	-se	_	CL	CL	gn3	2	DOBJ	_	_
+4	lisboa	_	PNM	PNM	_	2	PREP_EM	_	_
+
+1	ficaram	FICAR	V	V	ppi-3p	0	ROOT	_	_
+2	aberto	ABERTO	CN	CN	ms	1	PREP_EM	_	_
+3	1561	_	DGT	DGT	_	4	NUM	_	_
+4	contratos	CONTRATO	CN	CN	mp	1	NSUBJ	_	_
+5	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	feriado	FERIADO	CN	CN	ms	5	NSUBJ	_	_
+2	os	_	DA	DA	mp	3	DET	_	_
+3	estados	_	PNM	PNM	_	1	PREP_EM	_	_
+4	unidos	_	PNM	PNM	_	3	MWE	_	_
+5	condiciona	CONDICIONAR	V	V	pi-3s	0	ROOT	_	_
+6	mercados	MERCADO	CN	CN	mp	5	DOBJ	_	_
+
+1	franco	FRANCO	CN	CN	ms	3	NSUBJ	_	_
+2	suíço	SUÍÇO	ADJ	ADJ	ms	1	AMOD	_	_
+3	recua	RECUAR	V	V	pi-3s	0	ROOT	_	_
+
+1	negociações	NEGOCIAÇÃO	CN	CN	fp	2	NSUBJ	_	_
+2	falham	FALHAR	V	V	pi-3p	0	ROOT	_	_
+3	jerusalém	_	PNM	PNM	_	2	PREP_EM	_	_
+
+1	os	_	DA	DA	mp	3	DET	_	_
+2	próprios	PRÓPRIO	ADJ	ADJ	mp	3	AMOD	_	_
+3	tchetchenos	TCHETCHENO	CN	CN	mp	4	NSUBJ	_	_
+4	vêem	VER	V	V	pi-3p	0	ROOT	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	documento	DOCUMENTO	CN	CN	ms	4	DOBJ	_	_
+7	mil	_	CARD	CARD	gp	8	NUMBER	_	_
+8	cuidados	CUIDADO	CN	CN	mp	4	PREP_COM	_	_
+9	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	associação	ASSOCIAÇÃO	CN	CN	fs	2	NSUBJ	_	_
+2	devolve	DEVOLVER	V	V	pi-3s	0	ROOT	_	_
+3	espaço	ESPAÇO	CN	CN	ms	2	DOBJ	_	_
+4	lazer	LAZER	CN	CN	ms	3	POBJ	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	bairro	BAIRRO	CN	CN	ms	2	PREP_A	_	_
+
+1	circuncisão	CIRCUNCISÃO	CN	CN	fs	4	NSUBJ	_	_
+2	feita	FAZER,FEITO	PPA	PPA	fs	1	AMOD	_	_
+3	casa	CASA	CN	CN	fs	2	PREP_EM	_	_
+4	mata	MATAR	V	V	pi-3s	0	ROOT	_	_
+5	bebé	BEBÉ	CN	CN	ms	4	DOBJ	_	_
+
+1	fábrica	FÁBRICA	CN	CN	fs	4	NSUBJ	_	_
+2	tintas	TINTA	CN	CN	fp	1	POBJ	_	_
+3	centenária	CENTENÁRIO	ADJ	ADJ	fs	1	AMOD	_	_
+4	ardeu	ARDER	V	V	ppi-3s	0	ROOT	_	_
+5	vila	_	PNM	PNM	_	4	PREP_EM	_	_
+6	nova	_	PNM	PNM	_	5	MWE	_	_
+7	de	_	PREP	PREP	_	5	MWE	_	_
+8	gaia	_	PNM	PNM	_	5	MWE	_	_
+
+1	as	_	DA	DA	fp	2	DET	_	_
+2	chamas	CHAMA	CN	CN	fp	3	NSUBJ	_	_
+3	continuaram	CONTINUAR	V	V	ppi-3p	0	ROOT	_	_
+4	ontem	_	ADV	ADV	_	3	ADVMOD	_	_
+5	consumir	CONSUMIR	INF	INF	ninf	3	PREP_A	_	_
+6	a	_	DA	DA	fs	7	DET	_	_
+7	floresta	FLORESTA	CN	CN	fs	5	DOBJ	_	_
+8	de_	_	PREP	PREP	_	7	PREPC	_	_
+9	o	_	DA	DA	ms	10	DET	_	_
+10	norte	_	PNM	PNM	_	8	PCOMP	_	_
+11	e	_	CJ	CJ	_	12	PRECONJ	_	_
+12	centro	_	PNM	PNM	_	8	PCOMP	_	_
+13	de_	_	PREP	PREP	_	10	PREP	_	_
+14	o	_	DA	DA	ms	15	DET	_	_
+15	país	PAÍS	CN	CN	ms	13	POBJ	_	_
+16	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	empresário	EMPRESÁRIO	CN	CN	ms	4	NSUBJ	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	tem	TER	V	V	pi-3s	0	ROOT	_	_
+5	alma	ALMA	CN	CN	fs	4	DOBJ	_	_
+6	?	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	o	_	DA	DA	ms	3	DET	_	_
+2	'	_	PNT	PNT	_	3	DEP	_	_
+3	homem	HOMEM	CN	CN	ms	8	NSUBJ	_	_
+4	de_	_	PREP	PREP	_	3	PREP	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	bigodinho	BIGODE	CN	CN	ms-dim	4	POBJ	_	_
+7	'	_	PNT	PNT	_	3	DEP	_	_
+8	está	ESTAR	V	V	pi-3s	0	ROOT	_	_
+9	volta	VOLTA	CN	CN	fs	8	PREP_DE	_	_
+10	?	_	PNT	PNT	_	8	PUNCT	_	_
+11	...	_	PNT	PNT	_	8	PUNCT	_	_
+
+1	até	_	ADV	ADV	_	2	ADVMOD	_	_
+2	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+3	casos	CASO	CN	CN	mp	2	DOBJ	_	_
+4	,	_	PNT	PNT	_	3	DEP	_	_
+5	noticiários	NOTICIÁRIO	CN	CN	mp	3	PREP_SEGUNDO	_	_
+6	,	_	PNT	PNT	_	3	DEP	_	_
+7	incêndios	INCÊNDIO	CN	CN	mp	3	POBJ	_	_
+8	provocados	PROVOCAR,PROVOCADO	PPA	PPA	mp	7	AMOD	_	_
+9	bombeiros	BOMBEIRO	CN	CN	mp	8	PREP_POR	_	_
+10	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	'	_	PNT	PNT	_	5	DEP	_	_
+2	o	_	DA	DA	ms	3	DET	_	_
+3	futebol	FUTEBOL	CN	CN	ms	5	PREP_EM	_	_
+4	não	_	ADV	ADV	_	5	NEG	_	_
+5	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+6	preferências	PREFERÊNCIA	CN	CN	fp	5	DOBJ	_	_
+7	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	governador	GOVERNADOR	CN	CN	ms	5	NSUBJ	_	_
+2	civil	CIVIL	ADJ	ADJ	ms	1	MWE	_	_
+3	de	_	PREP	PREP	_	1	MWE	_	_
+4	braga	_	PNM	PNM	_	1	MWE	_	_
+5	apresentou	APRESENTAR	V	V	ppi-3s	0	ROOT	_	_
+6	queixa-crime	QUEIXA-CRIME	CN	CN	fs	5	DOBJ	_	_
+
+1	'	_	PNT	PNT	_	6	DEP	_	_
+2	o	_	DA	DA	ms	3	DET	_	_
+3	número	NÚMERO	CN	CN	ms	6	NSUBJ	_	_
+4	pessoas	PESSOA	CN	CN	fp	3	POBJ	_	_
+5	necessitadas	NECESSITAR,NECESSITADO	PPA	PPA	fp	4	AMOD	_	_
+6	está	ESTAR	V	V	pi-3s	0	ROOT	_	_
+7	aumentar	AUMENTAR	INF	INF	ninf	6	PREP_A	_	_
+8	assustadoramente	_	ADV	ADV	_	6	ADVMOD	_	_
+9	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	morte	MORTE	CN	CN	fs	0	ROOT	_	_
+3	nuno	_	PNM	PNM	_	2	PREP_DE	_	_
+4	ferrari	_	PNM	PNM	_	3	MWE	_	_
+5	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	também	_	ADV	ADV	_	3	ADVMOD	_	_
+2	também	_	ADV	ADV	_	9	ADVMOD	_	_
+3	piso	PISO	CN	CN	ms	5	PREP_EM	_	_
+4	rápido	RÁPIDO	ADJ	ADJ	ms	3	AMOD	_	_
+5	será	SER	V	V	fi-3s	0	ROOT	_	_
+6	realizada	REALIZAR,REALIZADO	PPA	PPA	fs	5	AUXPASS	_	_
+7	a	_	DA	DA	fs	8	DET	_	_
+8	eliminatória	ELIMINATÓRIA	CN	CN	fs	5	NSUBJPASS	_	_
+9	franceses	FRANCÊS	CN	CN	mp	8	PREP_ENTRE	_	_
+10	e	_	CJ	CJ	_	11	PRECONJ	_	_
+11	italianos	ITALIANO	CN	CN	mp	8	PREP_ENTRE	_	_
+12	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	banco	BANCO	CN	CN	ms	4	NSUBJ	_	_
+2	de	_	PREP	PREP	_	1	MWE	_	_
+3	frança	_	PNM	PNM	_	1	MWE	_	_
+4	reduz	REDUZIR	V	V	pi-3s	0	ROOT	_	_
+5	taxa	TAXA	CN	CN	fs	4	DOBJ	_	_
+6	intervenção	INTERVENÇÃO	CN	CN	fs	5	POBJ	_	_
+
+1	parlamento	PARLAMENTO	CN	CN	ms	3	NSUBJ	_	_
+2	italiano	ITALIANO	ADJ	ADJ	ms	1	MWE	_	_
+3	discute	DISCUTIR	V	V	pi-3s	0	ROOT	_	_
+4	reformas	REFORMA	CN	CN	fp	3	DOBJ	_	_
+5	federalistas	FEDERALISTA	ADJ	ADJ	fp	4	AMOD	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	assaltantes	ASSALTANTE	CN	CN	mp	3	NSUBJ	_	_
+3	fugiram	FUGIR	V	V	ppi-3p	0	ROOT	_	_
+4	imediato	IMEDIATO	CN	CN	ms	3	PREP_DE	_	_
+5	'	_	PNT	PNT	_	7	DEP	_	_
+6	um	_	UM	UM	ms	7	DET	_	_
+7	carro	CARRO	CN	CN	ms	3	PREP_EM	_	_
+8	vermelho	VERMELHO	ADJ	ADJ	ms	7	AMOD	_	_
+9	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	junta	JUNTA	CN	CN	fs	9	NSUBJ	_	_
+2	autónoma	_	PNM	PNM	_	1	MWE	_	_
+3	de_	_	PREP	PREP	_	1	MWE	_	_
+4	os	_	DA	DA	mp	1	MWE	_	_
+5	portos	_	PNM	PNM	_	1	MWE	_	_
+6	de_	_	PREP	PREP	_	1	MWE	_	_
+7	o	_	DA	DA	ms	1	MWE	_	_
+8	centro	_	PNM	PNM	_	1	MWE	_	_
+9	tomou	TOMAR	V	V	ppi-3s	0	ROOT	_	_
+10	posse	POSSE	CN	CN	fs	9	DOBJ	_	_
+
+1	nova	NOVO	ADJ	ADJ	fs	2	AMOD	_	_
+2	direcção	DIRECÇÃO	CN	CN	fs	3	NSUBJ	_	_
+3	gera	GERAR	V	V	pi-3s	0	ROOT	_	_
+4	polémica	POLÉMICA	CN	CN	fs	3	DOBJ	_	_
+
+1	hoje	_	ADV	ADV	_	2	ADVMOD	_	_
+2	tomará	TOMAR	V	V	fi-3s	0	ROOT	_	_
+3	posse	POSSE	CN	CN	fs	2	DOBJ	_	_
+4	,	_	PNT	PNT	_	2	DEP	_	_
+5	viana	_	PNM	PNM	_	2	PREP_EM	_	_
+6	de_	_	PREP	PREP	_	5	MWE	_	_
+7	o	_	DA	DA	ms	5	MWE	_	_
+8	castelo	_	PNM	PNM	_	5	MWE	_	_
+9	,	_	PNT	PNT	_	2	DEP	_	_
+10	a	_	DA	DA	fs	12	DET	_	_
+11	nova	NOVO	ADJ	ADJ	fs	12	AMOD	_	_
+12	presidente	PRESIDENTE	CN	CN	fs	2	NSUBJ	_	_
+13	de_	_	PREP	PREP	_	12	MWE	_	_
+14	a	_	DA	DA	fs	12	MWE	_	_
+15	junta	_	PNM	PNM	_	12	MWE	_	_
+16	autónoma	_	PNM	PNM	_	12	MWE	_	_
+17	de_	_	PREP	PREP	_	12	MWE	_	_
+18	os	_	DA	DA	mp	12	MWE	_	_
+19	portos	_	PNM	PNM	_	12	MWE	_	_
+20	de_	_	PREP	PREP	_	12	MWE	_	_
+21	o	_	DA	DA	ms	12	MWE	_	_
+22	norte	_	PNM	PNM	_	12	MWE	_	_
+23	,	_	PNT	PNT	_	12	DEP	_	_
+24	marcília	_	PNM	PNM	_	12	APPOS	_	_
+25	montenegro	_	PNM	PNM	_	24	MWE	_	_
+26	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	realojamento	REALOJAMENTO	CN	CN	ms	3	NSUBJ	_	_
+2	ciganos	CIGANO	CN	CN	mp	1	POBJ	_	_
+3	avança	AVANÇAR	V	V	pi-3s	0	ROOT	_	_
+4	francelos	_	PNM	PNM	_	3	PREP_EM	_	_
+
+1	explosão	EXPLOSÃO	CN	CN	fs	2	NSUBJ	_	_
+2	faz	FAZER	V	V	pi-3s	0	ROOT	_	_
+3	quatro	_	CARD	CARD	gp	4	NUMBER	_	_
+4	feridos	FERIDO	CN	CN	mp	2	DOBJ	_	_
+
+1	'	_	PNT	PNT	_	2	DEP	_	_
+2	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+3	uma	_	UM	UM	fs	4	DET	_	_
+4	máfia	MÁFIA	CN	CN	fs	2	DOBJ	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	estado	_	PNM	PNM	_	2	PREP_EM	_	_
+7	espanhol	ESPANHOL	ADJ	ADJ	ms	6	MWE	_	_
+8	.	_	PNT	PNT	_	2	PUNCT	_	_
+9	'	_	PNT	PNT	_	2	DEP	_	_
+
+1	o	_	DA	DA	ms	3	DET	_	_
+2	seu	_	POSS	POSS	ms	3	POSS	_	_
+3	perfil	PERFIL	CN	CN	ms	4	NSUBJ	_	_
+4	é	SER	V	V	pi-3s	0	ROOT	_	_
+5	quente	QUENTE	ADJ	ADJ	ms	4	ACOMP	_	_
+6	,	_	PNT	PNT	_	7	DEP	_	_
+7	mediterrânico	MEDITERRÂNICO	ADJ	ADJ	ms	4	ACOMP	_	_
+8	.	_	PNT	PNT	_	4	PUNCT	_	_
+9	'	_	PNT	PNT	_	4	DEP	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	ministro	MINISTRO	CN	CN	ms	14	NSUBJ	_	_
+3	de_	_	PREP	PREP	_	2	MWE	_	_
+4	o	_	DA	DA	ms	2	MWE	_	_
+5	equipamento	_	PNM	PNM	_	2	MWE	_	_
+6	,	_	PNT	PNT	_	2	DEP	_	_
+7	planeamento	_	PNM	PNM	_	2	MWE	_	_
+8	e	_	CJ	CJ	_	2	MWE	_	_
+9	administração	_	PNM	PNM	_	2	MWE	_	_
+10	de_	_	PREP	PREP	_	2	MWE	_	_
+11	o	_	DA	DA	ms	2	MWE	_	_
+12	território	_	PNM	PNM	_	2	MWE	_	_
+13	,	_	PNT	PNT	_	2	DEP	_	_
+14	fez	FAZER	V	V	ppi-3s	0	ROOT	_	_
+15	ainda	_	ADV	ADV	_	14	ADVMOD	_	_
+16	outra	OUTRO	ADJ	ADJ	fs	17	DET	_	_
+17	distinção	DISTINÇÃO	CN	CN	fs	14	DOBJ	_	_
+18	fundamental	FUNDAMENTAL	ADJ	ADJ	fs	17	AMOD	_	_
+19	.	_	PNT	PNT	_	14	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	adoração	ADORAÇÃO	CN	CN	fs	3	NSUBJ	_	_
+3	recolheu	RECOLHER	V	V	ppi-3s	0	ROOT	_	_
+4	gente	GENTE	CN	CN	fs	3	DOBJ	_	_
+5	todas	_	QNT	QNT	fp	7	DET	_	_
+6	as	_	DA	DA	fp	7	DET	_	_
+7	idades	IDADE	CN	CN	fp	4	PREP_DE	_	_
+8	e	_	CJ	CJ	_	9	PRECONJ	_	_
+9	classes	CLASSE	CN	CN	fp	4	PREP_DE	_	_
+10	sociais	SOCIAL	ADJ	ADJ	fp	9	AMOD	_	_
+11	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	homossexuais	HOMOSSEXUAL	CN	CN	gp	2	NSUBJ	_	_
+2	querem	QUERER	V	V	pi-3p	0	ROOT	_	_
+3	alteração	ALTERAÇÃO	CN	CN	fs	2	DOBJ	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	constituição	_	PNM	PNM	_	3	PREP_DE	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	episcopado	EPISCOPADO	CN	CN	ms	4	NSUBJ	_	_
+3	francês	FRANCÊS	ADJ	ADJ	ms	2	AMOD	_	_
+4	suspirava	SUSPIRAR	V	V	ii-3s	0	ROOT	_	_
+5	secretamente	_	ADV	ADV	_	4	ADVMOD	_	_
+6	alívio	ALÍVIO	CN	CN	ms	4	PREP_DE	_	_
+7	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	emissão	EMISSÃO	CN	CN	fs	3	NSUBJPASS	_	_
+3	será	SER	V	V	fi-3s	0	ROOT	_	_
+4	cotada	COTAR,COTADO	PPA	PPA	fs	3	AUXPASS	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	bolsa	_	PNM	PNM	_	3	PREP_EM	_	_
+7	de	_	PREP	PREP	_	6	MWE	_	_
+8	valores	_	PNM	PNM	_	6	MWE	_	_
+9	de_	_	PREP	PREP	_	6	MWE	_	_
+10	o	_	DA	DA	ms	6	MWE	_	_
+11	luxemburgo	_	PNM	PNM	_	6	MWE	_	_
+12	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	primeiro-ministro	PRIMEIRO-MINISTRO	CN	CN	ms	3	NSUBJ	_	_
+3	insiste	INSISTIR	V	V	pi-3s	0	ROOT	_	_
+4	:	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	banco	BANCO	CN	CN	ms	10	NSUBJ	_	_
+3	central	CENTRAL	ADJ	ADJ	ms	2	MWE	_	_
+4	,	_	PNT	PNT	_	10	DEP	_	_
+5	o	_	DA	DA	ms	7	DET	_	_
+6	seu	_	POSS	POSS	ms	7	POSS	_	_
+7	porta-voz	PORTA-VOZ	CN	CN	ms	10	PREP_SEGUNDO	_	_
+8	,	_	PNT	PNT	_	10	DEP	_	_
+9	não	_	ADV	ADV	_	10	NEG	_	_
+10	tem	TER	V	V	pi-3s	0	ROOT	_	_
+11	qualquer	_	QNT	QNT	gs	12	DET	_	_
+12	dívida	DÍVIDA	CN	CN	fs	10	DOBJ	_	_
+13	fiscal	FISCAL	ADJ	ADJ	fs	12	AMOD	_	_
+14	pendente	PENDENTE	ADJ	ADJ	fs	12	AMOD	_	_
+15	.	_	PNT	PNT	_	10	PUNCT	_	_
+
+1	ministério	MINISTÉRIO	CN	CN	ms	2	NSUBJ	_	_
+2	lança	LANÇAR	V	V	pi-3s	0	ROOT	_	_
+3	programa	PROGRAMA	CN	CN	ms	2	DOBJ	_	_
+4	fundo	FUNDO	CN	CN	ms	3	PREP_A	_	_
+5	perdido	PERDER,PERDIDO	PPA	PPA	ms	4	AMOD	_	_
+
+1	morreu	MORRER	V	V	ppi-3s	0	ROOT	_	_
+2	o	_	DA	DA	ms	3	DET	_	_
+3	pai	PAI	CN	CN	ms	1	NSUBJ	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	op	_	PNM	PNM	_	3	PREP_DE	_	_
+6	art	_	PNM	PNM	_	5	MWE	_	_
+
+1	uma	_	UM	UM	fs	2	DET	_	_
+2	enormidade	ENORMIDADE	CN	CN	fs	0	ROOT	_	_
+3	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	paranhos	_	PNM	PNM	_	3	PREP_EM	_	_
+2	não	_	ADV	ADV	_	3	NEG	_	_
+3	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+4	crise	CRISE	CN	CN	fs	3	DOBJ	_	_
+
+1	árbitro	ÁRBITRO	CN	CN	ms	2	NSUBJ	_	_
+2	irrita	IRRITAR	V	V	pi-3s	0	ROOT	_	_
+3	adeptos	ADEPTO	CN	CN	mp	2	DOBJ	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	rio	_	PNM	PNM	_	3	PREP_DE	_	_
+6	ave	_	PNM	PNM	_	5	MWE	_	_
+
+1	a	_	DA	DA	fs	3	DET	_	_
+2	sua	_	POSS	POSS	fs	3	POSS	_	_
+3	consciência	CONSCIÊNCIA	CN	CN	fs	5	NSUBJ	_	_
+4	não	_	ADV	ADV	_	5	NEG	_	_
+5	está	ESTAR	V	V	pi-3s	0	ROOT	_	_
+6	tranquila	TRANQUILO	ADJ	ADJ	fs	5	ACOMP	_	_
+7	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	'	_	PNT	PNT	_	6	DEP	_	_
+2	a	_	DA	DA	fs	3	DET	_	_
+3	atribuição	ATRIBUIÇÃO	CN	CN	fs	6	NSUBJ	_	_
+4	este	_	DEM	DEM	ms	5	DET	_	_
+5	troféu	TROFÉU	CN	CN	ms	3	POBJ	_	_
+6	é	SER	V	V	pi-3s	0	ROOT	_	_
+7	inteiramente	_	ADV	ADV	_	6	ADVMOD	_	_
+8	justa	JUSTO	ADJ	ADJ	fs	6	ACOMP	_	_
+9	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	forças	FORÇA	CN	CN	fp	3	NSUBJ	_	_
+2	segurança	SEGURANÇA	CN	CN	fs	1	POBJ	_	_
+3	matam	MATAR	V	V	pi-3p	0	ROOT	_	_
+4	43	_	DGT	DGT	_	5	NUM	_	_
+5	islamistas	ISLAMITA	CN	CN	gp	3	DOBJ	_	_
+
+1	parque	PARQUE	CN	CN	ms	4	NSUBJ	_	_
+2	de	_	PREP	PREP	_	1	PREP	_	_
+3	estacionamento	ESTACIONAMENTO	CN	CN	ms	2	POBJ	_	_
+4	aguarda	AGUARDAR	V	V	pi-3s	0	ROOT	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	fim	FIM	CN	CN	ms	4	DOBJ	_	_
+7	as	_	DA	DA	fp	8	DET	_	_
+8	escavações	ESCAVAÇÃO	CN	CN	fp	6	POBJ	_	_
+9	o	_	DA	DA	ms	10	DET	_	_
+10	castelo	_	PNM	PNM	_	8	PREP_EM	_	_
+11	de	_	PREP	PREP	_	10	MWE	_	_
+12	são	_	STT	STT	ms	10	MWE	_	_
+13	jorge	_	PNM	PNM	_	10	MWE	_	_
+
+1	queda	QUEDA	CN	CN	fs	5	NSUBJ	_	_
+2	em_	_	PREP	PREP	_	1	PREP	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	instrução	INSTRUÇÃO	CN	CN	fs	2	POBJ	_	_
+5	mata	MATAR	V	V	pi-3s	0	ROOT	_	_
+6	bombeiro	BOMBEIRO	CN	CN	ms	5	DOBJ	_	_
+7	alenquer	_	PNM	PNM	_	6	PREP_DE	_	_
+
+1	lei	LEI	CN	CN	fs	3	NSUBJ	_	_
+2	bases	BASE	CN	CN	fp	1	PREP_DE	_	_
+3	é	SER	V	V	pi-3s	0	ROOT	_	_
+4	precisa	PRECISAR,PRECISO	PPA	PPA	fs	3	AUXPASS	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	veados	VEADO	CN	CN	mp	3	NSUBJ	_	_
+3	escaparam	ESCAPAR	V	V	ppi-3p	0	ROOT	_	_
+4	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	queda	QUEDA	CN	CN	fs	4	NSUBJ	_	_
+2	a	_	DA	DA	fs	3	DET	_	_
+3	instrução	INSTRUÇÃO	CN	CN	fs	1	PREP_EM	_	_
+4	mata	MATAR	V	V	pi-3s	0	ROOT	_	_
+5	bombeiro	BOMBEIRO	CN	CN	ms	4	DOBJ	_	_
+
+1	publicidade	PUBLICIDADE	CN	CN	fs	2	NSUBJ	_	_
+2	continua	CONTINUAR	V	V	pi-3s	0	ROOT	_	_
+3	preferir	PREFERIR	INF	INF	ninf	2	PREP_A	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	tv	TELEVISÃO	CN	CN	fs	3	DOBJ	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	frase	FRASE	CN	CN	fs	0	ROOT	_	_
+3	:	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	estudo	ESTUDO	CN	CN	ms	4	NSUBJPASS	_	_
+3	britânico	BRITÂNICO	ADJ	ADJ	ms	2	AMOD	_	_
+4	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+5	feito	FAZER,FEITO	PPA	PPA	ms	4	AUXPASS	_	_
+6	depois	_	ADV	ADV	_	4	ADVMOD	_	_
+7	um	_	UM	UM	ms	8	DET	_	_
+8	aviso	AVISO	CN	CN	ms	6	POBJ	_	_
+9	dado	DAR,DADO	PPA	PPA	ms	8	AMOD	_	_
+10	o	_	DA	DA	ms	11	DET	_	_
+11	secretário	SECRETÁRIO	CN	CN	ms	9	PREP_POR	_	_
+12	norte-americano	NORTE-AMERICANO	ADJ	ADJ	ms	11	MWE	_	_
+13	de_	_	PREP	PREP	_	11	MWE	_	_
+14	a	_	DA	DA	fs	11	MWE	_	_
+15	defesa	DEFESA	CN	CN	ms	11	MWE	_	_
+16	,	_	PNT	PNT	_	11	DEP	_	_
+17	james	_	PNM	PNM	_	11	APPOS	_	_
+18	schlessinger	_	PNM	PNM	_	17	MWE	_	_
+19	,	_	PNT	PNT	_	11	DEP	_	_
+20	o	_	DA	DA	ms	21	DET	_	_
+21	embaixador	EMBAIXADOR	CN	CN	ms	9	PREP_A	_	_
+22	de_	_	PREP	PREP	_	21	MWE	_	_
+23	o	_	DA	DA	ms	21	MWE	_	_
+24	reino	_	PNM	PNM	_	21	MWE	_	_
+25	unido	_	PNM	PNM	_	21	MWE	_	_
+26	em	_	PREP	PREP	_	21	MWE	_	_
+27	washington	_	PNM	PNM	_	21	MWE	_	_
+28	,	_	PNT	PNT	_	21	DEP	_	_
+29	lord	_	PNM	PNM	_	21	APPOS	_	_
+30	cromer	_	PNM	PNM	_	29	MWE	_	_
+31	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	avaliação	AVALIAÇÃO	CN	CN	fs	3	NSUBJ	_	_
+3	muda	MUDAR	V	V	pi-3s	0	ROOT	_	_
+4	radicalmente	_	ADV	ADV	_	3	ADVMOD	_	_
+5	os	_	DA	DA	mp	7	DET	_	_
+6	diferentes	DIFERENTE	ADJ	ADJ	mp	7	DET	_	_
+7	sectores	SECTOR	CN	CN	mp	3	PREP_ENTRE	_	_
+8	a	_	DA	DA	fs	9	DET	_	_
+9	sociedade	SOCIEDADE	CN	CN	fs	7	POBJ	_	_
+10	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	deputados	DEPUTADO	CN	CN	mp	4	NSUBJ	_	_
+3	explusos	EXPULSAR,EXPLUSO	PPA	PPA	mp	2	AMOD	_	_
+4	ponderam	PONDERAR	V	V	pi-3p	0	ROOT	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	filiação	FILIAÇÃO	CN	CN	fs	4	DOBJ	_	_
+7	outro	_	IND	IND	ms	8	DET	_	_
+8	partido	PARTIDO	CN	CN	ms	6	POBJ	_	_
+9	ou	_	CJ	CJ	_	11	PRECONJ	_	_
+10	a	_	DA	DA	fs	11	DET	_	_
+11	fundação	FUNDAÇÃO	CN	CN	fs	4	DOBJ	_	_
+12	uma	_	UM	UM	fs	14	DET	_	_
+13	nova	NOVO	ADJ	ADJ	fs	14	AMOD	_	_
+14	formação	FORMAÇÃO	CN	CN	fs	11	POBJ	_	_
+15	extrema	EXTREMO	ADJ	ADJ	ms	16	AMOD	_	_
+16	esquerda	ESQUERDA	CN	CN	ms	14	PREP_DE	_	_
+17	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	houve	HAVER	V	V	ppi-3s	0	ROOT	_	_
+2	,	_	PNT	PNT	_	1	DEP	_	_
+3	todavia	_	ADV	ADV	_	1	ADVMOD	_	_
+4	,	_	PNT	PNT	_	1	DEP	_	_
+5	quem	_	REL	REL	_	6	REF	_	_
+6	saísse	SAIR	V	V	ic-3s	1	DOBJ	_	_
+7	voluntariamente	_	ADV	ADV	_	6	ADVMOD	_	_
+8	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	não	_	ADV	ADV	_	2	NEG	_	_
+2	houve	HAVER	V	V	ppi-3s	0	ROOT	_	_
+3	grandes	GRANDE	ADJ	ADJ	fp	4	AMOD	_	_
+4	consequências	CONSEQUÊNCIA	CN	CN	fp	2	DOBJ	_	_
+5	,	_	PNT	PNT	_	11	DEP	_	_
+6	uma	_	LCJ1	LCJ1	_	8	MWE	_	_
+7	vez	_	LCJ2	LCJ2	_	8	MWE	_	_
+8	que	_	LCJ3	LCJ3	_	11	PCOMP	_	_
+9	os	_	DA	DA	mp	10	DET	_	_
+10	bombeiros	BOMBEIRO	CN	CN	mp	11	NSUBJ	_	_
+11	conseguiram	CONSEGUIR	V	V	ppi-3p	2	PREPC	_	_
+12	dominar	DOMINAR	INF	INF	ninf	11	PCOMP	_	_
+13	rapidamente	_	ADV	ADV	_	12	ADVMOD	_	_
+14	as	_	DA	DA	fp	15	DET	_	_
+15	chamas	CHAMA	CN	CN	fp	12	DOBJ	_	_
+16	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	esta	_	DEM	DEM	fs	2	DET	_	_
+2	vez	VEZ	CN	CN	fs	3	PREP_DE	_	_
+3	arderam	ARDER	V	V	ppi-3p	0	ROOT	_	_
+4	duas	_	CARD	CARD	fp	5	NUMBER	_	_
+5	viaturas	VIATURA	CN	CN	fp	3	NSUBJ	_	_
+6	em_	_	PREP	PREP	_	3	PREPC	_	_
+7	a	_	DA	DA	fs	8	DET	_	_
+8	praça	_	PADR	PADR	fs	6	PCOMP	_	_
+9	fernando	_	PNM	PNM	_	8	MWE	_	_
+10	amado	_	PNM	PNM	_	8	MWE	_	_
+11	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	social-democratas	SOCIAL-DEMOCRATA	CN	CN	mp	3	NSUBJ	_	_
+3	criticaram	CRITICAR	V	V	ppi-3p	0	ROOT	_	_
+4	,	_	PNT	PNT	_	3	DEP	_	_
+5	fundamentalmente	_	ADV	ADV	_	3	ADVMOD	_	_
+6	,	_	PNT	PNT	_	3	DEP	_	_
+7	o	_	DA	DA	ms	9	DET	_	_
+8	previsto	PREVER,PREVISTO	PPA	PPA	ms	9	AMOD	_	_
+9	aumento	AUMENTO	CN	CN	ms	3	DOBJ	_	_
+10	as	_	DA	DA	fp	11	DET	_	_
+11	despesas	DESPESA	CN	CN	fp	9	POBJ	_	_
+12	correntes	CORRENTE	ADJ	ADJ	fp	11	AMOD	_	_
+13	e	_	CJ	CJ	_	15	CC	_	_
+14	a	_	DA	DA	fs	15	DET	_	_
+15	redução	REDUÇÃO	CN	CN	fs	3	DOBJ	_	_
+16	os	_	DA	DA	mp	17	DET	_	_
+17	apoios	APOIO	CN	CN	mp	15	POBJ	_	_
+18	associações	ASSOCIAÇÃO	CN	CN	fp	17	PREP_A	_	_
+19	culturais	CULTURAL	ADJ	ADJ	fp	18	AMOD	_	_
+20	e	_	CJ	CJ	_	21	PRECONJ	_	_
+21	desportivas	DESPORTIVO	ADJ	ADJ	fp	18	AMOD	_	_
+22	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	postura	POSTURA	CN	CN	fs	6	NSUBJ	_	_
+2	humilde	HUMILDE	ADJ	ADJ	fs	1	AMOD	_	_
+3	e	_	CJ	CJ	_	4	PRECONJ	_	_
+4	simpática	SIMPÁTICO	ADJ	ADJ	fs	1	AMOD	_	_
+5	,	_	PNT	PNT	_	1	DEP	_	_
+6	merece	MERECER	V	V	pi-3s	0	ROOT	_	_
+7	respeito	RESPEITO	CN	CN	ms	6	DOBJ	_	_
+8	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	imensas	_	QNT	QNT	fp	2	DET	_	_
+2	fugas	FUGA	CN	CN	fp	0	ROOT	_	_
+3	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	breves	BREVE	ADJ	ADJ	fp	2	AMOD	_	_
+2	pausas	PAUSA	CN	CN	fp	0	ROOT	_	_
+3	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	é	SER	V	V	pi-3s	0	ROOT	_	_
+2	inevitável	INEVITÁVEL	ADJ	ADJ	fs	1	ACOMP	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	abertura	ABERTURA	CN	CN	fs	1	NSUBJ	_	_
+5	uma	_	UM	UM	fs	6	DET	_	_
+6	brecha	BRECHA	CN	CN	fs	4	POBJ	_	_
+7	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	emigrantes	EMIGRANTE	CN	CN	mp	6	NSUBJ	_	_
+3	económicos	ECONÓMICO	ADJ	ADJ	mp	2	AMOD	_	_
+4	normalmente	_	ADV	ADV	_	6	ADVMOD	_	_
+5	não	_	ADV	ADV	_	6	NEG	_	_
+6	são	SER	V	V	pi-3p	0	ROOT	_	_
+7	felizes	FELIZ	ADJ	ADJ	mp	6	ACOMP	_	_
+8	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	uma	_	UM	UM	fs	3	DET	_	_
+2	boa	BOM	ADJ	ADJ	fs	3	AMOD	_	_
+3	imagem	IMAGEM	CN	CN	fs	0	ROOT	_	_
+4	angústia	ANGÚSTIA	CN	CN	fs	3	PREP_PARA	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	uma	_	UM	UM	fs	2	DET	_	_
+2	decisão	DECISÃO	CN	CN	fs	0	ROOT	_	_
+3	assumida	ASSUMIR,ASSUMIDO	PPA	PPA	fs	2	AMOD	_	_
+4	?	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	um	_	UM	UM	ms	2	DET	_	_
+2	disparate	DISPARATE	CN	CN	ms	0	ROOT	_	_
+3	premeditado	PREMEDITAR,PREMEDITADO	PPA	PPA	ms	2	AMOD	_	_
+4	?	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	o	_	DA	DA	ms	3	DET	_	_
+2	mesmo	MESMO	ADJ	ADJ	ms	3	AMOD	_	_
+3	sentido	SENTIDO	CN	CN	ms	5	PREP_EM	_	_
+4	se	_	CL	CL	ms3	5	DOBJ	_	_
+5	pronunciou	PRONUNCIAR	V	V	ppi-3s	0	ROOT	_	_
+6	ontem	_	ADV	ADV	_	5	ADVMOD	_	_
+7	o	_	DA	DA	ms	8	DET	_	_
+8	penalista	PENALISTA	CN	CN	ms	5	NSUBJ	_	_
+9	costa	_	PNM	PNM	_	8	MWE	_	_
+10	andrade	_	PNM	PNM	_	8	MWE	_	_
+11	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	esta	_	DEM	DEM	fs	2	DET	_	_
+2	frase	FRASE	CN	CN	fs	3	POBJ	_	_
+3	seguiu	SEGUIR	V	V	ppi-3s	0	ROOT	_	_
+4	-se	_	CL	CL	ms3	3	DOBJ	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	aviso	AVISO	CN	CN	ms	3	NSUBJ	_	_
+7	:	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	administração	ADMINISTRAÇÃO	CN	CN	fs	3	PREP_PARA	_	_
+3	é	SER	V	V	pi-3s	0	ROOT	_	_
+4	clara	CLARO	ADJ	ADJ	fs	3	ACOMP	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	escolha	ESCOLHA	CN	CN	fs	3	NSUBJ	_	_
+7	:	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	cinco	_	CARD	CARD	fp	2	NUMBER	_	_
+2	pessoas	PESSOA	CN	CN	fp	3	NSUBJ	_	_
+3	morreram	MORRER	V	V	ppi-3p	0	ROOT	_	_
+4	ontem	_	ADV	ADV	_	3	ADVMOD	_	_
+5	acidentes	ACIDENTE	CN	CN	mp	3	PREP_EM	_	_
+6	viação	VIAÇÃO	CN	CN	fs	5	POBJ	_	_
+7	em_	_	PREP	PREP	_	5	PREP	_	_
+8	as	_	DA	DA	fp	9	DET	_	_
+9	estradas	ESTRADA	CN	CN	fp	7	POBJ	_	_
+10	portuguesas	PORTUGUÊS	ADJ	ADJ	fp	9	AMOD	_	_
+11	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	as	_	DA	DA	fp	2	DET	_	_
+2	autoridades	AUTORIDADE	CN	CN	fp	3	NSUBJ	_	_
+3	desconhecem	DESCONHECER	V	V	pi-3p	0	ROOT	_	_
+4	ainda	_	ADV	ADV	_	3	ADVMOD	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	local	LOCAL	CN	CN	ms	3	DOBJ	_	_
+7	proveniência	PROVENIÊNCIA	CN	CN	fs	6	POBJ	_	_
+8	o	_	DA	DA	ms	9	DET	_	_
+9	morteiro	MORTEIRO	CN	CN	ms	7	PREP_DE	_	_
+10	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	segurança	SEGURANÇA	CN	CN	fs	8	NSUBJPASS	_	_
+3	estações	ESTAÇÃO	CN	CN	fp	2	PREP_EM	_	_
+4	comboio	COMBOIO	CN	CN	ms	3	POBJ	_	_
+5	e	_	CJ	CJ	_	6	PRECONJ	_	_
+6	aeroportos	AEROPORTO	CN	CN	mp	2	PREP_EM	_	_
+7	franceses	FRANCÊS	ADJ	ADJ	mp	6	AMOD	_	_
+8	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+9	igualmente	_	ADV	ADV	_	8	ADVMOD	_	_
+10	reforçada	REFORÇAR,REFORÇADO	PPA	PPA	fs	8	AUXPASS	_	_
+11	.	_	PNT	PNT	_	8	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	situação	SITUAÇÃO	CN	CN	fs	5	NSUBJ	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	doente	DOENTE	CN	CN	ms	2	PREP_DE	_	_
+5	é	SER	V	V	pi-3s	0	ROOT	_	_
+6	estável	ESTÁVEL	ADJ	ADJ	fs	5	ACOMP	_	_
+7	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	já	_	ADV	ADV	_	3	ADVMOD	_	_
+2	não	_	ADV	ADV	_	3	NEG	_	_
+3	houve	HAVER	V	V	ppi-3s	0	ROOT	_	_
+4	aquele	_	DEM	DEM	ms	5	DET	_	_
+5	entusiasmo	ENTUSIASMO	CN	CN	ms	3	DOBJ	_	_
+6	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	química	QUÍMICA	CN	CN	fs	3	NSUBJ	_	_
+3	é	SER	V	V	pi-3s	0	ROOT	_	_
+4	importante	IMPORTANTE	ADJ	ADJ	fs	3	ACOMP	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	nós	_	PRS	PRS	mp1	4	PREP_PARA	_	_
+2	o	_	DA	DA	ms	3	DET	_	_
+3	rock	ROCK	CN	CN	ms	4	NSUBJ	_	_
+4	é	SER	V	V	pi-3s	0	ROOT	_	_
+5	inglês	INGLÊS	CN	CN	ms	4	PREP_EM	_	_
+6	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	portugal	portugal	PNM	PNM	_	0	ROOT	_	_
+2	primeiro	_	ADV	ADV	_	1	ADVMOD	_	_
+3	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	"	_	PNT	PNT	_	2	DEP	_	_
+2	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+3	uma	_	UM	UM	fs	5	DET	_	_
+4	grande	GRANDE	ADJ	ADJ	fs	5	AMOD	_	_
+5	pressão	PRESSÃO	CN	CN	fs	2	DOBJ	_	_
+6	nós	_	PRS	PRS	mp1	5	PREP_SOBRE	_	_
+7	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	nenhuma	_	QNT	QNT	fs	2	DET	_	_
+2	manobra	MANOBRA	CN	CN	fs	0	ROOT	_	_
+3	comercial	COMERCIAL	ADJ	ADJ	fs	2	AMOD	_	_
+4	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	intimidade	INTIMIDADE	CN	CN	fs	0	ROOT	_	_
+3	,	_	PNT	PNT	_	4	DEP	_	_
+4	outra	_	LADV1	LADV1	_	2	TMOD	_	_
+5	vez	_	LADV2	LADV2	_	4	MWE	_	_
+6	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	tranquilidade	TRANQUILIDADE	CN	CN	fs	0	ROOT	_	_
+2	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	gaia	_	PNM	PNM	_	6	PREP_DE	_	_
+2	,	_	PNT	PNT	_	6	DEP	_	_
+3	hip-hop	HIP-HOP	CN	CN	ms	6	PREP_COM	_	_
+4	,	_	PNT	PNT	_	6	DEP	_	_
+5	os	_	DA	DA	mp	6	DET	_	_
+6	dealema	dealema	PNM	PNM	_	0	ROOT	_	_
+7	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	o	_	DA	DA	ms	3	DET	_	_
+2	mesmo	MESMO	ADJ	ADJ	ms	3	AMOD	_	_
+3	realizador	REALIZADOR	CN	CN	ms	4	NSUBJ	_	_
+4	recriou	RECRIAR	V	V	ppi-3s	0	ROOT	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	cinema	CINEMA	CN	CN	ms	4	PREP_EM	_	_
+7	"	_	PNT	PNT	_	8	DEP	_	_
+8	ghost	_	PNM	PNM	_	4	DOBJ	_	_
+9	world	_	PNM	PNM	_	8	MWE	_	_
+10	"	_	PNT	PNT	_	8	DEP	_	_
+11	,	_	PNT	PNT	_	13	CC	_	_
+12	a	_	DA	DA	fs	13	DET	_	_
+13	bd	_	PNM	PNM	_	8	APPOS	_	_
+14	daniel	_	PNM	PNM	_	13	PREP_DE	_	_
+15	clowes	_	PNM	PNM	_	14	MWE	_	_
+16	,	_	PNT	PNT	_	18	CC	_	_
+17	outro	_	IND	IND	ms	18	DET	_	_
+18	autor	AUTOR	CN	CN	ms	14	APPOS	_	_
+19	de	_	PREP	PREP	_	18	PREP	_	_
+20	culto	CULTO	CN	CN	ms	19	POBJ	_	_
+21	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	agora	_	ADV	ADV	_	7	ADVMOD	_	_
+2	,	_	PNT	PNT	_	1	DEP	_	_
+3	"	_	PNT	PNT	_	4	DEP	_	_
+4	american	_	PNM	PNM	_	7	PREP_EM	_	_
+5	splendor	_	PNM	PNM	_	4	MWE	_	_
+6	"	_	PNT	PNT	_	4	DEP	_	_
+7	está	ESTAR	V	V	pi-3s	0	ROOT	_	_
+8	o	_	DA	DA	ms	9	DET	_	_
+9	universo	UNIVERSO	CN	CN	ms	7	NSUBJ	_	_
+10	harvey	_	PNM	PNM	_	9	PREP_DE	_	_
+11	pekar	_	PNM	PNM	_	10	MWE	_	_
+12	.	_	PNT	PNT	_	7	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	itinerário	ITINERÁRIO	CN	CN	ms	4	NSUBJ	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	anda	ANDAR	V	V	pi-3s	0	ROOT	_	_
+5	longe	_	ADV	ADV	_	4	ADVMOD	_	_
+6	a	_	DA	DA	fs	7	DET	_	_
+7	terra	TERRA	CN	CN	fs	5	PREP_DE	_	_
+8	de	_	PREP	PREP	_	7	MWE	_	_
+9	oz	_	PNM	PNM	_	7	MWE	_	_
+10	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	cinco	_	CARD	CARD	mp	2	NUMBER	_	_
+2	anos	ANO	CN	CN	mp	0	ROOT	_	_
+3	moeda	MOEDA	CN	CN	fs	2	PREP_DE	_	_
+4	única	ÚNICO	ADJ	ADJ	fs	3	AMOD	_	_
+5	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	começou	COMEÇAR	V	V	ppi-3s	0	ROOT	_	_
+2	uma	_	UM	UM	fs	5	DET	_	_
+3	"	_	PNT	PNT	_	5	DEP	_	_
+4	nova	NOVO	ADJ	ADJ	fs	5	AMOD	_	_
+5	fase	FASE	CN	CN	fs	1	NSUBJ	_	_
+6	"	_	PNT	PNT	_	5	DEP	_	_
+7	a	_	DA	DA	fs	8	DET	_	_
+8	educação	EDUCAÇÃO	CN	CN	fs	5	PREP_EM	_	_
+9	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	"	_	PNT	PNT	_	5	DEP	_	_
+2	os	_	DA	DA	mp	4	DET	_	_
+3	grandes	GRANDE	ADJ	ADJ	mp	4	AMOD	_	_
+4	acontecimentos	ACONTECIMENTO	CN	CN	mp	5	NSUBJ	_	_
+5	exigem	EXIGIR	V	V	pi-3p	0	ROOT	_	_
+6	grandes	GRANDE	ADJ	ADJ	mp	7	AMOD	_	_
+7	investimentos	INVESTIMENTO	CN	CN	mp	5	DOBJ	_	_
+8	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	resposta	RESPOSTA	CN	CN	fs	3	NSUBJ	_	_
+3	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+4	conclusiva	CONCLUSIVO	ADJ	ADJ	fs	3	ACOMP	_	_
+5	:	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	volume	VOLUME	CN	CN	ms	3	NSUBJ	_	_
+3	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+4	moderado	MODERAR,MODERADO	PPA	PPA	ms	3	AUXPASS	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	"	_	PNT	PNT	_	4	DEP	_	_
+2	os	_	DA	DA	mp	3	DET	_	_
+3	números	NÚMERO	CN	CN	mp	4	NSUBJ	_	_
+4	suscitam	SUSCITAR	V	V	pi-3p	0	ROOT	_	_
+5	algum	_	QNT	QNT	ms	6	DET	_	_
+6	desapontamento	DESAPONTAMENTO	CN	CN	ms	4	DOBJ	_	_
+7	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	seguem	SEGUIR	V	V	pi-3p	0	ROOT	_	_
+2	-se	_	CL	CL	gp3	1	DOBJ	_	_
+3	sessões	SESSÃO	CN	CN	fp	1	NSUBJ	_	_
+4	autógrafos	AUTÓGRAFO	CN	CN	mp	3	POBJ	_	_
+5	os	_	DA	DA	mp	6	DET	_	_
+6	grupos	GRUPO	CN	CN	mp	3	PREP_COM	_	_
+7	participantes	PARTICIPANTE	ADJ	ADJ	mp	6	AMOD	_	_
+8	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	concerto	CONCERTO	CN	CN	ms	0	ROOT	_	_
+2	vítor	_	PNM	PNM	_	1	PREP_DE	_	_
+3	rua	_	PNM	PNM	_	2	MWE	_	_
+4	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	fado	FADO	CN	CN	ms	0	ROOT	_	_
+2	cenário	CENÁRIO	CN	CN	ms	1	PREP_EM	_	_
+3	natural	NATURAL	ADJ	ADJ	ms	2	AMOD	_	_
+4	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	médicos	MÉDICO	CN	CN	mp	2	NSUBJ	_	_
+2	repudiam	REPUDIAR	V	V	pi-3p	0	ROOT	_	_
+3	críticas	CRÍTICA	CN	CN	fp	2	DOBJ	_	_
+
+1	trovadas	TROVOADA	CN	CN	fp	2	NSUBJ	_	_
+2	matam	MATAR	V	V	pi-3p	0	ROOT	_	_
+3	gado	GADO	CN	CN	ms	2	DOBJ	_	_
+
+1	autarcas	AUTARCA	CN	CN	gp	2	NSUBJ	_	_
+2	exigem	EXIGIR	V	V	pi-3p	0	ROOT	_	_
+3	despoluição	DESPOLUIÇÃO	CN	CN	fs	2	DOBJ	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	autor	AUTOR	CN	CN	ms	10	NSUBJ	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	comunicado	COMUNICADO	CN	CN	ms	2	PREP_DE	_	_
+5	,	_	PNT	PNT	_	2	DEP	_	_
+6	josé	_	PNM	PNM	_	2	APPOS	_	_
+7	azevedo	_	PNM	PNM	_	6	MWE	_	_
+8	,	_	PNT	PNT	_	2	DEP	_	_
+9	também	_	ADV	ADV	_	10	ADVMOD	_	_
+10	é	SER	V	V	pi-3s	0	ROOT	_	_
+11	militante	MILITANTE	ADJ	ADJ	ms	10	ACOMP	_	_
+12	o	_	DA	DA	ms	14	DET	_	_
+13	mesmo	MESMO	ADJ	ADJ	ms	14	AMOD	_	_
+14	partido	PARTIDO	CN	CN	ms	11	POBJ	_	_
+15	.	_	PNT	PNT	_	10	PUNCT	_	_
+
+1	decisão	DECISÃO	CN	CN	fs	2	NSUBJ	_	_
+2	criou	CRIAR	V	V	ppi-3s	0	ROOT	_	_
+3	algum	_	QNT	QNT	ms	4	DET	_	_
+4	pânico	PÂNICO	CN	CN	ms	2	DOBJ	_	_
+
+1	este	_	DEM	DEM	ms	2	DET	_	_
+2	momento	MOMENTO	CN	CN	ms	5	PREP_EM	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	situação	SITUAÇÃO	CN	CN	fs	5	NSUBJ	_	_
+5	é	SER	V	V	pi-3s	0	ROOT	_	_
+6	complexa	COMPLEXO	ADJ	ADJ	fs	5	ACOMP	_	_
+7	sob	_	PREP	PREP	_	5	PREP	_	_
+8	todos	_	QNT	QNT	mp	10	DET	_	_
+9	os	_	DA	DA	mp	10	DET	_	_
+10	pontos	PONTO	CN	CN	mp	7	POBJ	_	_
+11	vista	VISTA	CN	CN	fs	10	POBJ	_	_
+12	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	droga	DROGA	CN	CN	fs	2	NSUBJ	_	_
+2	causa	CAUSAR	V	V	pi-3s	0	ROOT	_	_
+3	homicídio	HOMICÍDIO	CN	CN	ms	2	DOBJ	_	_
+4	barcelos	_	PNM	PNM	_	2	PREP_EM	_	_
+
+1	bombeiros	BOMBEIRO	CN	CN	mp	2	NSUBJ	_	_
+2	celebram	CELEBRAR	V	V	pi-3p	0	ROOT	_	_
+3	bodas	BODA	CN	CN	fp	2	DOBJ	_	_
+4	diamante	DIAMANTE	CN	CN	ms	3	PREP_DE	_	_
+
+1	sindicatos	SINDICATO	CN	CN	mp	3	NSUBJ	_	_
+2	braga	_	PNM	PNM	_	1	PREP_DE	_	_
+3	desconfiam	DESCONFIAR	V	V	pi-3p	0	ROOT	_	_
+
+1	trabalhistas	TRABALHISTA	CN	CN	gp	2	NSUBJ	_	_
+2	solicitam	SOLICITAR	V	V	pi-3p	0	ROOT	_	_
+3	tribunal	TRIBUNAL	CN	CN	fs	2	PREP_A	_	_
+4	anulação	ANULAÇÃO	CN	CN	fs	2	DOBJ	_	_
+5	as	_	DA	DA	fp	6	DET	_	_
+6	eleições	ELEIÇÃO	CN	CN	fp	4	POBJ	_	_
+7	israel	_	PNM	PNM	_	6	PREP_EM	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	ficha	FICHA	CN	CN	fs	4	NSUBJPASS	_	_
+3	técnica	TÉCNICO	ADJ	ADJ	fs	2	AMOD	_	_
+4	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+5	ontem	_	ADV	ADV	_	4	ADVMOD	_	_
+6	publicada	PUBLICAR,PUBLICADO	PPA	PPA	fs	4	AUXPASS	_	_
+7	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	"	_	PNT	PNT	_	9	DEP	_	_
+2	mesmo	_	ADV	ADV	_	4	ADVMOD	_	_
+3	as	_	DA	DA	fp	4	DET	_	_
+4	mulheres	MULHER	CN	CN	fp	9	NSUBJ	_	_
+5	surdas	SURDO	ADJ	ADJ	fp	4	AMOD	_	_
+6	com	_	PREP	PREP	_	4	PREP	_	_
+7	filhos	FILHO	CN	CN	mp	6	POBJ	_	_
+8	surdos	SURDO	ADJ	ADJ	mp	7	AMOD	_	_
+9	vocalizam	VOCALIZAR	V	V	pi-3p	0	ROOT	_	_
+10	o	_	DA	DA	ms	11	DET	_	_
+11	ouvido	OUVIDO	CN	CN	ms	9	PREP_A	_	_
+12	de_	_	PREP	PREP	_	11	PREP	_	_
+13	as	_	DA	DA	fp	14	DET	_	_
+14	crianças	CRIANÇA	CN	CN	fp	12	POBJ	_	_
+15	"	_	PNT	PNT	_	9	DEP	_	_
+16	.	_	PNT	PNT	_	9	PUNCT	_	_
+
+1	amianto	AMIANTO	CN	CN	ms	2	NSUBJ	_	_
+2	provoca	PROVOCAR	V	V	pi-3s	0	ROOT	_	_
+3	processo	PROCESSO	CN	CN	ms	2	DOBJ	_	_
+4	frança	_	PNM	PNM	_	2	PREP_EM	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	ó	ó	ITJ	ITJ	_	0	ROOT	_	_
+3	que	_	CJ	CJ	_	2	MWE	_	_
+4	o	_	DA	DA	ms	2	MWE	_	_
+5	som	_	PNM	PNM	_	2	MWE	_	_
+6	tem	_	PNM	PNM	_	2	MWE	_	_
+7	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	fábrica	FÁBRICA	CN	CN	fs	3	NSUBJ	_	_
+2	carvão	CARVÃO	CN	CN	ms	1	POBJ	_	_
+3	incomoda	INCOMODAR	V	V	pi-3s	0	ROOT	_	_
+4	população	POPULAÇÃO	CN	CN	fs	3	DOBJ	_	_
+
+1	acidentes	ACIDENTE	CN	CN	mp	2	NSUBJ	_	_
+2	fazem	FAZER	V	V	pi-3p	0	ROOT	_	_
+3	dois	_	CARD	CARD	mp	4	NUMBER	_	_
+4	mortos	MORTO	CN	CN	mp	2	DOBJ	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	festival	FESTIVAL	CN	CN	ms	3	NSUBJ	_	_
+3	encerra	ENCERRAR	V	V	pi-3s	0	ROOT	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	noite	NOITE	CN	CN	fs	3	PREP_A	_	_
+6	a	_	DA	DA	fs	7	DET	_	_
+7	cantora	CANTOR	CN	CN	fs	3	PREP_COM	_	_
+8	de_	_	PREP	PREP	_	7	PREPC	_	_
+9	o	_	DA	DA	ms	10	DET	_	_
+10	benin	_	PNM	PNM	_	8	PCOMP	_	_
+11	,	_	PNT	PNT	_	7	DEP	_	_
+12	angélique	_	PNM	PNM	_	7	APPOS	_	_
+13	kidjo	_	PNM	PNM	_	12	MWE	_	_
+14	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	música	MÚSICA	CN	CN	fs	4	NSUBJ	_	_
+3	clássica	CLÁSSICO	ADJ	ADJ	fs	2	AMOD	_	_
+4	continua	CONTINUAR	V	V	pi-3s	0	ROOT	_	_
+5	dominar	DOMINAR	INF	INF	ninf	4	PREP_A	_	_
+6	a	_	DA	DA	fs	7	DET	_	_
+7	agenda	AGENDA	CN	CN	fs	5	DOBJ	_	_
+8	musical	MUSICAL	ADJ	ADJ	fs	7	AMOD	_	_
+9	estes	_	DEM	DEM	mp	10	DET	_	_
+10	dias	DIA	CN	CN	mp	7	POBJ	_	_
+11	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	programa	PROGRAMA	CN	CN	ms	3	NSUBJ	_	_
+3	inclui	INCLUIR	V	V	pi-3s	0	ROOT	_	_
+4	composições	COMPOSIÇÃO	CN	CN	fp	3	DOBJ	_	_
+5	mendelssohn	_	PNM	PNM	_	4	PREP_DE	_	_
+6	e	_	CJ	CJ	_	7	PRECONJ	_	_
+7	joão	_	PNM	PNM	_	4	PREP_DE	_	_
+8	domingos	_	PNM	PNM	_	7	MWE	_	_
+9	bomtempo	_	PNM	PNM	_	7	MWE	_	_
+10	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	programa	PROGRAMA	CN	CN	ms	3	NSUBJ	_	_
+3	inclui	INCLUIR	V	V	pi-3s	0	ROOT	_	_
+4	composições	COMPOSIÇÃO	CN	CN	fp	3	DOBJ	_	_
+5	joão	_	PNM	PNM	_	4	PREP_DE	_	_
+6	de	_	PREP	PREP	_	5	MWE	_	_
+7	sousa	_	PNM	PNM	_	5	MWE	_	_
+8	carvalho	_	PNM	PNM	_	5	MWE	_	_
+9	,	_	PNT	PNT	_	10	CC	_	_
+10	mozart	_	PNM	PNM	_	4	PREP_DE	_	_
+11	e	_	CJ	CJ	_	10	PRECONJ	_	_
+12	schubert	_	PNM	PNM	_	4	PREP_DE	_	_
+13	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	fogo	FOGO	CN	CN	ms	2	NSUBJ	_	_
+2	destrói	DESTRUIR	V	V	pi-3s	0	ROOT	_	_
+3	matas	MATA	CN	CN	fp	2	DOBJ	_	_
+4	pinho	_	PNM	PNM	_	2	PREP_EM	_	_
+
+1	despiste	DESPISTE	CN	CN	ms	2	NSUBJ	_	_
+2	causa	CAUSAR	V	V	pi-3s	0	ROOT	_	_
+3	dois	_	CARD	CARD	mp	4	NUMBER	_	_
+4	mortos	MORTO	CN	CN	mp	2	DOBJ	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	foto	FOTO	CN	CN	fs	11	NSUBJ	_	_
+3	de	_	PREP	PREP	_	2	PREPC	_	_
+4	"	_	PNT	PNT	_	5	DEP	_	_
+5	a	_	DA	DA	fs	3	PCOMP	_	_
+6	escuridão	_	PNM	PNM	_	5	MWE	_	_
+7	e	_	CJ	CJ	_	5	MWE	_	_
+8	o	_	DA	DA	ms	5	MWE	_	_
+9	brilho	_	PNM	PNM	_	5	MWE	_	_
+10	"	_	PNT	PNT	_	5	DEP	_	_
+11	refere	REFERIR	V	V	pi-3s	0	ROOT	_	_
+12	-se	_	CL	CL	fs3	11	DOBJ	_	_
+13	"	_	PNT	PNT	_	14	DEP	_	_
+14	teatro	_	PNM	PNM	_	11	PREP_A	_	_
+15	,	_	PNT	PNT	_	14	DEP	_	_
+16	alarme	_	PNM	PNM	_	14	MWE	_	_
+17	,	_	PNT	PNT	_	14	DEP	_	_
+18	explosão	_	PNM	PNM	_	14	MWE	_	_
+19	"	_	PNT	PNT	_	14	DEP	_	_
+20	.	_	PNT	PNT	_	11	PUNCT	_	_
+
+1	começaram	COMEÇAR	V	V	ppi-3p	0	ROOT	_	_
+2	as	_	DA	DA	fp	3	DET	_	_
+3	reuniões	REUNIÃO	CN	CN	fp	1	NSUBJ	_	_
+4	preparatórias	PREPARATÓRIO	ADJ	ADJ	fp	3	AMOD	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	feitura	FEITURA	CN	CN	fs	3	PREP_PARA	_	_
+7	os	_	DA	DA	mp	8	DET	_	_
+8	programas	PROGRAMA	CN	CN	mp	6	POBJ	_	_
+9	eleitorais	ELEITORAL	ADJ	ADJ	mp	8	AMOD	_	_
+10	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	governo	GOVERNO	CN	CN	ms	2	NSUBJ	_	_
+2	financia	FINANCIAR	V	V	pi-3s	0	ROOT	_	_
+3	emprego	EMPREGO	CN	CN	ms	2	DOBJ	_	_
+
+1	gás	GÁS	CN	CN	ms	3	NSUBJ	_	_
+2	natural	NATURAL	ADJ	ADJ	ms	1	AMOD	_	_
+3	está	ESTAR	V	V	pi-3s	0	ROOT	_	_
+4	chegar	CHEGAR	INF	INF	ninf	3	PREP_A	_	_
+
+1	conversas	CONVERSA	CN	CN	fp	6	NSUBJ	_	_
+2	agostinho	_	PNM	PNM	_	1	PREP_DE	_	_
+3	de_	_	PREP	PREP	_	2	MWE	_	_
+4	a	_	DA	DA	fs	2	MWE	_	_
+5	silva	_	PNM	PNM	_	2	MWE	_	_
+6	mantêm	MANTER	V	V	pi-3p	0	ROOT	_	_
+7	frescura	FRESCURA	CN	CN	fs	6	DOBJ	_	_
+8	e	_	CJ	CJ	_	9	PRECONJ	_	_
+9	actualidade	ACTUALIDADE	CN	CN	fs	6	DOBJ	_	_
+
+1	faculdade	FACULDADE	CN	CN	fs	2	NSUBJ	_	_
+2	dá	DAR	V	V	pi-3s	0	ROOT	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	cara	CARA	CN	CN	fs	2	DOBJ	_	_
+5	"	_	PNT	PNT	_	6	DEP	_	_
+6	spot	SPOT	CN	CN	ms	2	PREP_EM	_	_
+7	"	_	PNT	PNT	_	6	DEP	_	_
+8	comercial	COMERCIAL	ADJ	ADJ	ms	6	AMOD	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	farmacêuticos	FARMACÊUTICO	CN	CN	mp	4	NSUBJ	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	gostaram	GOSTAR	V	V	ppi-3p	0	ROOT	_	_
+5	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	cegos	CEGO	CN	CN	mp	4	NSUBJ	_	_
+3	também	_	ADV	ADV	_	4	ADVMOD	_	_
+4	pedalam	PEDALAR	V	V	pi-3p	0	ROOT	_	_
+
+1	férias	FÉRIAS	CN	CN	fp	2	NSUBJ	_	_
+2	fazem	FAZER	V	V	pi-3p	0	ROOT	_	_
+3	morte	MORTE	CN	CN	fs	2	DOBJ	_	_
+4	as	_	DA	DA	fp	5	DET	_	_
+5	estradas	ESTRADA	CN	CN	fp	3	PREP_EM	_	_
+
+1	comunidade	COMUNIDADE	CN	CN	fs	3	NSUBJ	_	_
+2	internacional	INTERNACIONAL	ADJ	ADJ	fs	1	AMOD	_	_
+3	aplaude	APLAUDIR	V	V	pi-3s	0	ROOT	_	_
+4	demissão	DEMISSÃO	CN	CN	fs	3	DOBJ	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	líder	LÍDER	CN	CN	ms	4	POBJ	_	_
+7	os	_	DA	DA	mp	8	DET	_	_
+8	sérvios	SÉRVIO	CN	CN	mp	6	PREP_DE	_	_
+9	de_	_	PREP	PREP	_	8	PREPC	_	_
+10	a	_	DA	DA	fs	11	DET	_	_
+11	bósnia	_	PNM	PNM	_	9	PCOMP	_	_
+
+1	arrepiou	ARREPIAR	V	V	ppi-3s	0	ROOT	_	_
+2	-se	_	CL	CL	ms3	1	DOBJ	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	reino	REINO	CN	CN	ms	1	NSUBJ	_	_
+5	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	psd	_	PNM	PNM	_	5	PREP_EM	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	hora	HORA	CN	CN	fs	5	NSUBJ	_	_
+5	é	SER	V	V	pi-3s	0	ROOT	_	_
+6	de	_	PREP	PREP	_	5	PREP	_	_
+7	silêncio	SILÊNCIO	CN	CN	ms	6	POBJ	_	_
+8	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	rendimento	RENDIMENTO	CN	CN	ms	3	NSUBJ	_	_
+2	mínimo	MÍNIMO	ADJ	ADJ	ms	1	AMOD	_	_
+3	arranca	ARRANCAR	V	V	pi-3s	0	ROOT	_	_
+4	16	_	DGT	DGT	_	5	NUM	_	_
+5	freguesias	FREGUESIA	CN	CN	fp	3	PREP_EM	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	continente	CONTINENTE	CN	CN	ms	5	POBJ	_	_
+8	e	_	CJ	CJ	_	9	PRECONJ	_	_
+9	ilhas	ILHA	CN	CN	fp	5	POBJ	_	_
+
+1	obras	OBRA	CN	CN	fp	6	NSUBJ	_	_
+2	de_	_	PREP	PREP	_	1	PREPC	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	eixo	_	PNM	PNM	_	2	PCOMP	_	_
+5	norte-sul	_	PNM	PNM	_	4	MWE	_	_
+6	mudam	MUDAR	V	V	pi-3p	0	ROOT	_	_
+7	tráfego	TRÁFEGO	CN	CN	ms	6	DOBJ	_	_
+8	a	_	DA	DA	fs	9	DET	_	_
+9	calçada	_	PNM	PNM	_	7	PREP_EM	_	_
+10	de	_	PREP	PREP	_	9	MWE	_	_
+11	carriche	_	PNM	PNM	_	9	MWE	_	_
+
+1	tribunal	TRIBUNAL	CN	CN	ms	3	NSUBJ	_	_
+2	espanhol	ESPANHOL	ADJ	ADJ	ms	1	AMOD	_	_
+3	inviabiliza	INVIABILIZAR	V	V	pi-3s	0	ROOT	_	_
+4	transvases	TRANSVASE	CN	CN	mp	3	DOBJ	_	_
+
+1	programa	PROGRAMA	CN	CN	fs	2	NSUBJ	_	_
+2	arranca	ARRANCAR	V	V	pi-3s	0	ROOT	_	_
+3	hoje	_	ADV	ADV	_	2	ADVMOD	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	continente	CONTINENTE	CN	CN	ms	2	PREP_EM	_	_
+6	e	_	CJ	CJ	_	7	PRECONJ	_	_
+7	ilhas	ILHA	CN	CN	fp	2	PREP_EM	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	escândalo	ESCÂNDALO	CN	CN	ms	4	NSUBJ	_	_
+3	sumitomo	_	PNM	PNM	_	2	APPOS	_	_
+4	continua	CONTINUAR	V	V	pi-3s	0	ROOT	_	_
+5	condicionar	CONDICIONAR	INF	INF	ninf	4	PREP_A	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	cobre	COBRE	CN	CN	ms	5	DOBJ	_	_
+8	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	as	_	DA	DA	fp	2	DET	_	_
+2	declarações	DECLARAÇÃO	CN	CN	fp	11	NSUBJ	_	_
+3	oficiais	OFICIAL	ADJ	ADJ	fp	2	AMOD	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	reunião	REUNIÃO	CN	CN	fs	2	POBJ	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	grupo	_	PNM	PNM	_	5	PREP_DE	_	_
+8	de_	_	PREP	PREP	_	7	MWE	_	_
+9	os	_	DA	DA	mp	7	MWE	_	_
+10	sete	_	PNM	PNM	_	7	MWE	_	_
+11	tiveram	TER	V	V	ppi-3p	0	ROOT	_	_
+12	um	_	UM	UM	ms	13	DET	_	_
+13	impacte	IMPACTE	CN	CN	ms	11	DOBJ	_	_
+14	muito	_	ADV	ADV	_	15	ADVMOD	_	_
+15	limitado	LIMITAR,LIMITADO	PPA	PPA	ms	13	AMOD	_	_
+16	.	_	PNT	PNT	_	11	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	reposição	REPOSIÇÃO	CN	CN	fs	7	NSUBJ	_	_
+3	assaï	_	PNM	PNM	_	2	PREP_DE	_	_
+4	,	_	PNT	PNT	_	2	DEP	_	_
+5	montpellier	_	PNM	PNM	_	2	PREP_EM	_	_
+6	,	_	PNT	PNT	_	2	DEP	_	_
+7	constituiu	CONSTITUIR	V	V	ppi-3s	0	ROOT	_	_
+8	um	_	UM	UM	ms	9	DET	_	_
+9	acontecimento	ACONTECIMENTO	CN	CN	ms	7	DOBJ	_	_
+10	.	_	PNT	PNT	_	7	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	esperança	ESPERANÇA	CN	CN	fs	3	NSUBJ	_	_
+3	vai	IR	V	V	pi-3s	0	ROOT	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	floricultura	FLORICULTURA	CN	CN	fs	3	POBJ	_	_
+6	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	sectores	SECTOR	CN	CN	mp	0	ROOT	_	_
+2	agonia	AGONIA	CN	CN	fs	1	PREP_EM	_	_
+3	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	conversas	CONVERSA	CN	CN	fp	6	NSUBJ	_	_
+2	agostinho	_	PNM	PNM	_	1	PREP_DE	_	_
+3	de_	_	PREP	PREP	_	2	MWE	_	_
+4	a	_	DA	DA	fs	2	MWE	_	_
+5	silva	_	PNM	PNM	_	2	MWE	_	_
+6	mantêm	MANTER	V	V	pi-3p	0	ROOT	_	_
+7	frescura	FRESCURA	CN	CN	fs	6	DOBJ	_	_
+8	e	_	CJ	CJ	_	9	PRECONJ	_	_
+9	actualidade	ACTUALIDADE	CN	CN	fs	6	DOBJ	_	_
+
+1	comunidade	COMUNIDADE	CN	CN	fs	3	NSUBJ	_	_
+2	internacional	INTERNACIONAL	ADJ	ADJ	fs	1	AMOD	_	_
+3	aplaude	APLAUDIR	V	V	pi-3s	0	ROOT	_	_
+4	demissão	DEMISSÃO	CN	CN	fs	3	DOBJ	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	líder	LÍDER	CN	CN	ms	4	POBJ	_	_
+7	os	_	DA	DA	mp	8	DET	_	_
+8	sérvios	SÉRVIO	CN	CN	mp	6	PREP_DE	_	_
+9	de_	_	PREP	PREP	_	8	PREPC	_	_
+10	a	_	DA	DA	fs	11	DET	_	_
+11	bósnia	_	PNM	PNM	_	9	PCOMP	_	_
+
+1	arrepiou	ARREPIAR	V	V	ppi-3s	0	ROOT	_	_
+2	-se	_	CL	CL	ms3	1	DOBJ	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	reino	REINO	CN	CN	ms	1	NSUBJ	_	_
+5	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	arrepiou	ARREPIAR	V	V	ppi-3s	0	ROOT	_	_
+2	-se	_	CL	CL	ms3	1	DOBJ	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	reino	REINO	CN	CN	ms	1	NSUBJ	_	_
+5	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	tribunal	TRIBUNAL	CN	CN	ms	3	NSUBJ	_	_
+2	espanhol	ESPANHOL	ADJ	ADJ	ms	1	AMOD	_	_
+3	inviabiliza	INVIABILIZAR	V	V	pi-3s	0	ROOT	_	_
+4	transvases	TRANSVASE	CN	CN	mp	3	DOBJ	_	_
+
+1	não	_	ADV	ADV	_	2	NEG	_	_
+2	haverá	HAVER	V	V	fi-3s	0	ROOT	_	_
+3	transvases	TRANSVASE	CN	CN	mp	2	DOBJ	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	douro	_	PNM	PNM	_	2	PREP_EM	_	_
+6	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	venceu	VENCER	V	V	ppi-3s	0	ROOT	_	_
+2	a	_	DA	DA	fs	3	DET	_	_
+3	tese	TESE	CN	CN	fs	1	NSUBJ	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	ps	_	PNM	PNM	_	3	PREP_DE	_	_
+6	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	tempo	TEMPO	CN	CN	ms	0	ROOT	_	_
+2	fresco	FRESCO	ADJ	ADJ	ms	1	AMOD	_	_
+3	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	programa	PROGRAMA	CN	CN	ms	2	NSUBJ	_	_
+2	arranca	ARRANCAR	V	V	pi-3s	0	ROOT	_	_
+3	hoje	_	ADV	ADV	_	2	ADVMOD	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	continente	CONTINENTE	CN	CN	ms	2	PREP_EM	_	_
+6	e	_	CJ	CJ	_	7	PRECONJ	_	_
+7	ilhas	ILHA	CN	CN	fp	2	PREP_EM	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	camisola	CAMISOLA	CN	CN	fs	5	NSUBJ	_	_
+3	amarela	AMARELO	ADJ	ADJ	fs	2	AMOD	_	_
+4	não	_	ADV	ADV	_	5	NEG	_	_
+5	mudou	MUDAR	V	V	ppi-3s	0	ROOT	_	_
+6	dorso	DORSO	CN	CN	ms	5	POBJ	_	_
+7	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	oposição	OPOSIÇÃO	CN	CN	fs	2	NSUBJ	_	_
+2	aponta	APONTAR	V	V	pi-3s	0	ROOT	_	_
+3	caminhos	CAMINHO	CN	CN	mp	2	DOBJ	_	_
+
+1	também	_	ADV	ADV	_	4	ADVMOD	_	_
+2	também	_	ADV	ADV	_	11	ADVMOD	_	_
+3	esta	_	DEM	DEM	fs	4	DET	_	_
+4	área	ÁREA	CN	CN	fs	8	PREP_EM	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	legislação	LEGISLAÇÃO	CN	CN	fs	8	NSUBJ	_	_
+7	actual	ACTUAL	ADJ	ADJ	fs	6	AMOD	_	_
+8	apresenta	APRESENTAR	V	V	pi-3s	0	ROOT	_	_
+9	,	_	PNT	PNT	_	8	DEP	_	_
+10	o	_	DA	DA	ms	11	DET	_	_
+11	psiquiatra	PSIQUIATRA	CN	CN	ms	8	PREP_SEGUNDO	_	_
+12	,	_	PNT	PNT	_	8	DEP	_	_
+13	algumas	_	QNT	QNT	fp	14	DET	_	_
+14	lacunas	LACUNA	CN	CN	fp	8	DOBJ	_	_
+15	.	_	PNT	PNT	_	8	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	psd	_	PNM	PNM	_	5	PREP_EM	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	hora	HORA	CN	CN	fs	5	NSUBJ	_	_
+5	é	SER	V	V	pi-3s	0	ROOT	_	_
+6	de	_	PREP	PREP	_	5	PREP	_	_
+7	silêncio	SILÊNCIO	CN	CN	ms	6	POBJ	_	_
+8	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+2	,	_	PNT	PNT	_	1	DEP	_	_
+3	ainda	_	ADV	ADV	_	1	ADVMOD	_	_
+4	,	_	PNT	PNT	_	1	DEP	_	_
+5	aprovada	APROVAR,APROVADO	PPA	PPA	fs	1	AUXPASS	_	_
+6	a	_	DA	DA	fs	7	DET	_	_
+7	realização	REALIZAÇÃO	CN	CN	fs	1	NSUBJPASS	_	_
+8	um	_	UM	UM	ms	10	DET	_	_
+9	novo	NOVO	ADJ	ADJ	ms	10	AMOD	_	_
+10	congresso	CONGRESSO	CN	CN	ms	7	POBJ	_	_
+11	,	_	PNT	PNT	_	12	DEP	_	_
+12	dentro	_	ADV	ADV	_	7	ADVMOD	_	_
+13	cinco	_	CARD	CARD	mp	14	NUMBER	_	_
+14	anos	ANO	CN	CN	mp	12	PREP_DE	_	_
+15	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	essa	_	DEM	DEM	fs	2	DET	_	_
+2	medida	MEDIDA	CN	CN	fs	5	PREP_EM	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	selecção	SELECÇÃO	CN	CN	fs	5	NSUBJ	_	_
+5	cumpriu	CUMPRIR	V	V	ppi-3s	0	ROOT	_	_
+6	portugal	_	PNM	PNM	_	5	DOBJ	_	_
+7	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	"	_	PNT	PNT	_	5	DEP	_	_
+2	as	_	DA	DA	fp	3	DET	_	_
+3	brasileiras	BRASILEIRO	CN	CN	fp	5	NSUBJ	_	_
+4	não	_	ADV	ADV	_	5	NEG	_	_
+5	sabiam	SABER	V	V	ii-3p	0	ROOT	_	_
+6	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	vó	_	PNM	PNM	_	6	PREP_PARA	_	_
+2	aurora	_	PNM	PNM	_	1	MWE	_	_
+3	"	_	PNT	PNT	_	6	DEP	_	_
+4	aquela	_	DEM	DEM	fs	5	DET	_	_
+5	vida	VIDA	CN	CN	fs	6	NSUBJ	_	_
+6	era	SER	V	V	ii-3s	0	ROOT	_	_
+7	boa	BOM	ADJ	ADJ	fs	6	ACOMP	_	_
+8	.	_	PNT	PNT	_	6	PUNCT	_	_
+
+1	a	_	DA	DA	fs	3	DET	_	_
+2	"	_	PNT	PNT	_	3	DEP	_	_
+3	presidência	PRESIDÊNCIA	CN	CN	fs	9	NSUBJPASS	_	_
+4	imperial	IMPERIAL	ADJ	ADJ	fs	3	AMOD	_	_
+5	"	_	PNT	PNT	_	3	DEP	_	_
+6	,	_	PNT	PNT	_	3	DEP	_	_
+7	mítica	MÍTICO	ADJ	ADJ	fs	3	AMOD	_	_
+8	,	_	PNT	PNT	_	3	DEP	_	_
+9	seria	SER	V	V	c-3s	0	ROOT	_	_
+10	destruída	DESTRUIR,DESTRUÍDO	PPA	PPA	fs	9	AUXPASS	_	_
+11	.	_	PNT	PNT	_	9	PUNCT	_	_
+
+1	"	_	PNT	PNT	_	2	DEP	_	_
+2	é	SER	V	V	pi-3s	0	ROOT	_	_
+3	preciso	PRECISAR,PRECISO	PPA	PPA	ms	2	AUXPASS	_	_
+4	um	_	UM	UM	ms	5	DET	_	_
+5	renascimento	RENASCIMENTO	CN	CN	ms	2	NSUBJ	_	_
+6	cultural	CULTURAL	ADJ	ADJ	ms	5	AMOD	_	_
+7	.	_	PNT	PNT	_	2	PUNCT	_	_
+8	"	_	PNT	PNT	_	2	DEP	_	_
+
+1	faculdade	FACULDADE	CN	CN	fs	2	NSUBJ	_	_
+2	dá	DAR	V	V	pi-3s	0	ROOT	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	cara	CARA	CN	CN	fs	2	DOBJ	_	_
+5	"	_	PNT	PNT	_	6	DEP	_	_
+6	spot	SPOT	CN	CN	ms	2	PREP_EM	_	_
+7	"	_	PNT	PNT	_	6	DEP	_	_
+8	comercial	COMERCIAL	ADJ	ADJ	ms	6	AMOD	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	farmacêuticos	FARMACÊUTICO	CN	CN	mp	4	NSUBJ	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	gostaram	GOSTAR	V	V	ppi-3p	0	ROOT	_	_
+5	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	os	_	DA	DA	mp	3	DET	_	_
+2	seus	_	POSS	POSS	mp	3	POSS	_	_
+3	argumentos	ARGUMENTO	CN	CN	mp	4	NSUBJ	_	_
+4	são	SER	V	V	pi-3p	0	ROOT	_	_
+5	bastante	_	ADV	ADV	_	6	ADVMOD	_	_
+6	significativos	SIGNIFICATIVO	ADJ	ADJ	mp	4	ACOMP	_	_
+7	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	maioria	MAIORIA	CN	CN	fs	5	NSUBJ	_	_
+3	os	_	DA	DA	mp	4	DET	_	_
+4	analistas	ANALISTA	CN	CN	mp	2	POBJ	_	_
+5	está	ESTAR	V	V	pi-3s	0	ROOT	_	_
+6	,	_	PNT	PNT	_	5	DEP	_	_
+7	contudo	_	ADV	ADV	_	5	ADVMOD	_	_
+8	,	_	PNT	PNT	_	5	DEP	_	_
+9	indecisa	INDECISO	ADJ	ADJ	fs	5	ACOMP	_	_
+10	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	conselhos	CONSELHO	CN	CN	mp	8	NSUBJPASS	_	_
+3	,	_	PNT	PNT	_	8	DEP	_	_
+4	também	_	ADV	ADV	_	5	ADVMOD	_	_
+5	aqui	_	ADV	ADV	_	8	ADVMOD	_	_
+6	,	_	PNT	PNT	_	8	DEP	_	_
+7	não	_	ADV	ADV	_	8	NEG	_	_
+8	são	SER	V	V	pi-3p	0	ROOT	_	_
+9	pagos	PAGAR,PAGO	PPA	PPA	mp	8	AUXPASS	_	_
+10	.	_	PNT	PNT	_	8	PUNCT	_	_
+
+1	os	_	DA	DA	mp	3	DET	_	_
+2	bons	BOM	ADJ	ADJ	mp	3	AMOD	_	_
+3	clientes	CLIENTE	CN	CN	mp	4	PREP_PARA	_	_
+4	está	ESTAR	V	V	pi-3s	0	ROOT	_	_
+5	em	_	PREP	PREP	_	4	PREP	_	_
+6	preparação	PREPARAÇÃO	CN	CN	fs	5	POBJ	_	_
+7	um	_	UM	UM	ms	9	DET	_	_
+8	"	_	PNT	PNT	_	9	DEP	_	_
+9	cartão-cliente	CARTÃO-CLIENTE	CN	CN	ms	4	NSUBJ	_	_
+10	"	_	PNT	PNT	_	9	DEP	_	_
+11	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	não	_	ADV	ADV	_	2	NEG	_	_
+2	houve	HAVER	V	V	ppi-3s	0	ROOT	_	_
+3	nenhuma	_	QNT	QNT	fs	4	DET	_	_
+4	manifestação	MANIFESTAÇÃO	CN	CN	fs	2	DOBJ	_	_
+5	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	cegos	CEGO	CN	CN	mp	4	NSUBJ	_	_
+3	também	_	ADV	ADV	_	4	ADVMOD	_	_
+4	pedalam	PEDALAR	V	V	pi-3p	0	ROOT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	conforto	CONFORTO	CN	CN	ms	3	NSUBJ	_	_
+3	baixa	BAIXAR	V	V	pi-3s	0	ROOT	_	_
+4	as	_	DA	DA	fp	5	DET	_	_
+5	guardas	GUARDA	CN	CN	fp	3	DOBJ	_	_
+6	e	_	CJ	CJ	_	8	PRECONJ	_	_
+7	a	_	DA	DA	fs	8	DET	_	_
+8	atenção	ATENÇÃO	CN	CN	fs	3	DOBJ	_	_
+9	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	acordos	ACORDO	CN	CN	mp	4	NSUBJ	_	_
+3	parceria	PARCERIA	CN	CN	fs	2	PREP_DE	_	_
+4	serão	SER	V	V	fi-3p	0	ROOT	_	_
+5	fundamentais	FUNDAMENTAL	ADJ	ADJ	mp	4	ACOMP	_	_
+6	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	as	_	DA	DA	fp	2	DET	_	_
+2	necessidades	NECESSIDADE	CN	CN	fp	3	NSUBJ	_	_
+3	são	SER	V	V	pi-3p	0	ROOT	_	_
+4	globais	GLOBAL	ADJ	ADJ	fp	3	ACOMP	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	existem	EXISTIR	V	V	pi-3p	0	ROOT	_	_
+2	por_	_	LADV1	LADV1	_	6	DET	_	_
+3	o	_	LADV2	LADV2	_	2	MWE	_	_
+4	menos	_	LADV3	LADV3	_	2	MWE	_	_
+5	quatro	_	CARD	CARD	mp	2	DEP	_	_
+6	grupos	GRUPO	CN	CN	mp	1	NSUBJ	_	_
+7	white	_	PNM	PNM	_	6	PREP_DE	_	_
+8	cloud	_	PNM	PNM	_	7	MWE	_	_
+9	funções	FUNÇÃO	CN	CN	fp	6	PREP_EM	_	_
+10	polares	POLAR	ADJ	ADJ	fp	9	AMOD	_	_
+11	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	sete	_	CARD	CARD	mp	2	NUMBER	_	_
+2	casos	CASO	CN	CN	mp	3	NSUBJPASS	_	_
+3	foram	SER	V	V	ppi-3p	0	ROOT	_	_
+4	assinalados	ASSINALAR,ASSINALADO	PPA	PPA	mp	3	AUXPASS	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	triatleta	TRIATLETA	CN	CN	fs	3	NSUBJ	_	_
+2	portuguesa	PORTUGUÊS	ADJ	ADJ	fs	1	AMOD	_	_
+3	participou	PARTICIPAR	V	V	ppi-3s	0	ROOT	_	_
+4	três	_	CARD	CARD	fp	5	NUMBER	_	_
+5	vezes	VEZ	CN	CN	fp	3	PREP_POR	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	iron	_	PNM	PNM	_	3	PREP_EM	_	_
+8	man	_	PNM	PNM	_	7	MWE	_	_
+
+1	grupo	GRUPO	CN	CN	ms	3	NSUBJ	_	_
+2	bcp	_	PNM	PNM	_	1	APPOS	_	_
+3	absorve	ABSORVER	V	V	pi-3s	0	ROOT	_	_
+4	bcm	_	PNM	PNM	_	3	DOBJ	_	_
+
+1	mercado	MERCADO	CN	CN	ms	2	NSUBJ	_	_
+2	absorve	ABSORVER	V	V	pi-3s	0	ROOT	_	_
+3	crude	CRUDE	CN	CN	ms	2	DOBJ	_	_
+4	iraquiano	IRAQUIANO	ADJ	ADJ	ms	3	AMOD	_	_
+
+1	gestor	GESTOR	CN	CN	ms	4	NSUBJ	_	_
+2	judicial	JUDICIAL	ADJ	ADJ	ms	1	AMOD	_	_
+3	notável	NOTÁVEL	ADJ	ADJ	ms	1	AMOD	_	_
+4	devia	DEVER	V	V	ii-3s	0	ROOT	_	_
+5	milhares	_	MGT	MGT	mp	4	DOBJ	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	fisco	FISCO	CN	CN	ms	4	PREP_A	_	_
+
+1	terminam	TERMINAR	V	V	pi-3p	0	ROOT	_	_
+2	inscrições	INSCRIÇÃO	CN	CN	mp	1	NSUBJ	_	_
+3	exames	EXAME	CN	CN	mp	2	POBJ	_	_
+
+1	depois	_	ADV	ADV	_	7	ADVMOD	_	_
+2	o	_	DA	DA	ms	3	DET	_	_
+3	incidente	INCIDENTE	CN	CN	ms	1	PREP_DE	_	_
+4	,	_	PNT	PNT	_	1	DEP	_	_
+5	os	_	DA	DA	mp	6	DET	_	_
+6	populares	POPULAR	CN	CN	mp	7	NSUBJ	_	_
+7	fugiram	FUGIR	V	V	ppi-3p	0	ROOT	_	_
+8	as	_	DA	DA	fp	9	DET	_	_
+9	montanhas	MONTANHA	CN	CN	fp	7	POBJ	_	_
+10	.	_	PNT	PNT	_	7	PUNCT	_	_
+
+1	administrador	ADMINISTRADOR	CN	CN	ms	4	NSUBJ	_	_
+2	judicial	JUDICIAL	ADJ	ADJ	ms	1	AMOD	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	pagava	PAGAR	V	V	ii-3s	0	ROOT	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	fisco	FISCO	CN	CN	ms	4	PREP_A	_	_
+
+1	seis	_	CARD	CARD	mp	2	NUMBER	_	_
+2	presidentes	PRESIDENTE	CN	CN	mp	0	ROOT	_	_
+3	câmara	CÂMARA	CN	CN	fs	2	POBJ	_	_
+4	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	governo	GOVERNO	CN	CN	ms	2	NSUBJ	_	_
+2	dá	DAR	V	V	pi-3s	0	ROOT	_	_
+3	casas	CASA	CN	CN	fp	2	DOBJ	_	_
+
+1	triatleta	TRIATLETA	CN	CN	fs	3	NSUBJ	_	_
+2	portuguesa	PORTUGUÊS	ADJ	ADJ	fs	1	AMOD	_	_
+3	participou	PARTICIPAR	V	V	ppi-3s	0	ROOT	_	_
+4	três	_	CARD	CARD	fp	5	NUMBER	_	_
+5	vezes	VEZ	CN	CN	fp	3	PREP_POR	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	iron	_	PNM	PNM	_	3	PREP_EM	_	_
+8	man	_	PNM	PNM	_	7	MWE	_	_
+
+1	uma	_	UM	UM	fs	3	DET	_	_
+2	verdadeira	VERDADEIRO	ADJ	ADJ	fs	3	AMOD	_	_
+3	identificação	IDENTIFICAÇÃO	CN	CN	fs	0	ROOT	_	_
+4	os	_	DA	DA	mp	5	DET	_	_
+5	objectivos	OBJECTIVO	CN	CN	mp	3	PREP_EM	_	_
+6	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	seis	_	CARD	CARD	mp	2	NUMBER	_	_
+2	presidentes	PRESIDENTE	CN	CN	mp	0	ROOT	_	_
+3	câmara	CÂMARA	CN	CN	fs	2	POBJ	_	_
+4	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	triatleta	TRIATLETA	CN	CN	fs	4	NSUBJ	_	_
+3	portuguesa	PORTUGUÊS	ADJ	ADJ	fs	2	AMOD	_	_
+4	tem	TER	V	V	pi-3s	0	ROOT	_	_
+5	muitos	_	QNT	QNT	mp	6	DET	_	_
+6	admiradores	ADMIRADOR	CN	CN	mp	4	DOBJ	_	_
+7	roth	_	PNM	PNM	_	4	PREP_EM	_	_
+8	:	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	fumo	FUMO	CN	CN	ms	7	NSUBJPASS	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	refeitório	REFEITÓRIO	CN	CN	ms	7	PREP_EM	_	_
+5	"	_	PNT	PNT	_	7	DEP	_	_
+6	nunca	_	ADV	ADV	_	7	ADVMOD	_	_
+7	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+8	proibido	PROIBIR,PROIBIDO	PPA	PPA	ms	7	AUXPASS	_	_
+9	.	_	PNT	PNT	_	7	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	género	GÉNERO	CN	CN	ms	5	PREP_EM	_	_
+3	um	_	UM	UM	ms	5	DET	_	_
+4	grande	GRANDE	ADJ	ADJ	ms	5	AMOD	_	_
+5	filme	FILME	CN	CN	ms	0	ROOT	_	_
+6	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	grupo	GRUPO	CN	CN	ms	3	NSUBJ	_	_
+2	bcp	_	PNM	PNM	_	1	APPOS	_	_
+3	absorve	ABSORVER	V	V	pi-3s	0	ROOT	_	_
+4	bcm	_	PNM	PNM	_	3	DOBJ	_	_
+
+1	gestor	GESTOR	CN	CN	ms	4	NSUBJ	_	_
+2	judicial	JUDICIAL	ADJ	ADJ	ms	1	AMOD	_	_
+3	notável	NOTÁVEL	ADJ	ADJ	ms	1	AMOD	_	_
+4	devia	DEVER	V	V	ii-3s	0	ROOT	_	_
+5	milhares	_	MGT	MGT	mp	4	DOBJ	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	fisco	FISCO	CN	CN	ms	4	PREP_A	_	_
+
+1	guimarães	_	PNM	PNM	_	4	PREP_EM	_	_
+2	o	_	DA	DA	ms	3	DET	_	_
+3	panorama	PANORAMA	CN	CN	ms	4	NSUBJ	_	_
+4	é	SER	V	V	pi-3s	0	ROOT	_	_
+5	semelhante	SEMELHANTE	ADJ	ADJ	ms	4	ACOMP	_	_
+6	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	governo	GOVERNO	CN	CN	ms	2	NSUBJ	_	_
+2	dá	DAR	V	V	pi-3s	0	ROOT	_	_
+3	casas	CASA	CN	CN	fp	2	DOBJ	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	argentinos	ARGENTINO	CN	CN	mp	3	NSUBJ	_	_
+3	falharam	FALHAR	V	V	ppi-3p	0	ROOT	_	_
+4	o	_	DA	DA	ms	5	DET	_	_
+5	penalty	PENALTY	CN	CN	ms	3	DOBJ	_	_
+6	,	_	PNT	PNT	_	16	DEP	_	_
+7	em_	_	LCJ1	LCJ1	_	11	MWE	_	_
+8	a	_	LCJ2	LCJ2	_	11	MWE	_	_
+9	medida	_	LCJ3	LCJ3	_	11	MWE	_	_
+10	em	_	LCJ4	LCJ4	_	11	MWE	_	_
+11	que	_	LCJ5	LCJ5	_	16	PCOMP	_	_
+12	um	_	UM	UM	ms	13	DET	_	_
+13	penalty	PENALTY	CN	CN	ms	16	NSUBJ	_	_
+14	bem	_	ADV	ADV	_	15	ADVMOD	_	_
+15	marcado	MARCAR,MARCADO	PPA	PPA	ms	13	AMOD	_	_
+16	é	SER	V	V	pi-3s	17	PREPC	_	_
+17	indefensável	INDEFENSÁVEL	ADJ	ADJ	ms	3	COP	_	_
+18	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+2	ainda	_	ADV	ADV	_	1	ADVMOD	_	_
+3	numerosos	_	QNT	QNT	mp	4	DET	_	_
+4	boletins	BOLETIM	CN	CN	mp	1	DOBJ	_	_
+5	maçónicos	MAÇÓNICO	ADJ	ADJ	mp	4	AMOD	_	_
+6	,	_	PNT	PNT	_	7	DEP	_	_
+7	espíritas	ESPÍRITA	ADJ	ADJ	mp	4	AMOD	_	_
+8	e	_	CJ	CJ	_	9	PRECONJ	_	_
+9	teosóficos	TEOSÓFICO	ADJ	ADJ	mp	4	AMOD	_	_
+10	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	uma	_	UM	UM	fs	2	DET	_	_
+2	mulher	MULHER	CN	CN	fs	3	NSUBJ	_	_
+3	entra	ENTRAR	V	V	pi-3s	0	ROOT	_	_
+4	pânico	PÂNICO	CN	CN	ms	3	POBJ	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	esses	_	DEM	DEM	mp	3	DET	_	_
+2	dois	_	CARD	CARD	mp	3	NUMBER	_	_
+3	trabalhos	TRABALHO	CN	CN	mp	4	NSUBJ	_	_
+4	destacam	DESTACAR	V	V	pi-3p	0	ROOT	_	_
+5	ainda	_	ADV	ADV	_	4	ADVMOD	_	_
+6	situações	SITUAÇÃO	CN	CN	fp	4	DOBJ	_	_
+7	insegurança	INSEGURANÇA	CN	CN	fs	6	PREP_DE	_	_
+8	em	_	PREP	PREP	_	7	PREP	_	_
+9	parques	PARQUE	CN	CN	mp	8	POBJ	_	_
+10	infantis	INFANTIL	ADJ	ADJ	mp	9	AMOD	_	_
+11	e	_	CJ	CJ	_	13	PRECONJ	_	_
+12	mesmo	_	ADV	ADV	_	13	ADVMOD	_	_
+13	em	_	PREP	PREP	_	7	PREP	_	_
+14	escolas	ESCOLA	CN	CN	fp	13	POBJ	_	_
+15	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	comissão	COMISSÃO	CN	CN	fs	7	NSUBJ	_	_
+2	nacional	_	PNM	PNM	_	1	MWE	_	_
+3	de	_	PREP	PREP	_	1	MWE	_	_
+4	justiça	_	PNM	PNM	_	1	MWE	_	_
+5	e	_	CJ	CJ	_	1	MWE	_	_
+6	paz	_	PNM	PNM	_	1	MWE	_	_
+7	discute	DISCUTIR	V	V	pi-3s	0	ROOT	_	_
+8	nova	NOVO	ADJ	ADJ	fs	9	AMOD	_	_
+9	ética	ÉTICA	CN	CN	fs	7	DOBJ	_	_
+10	as	_	DA	DA	fp	11	DET	_	_
+11	relações	RELAÇÃO	CN	CN	fp	9	PREP_EM	_	_
+12	sociais	SOCIAL	ADJ	ADJ	fp	11	AMOD	_	_
+
+1	central	CENTRAL	CN	CN	fs	3	NSUBJ	_	_
+2	fundos	_	PNM	PNM	_	1	MWE	_	_
+3	lança	LANÇAR	V	V	pi-3s	0	ROOT	_	_
+4	raíz	_	PNM	PNM	_	3	DOBJ	_	_
+5	valorização	_	PNM	PNM	_	4	MWE	_	_
+
+1	'	_	PNT	PNT	_	5	DEP	_	_
+2	a	_	DA	DA	fs	3	DET	_	_
+3	exposição	EXPOSIÇÃO	CN	CN	fs	5	NSUBJPASS	_	_
+4	nunca	_	ADV	ADV	_	5	ADVMOD	_	_
+5	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+6	encarada	ENCARAR,ENCARADO	PPA	PPA	fs	5	AUXPASS	_	_
+7	hostilidade	HOSTILIDADE	CN	CN	fs	5	PREP_COM	_	_
+8	'	_	PNT	PNT	_	5	DEP	_	_
+
+1	um	_	UM	UM	ms	3	DET	_	_
+2	grande	GRANDE	ADJ	ADJ	ms	3	AMOD	_	_
+3	desenvolvimento	DESENVOLVIMENTO	CN	CN	ms	0	ROOT	_	_
+4	quantitativo	QUANTITATIVO	ADJ	ADJ	ms	3	AMOD	_	_
+5	todos	_	QNT	QNT	mp	7	DET	_	_
+6	os	_	DA	DA	mp	7	DET	_	_
+7	níveis	NÍVEL	CN	CN	mp	3	PREP_EM	_	_
+8	ensino	ENSINO	CN	CN	ms	7	POBJ	_	_
+9	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	problema	PROBLEMA	CN	CN	ms	0	ROOT	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	insucesso	INSUCESSO	CN	CN	ms	2	PREP_DE	_	_
+5	os	_	DA	DA	mp	6	DET	_	_
+6	alunos	ALUNO	CN	CN	mp	4	POBJ	_	_
+7	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	este	_	DEM	DEM	ms	2	DET	_	_
+2	contexto	CONTEXTO	CN	CN	ms	5	PREP_EM	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	família	FAMÍLIA	CN	CN	fs	5	NSUBJ	_	_
+5	desempenha	DESEMPENHAR	V	V	pi-3s	0	ROOT	_	_
+6	um	_	UM	UM	ms	7	DET	_	_
+7	papel	PAPEL	CN	CN	ms	5	DOBJ	_	_
+8	fundamental	FUNDAMENTAL	ADJ	ADJ	ms	7	AMOD	_	_
+9	o	_	DA	DA	ms	11	DET	_	_
+10	nosso	_	POSS	POSS	ms	11	POSS	_	_
+11	desenvolvimento	DESENVOLVIMENTO	CN	CN	ms	7	PREP_EM	_	_
+12	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	educação	EDUCAÇÃO	CN	CN	fs	4	NSUBJ	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	tem	TER	V	V	pi-3s	0	ROOT	_	_
+5	regras	REGRA	CN	CN	fp	4	DOBJ	_	_
+6	rígidas	RÍGIDO	ADJ	ADJ	fp	5	AMOD	_	_
+7	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	muitas	_	QNT	QNT	fp	2	DET	_	_
+2	escolas	ESCOLA	CN	CN	fp	7	PREP_EM	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	comunicação	COMUNICAÇÃO	CN	CN	fs	7	NSUBJ	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	família	FAMÍLIA	CN	CN	fs	4	POBJ	_	_
+7	é	SER	V	V	pi-3s	0	ROOT	_	_
+8	sempre	_	ADV	ADV	_	7	ADVMOD	_	_
+9	de	_	PREP	PREP	_	7	PREP	_	_
+10	sentido	SENTIDO	CN	CN	ms	9	POBJ	_	_
+11	negativo	NEGATIVO	ADJ	ADJ	ms	10	AMOD	_	_
+12	.	_	PNT	PNT	_	7	PUNCT	_	_
+
+1	sociedade	SOCIEDADE	CN	CN	fs	3	NSUBJ	_	_
+2	angustiada	ANGUSTIAR,ANGUSTIADO	PPA	PPA	fs	1	AMOD	_	_
+3	procura	PROCURAR	V	V	pi-3s	0	ROOT	_	_
+4	os	_	DA	DA	mp	5	DET	_	_
+5	professores	PROFESSOR	CN	CN	mp	3	PREP_EM	_	_
+6	...	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	amiga	AMIGO	CN	CN	fs	3	NSUBJ	_	_
+3	sorriu	SORRIR	V	V	ppi-3s	0	ROOT	_	_
+4	:	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	romantismo	ROMANTISMO	CN	CN	ms	0	ROOT	_	_
+2	?	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	beijinhos	BEIJO	CN	CN	mp-dim	0	ROOT	_	_
+2	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	beijinhos	BEIJO	CN	CN	mp-dim	0	ROOT	_	_
+2	também	_	ADV	ADV	_	1	ADVMOD	_	_
+3	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	um	_	UM	UM	ms	2	DET	_	_
+2	médico	MÉDICO	CN	CN	ms	0	ROOT	_	_
+3	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	os	_	DA	DA	mp	2	DET	_	_
+2	sócios	SÓCIO	CN	CN	mp	3	NSUBJ	_	_
+3	concordaram	CONCORDAR	V	V	ppi-3p	0	ROOT	_	_
+4	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	semana	SEMANA	CN	CN	fs	4	PREP_DURANTE	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	havia	HAVER	V	V	ii-3s	0	ROOT	_	_
+5	borgas	BORGA	CN	CN	fp	4	DOBJ	_	_
+6	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	irmã	IRMÃO	CN	CN	fs	3	NSUBJ	_	_
+3	respondeu	RESPONDER	V	V	ppi-3s	0	ROOT	_	_
+4	um	_	UM	UM	ms	5	DET	_	_
+5	aceno	ACENO	CN	CN	ms	3	PREP_COM	_	_
+6	de	_	PREP	PREP	_	5	PREP	_	_
+7	cabeça	CABEÇA	CN	CN	fs	6	POBJ	_	_
+8	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	algum	_	QNT	QNT	ms	2	DET	_	_
+2	professor	PROFESSOR	CN	CN	ms	0	ROOT	_	_
+3	?	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	colega	COLEGA	CN	CN	ms	3	NSUBJ	_	_
+3	esboçou	ESBOÇAR	V	V	ppi-3s	0	ROOT	_	_
+4	um	_	UM	UM	ms	5	DET	_	_
+5	sorriso	SORRISO	CN	CN	ms	3	DOBJ	_	_
+6	:	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	tia	TIO	CN	CN	fs	4	NSUBJ	_	_
+3	laura	_	PNM	PNM	_	2	APPOS	_	_
+4	sabe	SABER	V	V	pi-3s	0	ROOT	_	_
+5	tantas	_	QNT	QNT	fp	6	DET	_	_
+6	coisas	COISA	CN	CN	fp	4	DOBJ	_	_
+7	...	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	um	_	UM	UM	ms	2	DET	_	_
+2	beijo	BEIJO	CN	CN	ms	0	ROOT	_	_
+3	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	uma	_	UM	UM	fs	3	DET	_	_
+2	autêntica	AUTÊNTICO	ADJ	ADJ	fs	3	AMOD	_	_
+3	inspiração	INSPIRAÇÃO	CN	CN	fs	0	ROOT	_	_
+4	!	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	dezoito	_	CARD	CARD	gp	2	NUMBER	_	_
+2	quilates	QUILATE	CN	CN	mp	0	ROOT	_	_
+3	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	pai	PAI	CN	CN	ms	5	NSUBJ	_	_
+3	dom	_	PNM	PNM	_	2	PREP_DE	_	_
+4	pedro	_	PNM	PNM	_	3	MWE	_	_
+5	matou	MATAR	V	V	ppi-3s	0	ROOT	_	_
+6	-a	_	CL	CL	fs3	5	DOBJ	_	_
+7	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	edifício	EDIFÍCIO	CN	CN	ms	4	NSUBJ	_	_
+3	já	_	ADV	ADV	_	4	ADVMOD	_	_
+4	era	SER	V	V	ii-3s	0	ROOT	_	_
+5	muito	_	ADV	ADV	_	6	ADVMOD	_	_
+6	velhinho	VELHO	ADJ	ADJ	ms-dim	4	ACOMP	_	_
+7	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	um	_	UM	UM	ms	2	DET	_	_
+2	quadro	QUADRO	CN	CN	ms	0	ROOT	_	_
+3	!	_	PNT	PNT	_	2	PUNCT	_	_
+4	...	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	veterinário	VETERINÁRIO	CN	CN	ms	0	ROOT	_	_
+2	?	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	as	_	DA	DA	fp	2	DET	_	_
+2	orelhas	ORELHA	CN	CN	fp	0	ROOT	_	_
+3	?	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	cauda	CAUDA	CN	CN	fs	0	ROOT	_	_
+3	?	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	há	HAVER	V	V	pi-3s	0	ROOT	_	_
+2	espiga	ESPIGA	CN	CN	fs	1	DOBJ	_	_
+3	?	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	cusco	CUSCO	CN	CN	ms	0	ROOT	_	_
+2	...	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	essa	_	DEM	DEM	fs	2	DET	_	_
+2	palavra	PALAVRA	CN	CN	fs	3	NSUBJ	_	_
+3	é	SER	V	V	pi-3s	0	ROOT	_	_
+4	mais	_	ADV	ADV	_	5	ADVMOD	_	_
+5	peluches	PELUCHE	CN	CN	mp	3	PREP_PARA	_	_
+6	e	_	CJ	CJ	_	7	PRECONJ	_	_
+7	coisas	COISA	CN	CN	fp	3	PREP_PARA	_	_
+8	assim	_	ADV	ADV	_	7	ADVMOD	_	_
+9	de	_	PREP	PREP	_	7	PREP	_	_
+10	miúdos	MIÚDO	CN	CN	mp	9	POBJ	_	_
+11	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	pai	PAI	CN	CN	ms	3	NSUBJ	_	_
+3	estava	ESTAR	V	V	ii-3s	0	ROOT	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	sala	SALA	CN	CN	fs	3	PREP_EM	_	_
+6	ver	VER	INF	INF	ninf	3	PREP_A	_	_
+7	o	_	DA	DA	ms	8	DET	_	_
+8	noticiário	NOTICIÁRIO	CN	CN	ms	6	DOBJ	_	_
+9	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	leonor	leonor	PNM	PNM	_	0	ROOT	_	_
+3	?	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	cleópatra	cleópatra	PNM	PNM	_	0	ROOT	_	_
+3	!	_	PNT	PNT	_	2	PUNCT	_	_
+4	...	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	as	_	DA	DA	fp	2	DET	_	_
+2	coisas	COISA	CN	CN	fp	4	NSUBJ	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	vão	IR	V	V	pi-3p	0	ROOT	_	_
+5	lá	_	ADV	ADV	_	7	ADVMOD	_	_
+6	muito	_	ADV	ADV	_	7	ADVMOD	_	_
+7	bem	_	ADV	ADV	_	4	ADVMOD	_	_
+8	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	terra	TERRA	CN	CN	fs	0	ROOT	_	_
+2	!	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	o	_	DA	DA	ms	3	DET	_	_
+2	teu	_	POSS	POSS	ms	3	POSS	_	_
+3	cão	CÃO	CN	CN	ms	4	NSUBJ	_	_
+4	cresceu	CRESCER	V	V	ppi-3s	0	ROOT	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	semana	SEMANA	CN	CN	fs	4	PREP_DESDE	_	_
+7	passada	PASSAR,PASSADO	PPA	PPA	fs	6	AMOD	_	_
+8	!	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	conversa	CONVERSA	CN	CN	fs	3	NSUBJ	_	_
+3	acabou	ACABAR	V	V	ppi-3s	0	ROOT	_	_
+4	aqui	_	ADV	ADV	_	3	ADVMOD	_	_
+5	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	um	_	UM	UM	ms	2	DET	_	_
+2	cheiro	CHEIRO	CN	CN	ms	4	NSUBJ	_	_
+3	naftalina	NAFTALINA	CN	CN	fs	2	POBJ	_	_
+4	invadiu	INVADIR	V	V	ppi-3s	0	ROOT	_	_
+5	o	_	DA	DA	ms	7	DET	_	_
+6	longo	LONGO	ADJ	ADJ	ms	7	AMOD	_	_
+7	corredor	CORREDOR	CN	CN	ms	4	DOBJ	_	_
+8	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	não	_	ADV	ADV	_	2	NEG	_	_
+2	havia	HAVER	V	V	ii-3s	0	ROOT	_	_
+3	dinheiro	DINHEIRO	CN	CN	ms	2	DOBJ	_	_
+4	luxos	LUXO	CN	CN	mp	3	PREP_PARA	_	_
+5	...	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	as	_	DA	DA	fp	2	DET	_	_
+2	separações	SEPARAÇÃO	CN	CN	fp	3	NSUBJ	_	_
+3	são	SER	V	V	pi-3p	0	ROOT	_	_
+4	sempre	_	ADV	ADV	_	3	ADVMOD	_	_
+5	muito	_	ADV	ADV	_	6	ADVMOD	_	_
+6	dolorosas	DOLOROSO	ADJ	ADJ	fp	3	ACOMP	_	_
+7	especialmente	_	ADV	ADV	_	9	ADVMOD	_	_
+8	os	_	DA	DA	mp	9	DET	_	_
+9	filhos	FILHO	CN	CN	mp	3	PREP_PARA	_	_
+10	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	esta	_	DEM	DEM	fs	2	DET	_	_
+2	arara	ARARA	CN	CN	fs	3	NSUBJ	_	_
+3	é	SER	V	V	pi-3s	0	ROOT	_	_
+4	originária	ORIGINÁRIO	ADJ	ADJ	fs	3	ACOMP	_	_
+5	a	_	DA	DA	fs	6	DET	_	_
+6	américa	_	PNM	PNM	_	4	PREP_DE	_	_
+7	de_	_	PREP	PREP	_	6	MWE	_	_
+8	o	_	DA	DA	ms	6	MWE	_	_
+9	sul	_	PNM	PNM	_	6	MWE	_	_
+10	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	preocupação	PREOCUPAÇÃO	CN	CN	fs	5	NSUBJ	_	_
+3	a	_	DA	DA	fs	4	DET	_	_
+4	professora	PROFESSOR	CN	CN	fs	2	POBJ	_	_
+5	era	SER	V	V	ii-3s	0	ROOT	_	_
+6	,	_	PNT	PNT	_	5	DEP	_	_
+7	contudo	_	ADV	ADV	_	5	ADVMOD	_	_
+8	,	_	PNT	PNT	_	5	DEP	_	_
+9	muito	_	ADV	ADV	_	10	ADVMOD	_	_
+10	diferente	DIFERENTE	ADJ	ADJ	fs	5	ACOMP	_	_
+11	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	velhos	VELHO	ADJ	ADJ	mp	2	ACOMP	_	_
+2	são	SER	V	V	pi-3p	0	ROOT	_	_
+3	os	_	DA	DA	mp	4	DET	_	_
+4	trapos	TRAPO	CN	CN	mp	2	NSUBJ	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	ar	AR	CN	CN	ms	5	NSUBJ	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	mar	MAR	CN	CN	ms	2	PREP_DE	_	_
+5	é	SER	V	V	pi-3s	0	ROOT	_	_
+6	muito	_	ADV	ADV	_	7	ADVMOD	_	_
+7	fresco	FRESCO	ADJ	ADJ	ms	5	ACOMP	_	_
+8	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	palavrões	PALAVRÃO	CN	CN	mp	0	ROOT	_	_
+2	?	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	neto	NETO	CN	CN	ms	3	NSUBJ	_	_
+3	sorriu	SORRIR	V	V	ppi-3s	0	ROOT	_	_
+4	:	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	3	DET	_	_
+2	única	ÚNICO	ADJ	ADJ	fs	3	AMOD	_	_
+3	irmã	IRMÃO	CN	CN	fs	13	NSUBJ	_	_
+4	a	_	DA	DA	fs	6	DET	_	_
+5	minha	_	POSS	POSS	fs	6	POSS	_	_
+6	mãe	MÃE	CN	CN	fs	3	POBJ	_	_
+7	,	_	PNT	PNT	_	3	DEP	_	_
+8	a	_	DA	DA	fs	9	DET	_	_
+9	tia	TIO	CN	CN	fs	3	APPOS	_	_
+10	zé	_	PNM	PNM	_	9	APPOS	_	_
+11	,	_	PNT	PNT	_	3	DEP	_	_
+12	ainda	_	ADV	ADV	_	13	ADVMOD	_	_
+13	é	SER	V	V	pi-3s	0	ROOT	_	_
+14	solteira	SOLTEIRO	ADJ	ADJ	fs	13	ACOMP	_	_
+15	.	_	PNT	PNT	_	13	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	pai	PAI	CN	CN	ms	4	NSUBJ	_	_
+3	ainda	_	ADV	ADV	_	4	ADVMOD	_	_
+4	é	SER	V	V	pi-3s	0	ROOT	_	_
+5	tão	_	ADV	ADV	_	6	ADVMOD	_	_
+6	novo	NOVO	ADJ	ADJ	ms	4	ACOMP	_	_
+7	!	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	este	_	DEM	DEM	ms	2	DET	_	_
+2	momento	MOMENTO	CN	CN	ms	3	PREP_EM	_	_
+3	apareceram	APARECER	V	V	ppi-3p	0	ROOT	_	_
+4	os	_	DA	DA	mp	5	DET	_	_
+5	pais	PAI	CN	CN	mp	3	NSUBJ	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	alexandre	_	PNM	PNM	_	5	PREP_DE	_	_
+8	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	aquele	_	DEM	DEM	ms	2	DET	_	_
+2	contentor	CONTENTOR	CN	CN	ms	3	NSUBJ	_	_
+3	deita	DEITAR	V	V	pi-3s	0	ROOT	_	_
+4	cá	_	ADV	ADV	_	3	ADVMOD	_	_
+5	um	_	UM	UM	ms	6	DET	_	_
+6	pivete	PIVETE	CN	CN	ms	3	DOBJ	_	_
+7	...	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	só	_	ADV	ADV	_	3	ADVMOD	_	_
+2	alguns	_	QNT	QNT	mp	3	DET	_	_
+3	colegas	COLEGA	CN	CN	mp	0	ROOT	_	_
+4	a	_	DA	DA	fs	5	DET	_	_
+5	escola	ESCOLA	CN	CN	fs	3	PREP_DE	_	_
+6	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	início	INÍCIO	CN	CN	ms	5	NSUBJ	_	_
+3	o	_	DA	DA	ms	4	DET	_	_
+4	dia	DIA	CN	CN	ms	2	POBJ	_	_
+5	trouxe	TRAZER	V	V	ppi-3s	0	ROOT	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	rui	_	PNM	PNM	_	5	PREP_A	_	_
+8	uma	_	UM	UM	fs	9	DET	_	_
+9	revelação	REVELAÇÃO	CN	CN	fs	5	DOBJ	_	_
+10	inesperada	INESPERADO	ADJ	ADJ	fs	9	AMOD	_	_
+11	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	os	_	DA	DA	mp	3	DET	_	_
+2	teus	_	POSS	POSS	mp	3	POSS	_	_
+3	pais	PAI	CN	CN	mp	4	NSUBJ	_	_
+4	estão	ESTAR	V	V	pi-3p	0	ROOT	_	_
+5	rastos	RASTO	CN	CN	mp	4	PREP_DE	_	_
+6	o	_	DA	DA	ms	8	DET	_	_
+7	teu	_	POSS	POSS	ms	8	POSS	_	_
+8	desaparecimento	DESAPARECIMENTO	CN	CN	ms	4	PREP_COM	_	_
+9	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	um	_	UM	UM	ms	3	DET	_	_
+2	verdadeiro	VERDADEIRO	ADJ	ADJ	ms	3	AMOD	_	_
+3	anjinho	ANJO	CN	CN	ms-dim	0	ROOT	_	_
+4	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	não	_	ADV	ADV	_	2	NEG	_	_
+2	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+3	estabelecida	ESTABELECER,ESTABELECIDO	PPA	PPA	fs	2	AUXPASS	_	_
+4	uma	_	UM	UM	fs	5	DET	_	_
+5	data	DATA	CN	CN	fs	2	NSUBJPASS	_	_
+6	registo	REGISTO	CN	CN	ms	5	POBJ	_	_
+7	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	a	_	DA	DA	fs	3	DET	_	_
+2	minha	_	POSS	POSS	fs	3	POSS	_	_
+3	fastball	FASTBALL	CN	CN	fs	4	NSUBJ	_	_
+4	é	SER	V	V	pi-3s	0	ROOT	_	_
+5	boa	BOM	ADJ	ADJ	fs	4	ACOMP	_	_
+6	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	porém	_	ADV	ADV	_	5	ADVMOD	_	_
+2	,	_	PNT	PNT	_	1	DEP	_	_
+3	os	_	DA	DA	mp	4	DET	_	_
+4	basebolistas	BASEBOLISTA	CN	CN	mp	5	NSUBJ	_	_
+5	discordam	DISCORDAR	V	V	pi-3p	0	ROOT	_	_
+6	.	_	PNT	PNT	_	5	PUNCT	_	_
+
+1	haverá	HAVER	V	V	fi-3s	0	ROOT	_	_
+2	muita	_	QNT	QNT	fs	3	DET	_	_
+3	malícia	MALÍCIA	CN	CN	fs	1	DOBJ	_	_
+4	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	taxa	TAXA	CN	CN	fs	0	ROOT	_	_
+3	empréstimos	EMPRÉSTIMO	CN	CN	mp	2	POBJ	_	_
+4	instituições	INSTITUIÇÃO	CN	CN	fp	3	PREP_A	_	_
+5	depositárias	DEPOSITÁRIO	ADJ	ADJ	fp	4	AMOD	_	_
+6	o	_	DA	DA	ms	7	DET	_	_
+7	new	_	PNM	PNM	_	3	PREP_POR	_	_
+8	york	_	PNM	PNM	_	7	MWE	_	_
+9	federal	_	PNM	PNM	_	7	MWE	_	_
+10	reserve	_	PNM	PNM	_	7	MWE	_	_
+11	bank	_	PNM	PNM	_	7	MWE	_	_
+12	.	_	PNT	PNT	_	2	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	empreendimento	EMPREENDIMENTO	CN	CN	ms	3	NSUBJ	_	_
+3	será	SER	V	V	fi-3s	0	ROOT	_	_
+4	sediado	SEDIAR,SEDIADO	PPA	PPA	ms	3	AUXPASS	_	_
+5	indianapolis	_	PNM	PNM	_	4	PREP_EM	_	_
+6	.	_	PNT	PNT	_	3	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	empresa	EMPRESA	CN	CN	fs	4	NSUBJ	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	teceu	TECER	V	V	ppi-3s	0	ROOT	_	_
+5	comentários	COMENTÁRIO	CN	CN	mp	4	DOBJ	_	_
+6	a	_	DA	DA	fs	7	DET	_	_
+7	nomeação	NOMEAÇÃO	CN	CN	fs	5	PREP_SOBRE	_	_
+8	um	_	UM	UM	ms	9	DET	_	_
+9	substituto	SUBSTITUTO	CN	CN	ms	7	POBJ	_	_
+10	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	a	_	DA	DA	fs	2	DET	_	_
+2	variação	VARIAÇÃO	CN	CN	fs	4	NSUBJ	_	_
+3	percentual	PERCENTUAL	ADJ	ADJ	fs	2	AMOD	_	_
+4	existe	EXISTIR	V	V	pi-3s	0	ROOT	_	_
+5	o	_	DA	DA	ms	6	DET	_	_
+6	final	FINAL	CN	CN	ms	4	PREP_DESDE	_	_
+7	o	_	DA	DA	ms	8	DET	_	_
+8	ano	ANO	CN	CN	ms	6	POBJ	_	_
+9	.	_	PNT	PNT	_	4	PUNCT	_	_
+
+1	relações	relações	PNM	PNM	_	0	ROOT	_	_
+2	públicas	_	PNM	PNM	_	1	MWE	_	_
+3	.	_	PNT	PNT	_	1	PUNCT	_	_
+
+1	o	_	DA	DA	ms	2	DET	_	_
+2	preço	PREÇO	CN	CN	ms	4	NSUBJPASS	_	_
+3	não	_	ADV	ADV	_	4	NEG	_	_
+4	foi	SER	V	V	ppi-3s	0	ROOT	_	_
+5	divulgado	DIVULGAR,DIVULGADO	PPA	PPA	ms	4	AUXPASS	_	_
+6	.	_	PNT	PNT	_	4	PUNCT	_	_

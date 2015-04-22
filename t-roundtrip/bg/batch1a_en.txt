@@ -1,0 +1,250 @@
+Move the mouse cursor to the beginning of the blank page and press the DELETE key as often as needed until the text is in the desired spot.
+In order to configure your router, try to access the internal page of the router.
+This varies from router to router.
+Consult the manual of your device for the address, username and password.
+If your disc is not recognized, try changing the USB port.
+Check the password you need to access your wireless network; it should be under your router, if the password has not been changed.
+Please check if you have access to the email in your Webmail and then confirm the settings of your email client.
+Follow the instructions listed on this page: http://fotos.sapo.pt/sapoptmail/fotos/?uid=wp6t4AZGbkMVELZvItYK#grande
+Activate your wireless on your mobile phone and connect to your desired WiFi network using the correct password.
+Select the emails and mark them as “Not Spam”.
+Clean your system by going to Start > Run and typing in “CleanMgr”[ CleanMgr is a program that's used to identify unnecessary files from areas such as your web browser cache, browsing history, etc and deletes them].
+If you have Windows 8, type the same command in the search area.
+Follow the instructions.
+Turn on the PS3 from the network settings menu: “Settings "> “Network Settings ".
+Contact your internet provider and report your problem.
+Double-click on your anti-virus icon which is shown on the lower right corner of your Desktop.
+The antivirus panel will show you if there are any viruses
+It could be a virus.
+Perform a scan with your antivirus software.
+Try and install this PDF writer http://www.cutepdf.com/products/cutepdf/writer.asp.
+Check if your PC can detect a wireless network.
+Otherwise, the wireless card may be disabled.
+Sometimes, computers have a physical button or switch that can turn the wireless network card on and off.
+Go to System Tools> System Restore and follow the instructions.
+Check if Windows Update is active.
+Check if the phone is connected to the network.
+Try plugging it into another outlet.
+The original WiFi network password is located under the router provided by your ISP. [Internet service provider]
+Confirm your username and password.
+If the problem persists, click on “I can't remember my username or password”
+and follow the instructions.
+This symbol tells you that you are not connected to a network.
+If you are connected by cable, check the cable.
+If you are connecting by WiFi, make sure your wireless router is switched on and that your wireless network card is enabled.
+Select the files to remove and choose Delete or press the Del key on the keyboard.
+Make sure you are properly connected to your router.
+Connect your computer directly to the wireless router using network cables.
+If you can, access the internal wireless router settings page and make sure the wireless signal is turned on.
+Make sure the wireless is turned on.
+If your router has a wizard, you should run it.
+Try resetting the router.
+The CD that comes with your device contains drivers for installation.
+Alternatively you can download them from the manufacturer's website.
+Remove the wireless network and try reconnecting again using valid credentials.
+Make sure your repeater is synchronised with your router and that the access key is correct.
+Try connecting the computer to another monitor, or in the case of a laptop, to an external monitor.
+If it works, you have a problem with your monitor.
+Turn on the PS3 and go to Settings> Network Settings, select the network and enter your credentials.
+Access the internal settings page of the router and verify that the settings enable NAT port forwarding.
+Unplug the router from the mains and reconnect after 30 seconds.
+Try restarting the router.
+This is not possible at the moment.
+Check if you can detect your wireless network.
+Check if the Wi-Fi button on your laptop is active.
+If it is, check if it detect your wireless network.
+Check the key which is under the router.
+This may be due to low bandwidth, or a slow computer.
+Try to clean the computer.
+Try installing the drivers from the CD that came with the printer.
+If you do not have the CD, you can go to the manufacturer's website to obtain the drivers needed.
+Go to the Java website, download and install the latest version.
+Try restarting the computer.
+Go into the internal settings page of the router, and modify the password
+Perform an update of your antivirus and then run a scan.
+Perform a system restore and a virus scan.
+Check the wireless network password on the internal settings page of the router.
+It is not mandatory to provide your mobile phone number to Facebook.
+Go to the Java website, download the program and then install it.
+Check if there is no key stuck on the keyboard.
+Check if the printer is properly connected to the network.
+You can do it here: http://www.speedtest.net/pt/.
+To change your password, go to https://id.sapo.pt (change password) go to Email Login > select again Change Password
+You need to access the settings of youe email client and check that the outgoing server is correct.
+Try to get into Safe Mode, as the computer is booting press the F8 key repeatedly.
+Then you have to perform a system restore.
+Restart your computer and try again.
+If the problem persists, try to reinstall the software.
+There is probably a problem with the network cable.
+Test this by using another cable.
+Install the updates for Wow.
+Use the same login credentials you use for the PT client Area.
+An ADB router does not have this function.
+Press the Ctrl Shift Delete keys simultaneously and select Clear Cache.
+Then press Cclear.
+You will have to wait for the block to expire.
+You need to copy the Hotmail link and create a Shortcut on the desktop.
+Both anti-virus programs are good.
+Just choose what best fits your needs and remove the other one.
+Click the right mouse button and then "Print".
+Make sure that the Wi-Fi option on your phone is enabled.
+Check the key under your router.
+Access the internal page of the router.
+Consult the IP, username and passwords in the device's manual and then look on the router menus for the SSID option.
+On the bottom right corner of your screen you will see a symbol that looks like a loudspeaker.
+Check that it is at 100%.
+Recover the MyZon login access data.
+Alt>View> Toolbars> Favorites Bar.
+Go to Tools > Account and make a test transmission.
+If it fails check with your email provider the credentials of the email client.
+Synchronize both modem and router by unplugging them both from the outlet and then reconnecting them after 30 seconds.
+Go to "Settings>" "Open a specific page or set of pages" and put the address of the page you want as your homepage.
+Restart the device.
+Just drag the toolbar to where you want it to be.
+Move the virus to quarantine and perform a full scan of the computer.
+Install VLC from this website: http://www.videolan.org/vlc/.
+Press the button you use to turn on your computer.
+Connect the modem to the WAN port of the router, then unplug both devices from the outlet and turn them both on again.
+You need to access the router's internal settings web page (usually 192.168.1.1) and enable uPnP.
+Check if you can see your wireless network.
+If the disc has crashed you cannot access the operating system.
+The only way to do this is to get a CD with the live operating system that does not require disc installation.
+You will then need to download the software from this website http://www.ubuntu.com/download/desktop on another PC, burn it to the CD, and insert it in the damaged PC.
+Please reset the router.
+Do this by pressing the Reset pin for 30 seconds, then disconnect the device from the outlet and reconnect it.
+Configure your new password in all email clients.
+Install an email client such as Thunderbird.
+Unplug the router from the outlet for 2 minutes.
+If the problem persists you may need to perform a reset.
+Synchronize both devices by turning them off.
+Turn on your modem and wait until all modem lights are illuminated then plug your router in to the outlet.
+Check the VGA cable that connects the monitor to the computer.
+Make sure you are connected to your network.
+Confirm that you are connected to the router by cable.
+Read the user's manual to find out the address of the router page.
+Then look for the menu that is more appropriate for the option you want.
+See if you have a scanner or multifunction printer connected to and installed on your computer.
+You will need to access the internal settings pages of the router, through your browser.
+This is usually the address (192.168.1.1).
+Change the parameters SSID, Channel, and Security.
+Go to the page of the provider where you want to create the email account and register.
+You must renew the license or acquire a new one.
+This may be a problem with the network card drivers.
+Try reinstalling the drivers for the network card.
+Uninstall programs you do not need and perform a disk cleanup.
+To write the security key, click the field that is below the pin.
+Try to check if the wireless symbol is visible on the screen of your mobile phone.
+Try opening another browser such as Firefox, Chrome or IE to see if this problem persists.
+In Outlook, go to Tools> Accounts and enter the data referring to your email account
+We suggest you press the reset pin for 40 seconds and then turn off the power for three minutes.
+In the lower right corner click the wireless icon to open the wireless network connections.
+Right-click with your mouse on the name of your network.
+In the menu click forget network and then connect to the network again with your new credentials.
+You will need to register on ZON_FON (www.zon.pt / myzon).
+Try to connect to your wireless network with the security key that is underneath the router.
+Try to connect to your wireless network using the key that is underneath the router.
+Select the email(s) you wish to delete and press 'Delete'
+Check if you have active downloads or downloading software.
+If you do, turn them off and repeat the speed test
+The servers of the email provider have set a limit relating to the size of their attachments, which varies from provider to provider.
+Check the activation key that should be in the software package, and when the software requests the key, enter it.
+Try to retrieve the account from the Facebook website.
+Access PT client area (https://www.ptcliente.pt/Pages/Login/Login.aspx), and register.
+Try to connect your cell phone to the computer via USB cable.
+In my Computer folder, the phone should show up as a Removable Device.
+Open the email application > Settings > Add Account and enter the email provider's settings.
+Check the settings in your Outlook account.
+The free wireless network for MEO clients is WIFI PT.
+Check if the error is related to any antivirus.
+If the problem persists, enter the DNS from Google (8.8.8.8 and 8.8.4.4)
+Install the correct drivers for the respective card.
+Retrieve your data (username and password) from MyZON and change the password.
+Remove the network and reconnect entering the access key.
+An internet connection through a cable is always more stable.
+To open files of aspx format, you can use notepad or Microsoft Visual Studio.
+If your ISP has an online TV service, you may use it, using a broad band USB modem.
+Access your client area on MyZON.pt and register for the service.
+Check out the file extensions so we can identify the programs that are needed to open them.
+Access webmail.sapo.pt and create the email account.
+Then, if you wish to be connected to the service, access the PT client area.
+You must register with MyZON.pt, and then access the page http://www.ZONline.pt/
+Try to re-enter your access data.
+Try to re-enter your login details into the page that appears when attempting to open a web page.
+To watch Sport TV on the iPad, you must have the Sport TV app that is downloadable at https://itunes.apple.com/pt/app/sport-tv-multiscreen/id710897506?mt=8
+Go to Settings > Wi-Fi, select a network and connect.
+Check if you have internet, if you do try to reconfigure your Outlook account.
+Check if the ADSL cable is connected correctly.
+Check the cable between the devices and try to change screen resolution.
+Try to re-install the antivirus.
+Check if the link you are typing in is correct.
+In windows you should click Start > Control Panel > Programs and Functionalities > Add or Remove Programs and uninstall the respective application.
+Try to verify if the wireless button is on.
+Check in the computer manual the position of the button on your computer.
+On the same network where there are cameras, open the following website http://www.whatismyip.com/ and check if the IP that appears is the same that you are entering to access the cameras.
+You must first connect the monitor to the PC, and then access the settings through the monitor menu.
+Check the version of your Java, you may need to install the 64bit version.
+Try to reinstall the drivers.
+Activate the feature in the Energy Options in Control Panel.
+Yes, it's possible.
+Try to reinstall Internet Explorer
+To install the software just follow the steps from the page ww.piriform.com/Ccleaner.
+Check if you can access Webmail through another browser, or find out more from the ISP of the email server.
+Unlock the bar and drag it to your preferred location.
+Uninstall the USB modem software and reinstall it using another USB port of the device.
+Try to Update Adobe Flash Player
+Check if you can access your e-mails through the webmail of your email provider.
+Update the network card driver.
+Install the drivers for your wireless card.
+Try with another computer and browser.
+If the situation persists, the problem is with the website itself.
+Please check if the network cable is properly connected.
+Check the IP settings and open the respective ports on the router
+VPI=0, VCI=35
+You must access the internal page of the router and perform the opening via 'port forwarding' or DMZ host.
+In case you changed the password, I suggest you reset the equipment to get back to factory settings.
+Error 678 means the number you are dialing is incorrect.
+Check the Skype sound settings in Tools > Options > Audio Settings
+Check if you have Wi-Fi functionality active on the iPad
+By default the router is configured for cable access only.
+Check if it's connected to your wireless network
+Try to re-install the network card.
+Try to delete the navigation history, the temporary files and restore to default the browser settings
+You must access the internal settings page of the router and deactivate the wireless.
+Check if the network cable is connected properly.
+Check the wireless network card drivers.
+You have to go to Settings > Accounts Settings.
+Choose the account and press Delete.
+In Internet Explorer, go to Properties, and change the homepage
+Turn off the router and turn it on again.
+Move the mouse to the lower right-hand corner, then Settings > Shutdown
+You can access a website such as Gmail or Hotmail, and create an account, entering infromation as requested.
+Check if the login data are correct.
+Go to the command line and type in the following commands: 'netsh winsock reset' then 'netsh int ip reset resetlog.txt'
+Try to re-install the device.
+Check if the battery is plugged in correctly.
+If it is, replace the battery.
+For that you only need to place the CD that comes in the box [into the CD drive] and follow the steps to install the program.
+Right-click on the file, select 'Open with' and choose Adobe Reader.
+Check the password written on the bottom of the router.
+Check ‘Video Options > Change Profile Picture’ and press ‘Take picture’.
+Try using another power plug.
+Press the apple menu > System Preferences > Desktop and Screen Saver’ and select an image.
+Try to uninstall unnecessary programs and perform a disk cleanup.
+Follow the steps on this website http://support.microsoft.com/kb/982839/pt-br
+Go to the gmail.com website and create a new account.
+Try to update Microsoft Silverlight.
+Press the power button until it shuts down.
+Wait a minute and then turn the computer back on.
+Try to change the Desktop theme.
+Press the Menu button + ON/OFF and restart the PC.
+Try to turn off both the router and the signal repeater, then turn them on again.
+Check if the batteries are charged, also try to synchronize the device and its base.
+Try to use other power plug.
+Yes, as long as that functionality is active in your router.
+Check if the speakers are correctly connected to the computer
+Gmail has an anti-spam active by default.
+In 'Control Panel > Internet Options > Change Homepage', uninstall the Ask Toolbar.
+Try to re-install iTunes and check the connections
+Enter the desired website as homepage in the browser settings
+If you do not want to buy the antivirus, we suggest you uninstall it and install a free one.
+We recommend Microsoft Security

@@ -1,0 +1,200 @@
+I was typing in something and then a blank page appeared before my text, and I do not know how to remove it
+Move the mouse cursor to the beginning of the blank page and press the DELETE key as often as needed until the text is in the desired spot.
+I don't have internet access. Can you help me configure my router?
+In order to configure your router, try to access the internal page of the router. This varies from router to router. Consult the manual of your device for the address, username and password.
+I cannot copy music to an external disc.
+If your disc is not recognized, try changing the USB port.
+I cannot connect to the wireless network.
+Check the password you need to access your wireless network; it should be under your router, if the password has not been changed.
+I cannot access my email account. Can you help me?
+Please check if you have access to the email in your Webmail and then confirm the settings of your email client.
+I cannot configure my sapo account on my iPhone.
+Follow the instructions listed on this page: http://fotos.sapo.pt/sapoptmail/fotos/?uid=wp6t4AZGbkMVELZvItYK#grande
+I don't have WiFi on my mobile phone.
+Activate your wireless on your mobile phone and connect to your desired WiFi network using the correct password.
+I'vegot an email that been sent to the junk folder, how do I get it back?
+Select the emails and mark them as “Not Spam”.
+I'd like to boost my operating system
+Clean your system by going to Start > Run and typing in “CleanMgr”. If you have Windows 8, type the same command in the search area. Follow the instructions.
+How do I change the NAT type on my PS3?
+Turn on the PS3 from the network settings menu: “Settings "> “Network Settings ".
+My IP has been blacklisted.
+Contact your internet provider and report your problem.
+I want to know if my antivirus has detected a problem.
+Double-click on your anti-virus icon which is shown on the lower right corner of your Desktop. The antivirus panel will show you if there are any viruses
+I cannot receive e-mails. I think my IP's been blacklisted. What should I do?
+It could be a virus. Perform a scan with your antivirus software.
+Print PDF
+Try and install this PDF writer http://www.cutepdf.com/products/cutepdf/writer.asp.
+Without Wi-Fi
+Check if your PC can detect a wireless network. Otherwise, the wireless card may be disabled. Sometimes, computers have a physical button or switch that can turn the wireless network card on and off.
+How to restore the system
+Go to System Tools> System Restore and follow the instructions.
+How to update my computer
+Check if Windows Update is active.
+I cannot access the Internet on my mobile phone.
+Check if the phone is connected to the network.
+My computer does not turn on.
+Try plugging it into another outlet.
+Where can I find the password for my home wireless network?
+The original WiFi network password is located under the router provided by your ISP.
+I have a problem logging into Skype.
+Confirm your username and password. If the problem persists, , click on “I can't remember my username or password” and follow the instructions.
+I don't have Internet. An icon with a red cross appears.
+This symbol tells you that you are not connected to a network. If you are connected by cable, check the cable.If you are connecting by WiFi, make sure your wireless router is switched on and that your wireless network card is enabled.
+I need help deleting duplicate files from my computer.
+Select the files to remove and choose Delete or press the Del key on the keyboard.
+I do not have wireless internet.
+Make sure you are properly connected to your router.
+I do not detect my wireless network, but I do detect others .
+Connect your computer directly to the wireless router using network cables. If you can, access the internal wireless router settings page and make sure the wireless signal is turned on. Make sure the wireless is turned on. If your router has a wizard, you should run it.
+I don't have access to the cable network
+Try resetting the router.
+I cannot install my wireless USB modem adapter.
+The CD that comes with your device contains drivers for installation. Alternatively you can download them from the manufacturer's website.
+I get no wireless internet access on my iPad.
+Remove the wireless network and try reconnecting again using valid credentials.
+How to configure a ZON repeater
+Make sure your repeater is synchronised with your router and that the access key is correct.
+I can’t see anything on my screen. What should I do?
+Try connecting the computer to another monitor, or in the case of a laptop, to an external monitor. If it works, you have a problem with your monitor.
+Connect PS3 to the network.
+Turn on the PS3 and go to Settings> Network Settings, select the network and enter your credentials.
+I cannot open a port on the router.
+Access the internal settings page of the router and verify that the settings enable NAT port forwarding.
+I do not have wireless or cable internet.
+Unplug the router from the mains and reconnect after 30 seconds.
+I cannot see my wireless network.
+Try restarting the router.
+How do I connect a WOW router to a fixed PC?
+This is not possible at the moment.
+I have no wireless internet access.
+Check if you can detect your wireless network.
+I do not have access to my wireless network.
+Check if the Wi-Fi button on your laptop is active. If it is, check if it detect your wireless network.
+What is my network password?
+Check the key which is under the router.
+When I am watching videos, they often stop.
+This may be due to low bandwidth, or a slow computer. Try to clean the computer.
+Help on installing a printer.
+Try installing the drivers from the CD that came with the printer. If you do not have the CD, you can go to the manufacturer's website to obtain the drivers needed.
+Problems accessing www.isssp.pt.
+Go to the Java website, download and install the latest version.
+I left my PC in stand-by and it's stopped working.
+Try restarting the computer.
+How do I change the password of my router?
+Go into the internal settings page of the router, and modify the password
+How do I know if I have viruses on my computer
+Perform an update of your antivirus and then run a scan.
+My desktop has disappeared.
+Perform a system restore and a virus scan.
+How do I change the network key for my home wireless network?
+Check the wireless network password on the internal settings page of the router.
+Is it mandatory to put my phone number on Facebook?
+It is not mandatory to provide your mobile phone number to Facebook.
+How do I update Java?
+Go to the Java website, download the program and then install it.
+When I try to type, random menus pop up.
+Check if there is no key stuck on the keyboard.
+I cannot print to my network printer.
+Check if the printer is properly connected to the network.
+Where can I perform a speed test?
+You can do it here: http://www.speedtest.net/pt/.
+Changing the password on sapo email
+To change your password, go to https://id.sapo.pt (change password) go to Email Login > select again Change Password
+I receive emails but I cannot send them.
+You need to access the settings of youe email client and check that the outgoing server is correct.
+I cannot boot into Windows. Can you help me?
+Try to get into Safe Mode, as the computer is booting press the F8 key repeatedly. Then you have to perform a system restore.
+The antivirus is not working.
+Restart your computer and try again. If the problem persists, try to reinstall the software.
+My PlayStation 3 does not detect the network cable.
+There is probably a problem with the network cable. Test this by using another cable.
+The Wow router does not work with a USB cable, it only works on Wi-Fi.
+Install the updates for Wow.
+What are the necessary credentials to access the internet through PT Wi-Fi?
+Use the same login credentials you use for the PT client Area.
+Can an ADB router be used as signal repeater?
+An ADB router does not have this function.
+My computer slows down only when I'm using Gmail.
+Press the Ctrl Shift Delete keys simultaneously and select Clear Cache. Then press Cclear.
+Facebook has been blocked by requests. How do I fix this?
+You will have to wait for the block to expire.
+I would like to have a Hotmail shortcut.
+You need to copy the Hotmail link and create a Shortcut on the desktop.
+Which antivirus should I keep, MSE or AVG?
+Both anti-virus programs are good. Just choose what best fits your needs and remove the other one.
+I want to print an image placed on the desktop.
+Click the right mouse button and then "Print".
+I can't use the Wi-Fi on the mobile phone.
+Make sure that the Wi-Fi option on your phone is enabled.
+Wrong wireless network password.
+Check the key under your router.
+Change Wi-Fi networks name.
+Access the internal page of the router. Consult the IP, username and passwords in the device's manual and then look on the router menus for the SSID option.
+My PC does not have sound.
+On the bottom right corner of your screen you will see a symbol that looks like a loudspeaker. Check that it is at 100%.
+I cannot enter MyZON, data error.
+Recover the MyZon login access data.
+I want to see my bookmarks appear on the toolbar in IE .
+Alt>View> Toolbars> Favorites Bar.
+I cannot send emails through Outlook.
+Go to Tools > Account and make a test transmission. If it fails check with your email provider the credentials of the email client.
+I only get internet access if I am connected via my modem, I do not have internet on my router.
+Synchronize both modem and router by unplugging them both from the outlet and then reconnecting them after 30 seconds.
+I want to change the homepage in Google Chrome. How do I do this?
+Go to "Settings>" "Open a specific page or set of pages" and put the address of the page you want as your homepage.
+I do not have internet. The lights of my router are red.
+Restart the device.
+I have the toolbar on the right side of the screen and I want to move it to the bottom.
+Just drag the toolbar to where you want it to be.
+My antivirus detected a virus. What should I do?
+Move the virus to quarantine and perform a full scan of the computer.
+Read H.265 files
+Install VLC from this website: http://www.videolan.org/vlc/.
+How do I start my computer after hibernating?
+Press the button you use to turn on your computer.
+Connecting a router to the ZON modem.
+Connect the modem to the WAN port of the router, then unplug both devices from the outlet and turn them both on again.
+Problems accessing the game server.
+You need to access the router's internal settings web page (usually 192.168.1.1) and enable uPnP.
+I have not had wireless for 3 days.
+Check if you can see your wireless network.
+I have a faulty hard disk. Can I use the internet?
+If the disc has crashed you cannot access the operating system. The only way to do this is to get a CD with the live operating system that does not require disc installation. You will then need to download the software from this website http://www.ubuntu.com/download/desktop on another PC, burn it to the CD, and insert it in the damaged PC.
+I do not have internet. The init light is flashing red and green.
+Please reset the router. Do this by pressing the Reset pin for 30 seconds, then disconnect the device from the outlet and reconnect it.
+I changed the email password and now I do not receive emails on my PCs.
+Configure your new password in all email clients.
+How to do an email backup (webmail.sapo.pt)
+Install an email client such as Thunderbird.
+My router is constantly restarting.
+Unplug the router from the outlet for 2 minutes. If the problem persists you may need to perform a reset.
+I have no internet through wireless; I get a connection only if I connect directly through my modem.
+Synchronize both devices by turning them off. Turn on your modem and wait until all modem lights are illuminated then plug your router in to the outlet.
+The computer screen is striped.
+Check the VGA cable that connects the monitor to the computer.
+I do not have internet on one PC.
+Make sure you are connected to your network.
+I cannot access my router's internal page.
+Confirm that you are connected to the router by cable. Read the user's manual to find out the address of the router page. Then look for the menu that is more appropriate for the option you want.
+I want to scan a document and do not know how.
+See if you have a scanner or multifunction printer connected to and installed on your computer.
+Slow connection at a specific time.
+You will need to access the internal settings pages of the router, through your browser. This is usually the address (192.168.1.1). Change the parameters SSID, Channel, and Security.
+Create a new email account
+Go to the page of the provider where you want to create the email account and register.
+The Antivirus has expired.
+You must renew the license or acquire a new one.
+I do not have network and notifications icons next to the time display
+This may be a problem with the network card drivers. Try reinstalling the drivers for the network card.
+How do I clean the computer?
+Uninstall programs you do not need and perform a disk cleanup.
+I cannot enter the password of the net. It only lets you write numbers but it also has letters.
+To write the security key, click the field that is below the pin.
+Without internet access on my Smartphone.
+Try to check if the wireless symbol is visible on the screen of your mobile phone.
+Why is the internet so slow?
+Try opening another browser such as Firefox, Chrome or IE to see if this problem persists.
+Configure Outlook Express email account
+In Outlook, go to Tools> Accounts and enter the data referring to your email account

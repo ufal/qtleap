@@ -1,0 +1,26 @@
+Util::SetGlobal language=nl selector=src
+# a-layer to t-layer
+A2T::NL::MarkEdgesToCollapse
+A2T::BuildTtree
+A2T::RehangUnaryCoordConj
+A2T::SetIsMember
+A2T::NL::SetCoapFunctors
+A2T::FixIsMember
+A2T::MarkParentheses
+A2T::MoveAuxFromCoordToMembers
+A2T::MarkClauseHeads
+A2T::MarkRelClauseHeads
+A2T::MarkRelClauseCoref 
+A2T::DeleteChildlessPunctuation
+A2T::NL::FixTlemmas 
+A2T::NL::FixMultiwordSurnames
+A2T::SetNodetype
+A2T::NL::SetFormeme 
+A2T::NL::SetGrammatemes
+A2T::NL::SetGrammatemesFromAux
+A2T::NL::SetSentmod
+A2T::NL::SetFunctors
+A2T::SetNodetype
+A2T::FixAtomicNodes
+A2T::MarkReflpronCoref 
+

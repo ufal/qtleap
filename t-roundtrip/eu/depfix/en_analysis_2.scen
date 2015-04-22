@@ -1,0 +1,12 @@
+Util::SetGlobal language=en  selector=
+W2A::EN::ParseMST
+# W2A::EN::ParseMST model=conll_mcd_order2_0.01.model
+W2A::EN::SetIsMemberFromDeprel
+W2A::EN::RehangConllToPdtStyle
+W2A::EN::FixNominalGroups
+W2A::EN::FixIsMember
+W2A::EN::FixAtree
+W2A::EN::FixMultiwordPrepAndConj
+W2A::EN::FixDicendiVerbs
+W2A::EN::SetAfunAuxCPCoord
+W2A::EN::SetAfun

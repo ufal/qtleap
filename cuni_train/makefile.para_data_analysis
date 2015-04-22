@@ -1,0 +1,213 @@
+SHELL=/bin/bash
+
+# PARAMS TO BE SET:
+# LANG_PAIR: language pair in the "lang1_lang2" format, e.g. "cs_en" for analyzing the English-Czech parallel data
+# DATA: a path to the parallel training data
+# STAGE: a stage, to which the input training data is preprocessed (segm, orig_plain, tecto)
+# OPTIONAL PARAMS:
+# TMP_DIR: run directory
+
+include makefile.cluster_conf
+
+TREEX_LOG_DIR=log/treex/{NNN}-analysis-run-{XXXXX}
+
+SRC_LANG=$(shell echo $(LANG_PAIR) | cut -f1 -d'_')
+TRG_LANG=$(shell echo $(LANG_PAIR) | cut -f2 -d'_')
+
+STAGES=segm orig_plain filtered_plain split_plain for_giza giza parse tecto
+STAGES_TO_PASS_START=$(shell perl -e 'my $$s = "$(STAGES)"; my @a = split / /, $$s; my ($$i) = grep {$$a[$$_] eq "$(STAGE)"} 0 .. $$\#a; print $$i+2;')
+STAGES_TO_PASS=$(wordlist $(STAGES_TO_PASS_START),$(words $(STAGES)),$(STAGES))
+
+ifeq ($(STAGE),segm)
+SEGM_SRC_DATA=$(shell echo "$(DATA)" | cut -d';' -f1)
+SEGM_TRG_DATA=$(shell echo "$(DATA)" | cut -d';' -f2)
+endif
+ifeq ($(STAGE),orig_plain)
+PLAIN_SRC_DATA=$(shell echo "$(DATA)" | cut -d';' -f1)
+PLAIN_TRG_DATA=$(shell echo "$(DATA)" | cut -d';' -f2)
+SEGM_SRC_DATA=$(TMP_DIR)/segm.$(SRC_LANG)
+SEGM_TRG_DATA=$(TMP_DIR)/segm.$(TRG_LANG)
+endif
+ifeq ($(STAGE),tecto)
+TREES_TECTO_LIST=$(DATA)
+endif
+
+segm_src_data_path:
+	echo $(SEGM_SRC_DATA)
+segm_trg_data_path:
+	echo $(SEGM_TRG_DATA)
+
+############################## convert from SEGM format to a plain bitext ########################
+
+ifneq ($(findstring orig_plain,$(STAGES_TO_PASS)),)
+PLAIN_SRC_DATA=$(TMP_DIR)/plain_data.$(SRC_LANG)
+PLAIN_TRG_DATA=$(TMP_DIR)/plain_data.$(TRG_LANG)
+endif
+
+segm_to_plain : $(PLAIN_SRC_DATA) $(PLAIN_TRG_DATA)
+$(PLAIN_SRC_DATA) : $(SEGM_SRC_DATA)
+$(PLAIN_TRG_DATA) : $(SEGM_TRG_DATA)
+
+$(PLAIN_SRC_DATA) $(PLAIN_TRG_DATA) :
+	mkdir -p $(dir $@)
+	cat $< | perl -nle '(/^<seg[^>]*>\s*(.*)\s*<\/seg>/ && print $$1);' > $@
+
+
+############################## filters out the unaligned lines ###################################
+
+ifneq ($(findstring filtered_plain,$(STAGES_TO_PASS)),)
+CONCAT_SRC_DATA=$(TMP_DIR)/concat_data.$(SRC_LANG)
+CONCAT_TRG_DATA=$(TMP_DIR)/concat_data.$(TRG_LANG)
+PLAIN_PREPROC_SRC_DATA=$(TMP_DIR)/preproc_data.$(SRC_LANG)
+PLAIN_PREPROC_TRG_DATA=$(TMP_DIR)/preproc_data.$(TRG_LANG)
+endif
+
+preprocess : $(PLAIN_PREPROC_SRC_DATA)
+$(PLAIN_PREPROC_SRC_DATA) : $(PLAIN_SRC_DATA) $(PLAIN_TRG_DATA)
+	mkdir -p $(dir $@)
+	cat $(PLAIN_SRC_DATA) > $(CONCAT_SRC_DATA)
+	cat $(PLAIN_TRG_DATA) > $(CONCAT_TRG_DATA)
+	bin/filter_unaligned_sents.pl $(CONCAT_SRC_DATA) $(CONCAT_TRG_DATA) $(PLAIN_PREPROC_SRC_DATA) $(PLAIN_PREPROC_TRG_DATA)
+$(PLAIN_PREPROC_TRG_DATA) : $(PLAIN_PREPROC_SRC_DATA)
+
+filtered_plain_src_data_path :
+	echo $(PLAIN_PREPROC_SRC_DATA)
+filtered_plain_trg_data_path :
+	echo $(PLAIN_PREPROC_TRG_DATA)
+
+########################## splits the parallel data into parts  ###################################
+
+ifneq ($(findstring split_plain,$(STAGES_TO_PASS)),)
+#SPLIT_PLAIN_SRC_LIST=$(TMP_DIR)/data_splits/$(SRC_LANG)/short_list
+SPLIT_PLAIN_SRC_LIST=$(TMP_DIR)/data_splits/$(SRC_LANG)/list
+#SPLIT_PLAIN_TRG_LIST=$(TMP_DIR)/data_splits/$(TRG_LANG)/short_list
+SPLIT_PLAIN_TRG_LIST=$(TMP_DIR)/data_splits/$(TRG_LANG)/list
+endif
+
+SENTS_PER_DOC=200
+
+split_data : $(SPLIT_PLAIN_SRC_LIST) $(SPLIT_PLAIN_TRG_LIST)
+split_data_src : $(SPLIT_PLAIN_SRC_LIST)
+split_data_trg : $(SPLIT_PLAIN_TRG_LIST)
+$(SPLIT_PLAIN_SRC_LIST) : $(PLAIN_PREPROC_SRC_DATA)
+	mkdir -p $(dir $@)
+	$(MAKE) -f makefile.utils LANGUAGE=$(SRC_LANG) DATA=$< OUT_LIST=$@ SENTS_PER_DOC=$(SENTS_PER_DOC)
+$(SPLIT_PLAIN_TRG_LIST) : $(PLAIN_PREPROC_TRG_DATA)
+	mkdir -p $(dir $@)
+	$(MAKE) -f makefile.utils LANGUAGE=$(TRG_LANG) DATA=$< OUT_LIST=$@ SENTS_PER_DOC=$(SENTS_PER_DOC)
+
+plain_split_src_list :
+	echo $(SPLIT_PLAIN_SRC_LIST)
+plain_split_trg_list :
+	echo $(SPLIT_PLAIN_TRG_LIST)
+
+########################## morphology + prepare for GIZA alignment ################################
+
+ifneq ($(findstring for_giza,$(STAGES_TO_PASS)),)
+FOR_GIZA_DIR=$(TMP_DIR)/for_giza
+TREES_MORPHO_DIR=$(TMP_DIR)/trees.morpho
+TREES_MORPHO_LIST=$(TREES_MORPHO_DIR)/list
+FOR_GIZA_DATA=$(TMP_DIR)/for_giza.gz
+endif
+
+for_giza : $(FOR_GIZA_DATA)
+$(FOR_GIZA_DATA) : $(SPLIT_PLAIN_SRC_LIST) $(SPLIT_PLAIN_TRG_LIST)
+	mkdir -p $(dir $@)
+	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR)" \
+		Read::AlignedSentences $(SRC_LANG)_src=@$(SPLIT_PLAIN_SRC_LIST) $(TRG_LANG)_src=@$(SPLIT_PLAIN_TRG_LIST) \
+		scenario/para_data_analysis/$(LANG_PAIR)_s1_analysis_w2m.scen \
+		Write::Treex storable=1 substitute='{^.*/([^\/]*)\.streex}{$(TREES_MORPHO_DIR)/$$1.streex}' \
+		Write::LemmatizedBitexts selector=src language=$(SRC_LANG) to_language=$(TRG_LANG) to_selector=src to='.' substitute='{^.*/([^\/]*)}{$(FOR_GIZA_DIR)/$$1.txt}'
+	find $(TREES_MORPHO_DIR) -name "*.streex" | sort | sed 's|$(TREES_MORPHO_DIR)/||' > $(TREES_MORPHO_LIST)
+	find $(FOR_GIZA_DIR) -name "*.txt" | sort | xargs cat | gzip -c > $@
+
+morpho : $(TREES_MORPHO_LIST)
+$(TREES_MORPHO_LIST) : $(FOR_GIZA_DATA)
+
+clean_for_giza :
+	-rm -rf $(FOR_GIZA_DIR)
+	-rm -rf $(TREES_MORPHO_DIR)
+	-rm $(FOR_GIZA_DATA)
+		
+######################################## GIZA alignment ############################################
+
+ifneq ($(findstring giza,$(STAGES_TO_PASS)),)
+GIZA_DIR=$(TMT_ROOT)/share/installed_tools/giza
+GIZA_DATA=$(TMP_DIR)/giza.gz
+endif
+
+giza : $(GIZA_DATA)
+$(GIZA_DATA) : $(FOR_GIZA_DATA)
+	mkdir -p $(dir $@) $(TMP_DIR)/giza_tmp
+	bin/gizawrapper.pl \
+		--tempdir=$(TMP_DIR)/giza_tmp \
+		--bindir=$(GIZA_DIR) $< \
+		--lcol=1 --rcol=2 \
+		--keep \
+		--dirsym=gdfa,int,left,right,revgdfa 2> $(TMP_DIR)/giza_tmp/giza.stderr \
+		| paste <(zcat $< | cut -f1 | sed 's|^.*/|$(TREES_MORPHO_DIR)/|' | sed 's/\.txt/.streex/') - \
+		| gzip > $@
+
+clean_giza :
+	-rm -rf $(GIZA_DATA)
+
+######################################## syntax ############################################
+
+ifneq ($(findstring parse,$(STAGES_TO_PASS)),)
+TREES_PARSE_DIR=$(TMP_DIR)/trees.parse
+TREES_PARSE_LIST=$(TREES_PARSE_DIR)/list
+endif
+
+parse : $(TREES_PARSE_LIST)
+$(TREES_PARSE_LIST) : $(GIZA_DATA) $(TREES_MORPHO_LIST)
+	mkdir -p $(dir $@)
+	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR)" \
+		Read::Treex from=@$(word 2,$^) \
+		Align::A::InsertAlignmentFromFile from=$(word 1,$^) \
+			inputcols=gdfa_int_left_right_revgdfa_therescore_backscore \
+			selector=src language=$(SRC_LANG) to_selector=src to_language=$(TRG_LANG) \
+		scenario/para_data_analysis/$(LANG_PAIR)_s3_analysis_m2a.scen \
+		Write::Treex storable=1 substitute='{^.*/([^\/]*)\.streex}{$(TREES_PARSE_DIR)/$$1.streex}'
+	find $(TREES_PARSE_DIR) -name "*.streex" | sort | sed 's|$(TREES_PARSE_DIR)/||' > $@
+
+clean_parse :
+	-rm -rf $(TREES_PARSE_DIR)
+
+######################################## tecto  ############################################
+
+ifneq ($(findstring tecto,$(STAGES_TO_PASS)),)
+TREES_TECTO_DIR=$(TMP_DIR)/trees.tecto
+TREES_TECTO_LIST=$(TREES_TECTO_DIR)/list
+endif
+
+tecto : $(TREES_TECTO_LIST)
+$(TREES_TECTO_LIST) : $(TREES_PARSE_LIST)
+	mkdir -p $(dir $@)
+	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR)" \
+		Read::Treex from=@$< \
+		scenario/para_data_analysis/$(LANG_PAIR)_s4_analysis_a2t.scen \
+		Align::T::CopyAlignmentFromAlayer selector=src language=$(SRC_LANG) to_selector=src to_language=$(TRG_LANG) \
+		Write::Treex storable=1 substitute='{^.*/([^\/]*)\.streex}{$(TREES_TECTO_DIR)/$$1.streex}'
+	find $(TREES_TECTO_DIR) -name "*.streex" | sort | sed 's|$(TREES_TECTO_DIR)/||' > $@
+
+tecto_data_list :
+	echo $(TREES_TECTO_LIST)
+
+clean_tecto :
+	-rm -rf $(TREES_TECTO_DIR)
+
+#################################################
+
+.SECONDARY : $(TREES_PARSE_LIST) $(GIZA_DATA) $(FOR_GIZA_DATA) $(TREES_MORPHO_LIST) $(SPLIT_PLAIN_SRC_LIST) $(SPLIT_PLAIN_TRG_LIST) $(PLAIN_PREPROC_SRC_DATA) $(PLAIN_PREPROC_TRG_DATA) $(PLAIN_SRC_DATA) $(PLAIN_TRG_DATA) $(SEGM_SRC_DATA) $(SEGM_TRG_DATA)
+
+clean : clean_for_giza clean_giza clean_parse clean_tecto
+clean_all :
+	rm -rf $(TMP_DIR)
+
+test :
+	@echo $(STAGE)
+	@echo $(STAGES_TO_PASS)
+	@echo $(DATA)
+	@echo $(TREES_TECTO_LIST)
+	@echo $(TREES_MORPHO_LIST)
+	@echo $(GIZA_DATA)

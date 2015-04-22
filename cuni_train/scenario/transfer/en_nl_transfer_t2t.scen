@@ -1,0 +1,6 @@
+Util::SetGlobal language=nl selector=tst
+T2T::CopyTtree source_language=en source_selector=src
+
+simple_transfer_t2t.scen
+T2T::EN2NL::TrLFPhrases
+T2T::EN2NL::AddNounGender

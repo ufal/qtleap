@@ -1,0 +1,2002 @@
+Estaba escribiendo un texto y me ha aparecido una página en blanco encima del texto y no puedo suprimirla.
+Coloque el cursor al inicio de la página en blanco y use la tecla DELETE tantas veces como sea necesario hasta colocar el texto en el lugar deseado.
+No tengo acceso a internet, ¿podría ayudarme a configurar el router?
+Para configurar el router tiene que acceder a la página interna del mismo, la cual cambia de un dispositivo a otro. Consulte el manual de instrucciones para saber la dirección, el nombre de usuario y la contraseña.
+No puedo pasar música del ordenador a un disco duro externo.
+Si el ordenador no reconoce el disco, intente cambiar de puerto USB.
+No puedo conectarme a una red inalámbrica.
+Confirme la contraseña de su red inalámbrica, debe estar debajo del propio router, salvo si la contraseña ha sido modificada.
+No tengo acceso a mi correo electrónico, ¿podría ayudarme?
+Compruebe que tiene acceso al correo electrónico en Webmail y confirme la configuración cliente del correo electrónico.
+No puedo configurar la cuenta de sapo para Iphone
+Siga las instrucciones de esta página: http://fotos.sapo.pt/sapoptmail/fotos/?uid=wp6t4AZGbkMVELZvItYK#grande
+No hay acceso a Internet a través de una red inalámbrica con un teléfono móvil.
+Active la red inalámbrica de su teléfono y configure la red wifi que desea con la clave de seguridad correcta.
+Tengo un correo electrónico que va directamente a la carpeta de correo no deseado, cómo puedo cambiarlo?
+Acceda a los correos no deseados y elimine de la lista negra el correo que quiera recibir en la bandeja de entrada.
+Intento optimizar el sistema operativo
+Haga una limpieza del disco. Si tiene Windows Vista, o Windows 7, en"Inicio" > "Ejecutar" escriba "cleanmgr". Si tiene Windows 8, escriba el mismo comando en la opción de búsqueda. Siga las instrucciones.
+Cómo realizar un cambio de NAT para PS3
+Encienda la PS3 en el panel de Configuración de red" "Configuración" ">" "Configuración de red" "."
+Mi IP está en la lista negra
+Póngase en contacto con su proveedor de internet e infórmele del problema.
+Quiero saber si el antivirus ha detectado algún problema.
+Haga doble clic en el icono de su antivirus, el cual se encuentra en la esquina inferior derecha del escritorio. El panel mostrará si hay alguna alerta antivirus.
+No consigo recibir correos electrónicos, creo que mi IP está en la lista negra, ¿qué debo hacer?
+Puede ser un problema de virus, haga un análisis con el antivirus.
+Imprimir PDF.
+Intente instalar el PDF writer http://www.cutepdf.com/products/cutepdf/writer.asp
+No hay señal wifi.
+Compruebe si el PC detecta la red inalámbrica. La tarjeta inalámbrica puede estar desactivada, en ese caso, el equipo debe tener un botón físico para encender y apagar la red inalámbrica.
+¿Cómo restaurar el sistema?
+Acceda a Herramientas del Sistema > Restaurar el Sistema y siga las instrucciones.
+¿Cómo actualizo el ordenador?
+Compruebe si el Windows Update está activado.
+No consigo conectarme a internet con el teléfono móvil
+Compruebe que está conectado a la red.
+El ordenador no se enciende
+Intente conectarlo a otra toma de corriente.
+¿Dónde encuentro la contraseña de la red inalámbrica de mi domicilio?
+La contraseña de la red wifi original está debajo del router proporcionado por su ISP.
+Problema de inicio de sesión con Skype.
+Confirme el nombre de usuario y la contraseña. Si el problema persiste, haga una recuperación de la cuenta.
+No tengo internet, hay una cruz roja en el icono de internet.
+Ese símbolo significa que no está conectado a ninguna red. Si está conectado a través de un cable, compruebe el cable, si está conectado de forma inalámbrica, asegúrese de que está conectado a la red.
+Necesito ayuda para eliminar ficheros duplicados de mi ordenador.
+Seleccione los ficheros que quiere eliminar y pulse la tecla Suprimir del teclado.
+No tengo internet a través de una red inalámbrica.
+Compruebe que está correctamente conectado al router .
+No detecto mi red inalámbrica pero detecto otras redes.
+Realice una conexión por cable de red a su router. Acceda al panel de control, entre en las configuraciones wifi y asegúrese de que la red inalámbrica está conectada. Si su router tiene un asistente, ejecútelo.
+No hay acceso a la red por cable.
+Intente reiniciar el router.
+No puedo instalar el lápiz inalámbrico.
+En el cd de instalación que viene con el dispositivo están los drivers de instalación. En caso de no tener el cd puede descargarlos en la página web del fabricante.
+No hay acceso a internet a través de red inalámbrica con el iPad.
+Desactive la red inalámbrica y conéctese de nuevo con los datos correctos.
+Cómo configurar un repetidor de ZON
+Compruebe que está sincronizado con el emisor de señal y que la clave es correcta.
+Mi ordenador no muestra ninguna imagen, ¿cómo debo proceder?
+Intente conectar el ordenador a otro monitor, si se trata de un ordenador portátil, conéctelo a un monitor externo. Si no funciona, hay un problema con el monitor.
+Conexión de PS3 a una red.
+Conecte la PS3 y vaya a Configuración>Configuraciones de Red, seleccione la red y escriba sus credenciales.
+No consigo abrir un puerto en el router.
+Acceda al panel de control del router y compruebe que las configuraciones NAT permiten el reenvío de puertos.
+No tengo internet ni con cable ni a través de una red inalámbrica.
+Desenchufe el router y vuelva a conectarlo 30 segundos más tarde.
+No consigo visualizar mi red inalámbrica.
+Intente reiniciar el router.
+Puedo conectar un router WOW a un PC de sobremesa?
+Dicha operación no es posible.
+No hay acceso a internet a través de red inalámbrica
+Compruebe que su red inalámbrica está disponible.
+No tengo acceso a mi red inalámbrica.
+Compruebe que el botón wifi del ordenador portátil está encendido, si es así compruebe que está conectado a su propia red inalámbrica.
+¿Cuál es mi contraseña de red?
+Asegúrese de que la clave está en la parte inferior del router.
+Durante la visualización de vídeos, estos se paran muchas veces.
+Puede ser debido a un bajo nivel de descarga de internet, o a que el ordenador es lento. Intente hacer una limpieza del ordenador.
+Ayuda para instalar una impresora.
+Intente instalar los drivers con el CD que viene con la impresora. Si no tiene el CD, puede acceder a la página web del fabricante.
+Problema para acceder a la página www.isssp.pt
+Acceda a la página web de JAVA, efectúe la descarga y realice la instalación correspondiente.
+He suspendido el ordenador y ha dejado de funcionar.
+Intente reiniciar el ordenador.
+¿Cómo puedo cambiar la contraseña del router?
+Acceda al panel de control del router y modifique la contraseña.
+Cómo puedo saber si tengo un virus en mi ordenador.
+Actualice el antivirus y realice un análisis completo del ordenador.
+Mi escritorio ha desaparecido.
+Haga una restauración del sistema y realice un análisis de virus.
+¿Cómo cambiar la clave de red wifi de mi domicilio?
+Compruebe la contraseña de red inalámbrica en el panel interno del router.
+¿Es obligatorio el número de móvil en Facebook?
+No es obligatorio el número de móvil para registrarse en Facebook.
+¿Cómo puedo actualizar Java?
+Puede acceder a la página web de Java, descargar la nueva versión e instalarla.
+Cuando intento escribir, hay menús abiertos.
+Compruebe si alguna tecla del teclado ha sido presionada.
+No consigo imprimir con mi impresora conectada de forma inalámbrica al ordenador.
+Compruebe que su impresora está conectada correctamente a la red del ordenador.
+¿Dónde puedo hacer una prueba de velocidad?
+Puede hacer una prueba de velocidad en la página http://www.speedtest.net/pt/
+Cambiar la contraseña del correo electrónico sapo.
+Para cambiar la contraseña acceda a la página https://id.sapo.pt ("Cambiar Contraseña", en "Correo electrónico de acceso" seleccione de nuevo "cambiar contraseña")
+Puedo recibir correos electrónicos pero no puedo enviar.
+Tiene que acceder a la configuración cliente del correo electrónico y comprobar que el servidor de envío es correcto.
+No consigo acceder a windows, ¿podría ayudarme?
+Trate de acceder en modo seguro , cuando el equipo se esté iniciando, pulse reitaradamente la tecla F8. A continuación restaure el sistema.
+El antivirus no funciona.
+Reinicie el equipo e inténtelo de nuevo. Si el problema persiste intente reinstalar el software.
+Mi Playstation 3 no detecta el cable de red
+Probablemente hay algún problema con el cable de red. Inténtelo con otro cable.
+El router wow no funciona con el cable usb, funciona solo por wifi.
+Instale la actualización de WOW.
+¿Qué credenciales se necesitan para acceder a internet a través de PT-WIFI?
+Utilice los mismos credenciales de acceso que para el área cliente PT.
+¿El router ADB sirve de repetidor de señal?
+El router ADB no tiene esa función.
+El ordenador va lento solo cuando uso Gmail.
+Pulse simultáneamente las teclas Ctrl Shift Delete, y seleccione borrar memoria caché. A continuación seleccione borrar.
+Facebook está bloqueado, ¿cómo lo resuelvo?
+Tiene que esperar unos días hasta que se desbloquee.
+Intento crear un acceso directo a Hotmail.
+Tiene que copiar el enlace de hotmail y crear un acceso directo en el escritorio, pegando el enlace y guardándolo.
+¿Qué antivirus tengo que dejar en el ordenador, MSE o AVG?
+Ambos antivirus son válidos, elija el que mejor se adapte a sus necesidades y suprima el otro.
+Quiero imprimir una fotografía que se encuentra en el escritorio.
+Pulse el botón derecho del ratón y a continuación seleccione “Imprimir”.
+No consigo conectarme por wifi con el teléfono móvil.
+Asegúrese de que la opción wifi del teléfono está activada.
+La contraseña de red inalámbrica no es correcta.
+Compruebe que se ha introducido correctamente la clave que se encuentra debajo del router.
+Cambiar el nombre de la red wifi.
+Acceda al panel de configuración del router, consulte el manual de instrucciones, la dirección ip, el nombre de usuario y la contraseña, a continuación seleccione en los menús la opción SSID.
+Mi ordenador no tiene sonido.
+En la esquina inferior de la pantalla se encuentra el símbolo de sonido, compruebe que está al 100%.
+No logro entrar en MyZON, error de datos.
+Recupere los datos de la contraseña de acceso a MyZON.
+Quiero poner en la barra de favoritos un IE
+Alt > Ver > Barra de Herramientas > Barra de Favoritos.
+No consigo envíar un mail a través de Outlook
+Acceda a herramientas, cuentas y haga una prueba de envío. Si no funciona confirme con su proveedor de correo electrónico los credenciales cliente de dicho correo.
+Solo tengo conexión a internet via mi propio modem, no tengo internet en mi router
+Es necesario sincronizar los dispositivos desenchufándolos y reconectándolos 30 segundos más tarde.
+Intento cambiar la página inicial de google Chrome, cómo debo proceder?
+Acceda a “Configuraciones”> “”Abra una página específica o un conjunto de páginas”” y coloque la dirección de la página deseada”.
+No tengo internet, las luces del router están en intermitente.
+Reinicie el router.
+Tengo la barra de herramientas en el lado derecho de la pantalla y quiero colocarla en la parte inferior de la misma.
+Basta con arrastrar la barra al lugar deseado.
+El menú del antivirus me indica que ha detectado un virus, ¿qué debo hacer?
+Ponga el virus en cuarentena y realice un anáÏlisis completo del equipo.
+Leer ficheros H.265
+Instale VLC http://www.videolan.org/vlc/
+Cómo conectar el ordenador tras haberlo suspendido.
+Pulse el botón que usa para conectar el ordenador.
+Conectar un router al módem de ZON.
+Conecte el módem al puerto wan del router, a continuación desconecte ambos dispositivos de la toma de corriente y vuelva a conectarlos de nuevo.
+Problema de acceso al servidor de juegos.
+Tiene que acceder al router a través de la página (normalmente es el 192.168.1.1) del mismo y activar el uPnP.
+Estoy sin red inalámbrica desde hace ya 3 días.
+Compruebe que puede visualizar su red inalámbrica.
+Tengo el disco duro del ordenador estropeado, ¿existe alguna posibilidad de acceder a internet?
+Puesto que el disco duro está averiado no se puede acceder al sistema operativo, luego la única solución es introducir un CD con el sistema operativo live, sin instalación en el disco. Tiene que descargar este software en http://www.ubuntu.com/download/desktop en otro PC, gravarlo en un CD e instalarlo en el ordenador dañado.
+No tengo internet. Luz init parpadea entre rojo y verde
+Reinicie el router: pulse durante 30 segundos en el orificio de reinicio; desconecte y vuelva a conectar el dispositivo.
+He cambiado la contraseña del correo electrónico y ahora no recibo correos en los pcs.
+Cree una nueva contraseña en todas las páginas de gestión de correo electrónico.
+Cómo hacer un Backup del correo electrónico (webmail.sapo.pt)
+Instale un cliente de correo electrónico como por ejemplo Thunderbird.
+Mi router se reinicia continuamente.
+Desconecte el router de la toma de corriente durante 2 minutos. Si el problema persiste reinicie el router.
+No tengo acceso a internet a través de red inalámbrica, apenas consigo conectarme directamente al módem.
+Hay que desconectar ambos dispositivos para sincronizarlos, a continuación conecte el módem, y cuando todas las luces del módem estén encendidas conecte el router a la toma de corriente.
+La pantalla del ordenador presenta riesgos.
+Compruebe la conexión del cable VGA, que conecta el monitor al ordenador.
+No tengo internet en el ordenador.
+Compruebe que está conectado a la red.
+No consigo acceder al panel de configuración del router.
+Confirme que está conectado al router por cable. Consulte el manual de instrucciones del router en la página del router. Seleccione el menú más adecuado a la opción de internet que desea.
+Quiero digitalizar un documento y no sé cómo.
+Compruebe que tiene una impresora multifunción o un escáner y si están instalados en el ordenador.
+Conexión lenta en un horario determinado.
+Tiene que acceder al panel de configuración del router. Normalmente es la dirección (192.168.1.1). Modifique los parámetros SSID, Canal, Seguridad.
+Crear una nueva cuenta de correo electrónico.
+Acceda a la página del proveedor donde desea crear el correo electrónico, y registre la nueva cuenta.
+El antivirus ha expirado.
+Tiene que renovar la licencia o comprar un nuevo antivirus.
+No tengo los iconos de red ni de notificación de las horas.
+Puede ser un problema con los drivers de la placa de red. Intente reinstalarlos.
+Cómo puedo hacer una limpieza en el ordenador.
+Desinstale los programas que no sean imprescindibles y haga una limpieza del disco.
+No logro escribir la contraseña de acceso a internet, solo puedo escribir números y letras
+Para escribir la clave de seguridad, haga clic en el campo que está debajo del código.
+No tengo acceso a internet con mi smartphone.
+Intente comprobar si el símbolo de la red inalámbrica se encuentra visible en la pantalla del teléfono móvil.
+¿Por qué internet va tan lento?
+Intente abrir otro navegador como Firefox, Chrome o IE para ver si el problema persiste.
+Configurar una cuenta de correo electrónico Outlook Express.
+En Outlook, vaya a Herramientas > Cuentas e inserte los datos correspondientes a su cuenta de correo electrónico..
+Mi router de ZON se reinicia constantemente.
+Le sugerimos que haga clic en el orifício de reset durante 40 segundos y después desconecte el router de la toma de corriente durante 3 minutos.
+He cambiado la contrasena de mi red inalambrica y ahora no consigo conectarme.
+En la esquina inferior derecha haga clic en el símbolo de red inalambrica para abrir las conexiones de red. Pulse el boton derecho del ratón en el nombre de su red. En el menú pulse en "Red olvidada", conéctese de nuevo más tarde a la red con los nuevos credenciales.
+Cómo puedo acceder a ZON_FON.
+Tiene que registrarse en ZON_FON (www.zon.pt/myzon).
+No consigo conectarme a la red inalámbrica, me pide un pin de 8 dígitos y en el router tengo solo 9.
+Intente conectarse a su red inalámbrica con la clave de seguridad que se encuentra debajo del router.
+Sin acceso a internet a través de red inalámbrica.
+Intente conectarse a su red usando la clave que está debajo del router.
+¿Cómo puedo borrar mis emails de Outlook 2007?
+Seleccione los emails que desea borrar y presione, “Suprimir”
+Mi internet va muy lento.
+Verifique si tiene descargas activas o si está descargando software. En caso afirmativo, apáguelas y repite la prueba de velocidad.
+Dice que al email no se puede adjuntar archivos de un cierto tamaño.
+Los servidores del proveedor de email han puesto un límite con respecto al tamaño de archivo adjuntado, lo cual varía entre proveedores.
+¿Cómo puedo activar Microsoft Office?
+Verifique la clave de activación que debería de estar en el envase del software. Cuando el software pida la clave, introdúzcala.
+No puedo acceder mi cuenta de Facebook.
+Intente recuperar la cuenta desde el propio sitio de Facebook.
+Sin acceso a Internet
+Falta respuesta
+Suscribirse a PT Wi-Fi
+Accede a la área de clientes PT, (https://www.ptcliente.pt/Pages/Login/Login.aspx), y regístrese.
+¿Cómo puedo enviar fotos desde el teléfono móvil al ordenador?
+Intente conectar su móvil al ordenador mediante un cable USB. En la carpeta Mi Equipo, el teléfono debe aparecer como un dispositivo extraíble.
+¿Cómo puedo configurar el email en Android OS?
+Abra la aplicación de email > Ajustes > Agregar Cuenta e introduzca los ajustes del proveedor de email.
+No tengo email en Outlook.
+Compruebe los ajustes en su cuenta de Outlook.
+¿Cómo se llama la red de Wi-Fi gratis de MEO?
+La red inalámbrica gratuita para clientes de MEO es WIFI PT.
+Un mensaje de error DNS se muestra en mi navegador.
+Compruebe si el error está relacionado con cualquier antivirus. Si el problema persiste, introduzca el DNS de Google (8.8.8.8 and 8.8.4.4)
+Mi tarjeta de red se ve como no instalada.
+Instale los controladores correctos para la tarjeta respectiva.
+No puedo introducir MyZON.
+Recupere sus datos (nombre de usuario y contraseña) de MyZON y cambie la contraseña.
+Un mensaje diciendo “acceso limitado” se ve en la esquina derecha.
+Elimine la red y reconecte introduciendo la clave de acceso.
+¿Se accede a Internet mejor a través de una red inalámbrica o a través de un cable?
+Una conexión a Internet a través de un cable es siempre más estable.
+Abrir archivos ASPX
+Para abrir los archivos de formato ASPX, puede utilizar el Bloc de notas o Microsoft Visual Studio.
+¿Cómo puedo ver muchos canales de televisión durante mi estancia en el hospital?
+Si su ISP tiene un servicio de televisión en línea, usted puede utilizarlo, mediante un módem USB de banda ancha.
+Me gustaría crear una cuenta gratis de Fon ZON.
+Accede a su área de clientes en MyZON.pt y regístrese para el servicio.
+Tengo archivos que no pueden abrirse.
+Eche un vistazo a las extensiones de archivo para que podamos identificar los programas que son necesarios para abrirlos.
+¿Cómo puedo crear un correo electrónico SAPO siendo un cliente de MEO?
+Accede a webmail.sapo.pt y cree la cuenta de email. Luego, si desea conectarse al servicio, acceder al área de clientes de PT.
+¿Cómo acceder a ZON en línea?
+Usted debe registrarse con MyZON.pt, y luego acceder a la página http://www.ZONline.pt/
+No tengo acceso a PT Wi-Fi
+Intente reintroducir sus datos
+No puedo acceder a PT Wi-Fi.
+Intente reintroducir sus datos de inicio de sesión en la página que aparece mientras usted intenta abrir una página web.
+¿Cómo puedo ver la televisión Sport en el iPad?
+Para ver Sport TV en la iPad, debe tener la aplicación de Sport TV, descargable en https://itunes.apple.com/pt/app/sport-tv-multiscreen/id710897506?mt=8
+¿Cómo puedo acceder a una red inalámbrica utilizando una tableta de Android?
+Vaya a Ajustes > Wi-Fi, seleccione la red y conéctese.
+No puedo recibir mensajes de email en Outlook.
+Compruebe si tiene internet. En caso afirmativo, trate de volver a configurar su cuenta de Outlook.
+No tengo conexión de ADSL
+Compruebe si el cable ADSL está conectado correctamente.
+No hay imagen en la pantalla externa.
+Compruebe el cable entre los dispositivos y trate de cambiar la resolución de pantalla.
+El antivirus tiene errores constantes.
+Intente reinstalar el antivirus.
+No puedo acceder a una página específica de Internet.
+Compruebe si el enlace que ha escrito es correcto.
+Un programa que no quiero ha sido instalado en mi ordenador.
+En Windows, debería de hacer clic en Inicio > Panel de Control > Programas y Funcionalidades > Agregar o Eliminar Programas, y desinstalar la aplicación respectiva.
+Sin el acceso inalámbrico, el ordenador no detecta ninguna red inalámbrica
+Intente verificar si el botón inalámbrico está encendido. Compruebe en el manual del ordenador de la posición del botón en el ordenador.
+No puedo acceder a mis cámaras.
+En la misma red en la que hay cámaras, abra la siguiente página web http://www.whatismyip.com/ y compruebe si la IP que aparece es la misma que introduce para acceder a las cámaras.
+Conectar una pantalla a un PC
+primero la pantalla al PC, y luego acceder a la configuración a través del menú de la pantalla.
+No puedo acceder a los subtítulos de la aplicación 3D.
+Compruebe la versión de su Java. Puede que tenga que instalar la versión de 64 bits.
+La tarjeta de vídeo con los controladores del fabricante en modo normal no funciona.
+Intente reinstalar los controladores.
+Activar el modo de hibernación en Windows XP
+Active la función en las opciones de energía en el Panel de control.
+¿Puedo hacer una actualización de Windows?
+Sí, es posible.
+Cada vez que abro una página en Internet Explorer, un mensaje aparece sobre errores de complementos. ¿Me puede ayudar?
+Intente reinstalar Internet Explorer.
+Quiero instalar ccCleaner.
+Para instalar el software sólo tiene que seguir los pasos de la página www.piriform.com/Ccleaner.
+No puedo acceder a Webmail.
+Compruebe si puede acceder a Webmail a través de otro navegador, o encuentre más información en la ISP del servidor de email.
+¿Cómo puedo cambiar la posición de la barra de las ventanas?
+Desbloquee la barra y arrástrela a su ubicación preferida.
+Cuando conecto el módem USB de banda ancha al ordenador se nota que se está iniciando pero no procede a partir de este paso.
+Desinstale el software del módem USB y vuelva a instalarlo mediante otro puerto USB del dispositivo.
+No puedo ver vídeos de YouTube correctamente.
+Intente actualizar Adobe Flash Player
+Me aparece un mensaje de contraseña incorrecta en mi correo de Outlook.
+Compruebe si puede acceder a sus correos a través del correo web de su proveedor de correo electrónico.
+La conexión a la red Wi-Fi solo tiene acceso local.
+Actualice el controlador de la tarjeta de red.
+He formateado mi PC y ahora no tengo Internet.
+Instale los controladores para su tarjeta inalámbrica.
+Hay un sitio web específico que no se abre.
+Intente acceder a través del navegador de otra computadora. Si la situación persiste, el problema es del propio sitio web.
+No tengo acceso a Internet por cable.
+Por favor, compruebe que el cable de red está conectado correctamente.
+No puedo acceder al DVR desde el exterior.
+Compruebe la configuración de IP y abra los puertos respectivos en el router.
+No conozco los valores del VPI y el VCI.
+VPI=0, VCI=35
+¿Cómo abro los puertos para un juego?
+Debe acceder a la página interna del router y realizar la apertura a través de “re-direccionamiento de puertos” o “DMZ host”.
+No puedo acceder a la página interna del router con los ajustes de fábrica.
+En caso de que haya cambiado la contraseña, le sugiero que restablezca el equipo para volver a los ajustes de fábrica.
+No tengo Internet con mi módem USB y me sale un error
+El error 678 significa que el número que está marcando es incorrecto.
+Sin sonido en una llamada de Skype.
+Compruebe los ajustes de sonido de Skype en Herramientas > Opciones > Ajustes de sonido.
+El iPad no tiene Internet inalámbrico pero el PC sí.
+Compruebe que tiene activada la funcionalidad Wi-Fi en el iPad.
+No puedo acceder a los ajustes de ZONhub de forma inalámbrica.
+Por defecto el router está configurado para permitir solo el acceso por cable.
+Solo un PC no tiene conexión inalámbrica.
+Compruebe si está conectado a su red inalámbrica.
+No tengo Internet por cable.
+Pruebe a reinstalar la tarjeta de red.
+Aparecen anuncios cuando abro una página de Internet.
+Pruebe a eliminar el historial de navegación, los archivos temporales y restablezca los valores por defecto del navegador.
+Me gustaría desactivar la red inalámbrica en mi router.
+Debe acceder a la página de ajustes internos del router y desactivar la red inalámbrica.
+No tengo Internet en mi PC a través de cable, en mi teléfono móvil tengo Internet inalámbrico.
+Compruebe que el cable de red está conectado correctamente.
+El icono de la conexión inalámbrica no aparece.
+Compruebe los controladores de la tarjeta de red inalámbrica.
+Eliminar la cuenta de correo de Outlook
+Tiene que ir a Ajustes > Ajustes de cuentas. Seleccione la cuenta y presione Eliminar.
+¿Cómo cambio la página de inicio en Internet Explorer?
+En Internet Explorer, vaya a Propiedades y cambie la página de inicio.
+No tengo acceso a Internet ni por inalámbrico ni por cable.
+Apague el router y vuelva a encenderlo.
+Cómo apago una computadora con Windows
+Mueva el ratón a la esquina inferior derecha, después Ajustes > Apagar.
+¿Cómo consigo una dirección de correo electrónico?
+Puede acceder a un sitio web como Gmail o Hotmail y crear una cuenta, introduciendo la información que se le solicite.
+Sin acceso al sitio web http://www.clubeamizade.com/
+Compruebe si los datos de inicio de sesión son correctos.
+Error en el módem USB kanguru.
+Vaya a la línea de comandos y escriba los siguientes comandos: ‘netsh winsock reset’ y luego ‘netsh int ip reset resetlog.txt’
+No puedo descargar juegos de Google Play en mi tablet. Me sale una página en blanco cuando abro Google Play.
+Pruebe a reinstalar el dispositivo.
+Mi portátil se apaga solo cuando desconecto el cargador de la corriente. ¿Cómo debería proceder?
+Compruebe que la batería está conectada correctamente. Si lo está, cambie la batería.
+Necesito ayuda para instalar mi webcam en mi nuevo PC con Windows
+Para eso solo tiene que poner el CD que viene en la caja y seguir los pasos para instalar el programa.
+¿Cómo abro los archivos con Adobe Reader?
+Haga clic con el botón derecho en el archivo, seleccione “Abrir con” y elija Adobe Reader.
+¿Cómo conecto un portátil nuevo a la red inalámbrica?
+Compruebe la contraseña que hay escrita en la parte inferior del router.
+No puedo tomar una foto en Skype.
+Vaya a “Opciones de vídeo > Cambiar foto de perfil” y pulse “Tomar foto”.
+Mi PC no se enciende.
+Pruebe a utilizar otro enchufe.
+¿Cómo cambio el fondo de escritorio en mi mac?
+Presione el botón de Apple > Preferencias del sistema > “Escritorio y salvapantallas” y seleccione una imagen.
+Arranque lento.
+Pruebe a desinstalar los programas innecesarios y realice una limpieza de disco.
+Restaurar una copia de seguridad de los correos en Outlook.
+Siga los pasos en este sitio web: http://support.microsoft.com/kb/982839/pt-br
+Me gustaría crear una cuenta de Gmail.
+Vaya al sitio web de gmail.com y cree una nueva cuenta.
+Problemas con MEO GO.
+Pruebe a actualizar Microsoft Silverlight.
+Mi PC se ha quedado colgado y no puedo apagarlo.
+Presione el botón de encendido hasta que se apague. Espere un minuto y después vuelva a encender la computadora.
+Mi menú de inicio no tiene el color que quiero.
+Pruebe a cambiar el tema del escritorio.
+Mi monitor tiene la opción OSD bloqueada.
+Presione el botón de Menú + ON/OFF y reinicie el PC.
+No tengo acceso a Internet a través de mi amplificador de señal.
+Pruebe a apagar el router y el repetidor de señal, después vuelva a encenderlos.
+El teclado inalámbrico no funciona.
+Compruebe si las baterías están cargadas. Pruebe también a sincronizar el dispositivo con la base.
+Tengo dos computadoras que no encienden.
+Pruebe a usar otro enchufe.
+¿Puedo conectar a ZON@Fon Free en cualquier lugar?
+Sí, siempre que esa funcionalidad esté activa en su router.
+No tengo sonido en mi escritorio.
+Compruebe que los altavoces están conectados correctamente a la computadora.
+Quiero activar el antispam de Gmail.
+Gmail tiene activado el antispam por defecto.
+Trabajo con Google pero ahora me sale la barra de herramientas de Ask y no sé cómo quitarla.
+En “Panel de Control > Opciones de Internet > Cambiar página de inicio”, desinstale la barra de herramientas de Ask.
+Mi iTunes no detecta el iPad.
+Pruebe a reinstalar iTunes y compruebe las conexiones.
+Cuando abro Internet , no sale Google, sale otro sitio web.
+Introduzca el sitio web deseado como página de inicio en los ajustes del navegador.
+Mi antivirus está bloqueado porque tengo que pagarlo.
+Si no quiere comprar el antivirus, le sugerimos que lo desinstale e instale uno gratuito. Nosotros recomendamos Microsoft Security Essentials.
+Después de una tormenta eléctrica 3 de los puertos LAN del router han dejado de funcionar.
+Podría deberse a una descarga eléctrica producida por la tormenta. Tendrá que sustituir el equipo.
+No puedo realizar la prueba de velocidad.
+Dependiendo del sitio web podría tener que actualizar Java o Flash.
+Tengo un conflicto de dirección IP y no me puedo conectar al servidor.
+Cambie los ajustes de su tarjeta de red para obtener su IP automáticamente.
+Necesito ayuda para instalar Skype
+Vaya al enlace: https://login.skype.com/account/signup-form y rellene el formulario.
+Necesito ayuda para instalar Open Office
+Puede descargar el archivo de instalación del sitio web de Open Office y ejecutar la instalación siguiendo las instrucciones dadas.
+¿Qué son WEP y WPA?
+Son protocolos de encriptación para conexiones inalámbricas, de los cuales WPA es más nuevo y seguro.
+Internet Explorer funciona muy despacio y muestra errores al abrir ciertas páginas.
+Pruebe a reinstalar el navegador.
+La red inalámbrica gratuita del teléfono ZON se desconecta frecuentemente.
+Pruebe a buscar un lugar con mejor señal.
+Problemas al descargar la versión actualizada de Playstation Network.
+Si está conectado a una red a través de conexión inalámbrica, pruebe a conectarse a través de un cable de red.
+¿Cómo puedo configurar una cuenta de correo electrónico en Thunderbird?
+Intente acceder al software introduciendo los datos necesarios facilitados por su proveedor de correo electrónico.
+Hay un punto en la casa donde recibo una señal muy débil, pero sólo estoy a pasos del router.
+Pruebe a cambiar el canal del router.
+Cada vez que abro una página de Internet me aparece que el certificado del servidor no está disponible.
+Podría deberse al bloqueo de su antivirus. Pruebe a reinstalarlo.
+¿Cuál es mi velocidad contratada de Internet?
+Tendrá que comprobar esta información en una de las facturas suministradas por el proveedor de servicios de Internet al que está suscrito.
+Un programa gratuito de edición de vídeo doméstico.
+Puede usar Windows Movie Maker.
+La conexión inalámbrica de mi PC está limitada o no existe.
+Verifique que tiene IPs manuales y que están en el rango de IPs del router.
+No puedo realizar una video llamada en Gmail.
+Pruebe a descargar este plugin (https://www.google.com/tools/dlpage/hangoutplugin), e inténtelo de nuevo.
+¿Cómo puedo quitar una barra de herramientas de la barra de herramientas de Chrome?
+Vaya a Ajustes > Extensiones, encuentre la barra de herramientas deseada y elimínela.
+¿Dónde puedo acceder a Gmail?
+Puede acceder a través de www.gmail.com o www.google.pt. Después haga clic en el botón Gmail que aparece en la página.
+Mi teléfono móvil no encuentra ninguna red inalámbrica.
+Asegúrese de que la conexión Wi-Fi está activa en su teléfono.
+No puedo conectar a la red inalámbrica. Aparece el mensaje “Clave incorrecta”.
+En la parte inferior de su router encontrará el nombre de la red (SSID) y la contraseña. Intente acceder usando estas credenciales.
+No puedo ver películas en IE
+Dependiendo del sitio web, podría tener que actualizar Java o Flash.
+La pantalla de mi computadora está al revés.
+Pruebe a pulsar la tecla Alt Gr junto con las teclas de dirección para darle la vuelta.
+No puedo ejecutar Skype.
+Pruebe a escribir correctamente su correo electrónico y su contraseña. Si el problema persiste, intente recuperar sus datos por correo electrónico.
+Cuando abro Internet Explorer haciendo clic en el botón de inicio, aparece un mensaje diciéndome que se ejecutará sin habilitar los complementos.
+Pruebe a actualizar Internet Explorer a la última versión. Si el problema persiste, intente reinstalar el programa.
+Quiero instalar Microsoft Security Essentials.
+Vaya a la página: http://windows.microsoft.com/pt-pt/windows/security-essentials-all-versions, descargue el software y siga los pasos de instalación.
+¿Puedo conectar mi dispositivo Android a una red inalámbrica?
+Sí, en la parte inferior del router tiene el nombre de la red y su contraseña.
+Cuando recibo emails en mi PC no los recibo en ningún otro ordenador.
+En la página de cliente del email, debe habilitar la opción de mantener los emails en el servidor.
+No puedo abrir Google Chrome.
+Pruebe a reiniciar su ordenador e inténtelo de nuevo. Si el problema persiste, pruebe a desinstalar Google Chrome y a reinstalarlo.
+¿Cuáles son los DNSes de MEO?
+Los DNSes de MEO son 194.65.3.21 y 194.65.14.27.
+La imagen de la televisión se congela cuando enciendo la app TP-link.
+Este problema puede ocurrir porque una IP entra en conflicto. Pruebe a cambiar la dirección IP de la app TP-link.
+¿Dónde puedo encontrar la clave de la red?
+Compruebe los datos de red en la base del router.
+Pierdo mi conexión a Internet cuando enciendo Skype. ¿Qué debería hacer?
+Pruebe a reinstalar Skype.
+Problemas al ver PDFs.
+Compruebe si tiene el lector de PDF instalado. Si no lo tiene, puede descargarlo aquí http://get.adobe.com/br/reader/.
+El teclado ha dejado de funcionar.
+Compruebe la conexión entre el teclado y el ordenador; también presione Caps Lock y compruebe que aparece una luz en el teclado. Si no lo hace, puede que el teclado esté dañado.
+Tengo más de un antivirus, ¿es esto un problema?
+Debería tener solamente un antivirus, tener dos puede generar conflictos. Le aconsejamos que desinstale uno de ellos.
+Baja velocidad.
+Puede que haya un programa usando la conexión o que su antivirus esté bloqueando la conexión. Pruebe a comprobarlo con otro ordenador. Si el problema persiste, el problema es de su conexión.
+No puedo acceder a la página web del Banco de Brasil.
+Pruebe con otro explorador, y vea si el problema persiste.
+¿Cómo abro el puerto 80 en el router para una IP?
+Acceda a la página interna del router y haga la apertura a través de la redirección de puertos o través del alojamiento DMZ.
+No sé cómo compartir videos y música.
+Copie el enlace del video que quiere enviar o compartir, después simplemente péguelo donde quiera compartirlo.
+Desde que cambié la contraseña de la red inalámbrica, he perdido el acceso a la misma.
+Tiene que configurar cada uno de los dispositivos para usar la nueva contraseña que conecte con esa red.
+Tengo una imagen en Facebook que me gustaría poner de foto de perfil.
+En Facebook vaya a la foto y luego presione “Usar como Imagen de Perfil”.
+Quiero desactivar mi cuenta de Facebook.
+Vaya a la Configuración de Cuenta de Facebook> Seguridad> Desactivar su cuenta.
+Conflicto IP.
+Asegúrese de que todos los PCs están configurados con IP automática.
+Mi ordenador va muy lento.
+Pruebe a desinstalar programas innecesarios, deshabilite servicios/programas de arranque, y realice una limpieza del disco duro.
+No puedo acceder al cable de internet en el garaje.
+Asegúrese de que el cable de red está correctamente conectado. También puede probar con otro cable.
+No puedo tener internet en mi ordenador.
+Asegúrese de que está conectado a su red.
+Mi ratón se ha quedado bloqueado y no responde ¿Cómo puedo desbloquearlo?
+Si es un ratón USB, enchufe y desenchufe su ratón del puerto USB. Si no funciona, reinicie el ordenador.
+No puedo abrir páginas a través de Internet Explorer.
+Pruebe a resetear Internet Explorer a su configuración de fábrica accediendo a las opciones de internet.
+Cambié el nombre de la red y la contraseña en un ordenador. ¿Cómo puedo conectar a la red con otro ordenador?
+Puede introduciendo los nuevos detalles inalámbricos en el nuevo PC.
+Quiero cambiar el nombre de la red.
+Necesitará acceder al router y configurar la SSID.
+No puedo ver páginas web. Me da un error de certificado.
+Asegúrese de que la fecha y la hora en su ordenador son correctas, si no establezca la fecha y hora actual.
+No puedo acceder a mi ordenador porque no acepta mi contraseña habitual.
+Pruebe a ver si tiene el Caps Lock activado. Este muestra una luz en el teclado cuando está activado.
+¿Cómo puedo ver documentos desde Gmail Drive?
+Se puede acceder a ellos usando el siguiente link: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&continue=https%3A%2F%2Fdrive.google.com%2F%3Ftab%3Dwo%26urp%3Dhttps%3A%2F%2Fwww.google.pt%2F%23&followup=https%3A%2F%2Fdrive.google.com%2F%3Ftab%3Dw
+Quiero instalar el software de una impresora en el ordenador.
+Conecte el cable USB a la impresora y al PC e instálelo desde el CD. Siga los pasos que aparezcan allí.
+Estoy recibiendo todos los emails por duplicado en la bandeja de entrada.
+Pruebe a ver si la cuenta de email está configurada para IMAP. Si no, es mejor configurarla para IMAP.
+Editar archivos PDF.
+Para editar archivos PDF necesita un programa de edición de PDF, como Acrobat XL. Estos programas son de pago.
+Cambiar la contraseña del email.
+Pruebe a acceder al servidor del correo web, y haga el cambio allí.
+¿Cómo puedo comprobar si tengo internet?
+Abra la página http://www.speedtest.net/pt/ y realice un test de velocidad.
+Quiero cambiar mi IP pero siempre obtengo la misma.
+Vaya a la línea de comandos y escriba “ipconfig release” y después “ipconfig renew”.
+Quiero eliminar la contraseña de mi cuenta de Windows.
+Necesitará acceder al Panel de Control> Cuentas de Usuario y eliminar contraseña.
+Las letras son muy pequeñas.
+Presione ctrl 0.
+Mi ordenador se está actualizando. ¿Puedo dejarlo encendido?
+Sí, es mejor dejarlo encendido.
+No puedo acceder a mi gmail porque he perdido la contraseña.
+Puede solicitar la recuperación de la contraseña a través del sistema de recuperación de contraseña de Gmail.
+Mi teclado no funciona.
+Si se trata de un USB pruebe a conectarlo a otro puerto. Si se trata de un teclado inalámbrico, compruebe las pilas.
+He perdido el acceso a las cámaras de vigilancia.
+Asegúrese de que las cámaras están conectadas a la red.
+Mi router se reinicia constantemente.
+Pruebe a apagar el router y a encenderlo de nuevo.
+He realizado una restauración del sistema y no tengo acceso a internet.
+Haga clic en Inicio> Ejecutar y escriba devmgmt.msc si tiene Windows Vista o 7. Si tiene Windows 8, escriba el mismo comando en el cuadro de búsqueda.
+No puedo abrir emails desde IE.
+Pruebe a limpiar su caché y las cookies en el explorador que esté usando.
+Me han cambiado el router y ahora mi impresora ha dejado de imprimir.
+Si la impresora usa la red inalámbrica, asegúrese de que está conectada a su red.
+Necesito copiar una lista de direcciones en un nuevo email, pero la lista que estaba guardada en Word ha desaparecido.
+Compruebe que el documento está almacenado o que se muestra en Documentos Recientes.
+Estoy intentando enviar un email con un archivo adjunto, pero el archivo adjunto está descartado en el mensaje.
+Compruebe que tiene activada la opción para guardar el archivo adjunto con un mensaje activo.
+No puedo añadir números VoIP.
+Acceda al área del cliente para comprobar el estado del servicio.
+¿Cuál es la mejor máquina para jugar?
+La mejor sería un ordenador con un procesador I7, con 8G de memoria y una tarjeta gráfica dedicada con al menos 2G de RAM.
+No puedo borrar fotos de Facebook.
+Intente seleccionar la foto y elija la opción de borrar.
+No puedo recibir emails en Outlook, pero sí puedo hacerlo en otros dispositivos.
+Compruebe que la configuración de la cuenta de Outlook encaja con las del otro dispositivo.
+Mi ordenador solicita instalar una actualización.
+Debe realizar todas las actualizaciones que necesite el sistema.
+La página gratuita Phone Zon aparece y no puedo abandonarla.
+Está conectado a una red que puede que no sea suya. Intente ver en la parte de abajo del router el nombre y la contraseña de su red, y luego intente reconectarse a ella.
+Quiero instalar Google Chrome. ¿Puede ayudarme?
+Diríjase a esta dirección: https://www.google.com/intl/pt-PT/chrome/browser/, descargue el software y siga las instrucciones de la instalación
+Cuando enciendo mi ordenador este pita, solamente para cuando se inicia windows y no puedo insertar/borrar la contraseña.
+Posiblemente tenga una tecla atascada en el teclado. Pruebe con otro teclado si es posible.
+No puedo conectar la PS3 a la red inalámbrica.
+Conecte la PS3 y vaya a Ajustes > Ajustes de Red, seleccione la red e introduzca las credenciales.
+Estoy sin acceso a internet. ¿Puede ayudarme?
+En caso de que se trate del cable de internet, intente ver si el cable de red está correctamente conectado. En caso de ser inalámbrico, intente comprobar que el nombre y la contraseña, que están en la parte inferior del router, son los mismos que los que se han introducido.
+Aparece un virus cuando enciendo mi PC.
+Vaya a Inicio>Ejecutar y escriba “cleanmgr”. Seleccione los archivos Temporales de Internet y elimínelos.
+Quiero abrir los puertos en Technicolor para el juego FIFA.
+Compruebe los ajustes de las opciones de redirección de puertos del router. Para averiguar qué puertos usar, lea la documentación oficial (https://help.ea.com/article/what-online-ports-should-i-open-for-fifa-14)
+No puedo conectar un PC a internet via inalámbrica.
+Asegúrese de que el PC detecta la red inalámbrica; de otra manera, intente determinar si el botón del Wi-Fi está encendido.
+No puedo acceder a los emails.
+Compruebe que puede acceder a los emails a través de webmail.
+Word ha desaparecido.
+Pruebe a ver si que el programa está en el menú Inicio de su ordenador.
+¿Se puede usar la versión para estudiantes de Office en un ambiente de negocios? Soy un estudiante que trabaja.
+Microsoft Office Home y Student no se pueden usar en un ambiente de negocios. Debería usar Microsoft Office Professional en su lugar.
+Tengo una impresora que no funciona. ¿Qué debería hacer?
+Asegúrese de que las conexiones entre el ordenador y la impresora están bien e intente reinstalar la impresora.
+Quiero desinstalar algunos programas de Windows.
+Debería ir al Panel de Control > Programas y Características
+No puedo abrir Google. Me sale un error que dice “esta conexión no es segura”.
+El problema está en la seguridad del navegador. Intente resetearlo a los ajustes de fábrica.
+Google Chrome se queda bloqueado cuando abro muchas páginas web.
+Pruebe a re-instalar el software.
+No me puedo registrar.
+Pruebe a comprobar los datos que está introduciendo.
+He perdido el acceso a mi página de Facebook.
+Pruebe con otro explorador, y confirme que los datos de usuario que está introduciendo son correctos.
+No puedo instalar Java.
+Descárguelo desde este link http://java.com/pt_BR/download/index.jsp.
+Tengo un mensaje de que Windows no es original.
+Compruebe si tiene la pegatina con la Clave de Windows en la caja del ordenador.
+La impresora no imprime a través del sistema inalámbrico.
+Pruebe reconfigurando los ajustes inalámbricos de la impresora.
+No puedo conectarme a la red. Me sale un error de clave a pesar de tener la clave correcta.
+Acceda al router directamente a través del cable para verificar la contraseña y cambiarla si es necesario.
+Error con el Módem USb Kanguru.
+Pruebe re-instalando los drivers.
+La imagen del PC aparece estrecha en la pantalla de la TV.
+Necesita cambiar la resolución de la pantalla en los ajustes de pantalla.
+No puedo enviar emails con el iPhone.
+Pruebe a re-introducir los datos de su cuenta de email.
+Formateé mi ordenador y ahora no tengo acceso a internet con el módem inalámbrico USB.
+Pruebe a instalar los drivers del módem inalámbrico USB desde el CD.
+No puedo encontrar a una persona en Facebook. No sé si está bloqueado.
+Compruebe la configuración en su cuenta para ver los contactos bloqueados.
+No puedo conectar uno de mis ordenadores a la red inalámbrica.
+Pruebe a ver si los drivers para tarjeta inalámbrica están activados, y si el botón de conexión inalámbrica del ordenador está encendido.
+Quiero instalar un programa.
+Para instalar un programa simplemente inserte el CD con el programa o ejecute el archivo .EXE y siga los pasos de la instalación.
+No puedo acceder a mi cuenta de Gmail.
+En la página de Gmail, pruebe a recuperar su cuenta.
+Un juego me ha dado un error en Windows
+Asegúrese de que el juego es compatible con Windows 8. Compruébelo en la caja del juego o en el manual de instrucciones.
+Registro en ZON FON.
+Puede registrarse en la página del área del cliente de ZON.
+Quiero conectar el router al módem ZON.
+Necesitará un cable de red para conectarlo al puerto WAN del router y al otro extremo del módem. Apague entonces ambos dispositivos y reconéctelos.
+Viber ha desaparecido de mi smartphone.
+Pruebe accediendo a Play Store e instalando la aplicación.
+¿Cómo borro los datos de exploración en Google Chrome?
+Simplemente presione Ctrl+Shift+Supr y después seleccione “limpiar historial de exploración”.
+Quiero editar fotos.
+Windows tiene Paint instalado por defecto. También puede usar programas gratuitos como GIMP, o programas profesionales como Photoshop, por los cuales debe pagar.
+No puedo hacer log in en FON ZON.
+Pruebe a confirmar los datos de acceso.
+Las luces en el router no son las correctas.
+Intente reiniciando el router y apáguelo y enciéndalo de nuevo. Si no son correctas, puede ser un problema de su ISP.
+No puedo abrir páginas web con el dominio .com. ¿Puede ayudarme?
+Puede ser un problema del DNS. Es mejor poner el DNS manualmente dentro del router y configurarlo como 8.8.8.8 y el secundario como 8.8.4.4.
+Instalación de antivirus.
+Si tiene el antivirus en el CD, insértelo y siga los pasos necesarios. Si lo ha descargado de internet, ejecute el archivo .EXE y siga los pasos necesarios.
+¿Cómo puedo poner ZON online en la tablet?
+Todavía no es posible hacer esto debido a que la tecnología Silverlight no está disponible para las tablets.
+¿Dónde puedo encontrar la contraseña para la red inalámbrica?
+Puede encontrarla debajo del router, en su cara interna.
+Tengo una tarjeta micro SD en el móvil. ¿Puedo ponerle una con mayor capacidad?
+Deberá comprobar cuál es la capacidad máxima soportada por su móvil. Si la suya tiene menos capacidad, puede comprar una con más espacio.
+Quiero cambiar la contraseña de mi red inalámbrica.
+Debe acceder a la página del router (compruebe manualmente el router para ver la dirección).
+No sé cómo acceder a internet desde mi tablet.
+Si es un dispositivo Android, debería haber un icono con la forma de un globo. Pruebe a hacer clic en él. Si es un dispositivo iOS, debería haber el icono de una brújula.
+Error al instalar una actualización.
+Pruebe a reiniciar el ordenador y pruebe a actualizarlo de nuevo.
+El ordenador no se enciende.
+Compruebe la conexión a la corriente y pruebe a enchufarlo a otra toma de corriente.
+Tengo problemas con la visualización de la pantalla.
+Acceda al Panel de Control > Opciones de Pantalla y compruebe que está usando la resolución recomendada.
+Quiero instalar un programa gratuito de email.
+Puede instalar Thunderbird en http://www.mozilla.org/pt-PT/thunderbird/
+La pantalla se puso negra después de reiniciar.
+Pruebe con la combinación de teclas para ajustar el brillo del monitor.
+Sin acceso a una impresora conectada a ZONhub.
+Compruebe la compatibilidad de la impresora con ZONhub. Puede usar esta página como referencia: http://www.openprinting.org/printers
+Necesito ayuda para crear una contraseña para entrar en Windows.
+Vaya a Panel de Control > Cuentas de Usuarios y cree una contraseña.
+Cuando me conecto a una red, me pide un PIN.
+Esta ventana es una indicación para conectarse a través de una contraseña.
+¿La Tablet Samsung Activ Tab soporta una tarjeta Kanguru 3G?
+Este dispositivo no soporta 3G ni 4G.
+¿Cuál es la página de gestión de servicios de PT ?
+La página a la que debería acceder es www.ptcliente.pt
+Los caracteres del teclado están en una posición diferente.
+Compruebe si el lenguaje del teclado está en PT.
+¿Cómo puedo optimizar el Sistema Operativo?
+Pruebe a desinstalar programas innecesarios, desactive servicios/programas de arranque, limpie el disco.
+¿Cómo puedo copiar imágenes desde el PC a una unidad flash USB?
+Seleccione las fotografías o archivos que desee copiar, haga clic con el botón derecho y seleccione Copiar. Después vaya a la unidad flash USB, haga clic con el botón derecho y seleccione Pegar.
+No puedo acceder a la página de Facebook, dice que está bajo mantenimiento.
+Debería intentarlo más tarde.
+Mi Internet Explorer ha dejado de responder.
+Establezca las opciones por defecto en Internet Explorer.
+La instalación de Office se ha quedado colgada.
+Pruebe a instalarlo de nuevo.
+Quiero saber cómo activar mis notificaciones de Facebook.
+Acceda a la página de Facebook, haga clic en el icono con la tuerca > Configuración > Notificaciones.
+Me sale un mensaje con Términos de Licencia.
+Si el software que está instalando es de confianza, acepte los Términos de Licencia.
+¿Cómo accedo a PT WIFI?
+Cuando encuentre la red inalámbrica, solamente tiene que introducir sus detalles de acceso para el área de cliente de PT
+Mi ordenador está conectado a otra red.
+Pruebe a deshabilitar esa conexión a red y conectarse directamente a su red.
+¿Cómo cambio la configuración de Facebook relacionada con el Timeline?
+Acceda a la página de Facebook, haga clic en el icono de la tuerca > Configuración> Timeline e Identificación y cambie la configuración.
+Quiero crear una cuenta de Skype, ¿cómo debo hacerlo?
+Acceda a www.skype.com y siga el proceso de registro.
+Quiero cambiar el nombre de mi red y el canal.
+Reajuste la configuración inalámbrica deseada en el router.
+Mi PC muestra varias alertas de análisis de seguridad que desconozco.
+Este tipo de programas y mensajes están normalmente asociados a virus. Escanee con un antivirus.
+¿Cómo salgo de Gmail?
+Haga clic en el símbolo azul en la esquina superior derecha y haga clic en Salir.
+¿Cómo desinstalo un antivirus en Windows 7?
+En Inicio > Programas y Características, seleccione el antivirus y desinstálelo.
+¿Cómo cambiar el fondo de pantalla en Windows 8?
+Haga clic en el botón derecho en el Escritorio > Personalizar > Elegir Imagen > Guardar.
+No puedo abrir Skype.
+Compruebe los detalles de acceso incluyendo el nombre de usuario y la contraseña.
+El ordenador se para en la BIOS .
+Es posible que haya un problema con algún dispositivo USB. Intente quitar todos los USB conectados al ordenador y encienda el ordenador de nuevo.
+No conozco la contraseña para la red inalámbrica.
+Mire debajo de su router, ahí estará la contraseña original para la conexión inalámbrica.
+La App de Facebook no funciona en mi iPhone.
+Pruebe a reinstalar la app.
+Estoy teniendo problemas con el repetidor de señales, 20 minutos después de haberlo encendido, no es posible conectar los dispositivos a la red del repetidor. Entonces tengo que apagarlo y volverlo a encender para hacer la conexión.
+Pruebe a RESETEAR el repetidor y a reconfigurarlo.
+¿Dónde puedo comprobar mi contraseña de seguridad para la red inalámbrica?
+Si no hay modificaciones, puede comprobarla mirando debajo del router. Si la ha cambiado, debería conectar el cable de red al PC y acceder a la página del router y probar la contraseña que puede ser encontrada en el router.
+No puedo acceder a la red inalámbrica porque hay una letra en la contraseña del router que no es legible.
+Conecte un ordenador al router a través de cable y acceda a la página interna para ver y cambiar la contraseña.
+Cuando abro páginas en IE10 me sale un error y el programa se cierra solo.
+Pruebe a reinstalar el software.
+No tengo sonido con mi PS3 Bluetooth headset.
+Pruebe a apagar y encender el PS3 Bluetooth headset.
+No puedo conectar nada en la red inalámbrica porque olvidé la clave de la red.
+Compruebe si la clave está debajo del router. Si la contraseña no es aceptada, deberá introducir el router y reconfigurarlo.
+¿Cómo creo una copia de seguridad en Windows 7?
+Pruebe yendo a Inicio> Panel de control> Sistema y mantenimiento > Crear Copia de Seguridad.
+Quiero hacer de Google mi página principal.
+Pruebe accediendo a las opciones de Internet, y en la sección de página de inicio, establezca Google como la página.
+Tengo poco alcance con mi red inalámbrica.
+Compruebe los ajustes del router relacionados con el canal y sitúe el router en una localización central de la casa.
+¿Cómo accedo al router?
+En un explorador, debe introducir la IP del router, la cual se menciona en el manual apropiado.
+No puedo recibir emails en Outlook después de cambiar la contraseña.
+Debe actualizar los detalles de cliente del email.
+No oigo ningún sonido en mi ordenador.
+Compruebe si en la esquina inferior derecha, el sonido está al 100%.
+¿Cómo eliminar las notificaciones de Facebook en un móvil?
+Vaya a Configuración> Móvil> Eliminar/Editar el número.
+Tengo vulnerabilidades en mi antivirus, ¿qué debería hacer?
+Pruebe a actualizarlo , y realice un escaneo completo del ordenador.
+No sé dónde guardé las canciones de mi musicbox.
+En MAC, las canciones se descargan al fichero ~/descargas. En WINDOWS, la música se descarga en el fichero de musicbox que puede encontrar dentro de la carpeta “mi música”.
+¿Cómo configuro un repetidor?
+Debe acceder a la página interna del repetidor e introducir sus detalles de red (nombre y contraseña).
+Cómo introducir @.
+Presione “Alt Gr” y después @.
+¿La conexión clix usa pppoe?
+Sí, clix usa pppoe.
+Tengo una tasa muy alta de ping.
+Reinicie el ordenador y pruebe de nuevo sin ninguna aplicación abierta.
+¿Cuál es la IP de mi router?
+Vaya a Inicio > Ejecutar y escriba “cmd” y en la ventana negra escriba “ipconfig”. Si es un MAC, debe escribir el comando en el terminal.
+¿Cómo conecto mi pc a la red inalámbrica?
+Debe abrir la lista de redes (icono de red en la esquina inferior derecha) y conectarse a la red respectiva.
+El test de velocidad da velocidades normales, pero las páginas tardan mucho en abrirse.
+Pruebe a acceder a la página web a través de otro navegador y compruebe si el problema persiste.
+Mi router 3G no se enciende.
+Desenchúfelo de la toma de corriente y pruebe a enchufarlo en otra. Si el problema persiste, puede que el dispositivo esté dañado.
+¿Cómo accedo a páginas web extranjeras bloqueadas en mi país?
+Puede usar proxies públicos como http://hidemyass.com/
+¿ Cuál es el dispositivo que puedo usar para conectar a través de cable mi MEOBOX y un ordenador de escritorio?
+Puede usar un interruptor para separar la conexión para dos dispositivos.
+No puedo imprimir desde que me suscribí al servicio WOW.
+Compruebe que su impresora tiene la capacidad para imprimir a través de WIFI, y si puede, debe conectarla a la red.
+El modem 3G no funciona.
+Compruebe la página web del fabricante para ver los drivers disponibles y reinstalar el módem 3G.
+El botón WPS del router Thomson tg799vn no funciona.
+Pruebe a desconectar el router y a encenderlo de nuevo.
+No puedo acceder a mi cuenta de webmail ZON.
+Pruebe accediendo a través de mail.live.com.
+¿Cómo hago que mi Wifi sea más seguro?
+Acceda a la página del router y active la configuración de máxima seguridad, que es, WPA2-AES.
+Sin acceso a internet a través del modem kanguru USB.
+Compruebe que tiene cobertura de red 3G donde está conectado su módem.
+iTunes desinstalado, pero los archivos señalan a iTunes.
+Si es MAC, haga clic derecho, luego vaya a abrir (o en Windows: Abrir con:) > Otro, elija el programa que quiere abrir, asegurándose de que marca “abrir siempre con”.
+No puedo cambiar la contraseña de mi email.
+Debe acceder a su cuenta de webmail para hacer el cambio.
+Envié el PC a formatear, pero ahora va muy lento y tiene errores cuando abre algunos programas.
+Podría ser debido a un fallo durante el formateo y algunos programas pueden haberse dañado. Debería probar a formatearlo de nuevo.
+Solamente tengo acceso a internet vía inalámbrica.
+Pruebe con otro cable de red.
+Estoy usando demasiado ancho de banda en mi pc.
+Puede que su ordenador esté infectado con un virus. También ponga atención en la visualización de los vídeos de Youtube, ya que consumen mucho ancho de banda.
+Contraseña de acceso “OLX”.
+Si no sabe cuál es la contraseña, debe solicitar la recuperación de la contraseña en la página de OLX.
+¿Cómo reinicio el servidor?
+Pruebe yendo al menú Inicio, y luego a Reiniciar.
+A menudo no puedo ver mi red. Reiniciar el ordenador suele resolver este problema.
+Pruebe a reinstalar la tarjeta de red usando los drivers del fabricante.
+¿Cómo configuro mi email para el Colegio de Abogados Portugués?
+Use esta información para configurar el cliente http://www.oa.pt/upl/%7B9e482c51-1046-440e-a6dc-b0da4eb9cd9c%7D.pdf
+No tengo acceso a las tarjetas que conecté al pc.
+Si es un lector de tarjetas externo confirme que tiene todos los drivers instalados. Deberían venir con el dispositivo.
+WhatsApp no funciona en mi iPhone.
+Desconéctese y vuelva a conectarse a la red. En el peor de los casos: reinstale la app.
+Windows ha detectado un problema y se apagará.
+Si el problema persiste, debe hacer una restauración del sistema.
+Quiero cambiar mi email a otro Outlook.
+Debe copiar los archivos .pst a otro outlook y reconfigurar la cuenta.
+Quiero cambiar mi ZON IP.
+Reinicie el router y déjelo apagado durante más de 30 minutos.
+No aparece mi antivirus en el ordenador.
+Lo mejor es reinstalar el antivirus.
+Mi ordenador se apaga solo.
+Esto puede estar relacionado con el calentamiento y otro tipo de anomalía del hardware.
+Me han robado mi portátil. ¿Será posible encontrar el número de serie de la computadora a través del número de la dirección MAC?
+No es posible porque el MAC no reconoce la placa/tarjeta de red.
+¿Cómo puedo exportar los marcadores del Google Chrome?
+Haga clic en el menú de Chrome y seleccione Marcadores>Administrador de marcadores>Organizar>Exportar marcadores. Seleccione dónde quieres importar los marcadores.
+El acceso directo de Gmail ha desaparecido de mi Escritorio.
+Para tenerlo de vuelta haga clic con el botón derecho sobre el escritorio, luego seleccione la opción ``Acceso directo`` y escriba la URL de Gmail.
+Mi portátil reconoce todas las redes inalámbricas pero no la mía.
+Sitúese junto al router y verifique si el ordenador detecta su red inalámbrica.
+No consigo conectar me a mi área ZON FON.
+Consulte los detalles de su login. Si esto no ayuda, intente recuperar su contraseña.
+Quiero cambiar mi contraseña de ZON.
+Vaya en ZON al menú Carpeta personal > Área del Usuario > Detalles del Registro > Cambiar.
+Quiero instalar el Office.
+Si tiene el Office con una unidad CD/DVD, introduzca el disco y siga las instrucciones del programa de instalación. En caso de que lo tenga en un formato de imagen ISO, tiene que ejecutar el archivo ``setup.exe``.
+Cómo encuentro amigos en Facebook.
+Puede buscar amigos escribiendo sus nombres en la barra de búsqueda donde pone: busca personas, lugares y cosas, situada en la parte superior de la página.
+¿Cómo puedo guardar un documento Word?
+Haga clic en Fichero y seleccione Guardar o Guardar como.
+Cómo cambiar mi página de inicio de Safari.
+Abra las Preferencias de Safari y en la pestaña General introduzca la página que desea
+Quiero abrir YouTube, pero aparece el error “internal server .
+Intenten vaciar la caché y borrar las cookies de su navegador. Si el problema aún persiste intente abrir YouTube desde otro navegador.
+Se han introducido las direcciones IP estáticas en la red de trabajo, por lo cual ahora no puedo conectar mi PC a la red inalámbrica de mi casa.
+Abra la opción Propiedades de la tarjeta de red en el Panel de Control y haga doble clic en TCP/ipv4. A continuación seleccione ``Obtener automáticamente`` en ambos casos – IPN y DNS.
+IP cable.
+El cable de red puede estar roto o pueden existir algunos problemas con el router. Intente cambiar el cable, desconectar y conectar de nuevo los dos: – el router y el ordenador.
+Necesito de ayuda para instalar el Facebook en mi Tablet.
+Abra Play Store en su móvil, busque Facebook y descargue la aplicación.
+No consigo mandar mi la fotografía de mi carnet de identidad.
+Puedes escanear la fotografía, hacer una foto con su móvil o con su cámara fotográfica y luego guardar la foto a su ordenador.
+Mi navegador se queda colgado.
+Intente abrir el navegador nuevamente. Si el problema persiste pruebe a reiniciar su ordenador. Si esto no funciona, es posible que necesite reinstalar su navegador.
+Quisiera tener Facebook en mi móvil.
+Puede acceder a Facebook a través del navegador o acceder al Play Store y descargar la aplicación de Facebook.
+Tengo problemas con el juego Farmvile2.
+Pruebe a actualizar la última versión de Flash Player (http://get.adobe.com/br/flashplayer/).
+No consigo visualizar canales de la ZON LINE.
+Necesitará actualizar Silverlight (http://www.microsoft.com/silverlight/).
+Mi disco duro está casi lleno.
+Tendrá que copiar algunos archivos (músicas, videos) en otro disco externo.
+Cómo puedo instalar Silverlight en la Tablet.
+En caso de que la Tablet tenga Windows Pro, puede descargar la aplicación utilizando este enlace: http://www.microsoft.com/silverlight. Si la Tablet tiene otro sistema operativo no es posible instalar la aplicación.
+Cómo cerrar sesión del Router Thomson.
+Tiene que esperar hasta que la sesión se cierre automáticamente.
+Cómo organizo la información por fecha.
+Haga clic en la pestaña ``fecha``.
+No consigo visualizar la página de Google con noticias, previsión meteorológica, etc.
+Lo que aparecía en el pasado era el servicio llamado iGoogle. Este servicio ya no existe.
+No puedo abrir ni YouTube ni los juegos de Facebook.
+Compruebe que tiene Adobe Flash instalado y actualizado.
+Se ha publicado una foto en el mural de otra persona.
+En la foto debe aparecer un símbolo ``V``. Cuando haga clic en el símbolo verá la opción ``Eliminar``.
+¿Cómo activo la opción de pantalla completa en Gmail?
+Para ampliar, haga clic en el segundo botón que se encuentra en la esquina superior derecha. Si quiere verlo a pantalla completa, haga clic en la tecla F11.
+Tengo algunos iconos al lado del reloj que han desaparecido.
+Esto es debido a que los programas no se están ejecutando. Intente iniciarlos de nuevo.
+¿Cómo puedo ampliar en Internet?
+Presione las teclas Ctrl y + tantas veces como sea necesario.
+¿Cómo instalo Google Chrome en mi Mac?
+Tiene que ir a http://www.google.com/mac/ para descargarlo e instalarlo.
+Quiero copiar fotos de la tarjeta SD.
+Cuando inserte la tarjeta SD se abrirá una ventana; seleccione Abrir Carpeta. Después seleccione todas las fotos que quiera copiar y pulse el botón derecho del ratón sobre una de ellas y luego pulse Copiar. A continuación péguelas donde usted quiera.
+Si le vendo mi PC a alguien, ¿puede esa persona acceder a mi cuenta de Facebook?
+Si sus datos no están almacenados en el ordenador, la persona no puede acceder a su cuenta de Facebook. Para evitar esto, presione las siguientes teclas en el navegador que use para acceder a Facebook: Ctrl + Mayús + Supr. Seleccione todas las opciones que aparezcan y pulse borrar.
+No puedo instalar el software del router.
+Intente ir al sitio web del fabricante, busque su modelo de router, descargar el software apropiado y seguir los pasos.
+Quiero copiar un CD a mi computadora.
+Windows Media Player tiene la opción de copiar un CD.
+Quiero instalar usando la clave de Norton facilitada.
+Revise la caja del programa o la funda del CD para obtener la clave.
+Cuando voy a Gmail, aparece un rectángulo bajo mi dirección de correo electrónico y un botón que dice Iniciar sesión.
+Ponga su contraseña en el rectángulo y haga clic en Iniciar sesión.
+No sale ningún sonido de los altavoces.
+Pruebe a ir a Panel de control > Sonidos y cambiar el dispositivo de salida.
+Excel ya no aparece.
+Mire a ver si está en Programas. Si no lo encuentra allí, tendrá que reinstalar Office.
+Si elimino un virus, ¿eliminaré también los archivos personales?
+Si el virus ha infectado los archivos puede eliminarlos o moverlos.
+Instalé un programa y me aparece una barra verde en Internet.
+Se instaló una barra de herramientas que venía con el software. Tendrá que ir a Panel de control > Programas y características, y buscar cualquier entrada en la lista que diga “barra de herramientas” para eliminarla.
+Sospecho que mi correo electrónico ha sido pirateado.
+Es mejor realizar un cambio de contraseña con una contraseña formada por una combinación de letras, números y caracteres especiales.
+¿Puedo descargar el modelo europeo de CV en formato .doc?
+Visite www.europass.cedefop.europa.eu y siga las instrucciones.
+Tengo un problema con Meo Go: No puedo verlo.
+Instale Silverlight desde este enlace http://www.microsoft.com/silverlight/.
+Hice un reinicio de fábrica en mi Android y ahora no puedo acceder a mi correo electrónico de Sapo.
+Tendrá que reconfigurar su cliente de correo electrónico con los datos de su correo electrónico.
+¿Es posible eliminar el contenido de un DVD y volver a grabarlo?
+Asegúrese de que el DVD es RW, es decir reescribible. Si no es así, no puede hacerlo.
+Tengo dificultades para usar Windows
+Puede ver este vídeo de introducción a Windows 8 http://www.youtube.com/watch?v=F1InUGhok5A
+Aparece un mensaje de Facebook sobre reducir el ritmo de los “me gusta”.
+Esta es una medida para evitar que los scripts automáticos realicen “me gusta” masivos. Intente reducir las veces que pulsa en “me gusta”.
+Recibo anuncios y ventanas emergentes en Google Chrome.
+Le aconsejamos que analice su ordenador con un antivirus; también puede instalar AdBlock (https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=pt-PT), para reducir la cantidad de ventanas que se abren.
+Alguien ha entrado en mi PC.
+Tiene que cambiar la contraseña de inicio de sesión del ordenador, o crear una si es que todavía no la tiene. También tiene que cambiar la contraseña de la red inalámbrica.
+Cambiar el idioma en Windows
+Vaya a Panel de control > Idioma, y añada el idioma deseado.
+Cambiar la contraseña del correo electrónico de Clix.
+Tiene que cambiar la contraseña en el área de clientes de Clix.
+Cambiar el tamaño de la fuente en Safari.
+Presione las teclas Cmd y + tecla
+Al pulsar el botón de encender de la impresora, no se ilumina el display.
+Pruebe a conectar la impresora en otro enchufe. Si esto no funciona, puede ser debido a una avería de la impresora.
+Aparece una página que dice Bienvenido a MEO.
+Debe registrarse en esta página. Para hacerlo, siga los pasos detallados en la página.
+Las carpetas de Outlook no se corresponden con las carpetas de Sapo Mail.
+Tendrá que configurar su cuenta como cuenta IMAP; puede ver los ajustes necesarios en http://ajuda.sapo.pt/servicos.html?faq_id=119756&servico_id=4617
+Cuando estoy en Youtube el vídeo se congela.
+Esto puede ser debido a un funcionamiento lento de Internet, o a un hardware poco potente del PC. Presione estas 3 teclas simultáneamente: "Ctrl", "?", "Esc"
+Cuando pulso una tecla en el teclado, en la pantalla aparecen elementos escritos en azul en lugar de la tecla que quiero escribir.
+Compruebe si hay un botón "FN" en el teclado, púlselo e inténtelo de nuevo.
+¿Cómo accedo a Gmail a través del correo web?
+Tendrá que acceder a www.gmail.com.
+Cómo instalar una versión anterior de Windows
+Debe tener una versión anterior del CD de Windows. Haga una copia de seguridad de sus datos existentes e instale el sistema operativo que quiera usando estos CDs.
+¿Cómo copio texto de un sitio web?
+Seleccione el texto que quiera, haga clic en el botón derecho del ratón y seleccione Copiar. Después pegue el texto donde desee.
+Cómo dejar un mensaje en Facebook.
+Tendrá que abrir un chat, seleccionar a alguien y escribir algo en el cuadro de texto.
+¿Cómo deshabilito la opción de trabajar sin conexión en IE?
+En el menú Archivo, desmarque la opción “trabajar sin conexión”.
+Cómo insertar saltos de página en un documento de texto de Word.
+Vaya a la pestaña Insertar, y en el grupo Páginas, haga clic en Salto de página.
+Cómo formatear una tarjeta SD en Android.
+Pruebe a ir a Ajustes > Almacenamiento > Tarjeta SD > Desmontar tarjeta SD > Formatear tarjeta SD.
+Cómo importar una foto a Picasa.
+En Picasa, haga clic en “Importar”> "Importar desde” y seleccione la ubicación del archivo.
+¿Cómo inserto contactos en Skype?
+Skype tiene un campo llamado “buscar”. Escriba el nombre que utiliza la persona deseada en Skype.
+Cómo instalar Microsoft Security Essentials.
+Vaya a http://windows.microsoft.com/pt-pt/windows/security-essentials-download, descárguelo y ejecute el instalador.
+¿Cómo se mueven las aplicaciones a la tarjeta SD?
+Es mejor instalar la aplicación "App 2 SD". Se puede encontrar en la Play Store.
+¿Cómo se introduce el email de inmediato?
+Trate de ver si la página tiene una opción para almacenar los datos de acceso. En caso afirmativo, debe seleccionar esta opción.
+¿Cómo puedo recuperar la contraseña de Facebook?
+Tendrá que acceder a esta página: https://www.facebook.com/login/identify?ctx=recover.
+¿Cómo puedo sincronizar fotos mediante iTunes?
+Con el equipo de Apple conectado, vaya a iTunes y haga clic en el botón de fotos en la parte superior del programa.
+¿Cómo puedo saber si tengo la velocidad contratada para Internet?
+Puede hacer una prueba de velocidad en http://www.speedtest.net/pt/ y ver si coincide con la velocidad que aparece en su factura.
+Configuración de puerto para el juego BATTLEFIELD.
+Tendrá que acceder a la página de configuración interna del router y habilitar una DMZ para el dispositivo, o realizar un enrutamiento de puerto para el dispositivo. Puede ver los puertos necesarios aquí: https://help.ea.com/article/online-ports-for-battlefield-3.
+Configuración de Gmail para Outlook.
+Puede ver los ajustes necesarios en este tutorial: http://www.configuraroutlook.com/outlook2013gmail.php
+Conversión de un archivo de Word en una imagen.
+Es necesario instalar un creador de archivos PDF http://www.pdfforge.org/download.
+He creado un cliente de correo electrónico en el área de Optimus y deseo configurarlo en Outlook.
+Debe seguir los pasos de este tutorial: http://cliente.clix.pt/apoiotecnico/software/email/windowsmv/criarcc/windows-mail-vista---criar-conta-de-correio-2.html .
+Mi acceso directo de Internet Explorer ha desaparecido.
+En Inicio > Todos los programas, busque Internet Explorer. Pulse el botón derecho del ratón y luego haga clic en "Enviar a escritorio".
+Quiero saber escanear.
+Puede realizar un escaneo utilizando el software de la impresora, o puede que la impresora tenga un botón de escanear.
+Se publicaron mensajes ofensivos sobre mí en Facebook.
+Debe denunciar esto y pedir que estas publicaciones sean eliminadas.
+Instalación de Bitdefender para tablet.
+Busque Bitdefender en Google Play.
+Mi iPad está bloqueado. Pulso los botones pero no ocurre nada.
+Intente pulsar el botón de encendido del iPad durante 10 segundos.
+No puedo distinguir las diferentes cuentas de correo electrónico desde las que envío correo.
+En el cliente de correo en el área de cuentas, puede asignar un nombre a cada cuenta.
+No puedo instalar el programa videoconferencias para Facebook.
+En Facebook cuando intente realizar una llamada de vídeo, instale la aplicación. Si ya tiene instalada una versión anterior, vuelva a instalar la última actualización.
+No puedo abrir los documentos PDF.
+Instale o reinstale el programa Adobe Acrobat Reader (http://get.adobe.com/br/reader/)
+No puedo acceder a mi servidor a través de SSH.
+Probablemente lo que falta es la apertura de los puertos en el router al servidor. Intente acceder a la página interna del router y redirija el puerto. El puerto estándar es de 22.
+No puedo acceder a Skype en la tablet. ¿Puede ayudarme?
+Trate de ver si tiene internet. En caso afirmativo, trate de volver a introducir los datos de acceso. Si esto no funciona, vuelva a instalar Skype.
+No puedo agregar un acceso directo de YouTube en Chrome.
+Vaya a youtube.com y haga clic en el símbolo que aparece en la esquina superior derecha. En el menú, vaya a y seleccione Marcadores y agregue esta página a tus favoritos.
+No puedo añadir acentos a mis palabras en Word.
+Pulse ALT + SHIFT simultáneamente para cambiar el idioma, y ??vuelva a intentarlo.
+No puedo iniciar sesión en Windows 8 después de realizar la actualización para Windows 8.1.
+En la página de inicio de sesión, seleccione la opción "no tengo una cuenta". Una nueva ventana se abrirá y usted deberá seleccionar "Conectar sin una cuenta de Microsoft". Elija un nombre de usuario y una contraseña.
+No puedo enviar un mensaje en Facebook a un amigo específico.
+Acceda el perfil de su amigo para ver si la cuenta sigue activa.
+No puedo iniciar sesión con otra cuenta de Gmail.
+Debe cerrar la sesión de la cuenta a la que está conectado. Sólo entonces se puede iniciar sesión en una nueva cuenta.
+No puedo instalar Opera en Windows XP.
+Asegúrese de que ha instalado el Service Pack más reciente, y ya ha ejecutado Windows Update.
+¿Cómo puedo conectar varios ordenadores al mismo módem de cable cuando sólo tiene una entrada de Ethernet?
+Un módem no se puede conectar a más de un dispositivo, porque no tiene servicio de DHCP. Para este propósito usted tiene que comprar un router.
+No puedo ver un formato de vídeo específico.
+Pruebe VLC, un lector que abre casi todos los formatos de vídeo. Se puede descargar aquí: http://www.videolan.org/vlc/ .
+No sé dónde están mis correos electrónicos. No están en la bandeja de entrada.
+Compruebe las carpetas y el correo no deseado. Si no los encuentra, probablemente hayan sido eliminados.
+Mi PC sólo dispone de 512 MB de RAM. ¿Es esto suficiente para Windows 7?
+Según la información de Microsoft, el requisito mínimo para ejecutar Windows 7 es 1 GB de RAM. Como tal se recomienda actualizar el equipo.
+No tengo ningún campo del asunto en mi Outlook.
+En un mensaje recibido, en el menú de Vista, haga clic en "cabecera del mensaje."
+Estoy a punto de instalar Adobe Premiere Pro CS5 en mi PC. Tengo una Tarjeta gráfica Acer Extensa de 5635ZG: GeForce G- Procesador de 512MB: Pentium Dual-Core 2.10GHz con 4 GB de RAM. ¿Voy a tener problemas ejecutándolo en mi ordenador?
+Será compatible a nivel de hardware, sin embargo, el software debe ejecutarse en Windows de 64 bits.
+¿Cuál es el mejor reproductor de música y vídeo para Windows 8?
+Puede usar Windows Media Player, que viene pre-instalado en el sistema.
+¿Cómo puedo eliminar la doble ventana de Windows Live Messenger en la barra de tareas de Windows 7?
+Vaya a Inicio; busque un acceso directo a Windows Live Messenger. Hágale clic con el botón derecho y haga clic en Propiedades. Luego haga clic en la pestaña de Compatibilidad, seleccione Windows XP y pulse ok.
+Tengo Windows 7. ¿Cómo puedo ver la versión?
+Vaya a Inicio y luego haga clic en la opción "Mi Equipo". Elija la opción "Propiedades" y se puede ver todas las especificaciones de su ordenador, incluyendo la versión del sistema operativo.
+¿Cómo vuelvo a activar la barra lateral sin reiniciar el PC en Windows Vista?
+Para colocar la barra lateral de Windows debe ir a “Inicio > Todos los programas > Accesorios > Barra lateral de Windows”.
+¿Neutraliza automáticamente Kaspersky Internet Security 2013 los virus o tengo que excluirlos manualmente?
+Intente volver a abrir el navegador. Si no puede, pruebe a reiniciar el ordenador. Si el problema persiste, tendrá que reinstalar el navegador.
+¿Cómo puedo colocar una barra de herramientas bajo la barra de direcciones en Google Chrome?
+En Google Chrome, haga clic en “Ajustes > Herramientas” y seleccione la opción “Mostrar barra de herramientas”.
+¿Por qué se sobrecalienta mi portátil?
+Con el tiempo, los dispositivos tienen tendencia a acumular suciedad, haciendo que el sistema de refrigeración sea menos efectivo.
+¿Cómo instalo Internet Explorer?
+Puede descargarlo a través del sitio web de Microsoft y seguir las instrucciones para llevar a cabo la instalación.
+¿Qué es el GIMP?
+Es un software gratuito de manipulación de imágenes que funciona en diferentes sistemas operativos.
+¿Puedo instalar Office XP en Windows 8?
+Debido a que es una versión bastante antigua de Windows (del 2001), puede que no funcione al principio. Aunque puede probarlo, ya que si no es compatible será informado de ello.
+¿Qué es Inkscape?
+Inkscape es un software de edición de imágenes y documentos.
+¿Cómo veo los canales de MEO TV en mi ordenador?
+Para ver los canales de MEO TV en su PC, puede suscribirse al servicio MEO GO en la página web de MEO.
+¿La suscripción al servicio MEO GO es gratuita o de pago? Soy cliente de MEO
+Si usted es un cliente de MEO, el paquete MEO GO es gratuito desde dentro de la red MEO. Si desea tener acceso desde fuera de la red MEO, debe suscribirse al servicio de pago.
+¿Puedo instalar MacOS Maverick en un MacBook 5.1?
+Para verificar la compatibilidad con este OS, vea http://support.apple.com/kb/HT5842
+¿Cómo hago una videollamada a través de Facebook?
+Para eso debe tener abierto un chat con un amigo en la esquina superior derecha y hacer clic en la opción vídeo.
+¿Cómo puedo desactivar ActiveX?
+Haga clic en “Herramientas > Administrar complementos”, seleccione Controles ActiveX y haga clic en Desactivar, después en Aplicar y finalmente en Aceptar.
+Mi ratón no se mueve
+Pruebe otro puerto USB. Si funciona a pilas, cámbielas.
+¿Cómo puedo saber si mi software de Windows está actualizado?
+En el Panel de Control, haga clic en la opción de actualizaciones automáticas/Windows Update. Puede buscar las actualizaciones disponibles.
+¿Cómo hago una captura de pantalla en mi PC?
+Debe pulsar la tecla “Impr Pant” y pegar la imagen en cualquier editor.
+¿Cómo puedo descargar los datos de mi iPad?
+Para recuperar los datos de su iPad, debe conectarse a un ordenador con un cable de datos y tener la versión más reciente de iTunes. La opción de Restablecer los Ajustes aparecerá en Copia de Seguridad Informática o en iCloud.
+¿Cómo puedo ver MEO GO?
+Para poder usar MEO GO tiene que usar una aplicación adecuada en caso de que esté usando un dispositivo móvil, o ir al sitio web respectivo si está usando un ordenador (meogo.meo.pt).
+El modo avión está activado en Windows 8.
+En la esquina inferior derecha, verá el indicador de redes inalámbricas (5 líneas). Haga clic en él y pulse donde dice “modo avión”.
+¿Qué es Windows Live Essentials?
+Windows Live Essentials es el antivirus gratuito de Microsoft.
+¿Qué es McAfee?
+Es un antivirus.
+Mi BIOS está protegido con contraseña, y no sé cuál es.
+La recuperación de datos sólo puede hacerse tras reinicializar su placa base.
+Tenía Windows 8 y lo actualicé a Windows 8.1, pero ahora no puedo imprimir porque dice que no tengo ninguna impresora instalada. Tampoco funciona ninguna de las siguientes cosas: enviar a One Note 2010, Fax y Microsoft XPS Document Writer. ¿A qué se debe?
+Si la impresora no aparece como instalada, debe reinstalarla porque los controladores necesarios para una versión pueden no ser compatibles con la nueva versión de su sistema operativo.
+¿Cómo puedo formatear mi PC sin un CD o unidad flash, sólo a través del teclado?
+Formatear y reinstalar el sistema operativo sólo es posible por medio de un CD/DVD de recuperación.
+Mi PC se queda bloqueado cuando veo vídeos de Youtube, ¿a qué se debe?
+El problema puede estar relacionado con un ancho de banda insuficiente (subida/bajada), un programa adicional no instalado o desactualizado, o una mala configuración del navegador.
+¿Cuántas versiones de Windows 8 hay? Mi Windows sólo dice Windows 8.
+Hay muchas versiones de Windows 8: Windows 8, Windows 8 Pro y Windows 8 Enterprise. De esas, también existen muchas compilaciones que varían según las actualizaciones llevadas a cabo hasta el momento.
+El PC se reinicia solo. ¿Por qué podría ser?
+Si el ordenador se reinicia solo, puede que tenga un problema de hardware o un virus.
+¿Cómo elimino la barra de Bing de la barra de Chrome?
+En la esquina superior derecha de la página en la barra de herramientas, haga clic en “Herramientas > Extensiones”. Ahí puede eliminar la barra de Bing.
+¿Cómo cambio la salida de auriculares de un portátil?
+Vaya a “Panel de Control > Sonido y Dispositivos de Audio” y elija la salida de audio deseada.
+Tengo Windows 2013 Server como servidor de terminales. Lo que ocurre es que, después de un rato, obtengo un error que dice que el acceso está denegado. Este error ocurre con todos los usuarios. Si reinicio el servidor, todo va bien, pero sólo durante unos días. ¿Qué podría ser?
+Ese problema puede estar relacionado con los servicios del sistema operativo que no se están iniciando automáticamente. Verifique en “services.msc” si tiene algún servicio que esté detenido y mire a ver si está relacionado con los servicios requeridos por el servidor de terminales.
+¿Cómo puedo saber si mi ordenador con Windows Vista está funcionando bien?
+Puede analizar el rendimiento de su ordenador accediendo al menú de propiedades de Mi PC, en donde se realiza este análisis mediante la asignación de ciertos valores según el rendimiento de Windows.
+Tengo un problema con mi ordenador ya que no puedo encenderlo. ¿Qué debería hacer?
+Compruebe si el equipo está conectado al enchufe. Si es así, pruebe a conectar el equipo a otro enchufe.
+En el menú “Inicio”, la barra donde efectúo las búsquedas de programas ha desaparecido. ¿Cómo puedo traerla de vuelta?
+Este ajuste está disponible en el “Panel de control”, a través de la “Barra de herramientas” en el menú “Inicio”.
+Acabo de conectar la MEO Box, pero aún no tengo acceso a Internet. ¿Qué debería hacer?
+La MEO Box sólo proporciona servicio de TV, compruebe si tiene un router que proporcione ese servicio .
+El monitor no se enciende.
+Compruebe si el cable eléctrico y el cable VGA están conectados correctamente tanto al monitor como al PC.
+Cómo abrir los puertos del router ZONhub
+Introduzca la siguiente dirección en su navegador: 192.168.1.1. Después vaya a “Servicios > Cortafuegos > Enrutamiento de puertos > Nueva entrada”. Introduzca los puertos deseados y la IP del dispositivo al que quiere abrir los puertos.
+¿Qué programa puedo usar para desfragmentar mi PC?
+Para desfragmentar el PC, haga clic en “Inicio > Programas > Accesorios > Herramientas del sistema > Desfragmentador de disco”.
+Internet Explorer de Windows 8 tarda mucho en abrir las páginas web.
+Pruebe a realizar una limpieza del navegador, borrando la caché y los archivos temporales. Verifique también la existencia de barras de herramientas. Si las tiene instaladas pero no las usa a menudo, le recomendamos que las desinstale.
+Tengo dos usuarios: el administrador y otro. Cuando introduzco la contraseña de administrador, no funciona y aparece un mensaje diciendo que el servicio de perfiles ha fallado.
+Puede que la cuenta del usuario esté dañada. Pruebe a iniciar Windows en modo seguro y cambie un dato de la cuenta, como por ejemplo la contraseña.
+¿Cómo puedo averiguar el ID y la contraseña del sitio web: 192.168.1.254?
+Normalmente esta dirección se corresponde con los ajustes por defecto del router para acceder a su página de configuración interna. Los datos de acceso varían según la marca y el modelo del equipo. Puede buscarlos en el manual.
+Mi ordenador se sobrecalienta.
+Puede haber una acumulación de polvo en el sistema de refrigeración y/o alguna anomalía en su funcionamiento.
+Mi disco está roto. ¿Cómo puedo saber qué interfaz de conexión utiliza?
+Quitando el disco puede verificar si tiene interfaz IDE o SATA.
+El monitor del portátil está roto, ¿cómo puedo identificar el modelo?
+A través de la marca y el modelo de su portátil.
+¿Cómo formateo un disco?
+Será necesario que use el CD original de su sistema operativo. Coloque el CD en la unidad del PC, acceda a la BIOS y cambie la opción de ARRANQUE para esa unidad y reinicie el PC. Después de eso, sólo tiene que seguir los pasos.
+¿Cómo activo una red inalámbrica?
+Debe tener un router inalámbrico para hacer que la red esté disponible y tener un ordenador con una tarjeta de red inalámbrica.
+¿Cómo hago funcionar la red inalámbrica?
+Acceda a las conexiones de red y vea si está desactivada. Si lo está, haga clic con el botón derecho sobre ella y actívela. Si ya está activa, puede que el botón inalámbrico esté desactivado. Intente encontrar un botón en el teclado con una antena.
+Estoy teniendo dificultades con el router MEO usando Seagate Central con el disco externo NAS.
+Compruebe qué sistema de archivos tiene su disco. Para que funcione correctamente, el sistema de archivos debería ser FAT32.
+¿Cómo compruebo el sistema de ficheros de mi disco en Windows?
+En Windows, con el disco conectado, debe seleccionar sus propiedades en el menú de “Mi PC”.
+La impresora no imprime a través de la red inalámbrica.
+Si se produce cualquier cambio en el nombre de la red inalámbrica o en la contraseña, es necesario volver a configurar la impresora otra vez.
+¿Cómo puedo conseguir un adaptador de AC?
+Puede conseguir un adaptador original o puede adquirir un cargador universal que tenga un conector compatible con su dispositivo.
+Mi impresora no imprime cuando está conectada al PC.
+El problema puede ser debido a un fallo al instalar los controladores de la impresora o a que el servicio de impresión de Windows está detenido. Pruebe a reinstalar los controladores.
+¿Qué es XXS?
+Cross-Site Scripting (XXS) es un tipo de vulnerabilidad de seguridad que afecta a los ordenadores.
+Las teclas de “retroceso”, “intro”, “d” y las teclas de acento sin configurar no producen la salida que deberían, es decir, escriben otros caracteres. ¿Qué debería hacer?
+Compruebe el idioma en el que está configurado su teclado. También puede que tenga una tecla bloqueada, como la de mayúsculas. Si es un portátil, compruebe que el bloqueo numérico está desactivado.
+¿Para qué sirve el sistema operativo?
+El sistema operativo es responsable de controlar el funcionamiento de un ordenador. Se encarga de iniciar el hardware del ordenador y de mantener la integridad del sistema entre otras tareas.
+¿Qué es un iOS?
+iOS es el sistema operativo usado en los iPhones.
+¿Qué es un DDOS?
+Un DDOS es un intento de hacer que los recursos del sistema no estén disponibles para sus usuarios.
+Diferencias entre Ubuntu y Windows 8
+El Sistema operativo Ubuntu es un software libre. Es un sistema operativo que puede ser adquirido gratuitamente. Desgraciadamente, puede presentar problemas de compatibilidad con algunas de las aplicaciones más populares. Windows 8 pertenece a Microsoft, que se encarga de ofrecer apoyo. Es un sistema operativo pagado. Es compatible con la mayoría de las aplicaciones más populares.
+¿Cómo mejorar del ping?
+Para mejorar del ping deberías desactivar todo el software que crea conexiones. Además también podrías disminuir la seguridad del Firewall para que el tráfico de datos sea más fluido.
+Mi portátil funciona solamente con la pantalla externa.
+En el Panel de control, en Propiedades de Pantalla puedes confirmar cual es la Pantalla predeterminada. Puedes también comprobar el cambio de monitor a través una combinación de teclas (normalmente es Fn F4)
+Como instalar la impresora Lexmark P6350 en Windows 8 64 bit
+Primero, comprueba en el portal de la Lexmark si existen algunos controladores compatibles con Windows 8 64 bit. El CD que viene junto con la impresora debería tener la información correspondiente.
+Mi portátil no reproduce ningún sonido.
+Tu ordenador tiene una tecla de silencio. Fíjate si está encendida. Si el modo silencio no está activado, puede que haya un problema con la configuración de la tarjeta de sonido
+Muchos puntos rojos en la pantalla (Acer Aspire 5715z)
+Podrías tener píxeles quemados en la pantalla o algún problema con la tarjeta gráfica del portátil.
+Transferir archivos del ordenador al disco portátil.
+Primero, tienes que comprobar si el disco está correctamente conectado a tu ordenador. Luego selecciona todos los archivos y/o carpetas que quieres transferir al disco duro de tu ordenador. A continuación copia y pega .
+Adobe Reader no abre archivos.
+Intenta reinstalar el software. Desinstala Adobe Reader a través del Panel de control>Programas>Desinstalar un Programa. Descarga la versión más reciente: http://get.adobe.com/br/reader/ e instala de nuevo.
+¿Qué es el IP?
+IP significa protocolo de Internet, información que indica el número de conexión a Internet de tu router .
+¿Cómo puedo conectar varios ordenadores al mismo modem?
+No es posible conectar varios ordenadores al mismo modem. Para conseguirlo tienes de adquirir un router o un switch.
+¿Cómo cambio permisos para administrador?
+Para ejecutar como un administrador, haz clic derecho en la aplicación y selecciona ``Ejecutar como administrador``
+Es posible recuperar los emails enviados desde la cuenta iCloud del iPad?
+Cuentas del iCloud pueden configurarse solamente mediante el IMAP. Si los mails fueron eliminados, no es posible recupéralos.
+Como puedo configurar Thunderbird para poder ver mis correos en Gmail?
+Hay unos pasos que tendrás de seguir. Recomiendo seguir este tutorial: http://www.configuraroutlook.com/thunderbirdgmail.php
+¿Cómo puedo saber si tengo el Windows 64-bit?
+Presione las teclas Windows y ``e`` simultáneamente. Luego, haz clic derecho sobre el área en blanco de la pantalla. Selecciona Propiedades y la información que estás buscando aparecerá.
+¿Cómo puedo grabar algo si sucede en la pantalla en un video?
+Puedes usar un software, como por ejemplo: camStudio (http://camstudio.org/)
+Se me ha olvidado la contraseña para conectar a la Internet. ¿Se ha guardado en alguna parte de mi ordenador Apple?
+En la ventana de Finder busca ”KeyChain Access”- Abre el programa y busca ”airport network” y encuentre el nombre de la red. Haz un doble clic y a continuación haz un clic en ``Show Password`` (muestra la contraseña)
+¿Puedo instalar el Office 2010 en Windows 8?
+Si, puedes instalarlo.
+¿Cómo borro mis archivos temporales?
+Menú Inicio> Ejecutar> Seleccione “temp” y después eliminar todos.
+¿Cómo añado el menú inicio en Windows 8?
+Necesitará descargar Windows 8.1 Para hacerlo solamente necesitará realizar las actualizaciones disponibles desde windows.
+¿Cómo recupero mi contraseña de Outlook.com?
+Deberá ir al siguiente enlace: https://account.live.com/ResetPassword.aspx?wreply=https://login.live.com/login.srf%3fwa%3dwsignin1.0%26ct%3d1389282937%26rver%3d6.1.6206.0%26sa%3d1%26ntprob%3d-1%26wp%3dMBI_SSL_SHARED%26wreply%3dhttps:%252F%252Fmail.live.com%25
+¿Puedo bloquear páginas web en ZON Hub Fiber?
+Sí, es posible bloquear páginas web. Vaya a Opciones> Servicios> Cortafuegos> Controles de Acceso.
+Quiero desinstalar Adobe Flash Player pero no sé cómo hacerlo.
+Debe ir al enlace (http://forums.adobe.com/message/4041846) y descargar el desinstalador para Windows.
+¿Puedo usar Time Capsule en un Windows como un dispositivo externo con un cable USB?
+Con cable USB no es posible, pero puede conectarse a Time Capsule a través de la red Inalámbrica.
+¿Puedo conectar mi Time Capsule vía inalámbrica con un iPad o un iPhone para ver archivos almacenados?
+No es posible acceder a los archivos de Time Capsule con un iPhone o un iPad.
+¿Qué son los servidores Oniduo POP y SMTP?
+Las direcciones son pop.clix.pt y mail.clix.pt, respectivamente.
+Quiero configurar mi cuenta Sapo en Windows Live Mail.
+Use los detalles: POP: pop.sapo.pt; SMTP: smtp.sapo.pt.
+Quiero crear una cuenta de Gmail y conectar con Google Play en mi móvil. (10)
+Vaya a esta página web e introduzca sus datos. https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=pt-PT
+Quiero subir archivos a Drive.
+Descargue la aplicación drive https://tools.google.com/dlpage/drive , a continuación haga clic en el icono de Drive en la esquina inferior derecha, seleccione Abrir fichero Google Drive. Después solamente tendrá que arrastrar los archivos que quiera subir a la carpeta.
+Quiero imprimir una imagen.
+Haga clic con el botón derecho del ratón en la imagen y seleccione Imprimir.
+¿Cómo puedo ver la velocidad de descarga de los archivos en Dropbox?
+No es posible ver la velocidad de descarga, solamente el tiempo de descarga.
+Cómo acceder a DropBox.
+Puede acceder a través del sitio https://www.dropbox.com
+Mi PC está conectado al TV Set por cable pero no tengo sonido.
+Si está usando un cable VGA, este solamente transmite señales de video. Necesitaría también un cable HDMI para transmitir audio.
+La fecha y hora del PC siempre se están cambiando.
+Esto ocurre cuando la batería BIOS está dañada. Necesitará sustituirla.
+Mi batería pide que conecte un cargador incluso después de haberlo conectado.
+Pruebe a desconectar el ordenador de la red eléctrica, quite la batería, vuelva a colocarla en su PC y reconéctelo al enchufe.
+Mi Epson no reconoce los cartuchos.
+Pruebe a quitar los cartuchos, sople en los conectores y vuelva a colocar los cartuchos en la impresora. Si son cartuchos reciclados, puede que haya algún problema con la compatibilidad.
+No puedo vaciar la Papelera de Reciclaje.
+Haga clic con el botón derecho del ratón sobre el icono de la Papelera de Reciclaje en el escritorio y después vacíela.
+¿Es posible averiguar una dirección a través de la IP?
+No es posible saber la dirección precisa, puede probar a usar este sitio, por ejemplo: http://www.geoiptool.com/ -, pero puede que los resultados no sean precisos.
+Añadir mis contactos de Facebook a Skype.
+Tendrá que ir a Contactos> Importar contactos y después introducir sus datos de acceso a Facebook.
+Cómo acceder a Mi PC en Windows 8.
+Haga clic en la tecla de Windows y en la tecla e.
+Cómo activar el botón de página de Inicio en Google Chrome.
+En Configuración, seleccione Mostrar Botón de Página de Inicio.
+¿Cómo creo un canal de video en YouTube?
+Vaya a youtube.com y acceda usando su cuenta de Gmail. Después vaya a este enlace http://youtube.com/user e introduzca los datos requeridos.
+No sé cómo ver las calles en Google Earth.
+Tiene que arrastrar el muñeco Amarillo que aparece en la pantalla en la calle que quiera ver.
+¿Cómo hago una selección múltiple?
+Mantenga pulsada la tecla Ctrl. Después haga clic en el botón izquierdo del ratón sobre cada archivo que quiera seleccionar.
+Cómo hacer una captura de pantalla y editar las imágenes capturadas.
+Presione el botón de Print Screen en el teclado, después abra cualquier editor de imágenes, por ejemplo Paint y seleccione pegar.
+¿Cómo hago una video-llamada con Skype?
+Haga clic en el contacto al que quiera llamar y aparecerá el botón de Video-llamada.
+¿Cómo cierro una ventana sin hacer clic en Cerrar?
+Tendrá que presionar las teclas Ctrl+F4.
+Quiero acceder a Skype con mi cuenta de Hotmail.
+En Skype haga clic en Iniciar Sesión con una Cuenta diferente, después haga clic en el botón de Cuenta de Microsoft.
+Cómo compartir un PPT en Facebook.
+No es posible compartir un PPT en Facebook.
+¿Cómo elimino programas de arranque en Windows 7 OS?
+Vaya al menú Inicio, después escriba msconfig y vaya a la etiqueta de arranque. Deseleccione los objetos que quiera que dejen de funcionar cuando se arranque el ordenador.
+¿Cómo sé si mi PC tiene Bluetooth?
+La mejor manera es mirar en el manual del ordenador o en la página web del fabricante del PC.
+¿Cómo sé si un programa es seguro?
+La mejor solución es descargar siempre el software desde sitios de confianza. Cuando arranque la instalación verá el nombre del fabricante, si dice que es desconocido, puede que no sea de fiar.
+¿Debería apagar siempre mi PC presionando el botón de On/Off?
+No, debería apagarlo usando Windows: Menú Inicio> Apagar.
+¿Es posible hacer una copia de seguridad del disco duro de mi PS3?
+Debe ir a Configuración de PS3> Ajustes de Sistema> Copia de seguridad. Si tiene alguna duda, vaya a la página: http://manuals.playstation.net/document/pb/ps3/current/settings/backuputility.html
+Eliminar un contacto de Skype
+Haga clic con el botón derecho del ratón en el contacto que quiera eliminar y seleccione eliminar contacto.
+¿Cómo sincronizo los contactos de Facebook con un iPhone 5 que tiene iOS 6.1?
+En Ajustes> Facebook, active el permiso, para que Facebook pueda acceder a su lista de contactos. Luego, en los contactos, active la opción para sincronizar con Facebook.
+Me gustaría saber si, con un Mac, puedo ejecutar los juegos de Facebook, como Farmville, y si el flash funciona.
+Mac ejecuta Flash y Safari funciona bien con los juegos de Facebook.
+Quiero saber si existe la posibilidad de compartir mis logros obtenidos en Xbox en Facebook.
+Usted puede acceder a la página RAPT ( http://raptr.com/login ) y vincular Facebook a su etiqueta de jugador.
+¿En qué sentido añadir mi número de móvil mejora la seguridad de mi cuenta de Gmail?
+Gmail tiene un sistema de control doble, es decir, cada vez que acceda a su correo electrónico, se le solicita que ingrese un código especial que puede ser enviado a través de SMS, teléfono o el texto impreso. La recuperación de una cuenta también se puede hacer mediante SMS. Así que el número de móvil actúa como un certificado de autenticidad.
+¿Cómo se eliminan los cookies de Safari?
+Vaya a "Preferencias> Privacidad> Detalles> Eliminar todos los datos de los sitios web.
+¿Cómo puedo conectar Facebook con iMessage?
+Usted puede seguir las instrucciones en el siguiente tutorial http://www.hongkiat.com/blog/facebook-chat-macosx/
+Hace algún tiempo, mi Facebook empezó a colgarse inesperadamente en mi iPhone, cerrando el programa y volviendo al menú inicial.
+Intente eliminar la aplicación e instalarla de nuevo.
+¿Hay alguna forma automática en la que Gmail pueda obtener las fotos de las personas en mis contactos y Facebook?
+Usted puede utilizar Google Contact Sync, una aplicación que asocia los contactos de Gmail a sus amigos de Facebook
+¿Hay alguna manera de compartir vídeos de YouTube en Facebook desde un iPad 1 con iOS5?
+Por YouTube. App usted puede hacer clic en enviar URL por correo electrónico y copiar el enlace.
+Estoy teniendo problemas con el chat de Facebook. Algunos amigos se muestran como fuera de línea, incluso estando conectados. Otros no me pueden ver como conectado.
+Intente ir a Cuenta> Seguridad> Sesiones Activas y cierre todas las sesiones.
+Si conecto el iPhone al ordenador vía USB, ¿va a actualizar las imágenes de los contactos de Facebook?
+Sólo si usted está conectado a Internet (Wi-Fi, GPRS/3G), puede sincronizar los contactos con los de Facebook (actualización de fotos).
+¿Es posible hablar con dos personas a la vez en Facebook?
+En la ventana de chat, tiene que hacer clic en el icono de engranaje y selecciona Invitar a un amigo a esta conversación.
+¿Cómo reactivo una cuenta Instagram?
+Póngase en contacto con soporte de Instagram, comuníqueles el problema y siga sus instrucciones.
+¿Cómo encontrar amigos en Instagram?
+Haga clic en el icono con 3 cuadrados en la parte superior de la pantalla y haga clic en Buscar Amigos. Elija una de las opciones y seleccione los amigos que desee o haga clic en Seguir Todos.
+Cuando agrego una persona como favorito en Facebook, ¿también me convierto en su favorito?
+No, no se convierte en su favorito
+¿Durante cuánto tiempo puede estar inactivo Facebook?
+Facebook puede permanecer inactivo durante todo el tiempo que desee. Sólo tiene que iniciar sesión de nuevo para reactivar la cuenta.
+No puedo desactivar el control parental en Magalhães
+Siga los pasos descritos en esta página, http://suportemagalhaes.com/kb_2/index.php?View=entry&EntryID=39 e intente seguirlos.
+¿Cómo puedo eliminar el historial de conversaciones en Skype?
+Usted debe ir a Herramientas> Opciones> Privacidad> Borrar historial.
+Quiero borrar una conversación en Skype
+Haga clic en el botón derecho del ratón en la conversación y seleccione Eliminar conversación. En la ventana emergente, haga clic en Eliminar.
+En Skype, ¿cómo puedo eliminar todas las conversaciones que aparecen en la barra lateral?
+En el menú principal, haga clic en Conversaciones> Eliminar recientes. Aparecerá un mensaje que le preguntará si desea eliminar todas las conversaciones recientes. Haga clic en Eliminar recientes.
+Me gustaría recibir mensajes de voz en Skype.
+En Administración de Funciones, haga clic en mensajes de voz. Luego haga clic en Configuración de mensajes de voz.
+¿Cómo puedo saber si un amigo mío tiene mensajes de voz en Skype?
+Si pasa el ratón sobre el icono del estado de su amigo, usted será capaz de ver si el contacto tiene el recurso de mensajes de voz configurado.
+¿Puedo redirigir las llamadas de Skype en Linux?
+Por supuesto. En Skype, seleccione Opciones> Redirigir. Definir un número al que las llamadas se redirijan y durante cuánto tiempo debe sonar la llamada antes de ser redirigida.
+¿Qué son las alertas de SpinVox?
+SpinVox convierte los mensajes de voz en texto y, a continuación, los envía a su móvil mediante SMS, con el pago de una pequeña tarifa.
+No me puedo conectar a Skype.
+Compruebe si está utilizando la contraseña correcta y la última versión. Intente volver a instalar Skype.
+¿Cómo sincronizo Dropbox en todos mis ordenadores y móviles?
+Debe instalar la aplicación Dropbox en todos sus dispositivos e introducir sus datos de acceso. Cuando los dispositivos están conectados a la Internet, la sincronización se realiza automáticamente.
+¿Cómo puedo saber cuánto espacio tengo libre en Dropbox?
+Accede a su cuenta en la página de Dropbox, y haga clic en su nombre de usuario en la esquina superior derecha. Aparecerá la información con respecto a su uso de espacio.
+¿Cómo puedo saber si Dropbox está sincronizado?
+Compruebe el icono de Dropbox en la barra de menú. Si el icono tiene un círculo azul con flechas, se está sincronizando. Cuando se cambia a un círculo verde con un símbolo de visto, significa que los datos están sincronizados.
+¿Cómo puedo ver un vídeo que tengo en mi Dropbox en mi Tablet Android?
+Instale la aplicación Dropbox para Android en la tablet desde Google Play. Introduzca sus datos de acceso para acceder el vídeo. La aplicación Dropbox para Android utiliza el reproductor incluido para la reproducción de vídeos.
+¿Cómo se introducen corchetes en Mac?
+{ -- Shift+Alt+8 } -- Shift+Alt+9
+No puedo realizar búsquedas sobre el violín.
+Vaya a la página de www.google.pt y en el campo de búsqueda, introduzca "violines", y luego haga clic en Buscar.
+No puedo escribir la letra P.
+La tecla debe ser atascada o contener un poco de suciedad debajo. Si es un teclado externo, intente darle la vuelta al teclado y sacudirlo. El teclado también puede estar roto.
+No puedo imprimir el cuerpo de un mensaje de correo electrónico.
+Abra el mensaje que desee imprimir y pulse Ctrl + P.
+No quiero que el correo electrónico que se almacene en el webmail, sólo en Outlook.
+Usted debe comprobar si su proveedor de correo electrónico es compatible con conexiones pop3. Si es así, debe configurar la cuenta como pop3 y quitar el símbolo de verificación en la opción que dice que una copia se deja en el servidor.
+No sé si mi equipo usa una versión de 32 o de 64 bits?
+Al mismo tiempo, haga clic en las teclas Ctrl + "E", y a continuación, haga clic con el botón derecho y seleccione Propiedades.
+Mi ratón se mueve rápidamente hasta el final de la pantalla.
+Si es un ratón óptico, podría ser la superficie. Si usted no tiene una alfombrilla para el ratón, se recomienda adquirir una.
+Mi Skype no realiza la corrección automática.
+Skype no tiene un corrector ortográfico integrado.
+¿Para qué es Shockwave?
+Es un plug-in que se utiliza por los navegadores para mostrar contenido multimedia (películas, juegos, etc.) en las páginas web.
+¿Para qué son los botones en la parte superior de mi ordenador?
+Son teclas de funciones especiales que se establecen de manera diferente según el fabricante. Para interactuar con ellas, hay una tecla del teclado con las letras FN. Debe pulsar la tecla y luego la tecla azul de su elección. Por favor, considere que usted puede desactivar fácilmente las funciones tales como el wifi.
+El ordenador se enciende, pero sólo emite un pitido.
+Esta señal de sonido representa un fallo de hardware, por ejemplo, fallos de memoria RAM, fallos de disco, etc... En el manual de la placa base, hay una descripción de cada pitido, indicando el fallo correspondiente.
+¿Por qué no puedo jugar a juegos de tablet en el equipo?
+Los juegos de tablet están diseñados para los sistemas y arquitectura del tablet, los cuales son diferentes de un ordenador normal.
+Quiero acceder a mi PC a través de la tablet
+En la Play Store, busque la aplicación TeamViewer, a continuación, instale la misma aplicación en el equipo también.
+Quiero cambiar el nombre de mi equipo.
+Vaya a Inicio> Ejecutar y escribir "sysdm.cpl" si es Windows Vista o 7. En Windows 8, escriba el mismo comando en el cuadro de búsqueda. Luego haga clic en el botón Cambiar y elija un nombre para el equipo.
+Quiero saber de qué marca es la placa base.
+Vaya a Inicio> Ejecutar y escriba "msinfo32.exe" si es Windows Vista o 7. En Windows 8, escriba el mismo en el cuadro de búsqueda. Aparecerá un resumen de su ordenador.
+Quiero bloquear a gente en Facebook
+Para bloquear a la gente en Facebook siga los pasos de este sitio web: http://www.tecmundo.com.br/6679-como-bloquear-e-desbloquear-usuarios-no-facebook.htm
+Sincronizar los contactos entre iCloud y Outlook 2010.
+Tendrá que descargar la aplicación de Apple: http://support.apple.com/downloads/DL1455/en_US/iCloudSetup.exe . Después de instalarla, verá una opción para sincronizar sus contactos de Outlook.
+Mis iconos están ocultos.
+Siga las instrucciones del siguiente sitio web: http://windows.microsoft.com/pt-pt/windows-vista/show-or-hide-icons-in-the-taskbar
+He estado intentando iniciar sesión en Facebook y me dice que el nombre de usuario es incorrecto.
+Esto ocurre cuando introduce una contraseña incorrecta.
+He estado intentado, sin éxito, actualizar Windows 8.1. Aparece en la Windows Store pero no se descarga.
+Haga clic en las teclas “Windows” y “r” al mismo tiempo, escriba wsreset.exe y reinstale la actualización.
+¿Cómo quito el candado amarillo de una carpeta?
+Haga clic con el botón derecho, seleccione Propiedades. En la ventana , vaya a la pestaña Seguridad, haga clic en Editar > Añadir y escriba todos . Después marque Usuarios Autenticados y pulse Aceptar. Seleccione el nuevo grupo y marque Control Total y Permitir. Después haga clic en Aceptar.
+¿Cómo invierto un vídeo en Windows Media Player?
+No es posible invertir vídeos en Media Player. Puede usar Movie Maker.
+No puedo encontrar la calculadora de Windows 8.
+Presione la tecla de Windows y escriba “calculadora”. Después pulse la tecla Intro.
+¿Cuál es el nombre de usuario y la contraseña para iniciar sesión en el router MEO?
+Pruebe esto: Nombre de usuario: meo, contraseña: meo o Nombre de usuario: Administrador, contraseña: 3!play
+¿Cómo hago una copia de seguridad de los datos de mi correo electrónico? Tengo Outlook 2007.
+Puede descargar la siguiente aplicación de Microsoft: http://www.microsoft.com/en-us/download/details.aspx?id=9003
+Quiero eliminar Office pero no aparece en la lista de programas.
+Ejecute esta aplicación para eliminar Office: http://go.microsoft.com/?linkid=9669698
+Tengo Outlook 2007 y cuando intento recibir un email aparece este mensaje: “Esta operación ha sido cancelada debido a las restricciones de este ordenador. contacte con el administrador de su sistema”.
+Descargue Fix It del sitio web de Microsoft: http://support.microsoft.com/kb/310049/pt
+¿Cómo puedo resumir texto en Microsoft Word 2007?
+Vaya a este enlace y siga las instrucciones: http://office.microsoft.com/pt-br/word-help/resumir-automaticamente-um-documento-HP005189680.aspx
+¿Cómo pongo un borde en Word 2007?
+En cualquier documento de Word en el menú de diseño de página haga clic en Bordes de página.
+¿Cómo quito la barra lateral de Office Starter?
+No es posible quitar este banner de publicidad.
+¿Cómo inserto una imagen en una celda de Excel?
+Seleccione la celda donde quiere insertar la imagen. En la pestaña Insertar, grupo Ilustraciones, haga clic en el botón Imagen que aparece en el menú desplegable.
+¿Hay algún conversor de texto para Power Point 2007?
+Compruebe si tiene el Service Pack 2 para Office 2007. Si no lo tiene, descárguelo desde este sitio: http://www.microsoft.com/downloads/details.aspx?FamilyId=B444BF18-79EA-46C6-8A81-9DB49B4AB6E5&displaylang=pt-BR
+Mis columnas en Excel han cambiado de letras a números.
+Haga clic en el botón Office > Opciones de Excel > Fórmula y desmarque Referenciar Estilo L1C1.
+Outlook no guarda los correos electrónicos en la carpeta de elementos enviados.
+Vaya al menú Herramientas y haga clic en Opciones > Preferencias > Opciones de correo electrónico > Manipulación de mensajes, y marque la opción Guardar copias de los mensajes en la carpeta de elementos enviados.
+¿Cómo inserto comentarios en las celdas de Excel 2010?
+Haga clic con el botón derecho en la celda de su elección y después haga clic en Insertar un comentario.
+¿Dónde puedo encontrar la opción “Vista previa de impresión” en Word 2012?
+Haga clic en el menú Archivo > Imprimir y en el lado derecho de la pantalla verá una vista previa de impresión de su documento.
+No puedo editar un documento. Parece que está bloqueado. ¿Qué debería hacer?
+Asegúrese de que tiene la licencia de Office activada. Vaya al menú Archivo > Ayuda. Si le pide una clave de licencia, es porque no está activado.
+La imagen insertada en el cuerpo del correo electrónico aparece más pequeña.
+Haga clic en el cuerpo del mensaje de correo electrónico y después en el menú Insertar > Imágenes.
+¿Cómo cambio las comas por puntos en Office Excel 2007?
+Haga clic en el botón Office, en la parte superior izquierda de la pantalla. Después en la esquina inferior derecha vaya a Avanzado y seleccione “usar las pestañas del sistema”. Concluya haciendo clic en Aceptar.
+¿Cómo bloqueo los correos electrónicos que recibo de un remitente particular?
+Vaya a esta página e intente seguir los pasos: http://office.microsoft.com/pt-br/outlook-help/adicionar-nomes-as-listas-de-filtro-de-lixo-eletronico-HA001230163.aspx
+¿Cómo puedo eliminar un mensaje que está atascado en la bandeja de salida de Outlook 2007?
+Haga clic en el menú Archivo y seleccione la opción de Trabajar sin conexión. Cierre Outlook y vuelva a abrirlo. Elimine el mensaje de la bandeja de salida. Haga clic en el menú Archivo y desmarque la opción de Trabajar sin conexión.
+Office 2013 no tiene el Picture Manager de Microsoft Office.
+Este software ya no está disponible. Ha sido sustituido por Photo Gallery. http://windows.microsoft.com/pt-br/windows-live/photo-gallery#photogallery=overview~
+¿Cómo cambio el idioma en Office 2010 de portugués a inglés?
+Haga clic en el menú Archivo > Opciones > Idioma y defina el idioma de visualización y el idioma de ayuda como inglés.
+Outlook no muestra las imágenes .
+Abra el mensaje y haga clic en el botón Otras tareas. Después haga clic en el botón Ver en el navegador.
+¿Cómo puedo insertar una nota a pie de página en Word 2010 Starter?
+Esta acción no está permitida en Word Starter. Puede revisar las funciones del programa no disponibles aquí: http://office.microsoft.com/pt-br/starter-help/suporte-a-recursos-do-word-starter-HA010374498.aspx.
+¿Cómo puedo exportar los contactos en formato Vcard e importarlos en mi teléfono móvil?
+Vaya a este sitio y pruebe a seguir los pasos: http://support.microsoft.com/kb/290840/pt-br?p=1
+¿Cómo abro un txt en Excel?
+Excel ya puede abrir los archivos txt. Una vez abiertos, verá el asistente de archivos. La apertura correcta de un txt en Excel depende del formato del texto.
+¿Dónde puedo descargar una plantilla de diario para Office?
+Puede ir a este sitio web y ver si alguna de ellas cumple sus criterios: http://office.microsoft.com/pt-pt/templates/modelos-FX010059549.aspx?pid=CL100632981046
+Abrir dos ventanas de Excel .
+Vaya a Archivo > Opciones > Avanzado > General. Seleccione la casilla de validación: ignorar otras aplicaciones que usen Dynamic Data Exchange (DDE).
+¿Cómo cancelo el envío automático programado de un correo electrónico?
+Vaya al menú Archivo > Opciones > Avanzado. Desmarque la opción de enviar automáticamente al estar conectado.
+¿Cómo puedo proteger una diapositiva de PowerPoint?
+Vaya a este sitio web e intente seguir los pasos: http://office.microsoft.com/pt-pt/powerpoint-help/proteger-documentos-pastas-de-trabalho-e-apresentacoes-com-senha-HA010148333.aspx
+¿Cómo puedo crear y enviar una hoja informativa?
+Pruebe a seguir los pasos en esta web: http://office.microsoft.com/pt-pt/publisher-help/criar-e-enviar-publicacoes-por-correio-electronico-utilizando-o-publisher-HA001074338.aspx
+No puedo abrir links en Outlook
+Pruebe a seguir los pasos descritos en esta página web http://support.microsoft.com/kb/981149/pt-br
+¿Cómo exporto una lista de contactos de Microsoft Outlook 2010 a Excel?
+En el menú Archivo> Abrir>Importar, pinche en Exportar a Archivo y después haga clic en Siguiente. En la caja Crear un Tipo de Archivo, pinche en Microsoft Excel, y después en Siguiente. Escriba el nombre del archivo, haga clic en Siguiente y después pinche en Finalizar. En Excel, abra el archivo creado en el paso previo.
+¿Cómo recupero un archivo corrupto de Excel?
+Pruebe a seguir los pasos en esta página web: http://office.microsoft.com/pt-br/excel-help/reparando-uma-pasta-de-trabalho-corrompida-HA010097017.aspx
+¿Cómo puedo crear una firma en Thunderbird?
+Necesitará ir a Herramientas> Ajustes de Cuenta, pinche en la cuenta en la que quiere crear una firma, y dónde está el texto de la firma, escriba lo que quiera que aparezca.
+Cómo resetear el router a la configuración de fábrica
+En el router, hay un pequeño agujero, en el que debería poner “Reset”. Con un clip, presione este agujero hasta que las luces del router empiecen a parpadear.
+Cómo crear una contraseña segura
+Una contraseña debe tener un mínimo de 8 caracteres, cuantos más mejor, y debería tener números y símbolos.
+¿Cómo funcionan los archivos favoritos de Dropbox en Android?
+Si marca un archivo como Favorito, su dispositivo guardará el archivo para la vista offline y garantiza que está siempre sincronizado.
+Quiero compartir una carpeta de Dropbox con otra persona
+En la página de Dropbox, pinche en el espacio vacío a la derecha del nombre de la carpeta que quiere compartir para seleccionarla. Haga clic en “Invitar a carpeta” y escriba la dirección de email de quien quieres invitar.
+Tengo copias de archivos en conflicto en Dropbox.
+Esto ocurre cuando dos personas editan el mismo archivo al mismo tiempo. Tiene que decidir manualmente qué archivos desea mantener.
+¿Cómo dejo de compartir una carpeta en Dropbox?
+En la barra lateral izquierda, seleccione Compartir> Opciones> Dejar carpeta
+En Dropbox, ¿puedo cambiar el propietario de una carpeta compartida?
+Puede, si es el propietario, en la barra lateral yendo a Compartir> Opciones. En el icono de una tuerca, pinche al lado del nombre del miembro que quiere que sea el nuevo propietario y haga clic en “Hacer propietario”
+¿Puedo eliminar a un miembro de una carpeta de Dropbox?
+Puede, si es el dueño. En la barra lateral izquierda, en Compartir> Opciones, vaya al icono de la tuerca, pinche al lado del nombre de la persona y haga click en “Expulsar”
+¿Cómo adjunto un archive a un mensaje de Facebook?
+Cuando esté escribiendo un mensaje, simplemente pinche en el icono del clip y añada los archivos.
+¿Cómo puedo aparecer invisible en el chat de Facebook?
+Acceda al chat en la esquina inferior derecha de la pantalla, pinche en el icono de la tuerca y después pinche en “Desconectar Chat”
+Quiero desactivar el sonido del chat de Facebook
+Pinche en el icono de la tuerca en la barra lateral del chat y deseleccione “Sonidos del chat”
+¿Puedo chatear con varias personas en el chat de Facebook?
+En un chat, pinche en el menú de acción y seleccione el icono “Añadir amigos al chat” y escriba los nombres de los amigos que quiera añadir.
+¿Cómo puedo salir de una conversación en el chat de Facebook?
+En una conversación, haga click en el menú de Opciones (el icono de la tuerca) y seleccione “Abandonar conversación”
+Chat de Facebook en iChat
+En el menú de iChat, seleccione Preferencias> Cuentas> Seleccionar Jabber y escriba el nombre de usuario Nombre_en_Facebook@chat.facebook.com y la contraseña de Facebook. Pinche en la flecha al lado de “Opciones de servidor” y verifique que la caja de “Encontrar automáticamente servidor y puerto” está marcada.
+¿Cómo puedo dejar de recibir actualizaciones de una página de Facebook?
+Acceda a la página y debajo de la portada, mueva el cursor del ratón por encima de “Me gusta”, después desmarque la caja de “Mostrar en el feed de noticias”
+¿Dropbox solamente funciona online o puedo tenerlo en mi ordenador?
+Si instala la aplicación de Dropbox, tendrá acceso directo a su Dropbox a través de una carpeta en el disco duro de su ordenador
+¿Cómo funciona el historial de Dropbox?
+Dropbox guarda un historial de todas las versiones previas de los archivos durante 30 días. Esto le permite recuperar versiones anteriores de un archivo o un archivo borrado.
+¿Puedo compartir un archive de Dropbox con un amigo que no tiene Dropbox?
+Puede crear un enlace seleccionando el archive y después “Compartir enlace” en el menú de Dropbox. Podrá enviar este enlace a cualquier persona.
+Cuando comparto un archivo de Dropbox con un amigo, ¿estoy usando también de mi límite?
+El tamaño de un archivo compartido ocupa espacio del límite de cada miembro que lo comparte.
+¿Cómo puedo conseguir más espacio en Dropbox?
+Si invita a un amigo a probar Dropbox y éste se registra e instala la aplicación de escritorio de Dropbox en un ordenador y accede a su cuenta a través de la aplicación, los dos recibirán 500 MB de espacio extra.
+¿Puedo tener dos cuentas de Dropbox en el mismo ordenador?
+Sólo puede tener una instalación de Dropbox en el mismo ordenador, que sólo puede ser enlazada a una única cuenta.
+Tengo un IPad y quiero saber cómo editar un Excel que está en Dropbox, y después de que esté editado, guardarlo de nuevo en Dropbox.
+Acceda a la aplicación de Dropbox para abrir el archivo, y pinche en “Abrir con”. Seleccione el programa deseado para editar el archivo. Después, pinche en “Exportar” y seleccione Dropbox.
+¿Cómo puedo enviar fotos a Dropbox desde un iPhone?
+En el menú principal de la aplicación de Dropbox, o en su lugar, con la opción seleccionada desde la parte inferior izquierda de la barra, haga clic en los tres puntos en la parte superior derecha de la pantalla y seleccione “Subir”. Después, simplemente seleccione las fotos y pinche en Subir en la parte superior derecha.
+¿Cómo limitas el acceso a Dropbox de otros usuarios que tienen acceso a mi ordenador en Windows?
+Si “Mis Documentos” está configurada como privada en los términos de restricciones (en la pestaña de “Seguridad”), no será visible para otros usuarios del ordenador. Esto es válido para cualquier objeto que esté contenido en ella.
+Quiero borrar contenido de una carpeta que comparto en Dropbox. ¿Se queda la otra persona sin acceso a estos archivos si los borro?
+Sí, si se borran los archivos en un lado, se borran en el otro.
+¿Cómo hago una imagen pública en Dropbox?
+Debe poner la imagen en la carpeta “Pública”
+No puedo encontrar la carpeta “Pública” en Dropbox
+Abra este enlace www.dropbox.com/enable_public_folder y siga las instrucciones
+Me he quedado sin espacio en Dropbox. Solamente tengo carpetas compartidas de amigos, pero ninguna mía.
+Todas las carpetas compartidas ocupan también su límite , ya que son guardadas en las cuentas de cada uno que las comparte. Puede dejar algunas carpetas compartidas para liberar espacio
+He instalado Dropbox en iPad 2 y me gustaría tener un programa gratis para editar archivos de Excel.
+Instale la aplicación Documento To Go.
+Cuánto espacio tiene Gmail?
+Cuentas en Gmail tienen 25GB de espacio.
+¿Cómo puedo acceder a mi correo Gmail sin tener conexión a Internet ?
+Para habilitar la función Gmail sin conexión, haga clic en el icono de herramienta en el rincón derecho superior de la ventana de Gmail. A continuación haga clic en configuración y en la pestaña ``sin conexión`` seleccione ``Instalar Gmail sin conexión``
+En Gmail quiero marcar un mensaje que ya tengo leído como no leído.
+Marque el mensaje y cliqueando en el marcador “Más” seleccione “marca como no leído”
+¿Cómo corregir ortografía en un mensaje de Gmail?
+En la esquina inferior izquierda haga clic sobre el botón de flecha y seleccione ‘Comprobar ortografía``
+No consigo enviar archivos adjuntos en Gmail.
+Gmail no acepta archivos adjuntos ejecutables ni archivos cuyo tamaño supera 25MB.
+¿Cómo puedo organizar mensajes de Gmail?
+Puede ordenar sus mensajes usando las etiquetas. Se pueden otorgar más de que una etiqueta a cada mensaje para clasificarlos de muchas maneras.
+¿Hay un número máximo de etiquetas que puedo crear en Gmail?
+Gmail admite un máximo de 5000 etiquetas diferentes.
+¿Puedo usar más de una etiqueta en un mensaje de Gmail?
+Sí, es posible aplicar cualquier número de etiquetas que desee.
+¿Puedo crear sub etiquetas en Gmail?
+Creando una etiqueta nueva, puede definirla como una sub etiqueta de otra etiqueta que ya existe en su cuenta Gmail. Para hacerlo tiene que seleccionar la opción: Anidar etiqueta en
+¿Si borro una etiqueta en Gmail, los mensajes relacionados también son eliminados?
+Los mensajes no son eliminados.
+¿La papelera de Gmail se vacía automáticamente?
+Si, los mensajes se suprimen pasados 30 días.
+He eliminado, por equivocación, un mensaje de Gmail, ¿Qué puedo hacer ahora?
+En la papelera del Gmail encuentre el mensaje suprimido y utilizando el menú desplegable ``Mover el mensaje ‘desplace al mensaje hasta la casilla Recibidos.
+¿Los correos de spam en Gmail se eliminan automáticamente?
+Si, los mensajes de spam se eliminan automáticamente después de 30 días.
+He comprado un Smartphone con Windows Mobile. ¿Ya tengo el Office?
+Si, ya tiene el Office Mobile. En la lista de aplicaciones haga clic en el icono de Office para acceder al Office hub. Luego puede editar los archivos de Microsoft Office.
+¿El Office Mobile tiene las mismas características que el Office 2010?
+El Office Mobile tiene un conjunto menor de recursos en comparación con la versión del Microsoft Office del año 2010 o posteriores.
+Quiero abrir un documento de Office protegido en el teléfono.
+Haga un clic sobre el archivo protegido. En la casilla de Credenciales Necesarias clique ``Si`` para introducir el nombre del usuario y la contraseña de la cuenta mail.
+Me gustaría descargar un video de YouTube para mi ordenador.
+Puede copiar el enlace del video en esta página web: http://keepvid.com/ para descargar el video en una carpeta del ordenador.
+¿Tener imanes pegados al ordenador puede plantear problemas?
+Los imanes no perjudican el ordenador pero debilitan los colores de la pantalla. Evite colocar imanes demasiado cerca de los monitores.
+¿Es necesario tener espacio entre el monitor y la pared de atrás?
+El ambiente, en general, debe estar ventilado, pero no es indispensable que exista una gran distancia.
+¿Cuándo el ordenador ha estado toda la noche conectado, es mejor apagarlo y volver a encenderlo?
+En la mayoría de los casos el ordenador continuará funcionando normalmente.
+El ordenador gasta más energía si la dejo encendido muchas horas o si la apago y vuelvo a encender ?
+Encender el ordenador no gasta más energía que dejarlo encendido varias horas. Apagando el PC ahorra energía.
+¿Después de apagar el ordenador es mejor esperar unos segundos antes de volver a encenderla?
+Es recomendable esperar por lo menos unos 10 segundos antes de volver a encenderlo.
+¿Mover elPC cuando está encendido puede dañar el disco duro?
+No hay ningún problema en mover el ordenador mientras está encendido.
+¿Debería desconectar el ordenador del enchufe durante una tormenta?
+Es recomendable desconectar todos los dispositivos de las fuentes de energía.
+¿En las notebooks debo conectar primero el cable de alimentación al equipo y luego a la toma del corriente?
+El orden es indiferente. Casi todos los equipos portátiles tienen hoy en día protección anti cortocircuitos y son multi-voltaje, permitiendo conectarse a tensión de 90 a 240 volts.
+Mi ordenador se queda cerca de la ventana, expuesto al sol. ¿Esto puede causar problemas?
+Si el ordenador se calienta más de lo habitual, su vida útil tiende a disminuir. Así que nunca es una buena idea instalar el equipo junto a una ventana donde pegue el sol.
+Si tengo muchos iconos en mi escritorio. ¿Esto hace que mi ordenador vaya más lento?
+Lo que sucede es que la tarjeta gráfica refresca continuamente la imagen del escritorio, y cuantos más iconos tiene - funciona más lentamente.
+Un amigo me había enviado un mensaje en Facebook pero no lo recibo.
+Compruebe si el mensaje está en la carpeta ``Otros``. En tu página de Facebook, en el menú de mensajes haga clic en ``Otros``. Es una opción que se encuentra junto a la opción ``Mensajes recibidos``.
+¿Qué es el 4G que aparece en los teléfonos móviles?
+4G designa la nueva generación de teléfonos móviles. En general las redes móviles de tipo 4G alcanzan una velocidad semejante a las conexiones ADSL.
+¿Cómo instalo complementos de Firefox?
+Para instalar complementos de Firefox necesita abrir la página web de complementos de Mozilla y escoger los complementos.
+¿Cómo descargo solo la parte de audio de videos de YouTube?
+Copie la url del video y péguela en esta página web: http://www.youtube-mp3.org/ para convertir el video en un archivo mp3.
+Quisiera desactivar la opción de seguidores en Facebook.
+En el mural de Facebook haga clic sobre el icono de herramienta y, a continuación, en la Configuración de Privacidad. En el menú que aparece clique sobre el botón ``Seguidores`` en el rincón superior izquierdo de la página. Después en el menú de configuración de seguidores selecciona ``Amigos`` en vez de ``Todos``.
+¿Puedes sugerir algún programa simple para crear GIFs animados?
+PhotoScape es un programa fácil de usar. Sin embargo para un resultado más profesional le recomendamos Adobe Photoshop.
+¿Qué es Flickr?
+Flickr es una página web para almacenar y compartir imagines. Después de un registro sencillo puede publicar fotografías almacenadas en su PC, notebook, móvil, Tablet, etc.
+Un amigo mío no me sigue en el Instagram pero yo le sigo a él. ¿Puede ver lo que yo publico?
+Su amigo puede ver lo que está publicando pero no lo ve en su pantalla general. Debe buscar su @usuario e ir a su Instagram.
+Mi móvil Android puede coger un virus.
+Sí, cuando descarga una aplicación, esa aplicación puede contener un virus.
+He comprado una canción en Google Play, puedo escucharla en otro dispositivo Android?
+Para escuchar la música probablemente tendrá que configurar su cuenta de google en el otro dispositivo.
+Tarda demasiado rato en transferir archivos del ordenador al pen .
+En “mi equipo” (“este equipo”) haga clic con el botón derecho del ratón en el icono de tu dispositivo externo y seleccione propiedades. Vaya a Preferencias y escoja mejorar el rendimiento.
+Cuando intentó mirar videos en Internet, en Windows Media Player, sólo puedo oír el sonido pero no veo ninguna imagen.
+Descargue el siguiente software, http://www.divx.com/en/software/divx, instálelo e intente de nuevo.
+Hoy, cuando encendí el ordenador, mis iconos parecían mayores de lo habitual.
+Sí únicamente los iconos son mayores, debe seleccionar todos los iconos, clic y aguantarla tecla Ctrl, entonces utilice la rueda del ratón para disminuir los iconos.
+Dónde puedo encontrar el software para el escáner HP Scanjet 2400?
+Tiene que ir a esta página web: http://h10025.www1.hp.com/ewfrf/wc/softwareCategory?cc=pt&dlc=pt&lc=pt&product=297430&, y descargarlo.
+Cuando intento instalar el Office Publisher me dice que necesita una clave.
+Office es un software de pago, si lo ha comprado la clave de validación debería estar visible en la caja del CD. Si no había comprado el programa, ni lo había instalado, quizás pueda obtener una versión de prueba, válida por 30 días, accediendo a : http://office.microsoft.com/pt-pt/versao-de-avaliacao-gratuita-experimente-o-microsoft-office-2013-e-o-office-365-FX102858196.aspx?WT%2Eintid1=ODC_PTPT_FX010048782_XT103927624
+He formateado mi laptop ASUS y desde entonces la tecla FN no funciona.
+Compruebe si tiene este archivo ejecutable en su ordenador: C:\Program Files (x86)\ASUSATK PackageATK\HotkeyHControl.exe. Para hacerlo abra una ventana, por ejemplo Mis Documentos, y pegue la dirección directamente.
+He eliminado, accidentalmente, las fotografías de mi tarjeta SD. ¿Será posible recupéralas?
+Para recuperar las fotografías borradas compruebe este software: http://www.total-data-recovery.com/
+¿Cómo puedo restringir el acceso a una carpeta en mi ordenador?
+La mejor manera de proteger una carpeta es crear varias cuentas de usuario, de manera que se crea el acceso exclusivo a carpetas por usuario
+Estoy instalando el AutoCAD y me sale el error ``DirectX``
+Intente descargar DirectX desde aquí: http://www.microsoft.com/download/en/details.aspx?displayLang=en&id=35, en caso de que el DirectX ya ha sido instalado, desinstálelo y vuelva a instalar.
+No puedo abrir archivos RAW en photoshop.
+Descargue esta actualización: http://www.adobe.com/support/downloads/thankyou.jsp?ftpID=4682&fileID=4362
+Un amigo mío me ha dicho que el Avast es un programa antivirus de calidad. ¿Dónde puedo descargar Avast?
+Descargue el software de la página: http://www.avast.com/pt-pt/index
+Tengo Vista y mi disco DVD, a veces, se queda invisible.
+Haga todas las actualizaciones del Windows. Este problema fue solucionado en la actualización Vista SP1.
+¿Cómo puedo saber cuál es mi versión del DirectX?
+En el teclado pulse la tecla Windows y la tecla R al mismo tiempo. Luego tecla: dxdiag.
+Cuando instalo Skype tengo el siguiente error: setup.exe is not a valid Win 32 application.
+Es probable que este instalando una versión incompatible con el Sistema Operativo de su ordenador. Pruebe a instalar la versión de 32 bits.
+He eliminado el AVG y luego he intentado instalar el Kaspersky. Me dice que tengo que eliminar el AVG.
+Necesita descargar esta herramienta: http://www.avg.com/us-en/utilities , ejecútela y a continuación instale el Kaspersky.
+Mi antivirus se ha caducado y ahora no tengo Internet.
+Elimine el antivirus utilizando su desinstalador, después instale un antivirus libre o compre una licencia de un antivirus comercial.
+He descargado de internet un archivo llamado games.rar no lo consigo abrir. Me dice que la extensión desconocida.
+Tiene que descargar este software: http://www.win-rar.com/predownload.html?&no_cache=1&L=0. Instale e intente de nuevo.
+Mi disco duro externo funciona bien cuando lo conecto al ordenador, pero no en mi portátil.
+En caso de que el disco duro tenga dos salidas USB, intente conectarlo en ambos.
+¿Cómo puedo cambiar la fecha de creación de un archivo a la fecha de hoy?
+Intente descargar este programa http://www.petges.lu/download/ac.exe.
+La pantalla de mi PC se apaga después de unos minutos, ¿cómo puedo desactivar esta opción?
+En el menú de Inicio, escriba "Opciones de energía" en la ventana de búsqueda. A continuación, en la ventana que aparezca, seleccione: Equilibrado > Cambiar plan de ajustes. En "Apagar la pantalla", seleccione "nunca".
+He instalado Windows Mail. ¿Cómo puedo configurar una cuenta?
+En Windows Mail seleccione Herramientas> Cuentas> Añadir y rellene el formulario con los datos de su cuenta de correo electrónico.
+No puedo ver los archivos adjuntos en Windows Live Mail.
+Vaya a Herramientas > Opciones, seleccione la pestaña de Seguridad, luego desactive las opciones que no le permiten guardar y abrir los archivos adjuntos que puedan contener virus.
+Mi Windows Life no corrige los errores.
+Vaya a Herramientas > Opciones > Correo. A continuación, en la pestaña de Revisión, defina el idioma del corrector ortográfico.
+Al hacer clic en una dirección de correo electrónico en una página web, Windows Mail no se abre.
+Vaya a Herramientas > Opciones> Correo. A continuación, en la pestaña General, haga clic en el botón Predeterminado.
+Cuando realizo una búsqueda en Windows Mail que no siempre muestra los resultados correctos.
+Puede haber un problema de indexación. Intente descargar esta aplicación: http://go.microsoft.com/?linkid=9740819
+Al intentar iniciar sesión en Outlook.com, dice que la cuenta ha sido bloqueada.
+Usted debe acceder a la cuenta que ha sido bloqueado y finalizar la sesión. A continuación, vaya a https://outlook.com y siga las instrucciones que aparezcan en la página.
+Cómo puedo extender la duración de la batería de mi portátil
+Vaya a Panel de control > Potencia, seleccione Ahorro de energía y disminuya el brillo de la pantalla a un nivel cómodo.
+¿Puedo instalar Music Box en un Mac?
+Sí, puede. Music Box está disponible para Mac en este sitio web http://musicbox.sapo.pt/download
+¿Cómo puedo activar Music Box en Facebook?
+Vaya a Definiciones > Social > Facebook, haga clic en Conectar e identifíquese usando los detalles de acceso de su cuenta de Facebook.
+Cómo puedo subir nuevas fotos a Picasa
+En Picasa, haga clic en el botón Importar y seleccione el origen y la carpeta de destino de las imágenes.
+Cómo puedo subir un video a YouTube utilizando Picasa
+En Picasa vaya a la Biblioteca. A continuación, haga doble clic en el vídeo que va a ser enviado. Luego, haga clic en el botón Subir a YouTube. Luego, haga clic en el enlace Cambiar usuario para iniciar sesión en YouTube. Haga clic en Subir Vídeo.
+He organizado mis fotos de Picasa en mi línea de tiempo y ahora esta opción ha desaparecido.
+Haga clic en el menú Ver y seleccione Línea de tiempo.
+Tengo fotos y me gustaría crear álbumes.
+Seleccione las imágenes que desea incluir en el álbum. En la parte inferior verá un símbolo de un libro. Haga clic en este icono y seleccione Nuevo álbum.
+Cómo puedo añadir nuevas imágenes a un álbum que ya ha sido creado
+Usted tendrá que seleccionar las fotos y luego arrastrarlas y soltarlas en la carpeta deseada.
+Cómo puedo ocultar una carpeta en Picasa
+Haga clic derecho en la carpeta y seleccione Ocultar.
+En mi Picasa, algunos archivos de Photoshop aparecen y no quiero que se vean.
+Vaya a Herramientas> Opciones y en los tipos de archivos desmarque los archivos PSD.
+Tengo mi Picasa en otro idioma y me gustaría tenerlo en español.
+Vaya a Herramientas > Opciones y en la pestaña General, seleccione el idioma. Cierre Picasa y ábralo de nuevo.
+Cómo puedo destacar solo unas pocas imágenes de mi álbum en Picasa Album
+Marque las imágenes que desea destacar. En la parte inferior del software, debería de ver una forma de estrella. Haga clic ahí.
+¿Cómo puedo saber qué versión de Picasa tengo?
+Vaya a Ayuda (Windows) o Picasa (Mac) y seleccione Acerca de Picasa.
+No puedo eliminar Picasa de Mac.
+Abra el Finder. En la carpeta Aplicaciones, arrastre y suelte la aplicación Picasa en la Papelera.
+Picasa no reproduce archivos de música.
+Actualice Media Player a través de este enlace http://windows.microsoft.com/en-us/windows/windows-media-player
+Mi Google Chrome va muy lento. ¿Hay alguna manera de acelerarlo?
+Vaya a Herramientas > Administrador de tareas y compruebe cuáles pestañas están ocupando más tiempo de procesador y memoria. Si usted no las necesita, ciérrelo.
+Cuando abro Chrome muchos sitios web se abren .
+Usted probablemente tenga adware / malware en el ordenador. Vaya a Panel de control > Eliminar programas y elimine todas las barras de herramientas. Lea algunas sugerencias sobre lo que debería de hacer aquí: ! http://productforums.google.com/forum/ # category-topic/chrome-pt/wPyKvQfQGfQ
+Hago clic en la "x" en Chrome para cerrar la pestaña y no funciona.
+Es probable que sea debido a un error. Intente actualizar el software a la versión más reciente.
+Cuando abro Chrome, aparece la página de Bing.
+En la barra de herramientas de Google Chrome, introduzca: chrome://ajustes/arranque y elimine Bing.
+En la pestaña de Menú de Chrome, hay un símbolo de sonido. ¿Qué significa?
+Esto significa que la página abierta emite sonido.
+He perdido mis marcadores de Chrome. ¿Cómo puedo recuperarlos?
+Intente acceder a este directorio C:Users\%username%\AppData\Local\ GoogleChrome\Usuario\Data Default, busque el archivo bokkmarks.bak y cámbiele el nombre a marcadores.
+Cómo se imprime una página web en Google Chrome
+Haga clic en la tecla Ctrl y P a la vez.
+Cómo puedo añadir un corrector ortográfico en Chrome
+En Herramientas> Opciones, haga clic en Opciones avanzadas. En la sección de Idiomas haga clic en Idiomas y Configuración de entrada y seleccione el español.
+¿Cómo puedo bloquear Anuncios en Chrome?
+Intente instalar: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom
+Cómo puedo ver el historial de Google Chrome Tengo Windows.
+Pulse las teclas Ctrl y H en el teclado .
+La fecha del historial de Chrome es errónea.
+La fecha de Chrome se basa en la fecha del ordenador. Si la fecha del ordenador estaba equivocada cuando se recogían los datos del historial de Google, el registro del historial también es erróneo.
+Cómo puedo enviar un correo electrónico a otra cuenta de Gmail
+Inicie sesión en Gmail. Haga clic en el engranaje y luego en Ajustes. En la pestaña de Reenvío y correo POP/IMAP, haga clic en Añadir una dirección de reenvío.
+¿Cómo puedo eliminar más de un correo electrónico de mi cuenta de Gmail?
+Cada línea de correo electrónico tiene un cuadro a la izquierda. Marque las casillas de mensajes de correo electrónico que desea eliminar. Un icono de la papelera aparecerá en la parte superior. Púlselo.
+Estaba recibiendo anuncios en Gmail. Ya no los recibo más.
+Asegúrese de que no están en la pestaña de Promociones en la parte superior de Gmail.
+¿Cómo puedo cambiar el idioma de Gmail a español?
+En Gmail, haga clic en el equipo, luego, en Configuración. En la pestaña General, haga clic en Idioma y seleccione el español.
+¿Cómo puedo ver más e-mails en la página?
+En Gmail, haga clic en el engranaje de Configuración y luego Ajustes. En la pestaña General, cambie los números en los campos junto a Tamaño Máximo de Página.
+Cómo puedo cambiar la fuente predeterminada en Gmail
+En Gmail, haga clic en el engranaje y luego en Configuración, en la pestaña General cambie la información predeterminada del estilo de texto.
+Qué es un webmail
+Webmail es un sitio web donde se pueden ver sus e-mails desde cualquier ordenador con acceso a Internet, en cualquier lugar del mundo.
+Soy cliente ZON y quiero acceder a mi cuenta de correo electrónico desde otro país. Cómo puedo hacer esto
+Se puede acceder a ZON webmail desde esta dirección: webmail.zonmail.pt.
+Quiero configurar mi correo electrónico ZON en Thunderbird. Cuáles son los detalles que necesito
+Los datos necesarios son: POP: pop.netcabo.pt. SMTP: smtpa.netcabo.pt SSL POP obligatorio: Sí, a través del puerto 995 SMTP, Autenticado: Sí, con las mismas credenciales POP; Nombre de usuario: Su dirección zonmail, por ejemplo: osemailonmail.pt; Contraseña: la que entró en el momento de la creación del correo electrónico.
+Tengo un correo electrónico etiquetado como correo no deseado, en ZON , pero en realidad no es spam. ¿Qué puedo hacer al respecto?
+Usted tendrá que iniciar sesión usando sus datos de acceso, a http://webmail.zonmail.pt y seleccionar el engranaje en la parte derecha de la pantalla, cerca de su nombre y apellido. Seleccione la opción Más Configuraciones. Por debajo de la opción que bloquea el spam entrante, encontrará la opción "remitentes seguros y remitentes bloqueados". Haga clic en Remitentes seguros y dentro del campo, en el lado de la mano izquierda, escriba la dirección de correo electrónico del remitente seguro que desea agregar a la lista de remitentes seguros. {0}A continuación, haga clic en el botón {1}Add.{/1}{/0}.
+¿Cómo puedo reenviar correo en ZON?
+En Webmail, a través de https://webmail.zonmail.pt , haga clic en el enlace Opciones > Más opciones y haga clic en la opción de reenvío de correo.
+Cómo puedo subir archivos a un servidor a través de SFTP
+Usted tendrá que descargar e instalar este software: http://winscp.net/eng/download.php # download2. A continuación, introduzca sus datos, nombre de usuario, contraseña y dirección de servidor. Entonces sólo tiene que arrastrar y soltar los archivos de un lado a otro.
+Cómo puedo conectar a mi servidor a través de SSH.
+Para conectar vía SSH, descargue y ejecute este software: http://the.earth.li/ ~ sgtatham/putty/latest/x86/putty.exe, a continuación, introduzca la dirección del servidor, nombre de usuario y contraseña.
+¿Cómo puedo acceder a un sitio web a través de https?
+Usted puede acceder a un sitio web a través de https, si tiene esta tecnología. Intente acceder al sitio a través de la página https://name
+¿Cuáles son los DNS de Google?
+Las direcciones DNS de Google son 8.8.8.8 o 8.8.4.4
+Cómo puedo copiar y pegar texto
+Seleccione el fragmento que desea copiar, haga clic derecho sobre el texto seleccionado y seleccione la opción de copiar. A continuación, haga clic derecho donde desea pegar el texto y seleccione la opción de Pegar.
+¿Cómo puedo cambiar los colores de Office 2013?
+Vaya a Archivo > Cuentas y en la pestaña General y elija el tema.
+Cómo agregar una imagen como fondo del mensaje.
+Vaya a Archivo > Opciones> Correo > Papel y Fuentes. En el Papel de Carta Personal haga clic en el tema.
+¿Cómo puedo enviar respuestas automáticas en Office 2013?
+En Cuentas, haga clic en Automático > Respuestas > enviar respuestas automáticas.
+¿Cómo se inserta una imagen o un clip-art en un e-mail?
+En un nuevo mensaje de correo electrónico, haga clic en Ilustraciones > Imágenes> Imágenes Online > Formularios > SmartArt > Gráficos o Snapshot.
+Insertar un símbolo o un carácter especial en un correo electrónico.
+En un nuevo mensaje de correo electrónico, haga clic en Símbolos > Símbolo.
+Añadir las vacaciones al calendario de Office 2013.
+Haga clic en Opciones > Calendario. En Opciones de calendario, haga clic en Vacaciones.
+Compartir un calendario en Office 2013.
+Desde el modo de exhibición del calendario, en el grupo Compartir, haga clic en Enviar calendario por correo electrónico > Compartir Calendario.
+¿Cómo puedo crear una firma de correo electrónico en Outlook 2013?
+Haga clic en Archivo > Opciones > Correo Electrónico. En Escribir Mensajes, haga clic en Firmas. En la pestaña de Firma de Correo Electrónico, haga clic en Nueva y escriba un nombre para la firma. En el recuadro de Editar Firma, escriba el texto que quiere incluir en la firma y use las herramientas internas para formatearlo.
+Añadir automáticamente una firma a los mensajes de Office 2013.
+Haga clic en Archivo > Opciones > Correo electrónico. En Escribir mensajes, haga clic en Firmas. En Elegir la firma por defecto, seleccione una firma para añadirla a los nuevos mensajes. Si lo desea, seleccione una firma diferente para las respuestas/reenvíos. Para añadir manualmente una firma a un nuevo correo electrónico, vaya a la pestaña Mensaje, grupo Incluir, haga clic en Firma y después haga clic en la firma que desee.
+¿Cómo puedo buscar PDFs con Google?
+Después de escribir lo que quiere buscar, al final, añada filetype:pdf
+En Excel 2013, ¿dónde está la suma automática (AutoSuma)?
+Haga clic en Inicio > Autosuma, o pulse Alt + =.
+En Excel 2013 tengo una celda que no aparece como moneda.
+Haga clic en Inicio y luego en la flecha al lado de General.
+En Word 2013, ¿cómo puedo imprimir varias copias de un archivo?
+Haga clic en Archivo > Imprimir. En la parte superior de la página de impresión, al lado del botón de Imprimir, encontrará un recuadro llamado Copias con flechas que apuntan hacia arriba y hacia abajo para elegir el número deseado de copias. Seleccione un número (escribiéndolo directamente o usando las flechas), seleccione una impresora, cambie o mantenga los ajustes restantes y haga clic en Imprimir.
+¿Cómo creo un índice en Word 2013?
+Haga clic en el lugar donde quiere insertar el índice, normalmente al principio del documento. Haga clic en Referencias > Índice y seleccione Índice Automático de la Galería de Estilos.
+¿Cómo inserto una tabla en Word 2013?
+Haga clic en Insertar > Tabla > Insertar tabla. Defina el número de filas y columnas.
+En Outlook 2013, ¿puedo eliminar un intercambio de correo electrónico?
+En la lista de mensajes, haga clic en la conversación o en cualquier mensaje de la conversación que quiera ignorar. Haga clic en Inicio. En el grupo Eliminar, haga clic en Ignorar. Haga clic en Ignorar conversación.
+En Outlook 2013, ¿cómo escribo un nuevo mensaje?
+Haga clic en Inicio > Nuevo mensaje de correo electrónico.
+¿Cómo adjunto un archivo en Outlook 2013?
+Cree un mensaje o, en un mensaje ya existente, haga clic en Responder, Responder todo o Reenviar. En la ventana del mensaje, haga clic en Mensaje > Adjuntar archivo.
+¿Cómo guardo los archivos adjuntos recibidos en Outlook 2013?
+Haga clic en el archivo adjunto en el Panel de Lectura o en el mensaje abierto. En la pestaña de Adjuntos, en el grupo Acciones, haga clic en Guardar como. También puede hacer clic con el botón derecho del ratón sobre un archivo adjunto y después hacer clic en Guardar como.
+¿Cómo creo una cita en Outlook 2013?
+Haga clic en Inicio > Nueva cita.
+¿Cómo programo una reunión en Outlook 2013?
+Pulse las teclas Ctrl + shift + Q.
+Quiero insertar una nueva celda en Excel 2013.
+Debe ir a Inicio > Celdas.
+Mi Galaxy Y se bloquea mucho, ¿qué puedo hacer?
+Libere la memoria RAM. Después en Ajustes, haga clic en Aplicaciones y luego detenga todas las aplicaciones en ejecución, excepto aquellas que estén siendo usadas.
+Cuando intento cambiar la resolución de mi monitor, no cambia de 800x600. Cuando cambio a 1024x768 y hago clic en Aplicar, la pantalla se pone negra y aparece un mensaje (modo no óptimo, modo recomendado 1360x768 60Hz).
+Puede que el controlador de la tarjeta gráfica no esté instalado o que su monitor no soporte resoluciones altas.
+¿Qué programa puedo usar para reducir la velocidad de un vídeo sin bajar su calidad?
+Puede usar Camtasia Studio, preferiblemente Camtasia Studio 8.
+¿Qué es Whatsapp?
+Whatsapp es una aplicación para teléfonos móviles utilizada para comunicarse de manera gratuita entre amigos.
+¿Dónde puedo encontrar Whatsapp?
+Puede descargarlo desde su teléfono móvil en el sitio web www.whatsapp.com. También puede descargarlo de la tienda asociada al sistema operativo de su teléfono móvil.
+¿Es posible formatear un ordenador sin perder los datos?
+Cuando usted formatea un ordenador, todos los datos son borrados. Es necesario que guarde los datos en un disco duro externo.
+¿Qué es Linux?
+Es un sistema operativo como Windows. La diferencia es que es gratuito. Hay muchas distribuciones, siendo Ubuntu la más completa.
+Tengo un ordenador con un procesador AMD Athlon 64 x2 Dual Core a 2,60 Ghz y 2,5 GB de RAM con Windows 7. Si instalo Windows 8, ¿se volverá lento?
+Windows 8 está programado para ser más ligero, así que su ordenador debería volverse más rápido.
+Estoy buscando un programa completo y gratuito para mezclar música.
+Virtual DJ es el mejor programa gratuito de edición y mezclas musicales, y es fácil de usar.
+¿Puedo ver la versión móvil de una página web en un ordenador?
+Sí, sólo tiene que introducir la dirección de la versión para móvil del sitio en su navegador.
+¿Puedo tener más de un programa de grabación de CD en el ordenador?
+No hay problema por tener más de un programa de grabación de CD/DVD en el mismo ordenador.
+¿Dónde puedo descargar DirectX?
+Puede descargar DirectX desde la página web de Microsoft: http://www.microsoft.com/en-us/download/details.aspx?id=11448
+¿Cómo convierto un archivo .MP4 en un archivo .AVI?
+Puede usar el programa Format Factory.
+Si instalo una versión de DirectX, ¿cambia la versión del pixel shader?
+El pixel shader es un ajuste del hardware de la tarjeta gráfica, así que no puede ser cambiado por un programa.
+¿Cómo puedo desbloquear a alguien en Facebook?
+En Ajustes de cuenta, haga clic en Bloqueo (en la columna izquierda) y en Editar lista. Aparecerá la gente a la que tiene bloqueada. Haga clic en la foto de una persona para desbloquearla.
+¿Cómo puedo bloquear a alguien en Facebook?
+En Ajustes de cuenta, haga clic en Bloqueo (en la columna izquierda) e introduzca el nombre o la dirección de correo electrónico que quiere bloquear.
+No quiero que una aplicación se ponga en contacto conmigo en Facebook.
+En Ajustes de cuenta, haga clic en Bloqueo (en la columna izquierda) y en Bloquear Aplicaciones. Introduzca el nombre de la aplicación que quiere bloquear.
+Siempre estoy recibiendo invitaciones para eventos que no quiero en Facebook.
+Puede bloquear las invitaciones recibidas de una cierta persona. En Ajustes de cuenta, haga clic en Bloqueo (en la columna izquierda) y en Bloquear invitaciones a eventos, introduzca el nombre de la persona.
+¿Qué es GNOME?
+Es una interfaz gráfica de usuario y un entorno de escritorio para Linux.
+Necesito un editor de fotos en portugués.
+Puede usar GIMP y elegir el idioma preferido.
+Cuando intento iniciar sesión en Facebook, aparece una página para verificar la identidad. ¿Qué es eso?
+Probablemente ha intentado acceder a su cuenta desde una ubicación diferente o con un navegador inusual. Así que Facebook ha bloqueado la cuenta por motivos de seguridad. Se le enviará un mensaje a la dirección de correo electrónico que usó para registrarse en Facebook. Sólo tiene que escribir el código enviado a su teléfono móvil registrado en Facebook.
+¿Cómo puedo ver GIFs en Windows 8 sin usar Windows Display o el navegador?
+Pruebe a usar el programa IrfanView.
+¿Puedo usar el cable USB de una impresora Canon en una HP?
+Los cables USB están estandarizados y funcionan con todos los equipos.
+¿Es la HP 8100 compatible con Windows 8?
+Los controladores están disponibles para descargarlos gratuitamente en el sitio web del fabricante para Windows 8 y Windows 8.1, tanto en versión de 32 como de 64 bits.
+No puedo instalar la impresora Lexmark x1270 en Windows 7.
+Vaya al sitio web del fabricante y descargue la versión apropiada del controlador para su sistema operativo.
+¿Cómo puedo saber si un teléfono ha sido dañado por el agua?
+Lleve el teléfono a un centro de asistencia técnica para comprobar el sensor que indica este problema.
+Mi impresora HP me pide que inserte el cartucho de la impresora. Dado que ya está insertado, ¿qué puedo hacer?
+Compruebe si los cartuchos son los correctos para su equipo. Compruebe si ha quitado las tiras protectoras y el envoltorio. Pruebe a quitarlos y a insertarlos de nuevo.
+¿Puedo cambiar el cartucho negro en mi ordenador sin cambiar los colores?
+Sí, eso no será un problema. Cambie sólo el cartucho vacío.
+¿Por qué a veces no aparecen los niveles del cartucho de mi impresora, incluso cuando están llenos?
+Si es un cartucho reciclado (recargado), especialmente de HP, ese problema puede ocurrir. Muchos modelos de HP sólo reconocen los cartuchos originales.
+¿Qué es un complemento de Firefox?
+Los complementos son pequeños programas de software que añaden nuevas funciones a Firefox. Puede personalizar Firefox según sus necesidades y sus gustos.
+¿Cómo puedo instalar complementos sin reiniciar Firefox?
+Los complementos marcados como “No necesita reiniciar” pueden ser instalados sin tener que reiniciar Firefox. Los demás requieren reiniciar antes de usarse.
+¿Cómo mantengo actualizados los complementos de Firefox?
+Los complementos se verifican automáticamente para ver si hay actualizaciones, las cuales se instalan automáticamente por defecto.
+¿Pueden hacer los complementos que Firefox vaya más lento?
+La mayoría de complementos no disminuyen el rendimiento de Firefox, aunque instalar demasiados puede tener efectos adversos.
+Firefox dice que un complemento no es compatible. ¿Puedo usarlo de todos modos?
+No se recomienda saltarse las recomendaciones de compatibilidad, ya que esto puede hacer que el navegador se vuelva inestable y, en algunos casos, provocar la pérdida de datos.
+¿Cómo configuro Thunderbird para acceso POP?
+Haga clic en Herramientas > Ajustes de cuenta > Acciones de cuenta > Nueva cuenta de correo electrónico. Rellene los campos en blanco. Su nombre: escriba su nombre. Dirección de correo electrónico: su dirección de correo electrónico completa. Contraseña: la contraseña del correo electrónico. Después, haga clic en Continuar.
+Quiero eliminar el historial de Chrome.
+Acceda a Herramientas > Borrar datos de navegación, seleccione los elementos que desea eliminar y haga clic en Borrar datos de navegación.
+¿Dónde puedo encontrar los favoritos en Chrome?
+Acceda a sus favoritos haciendo clic en Favoritos.
+Quiero establecer Chrome como mi navegador predeterminado.
+En Ajustes, en la pestaña de navegación por defecto, haga clic en el botón Establecer Google Chrome como navegador predeterminado.
+Quiero cambiar la página inicial de Google Chrome.
+Vaya a Chrome > Ajustes > Apariencia y seleccione la casilla de verificación “Mostrar botón de inicio”. Haga clic en Cambiar y escriba la dirección de la página que quiere usar como página inicial.
+¿Cómo desactivo las cookies en Chrome?
+Vaya a Ajustes > Ver ajustes avanzados. En la sección de privacidad, haga clic en Ajustes de contenido para cambiar los ajustes de las cookies.
+¿Es posible cambiar la apariencia de Google Chrome?
+Acceda a la Galería de temas (https://chrome.google.com/webstore?category=theme). Haga clic en un tema para previsualizarlo. Si le gusta el tema, haga clic en Seleccionar tema para aplicarlo.
+¿Qué es el modo de navegación anónima de Chrome?
+En el modo de navegación privada, el historial de navegación, el historial de descargas y las cookies no son guardados cuando Chrome se cierra.
+¿Cuál es el mejor navegador para Android?
+Firefox y Chrome están entre los mejores navegadores. Ambos permiten la sincronización con su ordenador.
+¿Cómo sincronizo el Firefox de mi teléfono móvil con el de mi ordenador?
+Acceda a Firefox en su teléfono móvil y en Ajustes, haga clic en Sincronizar. Aparecerá un código. Ahora acceda a Firefox en su ordenador y en Ajustes, haga clic en Sincronizar > Añadir un dispositivo, e introduzca el código que aparece en su teléfono móvil.
+¿Puede explicar qué es la recuperación del sistema?
+La recuperación del sistema es un recurso de Windows con el cual el ordenador vuelve a un estado anterior (fecha y hora) en el pasado. Es útil cuando los programas que el usuario tiene instalados comprometen el funcionamiento del sistema y el usuario quiere hacer que el ordenador regrese a un estado previo a la instalación.
+¿Qué es el desfragmentador de disco?
+Es una aplicación que tiene como objetivo mejorar la velocidad a la cual el ordenador lee las particiones de los archivos fragmentados. Busca archivos fragmentados (en partes) en todo el disco duro y los vuelve a unir haciendo que su lectura sea más rápida y fácil.
+¿Qué es la fragmentación de disco?
+La fragmentación ocurre cuando los archivos del disco duro no son modificados periódicamente, produciendo un almacenamiento fragmentado, haciendo que su lectura y escritura sea mucho más lenta.
+Thunderbird envía los archivos adjuntos TXT/GIF/JPG en el interior del mensaje, en lugar de como adjuntos.
+En Ajustes > Opciones > Avanzado, haga clic en el Editor de ajustes. Filtre las preferencias por mail.content_disposition_type. Haga doble clic en el resultado encontrado y cambie el valor de la preferencia a 1.
+¿Cómo inserto el hipervínculo para una imagen en Thunderbird?
+Mientras esté escribiendo un mensaje, haga clic en Insertar > Imagen. En Ubicación, introduzca la dirección de la ubicación de la imagen. Desmarque la opción “Adjuntar esta imagen al mensaje” y seleccione “No usar el texto alternativo”. Luego pulse Aceptar.
+¿Cómo cierro las conversaciones de Facebook en un iPod Touch?
+Haga clic en el icono de Menú situado en la esquina superior derecha de la aplicación de Facebook. Haga clic en el icono de charla. Deslice su dedo sobre cualquiera de las conversaciones destacadas. Haga clic en el botón rojo de “Excluir” para cerrar la conversación de Facebook.
+¿Qué aplicaciones de Android son compatibles con Face Time?
+Google+, Skype, Fring, Qik Video.
+¿Qué es Face Time?
+Face Time es una aplicación de Apple que permite realizar video llamadas entre iPhone, iPad y Mac.
+¿Cómo paso música a mi iPod?
+Para transferir música a su iPod, conecte el dispositivo a través de un cable USB y active la sincronización automática en su biblioteca de iTunes.
+¿Qué es un vídeo viral?
+Los vídeos virales son vídeos cortos que se difunden en Internet a través de sitios web especializados en vídeos como YouTube. Se vuelven extremadamente populares y consiguen una visibilidad a gran escala.
+Quiero formatear mi iPod Shuffle.
+Conecte su iPod a su ordenador con un cable USB. Abra iTunes y vaya a Sumario en la parte superior de la ventana. Haga clic en Restaurar y, cuando se le pida, seleccione la opción Restaurar y Actualizar. iTunes empezará a formatear su iPod. Posteriormente buscará la actualización de software de iPod y la instalará en el dispositivo.
+¿Puedo crear carpetas de aplicación en iPhone?
+Pulse y mantenga pulsado uno de los iconos hasta que empiece a agitarse. Arrastre el icono y suéltelo sobre otro. Aparecerá una nueva carpeta que incluye ambas aplicaciones. Dichas carpetas son nombradas automáticamente. Los nombres de las carpetas están basados en las categorías de la App Store, pero puede renombrarlos.
+¿Qué es un mini USB?
+Es un cable USB cuyo puerto es más pequeño que el de un conector USB estándar. Es un conector estándar entre dispositivos pequeños. La velocidad de transferencia a través de mini USB puede alcanzar los 800 Mb/s.
+¿Qué es un micro USB?
+Es un cable USB cuyo puerto es más pequeño que el de los conectores USB estándar y mini. Permite realizar conexiones entre dispositivos pequeños.
+Explique las diferencias entre las tarjetas micro SHDC clase 4 y clase 6.
+La clase se refiere a la velocidad mínima de transferencia de la tarjeta. En general, cuanto mayor es la clase, más rápida es la transferencia.
+¿Cómo sé si mi tarjeta de 4 GB es una tarjeta SDHC?
+Compruebe si hay un logotipo de SDHC en la parte frontal de la tarjeta de memoria. Si es una tarjeta de este tipo, las letras HC deberían estar debajo de las letras SD.
+¿Puedo crear una partición en una tarjeta SDHC?
+Inserte la tarjeta micro SDHC en la ranura adecuada del ordenador. Vaya a Panel de control > Sistema, luego a Seguridad > Herramientas administrativas y haga doble clic en Administración de equipos. En el panel izquierdo, haga clic en Administración de discos y haga doble clic en el icono de la tarjeta micro SDHC. Después, haga clic con el botón derecho en una región sin asignar de la tarjeta. Haga clic en Nuevo volumen simple. Haga clic en Siguiente para continuar en el asistente de Nuevo volumen simple. Escriba el tamaño que quiere que tenga la partición o elija el tamaño por defecto. Haga clic en Siguiente. Seleccione una letra para designar su nueva partición y haga clic en Siguiente. Cuando aparezca el recuadro de formato, será posible formatear una nueva partición, si es necesario. Haga clic en Finalizar para cerrar el programa.
+¿Cómo puedo saber el tamaño del disco de mi PS3?
+En el menú principal, vaya a Ajustes > Ajustes del sistema > Información del sistema para ver las propiedades del disco duro de la consola. Primero verá el espacio usado y luego la capacidad total del disco duro.
+Quería saber qué memoria RAM tiene mi ordenador en Windows 7.
+Haga clic en el menú Inicio. Haga clic con el botón derecho en Mi PC y luego en Propiedades. Encuentre la Memoria (RAM) instalada y compruebe su cantidad, la cual aparece expresada en gigabytes.
+¿Cómo compruebo el tipo de RAM en mi portátil?
+Vaya al menú Inicio > Todos los programas > Accesorios > Herramientas del sistema y seleccione Información del sistema. Haga doble clic en el menú Recursos de hardware, en la parte izquierda de la ventana. Haga clic en la pestaña Memoria para ver toda la información sobre la RAM actualmente instalada.
+Quiero saber cuánta memoria RAM tiene mi Mac.
+Haga clic en el icono de Apple en la esquina superior izquierda de la pantalla del portátil y seleccione Acerca de este Mac > Más información. En la ventana que aparecerá, expanda la categoría titulada Hardware. Haga clic en la opción Memoria para ver toda la información sobre la memoria RAM instalada.
+¿Qué es la densidad de la memoria?
+La densidad de la memoria es la relación entre el ancho de un chip y su profundidad. Cuando la información está incluida en un módulo de memoria, aparece como DxEW-S. Estas marcas se leen como Depth by Width – Speed (Profundidad por Ancho – Velocidad). La profundidad se mide en megabytes y el ancho es una velocidad expresada en nanosegundos.
+¿Qué es la memoria de baja densidad?
+Es una memoria en la que la profundidad del chip es menor que su ancho. Por ejemplo, un módulo de memoria de baja densidad de 1 gigabyte tiene 16 chips que miden 64Mx8.
+¿Qué es la memoria de alta densidad?
+La memoria de alta densidad está configurada con una gran profundidad y un ancho muy estrecho. Por ejemplo, un módulo típico de 1 gigabyte de memoria de alta densidad y tiene 16 chips que miden 128Mx4.
+¿Cómo sé si tengo memoria de alta o de baja intensidad?
+Vaya al menú Inicio > Panel de control. En el campo de búsqueda de la esquina superior derecha escriba: Sistema. Haga clic en Sistema. Lea el número que aparece junto a RAM. Si el número es mayor de 16 es una memoria de alta densidad. Si el número es 8 la memoria es de baja densidad.
+Quiero que mi portátil pase a modo reposo cuando cierro la tapa.
+Vaya a Inicio > Panel de control > Sistema y seguridad. Haga clic en Opciones de energía y seleccione la opción de energía para la tapa. En la opción llamada “cuando cierro la tapa”, elija hibernar en el menú desplegable. Finalice haciendo clic en Guardar cambios.
+¿Cómo bloqueo a alguien en Twitter?
+Vaya a la página de Twitter de un usuario al que quiera bloquear y haga clic en la rueda situada bajo el nombre y la foto del usuario. Seleccione Bloquear en la lista de opciones.
+¿Cómo puedo saber quién me ha bloqueado en Twitter?
+En la página de Twitter del usuario que usted sospecha que le ha bloqueado, haga clic en el botón de Seguir. Si no aparece nada y el botón Seguir está verde y el subtítulo dice “siguiendo”, entonces el usuario no le ha bloqueado.
+Si cambio mi nombre de usuario de Twitter, ¿perderé a mis seguidores?
+Cambiar su nombre de usuario en Twitter no afecta a sus seguidores.
+Me gustaría cambiar mi nombre de usuario de Twitter.
+En su cuenta, haga clic en Ajustes en la lista del menú desplegable situado en la esquina superior derecha. Cambie su nombre de usuario en el recuadro Nombre de usuario y haga clic en Guardar cambios para confirmar su elección.
+¿Qué es mi URL de Twitter?
+En su cuenta, haga clic en Perfil. En la barra de direcciones de su navegador aparecerá su URL de Twitter:
+¿Puedo insertar un salto de línea en un tweet?
+Sí que puede. Sólo tiene que pulsar Intro.
+¿Qué es un hashtag?
+Un hashtag es una palabra o frase única sin espacios, precedida por # (sin paréntesis), como por ejemplo #deporte. Es una manera de organizar las conversaciones, clasificar o añadir contexto a un tweet.
+¿Cómo puedo acortar la longitud de una URL?
+Hay muchos servicios en línea, como por ejemplo Bit.ly o Tiny URL. Sólo tiene que pegar el enlace en el cuadro de texto en uno de estos sitios web.
+Quiero eliminar mi cuenta de Twitter.
+Vaya a su cuenta de Twitter. Haga clic en el icono de nombre de usuario en la esquina superior derecha de la página. Seleccione Ajustes. En la parte inferior de la página haga clic en Desactivar mi cuenta.
+¿Cómo encuentro amigos en Twitter?
+En el menú principal vaya a Encontrar gente > Encontrar amigos. Inicie sesión en su cuenta de correo electrónico introduciendo su nombre de usuario y contraseña. Seleccione: encontrar amigos. El motor de búsqueda buscará en su lista de contactos a cualquier usuario de Twitter que ya sea un contacto suyo.
+¿Puedo ver si un amigo mío tiene Twitter sabiendo su correo electrónico?
+En el menú principal de su cuenta de Twitter, seleccione Encontrar gente. En opciones, hay una opción para buscar por correo electrónico. Si la dirección de correo electrónico de su amigo está asociada con su perfil de Twitter, aparecerá en los resultados de búsqueda.
+¿Puedo restringir el acceso a mi Twitter?
+Acceda a su cuenta de Twitter. Haga clic en el icono de su nombre de usuario en la esquina superior derecha de la página. Seleccione la opción Ajustes> Privacidad de Tweet y haga clic en la caja “Proteger mis Tweets”
+Mis amigos tienen un símbolo al lado de su nombre en Twitter. ¡Yo también quiero uno!
+Copie el símbolo que quiere. En su cuenta de Twitter, haga clic en su nombre, en la esquina superior derecha, y en Ajustes> Perfil. Haga clic en el interior de la caja de Nombre, donde le gustaría que apareciera el símbolo y péguelo ahí. Haga clic en “Guardar”
+¿Cómo borro un Retweet?
+En su cuenta de Twitter, haga clic en “Retweets” para ver sus Tweets retwiteados. Haga clic en el enlace “Retwiteados por usted” para ver los Tweets que ha retwiteado. Haga clic en el retweet que quiera eliminar y haga clic en “Deshacer”
+No quiero mostrar uno de mis trabajos en Facebook.
+En la página de Perfil de su cuenta de Facebook, haga clic en “Sobre mí”. En la parte izquierda de la página, haga clic en “Trabajo y educación”. Borre la información educativa y laboral haciendo clic en “Editar”
+Quiero estar visible exclusivamente para mis amigos de Facebook.
+En la página del Perfil de su cuenta de Facebook, haga clic en el icono de la tuerca y después en “Privacidad”. Edite la caja “Quién puede ver mis cosas”
+Empecé a usar Thunderbird, pero no puedo encontrar el calendario.
+Thunderbird no tiene un calendario incluido. Debe añadirlo como una extensión. En Herramientas> Extensiones> Conseguir extensiones, escriba Lightning, e instale la extensión que creará un calendario en Thunderbird.
+Quiero cambiar el idioma de Thunderbird.
+Debe ir a la página oficial de Thunderbird, encontrar el archivo de instalación en el idioma deseado, e instalar el programa de nuevo.
+¿Qué es un Applet?
+Es un pequeño programa escrito en el lenguaje de programación Java para introducirlo en una página Web.
+¿Qué significa FAT?
+File Allocation Table. Una tabla, guardada en el disco duro, que indica qué sectores están disponibles y cuáles tienen datos de archivos.
+¿Cómo puedo averiguar de la versión de Android que tengo en mi teléfono?
+Vaya a Ajustes> Sobre el Teléfono para encontrar la información deseada.
+¿Hay un historial de notificaciones en Android 4.3?
+En Aplicaciones, vaya a Widgets y busque el widget de “Acceso directo a Ajustes”. Arrastre este widget a la pantalla principal. Este mostrará la pantalla de configuración del Widget. Seleccione “Notificaciones”. Se creará un icono en el área de trabajo, y le dará acceso al historial de notificaciones.
+En Excel 2013, ¿cómo puedo poner un campo en negrita?
+Vaya a la etiqueta de Inicio y allí hay una letra N. Pinche en ella.
+En Excel 2013, ¿cómo puedo subrayar una palabra?
+Seleccione la palabra, después vaya a la etiqueta de Inicio. Hay una letra U con un subrayado. Haga clic en ella.
+En Excel 2013, ¿cómo puedo poner una letra en cursiva?
+Seleccione la palabra que quiera poner en cursiva, después vaya a la etiqueta de Inicio, donde hay una letra K. Haga clic en ella.
+Tengo Excel 2013 y quiero destacar una palabra en Amarillo.
+Necesitará ir a la etiqueta de Inicio y allí habrá un símbolo con la forma de un cubo. Haga clic en la pequeña flecha a la derecha de este icono y seleccione el color deseado.
+Cometí un error mientras escribía. ¿Hay alguna forma de volver atrás?
+Pruebe a usar la siguiente combinación: Ctrl + Z.
+En Excel 2013, quiero destacar una palabra con un color diferente al resto. ¿Cómo lo hago?
+En la etiqueta de Inicio, hay una letra A con una barra debajo. Haga clic en la flecha que está en el lado derecho y seleccione el color. Marque la palabra y haga clic en la A.
+¿Cómo puedo centrar el texto de una celda en Office 2013?
+Vaya a la etiqueta Inicio, después busque un icono que tenga cuatro guiones. Haga clic en el que está en el medio.
+¿Cómo creo un hipervínculo en Excel 2013?
+En la etiqueta de Insertar, haga clic en hipervínculo e inserte el enlace.
+¿Dónde están los gráficos en Excel 2013?
+Están debajo de la etiqueta de Insertar.
+¿Cómo puedo insertar una imagen de fondo en Excel 2013?
+En la etiqueta de Diseño de Página, pinche en el icono que dice “Imagen de fondo”.
+¿Cómo puedo proteger con contraseña un archivo en Excel 2013?
+En la etiqueta de Revisión, haga clic en el icono de “Proteger plantilla”.
+Mi Excel es muy grande. ¿Cómo puedo hacerlo normal?
+En la etiqueta de Vista, haga clic en el icono con la lupa y seleccione 100%.
+¿Cómo puedo cambiar la hoja de cálculo de Excel 2013 de horizontal a vertical?
+En la etiqueta de Diseño de Página, haga clic en el icono que dice, “Orientación”.
+En Excel 2013, ¿cómo puedo insertar un salto de página?
+En la etiqueta Salto de Página, haga clic donde dice “Saltos”.
+En Word, ¿Cómo puedo incrementar el espacio entre líneas?
+En Word, vaya a la etiqueta de Inicio. Allí verá un botón con dos flechas, una apuntando hacia arriba y la otra hacia abajo al lado de cuatro líneas. Haga clic en este icono.
+¿Cómo insertar guiones en Word?
+En Word, vaya a la etiqueta de Inicio. Allí verá un icono con tres puntos redondos y tres líneas delante. Haga clic en este icono.
+¿Cómo inserto un encabezado en Word 2013?
+Vaya a la etiqueta de Insertar, y después pinche donde dice “Encabezado”.
+¿Cómo insertar un pie de página en Word 2013?
+En Word, vaya a la etiqueta de Insertar. Después haga clic donde dice “Pie de página”.
+¿Cómo insertar números de páginas en 2013?
+Tendrá que ir a la etiqueta de Insertar, y después hacer clic donde dice “Número de página”.
+¿Cuál es la versión de Android llamada GingerBread?
+La versión de GingerBread es Android 2.3.6.
+Mi ordenador no tiene una entrada HDMI y tampoco mi monitor LCD. ¿Hay algún adaptador que convierta VGA en HDMI?
+Hay adaptadores de este tipo, pero la calidad nunca será la misma que en HDMI.
+¿Cómo inserto una fecha en un documento de Word 2013?
+Vaya a la etiqueta de Insertar y haga clic donde dice “Fecha y hora”.
+¿Cómo adorno mis documentos de Word 2013?
+En la etiqueta Diseño, tiene a su disposición un grupo de herramientas que puede usar.
+El color de fondo de mi documento de Word no es blanco. ¿Cómo puedo cambiarlo?
+Tendrá que ir a la etiqueta de Diseño y hacer clic donde dice “Color de página”. Haga clic en el color que prefiera.
+En Word 2013, ¿hay alguna forma de hacer que todas las páginas tengan la misma fuente?
+Sí, tendrá que ir a la etiqueta de Diseño y después a “Fuentes”.
+En Word 2013, ¿cómo se define el tamaño de la página?
+En la etiqueta de Diseño de Página, haga clic donde dice “Tamaño”.
+¿Cómo hago las páginas de Word horizontales?
+En la etiqueta de Diseño de Página, haga clic donde dice orientación.
+En Word 2013, ¿cómo se inserta una nota a pie de página?
+Vaya a la etiqueta de Referencias y haga clic donde dice “Insertar nota al final”.
+En Word 2013, ¿cómo sé cuantas palabras hay en mi documento?
+En la etiqueta de “Revisar”, haga clic en el icono de Contar palabras.
+Mi Word 2013 tiene el corrector en Inglés. ¿Cómo lo cambio a Portugués?
+En la etiqueta de Revisar, haga clic donde diga “Idioma” y después “Establecer Idioma de corrección”… seleccione portugués.
+En Word 2013, ¿Cómo inserto una regla en la página?
+En la etiqueta de Vista, haga clic en la caja que dice “Regla”.
+En Word 2013, ¿cómo inserto un salto de página?
+En la etiqueta de Diseño de página, haga clic donde dice saltos.
+¿Cómo inserto texto con efectos en Word 2013?
+Tendrá que ir a la etiqueta de Insertar y después hacer clic en un icono que dice “WordArt”.
+El menú en mi Word 2013 desaparece automáticamente.
+Haga clic en una de las etiquetas, por ejemplo Insertar, y después en la esquina inferior derecha, en el menú que abrió, hay un icono con la forma de un pin. Haga clic allí.
+En PowerPoint 2013, ¿cómo añado nuevas diapositivas?
+En la etiqueta de Inicio, haga clic donde dice “Nueva diapositiva”.
+¿Cómo creo una selección de diapositivas en PowerPoint 2013?
+Haga clic derecho en la primera diapositiva (la parte en blanco) que está a la izquierda, y seleccione “Crear selección”.
+Tengo Power Point 2013. ¿Cómo inserto textos juntos?
+Tendrá que ir a la etiqueta de Inicio, hacer clic donde dice diseño, y seleccionar la que mejor se adapte a lo que desea.
+En PowerPoint 2013, ¿cómo incremento el espacio entre las letras de una palabra?
+En la etiqueta de inicio, pinche donde dice “AV”.
+Tengo PowerPoint 2013 y no sé cómo cambiar las animaciones entre las diapositivas.
+Tendrá que ir a la etiqueta de Transiciones donde verá varios tipos de animaciones disponibles.
+En PowerPoint 2013, ¿es posible aplicar sonidos entre los cambios de página?
+Sí, tendrá que ir a la etiqueta de Transiciones y hacer clic donde dice “Sonido”.
+En PowerPoint 2013, ¿cómo puedo incrementar el tiempo entre cambio de páginas?
+En el menú de Transiciones, aumente el campo que dice “Duración”.
+Hice una presentación de PowerPoint2013 y hay una diapositiva que cuando hago clic en ella no cambia a la siguiente.
+Seleccione la diapositiva que quiere, después vaya a la etiqueta de Transiciones. Compruebe si la opción “al hacer clic con el ratón” está activada.
+En PowerPoint 2013, ¿cómo aplico efectos al texto y a las imágenes de una diapositiva?
+En la etiqueta de Animaciones, tiene una amplia selección de efectos que puede elegir.
+¿Cómo hago que un texto aparezca cuando hago clic en un cuadro?
+Tendrá que crear una animación en el texto, y después en la etiqueta de animación, hacer clic donde dice “Desencadenar”.
+Hice una presentación en PowerPoint 2013 y ¡ahora no se ve!
+Presione la tecla F5 o vaya a la etiqueta de Mostrar Diapositivas y haga clic donde dice “Empezar”.
+Tengo una presentación con muchas diapositivas en PowerPoint2013. ¿Cómo veo solamente una diapositiva?
+Presione en la tecla de Mayúsculas junto a F5, o vaya a la etiqueta de Mostrar Diapositivas y haga clic donde dice “Diapositiva actual”.
+Hice una presentación en PowerPoint 2013 y ahora me gustaría probar la duración de mi presentación. ¿Es esto posible?
+Sí, vaya a la etiqueta de Mostrar Diapositivas y allí, haga clic donde dice “ Ensayar Duración”.
+Quiero hacer una presentación para enviar y necesito añadir comentarios de voz. ¿Es esto posible? Tengo Office 2013.
+Sí, es posible. Vaya a la etiqueta de Mostrar Diapositivas y elija grabar narración.
+Terminé mi presentación en PowerPoint2013, pero no sé si tengo errores de ortografía. ¿Cómo compruebo el documento?
+En el teclado, pulse la tecla F7.
+¿Cómo cambio el nombre de usuario cuando guardo un documento en PowerPoint 2013?
+Necesitará ir a la etiqueta de Archivo y después en general tendrá un campo que diga, ”Nombre de usuario”. Escriba aquí el nombre que quiera que aparezca.
+Hice una presentación en PowerPoint2013. ¿Cómo mejoro la apariencia de la presentación?
+Pruebe yendo a la etiqueta de Inicio, después donde dice Estilos Rápidos o también podrá acceder a Diseño y seleccionar un fondo prefabricado.
+Tengo OpenOffice y quiero usar una plantilla de tarjeta. ¿Cómo lo hago?
+Vaya al menú de Archivo> Asistentes, y después elija entre las plantillas de tarjeta.
+Creé un documento en Office y quiero exportarlo a PDF. ¿Es posible?
+Sí, vaya al menú de Archivo, y pinche en “Exportar como un PDF…”.
+Quiero sustituir la misma palabra por otra en todos los documentos que hice en Office. ¿Cómo lo hago?
+En el menú de Editar, pinche en Encontrar y Sustituir, escriba a la palabra que quiere cambiar y debajo, la nueva palabra, y pinche en “Sustituir todas”.
+Insertar un salto de página en OpenOffice.
+En el menú Insertar, seleccione “Salto manual”.
+Quiero insertar un encabezado en OpenOffice.
+En el menú Insertar, seleccione “Encabezado”.
+En OpenOffice, ¿cómo inserto un pie de página?
+En el menú Insertar, seleccione “Pie de página”.
+No sé cómo insertar un comentario en OpenOffice.
+Ponga el cursor en la posición donde quiere insertar el comentario, luego en el menú Insertar, seleccione “Comentario”.

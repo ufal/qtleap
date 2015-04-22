@@ -1,0 +1,4 @@
+Util::SetGlobal language=en
+A2N::EN::StanfordNamedEntities model=ner-eng-ie.crf-3-all2008.ser.gz
+A2N::EN::DistinguishPersonalNames
+

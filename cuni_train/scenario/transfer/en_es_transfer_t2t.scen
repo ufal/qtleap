@@ -1,0 +1,6 @@
+Util::SetGlobal language=es selector=tst
+T2T::CopyTtree source_language=en source_selector=src
+
+T2T::EN2ES::TrLTryRules
+
+simple_transfer_t2t.scen

@@ -1,0 +1,14 @@
+# analysis
+Util::SetGlobal language=nl selector=src
+
+W2A::ResegmentSentences
+
+../analysis/nl_s1_analysis_w2m.scen
+../analysis/nl_s3_analysis_m2a.scen
+../analysis/nl_s4_analysis_a2t.scen
+
+# transfer
+../transfer/nl_en_transfer_t2t.scen
+
+# synthesis
+../synthesis/en_synthesis_t2w.scen

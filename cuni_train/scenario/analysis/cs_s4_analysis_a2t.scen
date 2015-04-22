@@ -1,0 +1,33 @@
+Util::SetGlobal selector=src language=cs
+# t-layer
+A2T::CS::MarkEdgesToCollapse
+A2T::BuildTtree
+A2T::RehangUnaryCoordConj
+A2T::SetIsMember
+A2T::CS::SetCoapFunctors
+A2T::FixIsMember
+A2T::MarkParentheses
+A2T::MoveAuxFromCoordToMembers
+A2T::CS::MarkClauseHeads
+A2T::CS::MarkRelClauseHeads
+A2T::CS::MarkRelClauseCoref
+#A2T::DeleteChildlessPunctuation #quotes on t-layer are ok for transfer
+A2T::CS::FixTlemmas
+A2T::CS::FixNumerals
+A2T::SetNodetype
+A2T::CS::SetFormeme use_version=2 fix_prep=0
+A2T::CS::SetDiathesis
+A2T::CS::SetFunctors memory=2g
+A2T::CS::SetMissingFunctors
+A2T::SetNodetype
+A2T::FixAtomicNodes
+A2T::CS::SetGrammatemes
+A2T::SetSentmod
+A2T::CS::MarkReflexivePassiveGen
+A2T::CS::FixNonthirdPersSubj
+A2T::CS::AddPersPron
+T2T::SetClauseNumber
+A2T::CS::MarkReflpronCoref
+A2T::SetDocOrds
+A2T::CS::MarkTextPronCoref
+A2T::RearrangeCorefLinks retain_cataphora=1

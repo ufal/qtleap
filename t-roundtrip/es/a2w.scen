@@ -1,0 +1,4 @@
+T2A::ES::GenerateWordformsPerl
+T2A::ES::DeleteSuperfluousAuxCP
+T2A::CapitalizeSentStart
+A2W::ES::ConcatenateTokens

@@ -1,0 +1,4 @@
+Util::SetGlobal selector=src language=eu
+## to m-layer
+W2A::Tokenize
+W2A::EU::TagAndParse

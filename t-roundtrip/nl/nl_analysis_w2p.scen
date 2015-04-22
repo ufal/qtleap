@@ -1,0 +1,4 @@
+Util::SetGlobal language=nl
+W2A::NL::Tokenize 
+A2P::NL::ParseAlpino 
+Util::Eval zone='$.remove_tree("a");'

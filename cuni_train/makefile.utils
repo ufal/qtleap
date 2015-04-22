@@ -1,0 +1,13 @@
+SHELL=/bin/bash
+
+############################ UTILS #################################
+
+SPLIT_DIR=tmp/data_splits
+SENTS_PER_DOC=200
+
+split_data : $(DATA)
+	outdir=`dirname $(OUT_LIST)`; \
+	mkdir -p $$outdir; \
+	cat $(DATA) | split -d -a 8 -l $(SENTS_PER_DOC) - $$outdir/part_; \
+	find $$outdir -name "part_*" -exec mv '{}' '{}'.txt \; ; \
+	find $$outdir -name "part_*" -exec basename '{}' \; | sort > $(OUT_LIST)

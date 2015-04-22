@@ -1,0 +1,6 @@
+#T2A::BG::GenerateWordformsPerl
+Util::Eval anode='$.set_form($.lemma)'
+
+#T2A::DeleteSuperfluousAuxCP
+T2A::CapitalizeSentStart
+A2W::ConcatenateTokens

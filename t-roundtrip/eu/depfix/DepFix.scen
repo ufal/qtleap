@@ -1,0 +1,20 @@
+Read::CoNLLX from=Pilot0.eu.conll
+conll2tecto.scen
+
+Util::Eval doc='use File::Slurp; $self->{trans}=[read_file("Pilot0.en.txt", chomp=>1, binmode => ":utf8")]' bundle='$.create_zone("en")->set_sentence(shift @{$self->{trans}});'
+en_analysis.scen
+
+Util::SetGlobal language=eu selector=orig
+Align::A::InsertAlignmentFromFile to_language=en from=Pilot0.align
+#run_mgiza.scen
+
+Align::T::CopyAlignmentFromAlayer to_language=en language=eu
+
+#fix.scen ### For Basque
+A2A::EU::FixAspect
+A2A::EU::FixTest
+A2A::EU::FixDefIndef
+A2A::EU::FixMoveRoot
+
+write_sentences.scen
+Write::Treex

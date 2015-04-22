@@ -1,0 +1,48 @@
+# === Synthesis ===
+# Copy the t-tree into a new zone (called "pt_synthesis")
+Util::SetGlobal language=pt selector=synthesis
+T2T::CopyTtree
+T2T::SetClauseNumber
+
+# and do the synthesis
+T2A::CopyTtree
+T2A::MarkSubject
+T2A::PT::InitMorphcat
+T2A::PT::AddArticles
+T2A::PT::AddPrepos
+T2A::AddSubconjs
+T2A::AddCoordPunct
+T2A::PT::AddComparatives
+T2A::PT::MoveRhematizers
+
+T2A::ImposeSubjpredAgr
+T2A::ImposeAttrAgr
+T2A::DropPersPronSb
+
+T2A::ProjectClauseNumber
+T2A::AddParentheses
+T2A::AddSentFinalPunct
+
+T2A::PT::GenerateWordforms # this block needs a running LX-Center server and specifying lxsuite_key lxsuite_host lxsuite_port
+#T2A::PT::GenerateWordformsPerl  # if it is not available, you can try this pure-Perl fallback
+
+Util::Eval anode='$.set_tag(join " ", $.get_iset_values())'
+T2A::DeleteSuperfluousAuxCP
+T2A::CapitalizeSentStart
+A2W::PT::ConcatenateTokens
+
+# === Evaluate round-trip accuracy ===
+#Align::A::MonolingualGreedy to_selector=
+#Util::Eval anode='$doc->{original}++;' selector=
+#Util::Eval anode='
+# $doc->{generated}++;
+# my ($al) = $.get_aligned_nodes_of_type(".*") or return 1;
+# $doc->{aligned}++;
+# $doc->{form_ok}++ if $.form eq $al->form;
+# $doc->{lemma_ok}++ if $.lemma eq $al->lemma;
+# $doc->{tag_ok}++ if $.tag eq $al->tag;
+#'
+#Util::Eval doc='say "$_=".$.{$_} for qw(original generated aligned lemma_ok form_ok tag_ok);'
+# Save also the plaintext, so we can diff it
+#Write::Sentences selector=          to=. substitute={.txt$}{_original.txt}
+#Write::Sentences selector=synthesis to=. substitute={_original}{_synthesis}

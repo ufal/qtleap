@@ -1,0 +1,48 @@
+Util::SetGlobal language=en selector=tst
+T2A::DeleteGeneratedNodes
+T2A::CopyTtree
+T2A::EN::InitMorphcat
+T2A::EN::MarkSubject
+
+T2A::EN::WordOrder
+
+T2A::EN::ImposeSubjpredAgr
+T2A::EN::AddPrepos
+T2A::EN::AddSubconjs
+T2A::EN::AddInfinitiveParticles
+T2A::EN::AddPhrasalVerbParticles
+T2A::EN::AddPossessiveMarkers
+T2A::EN::AddArticles clear_context_after=sentence
+
+T2A::EN::AddAuxVerbCompoundPassive
+T2A::EN::AddAuxVerbModalTense
+T2A::EN::AddAuxVerbInter
+T2A::EN::SbAuxvReorder
+T2A::EN::AddAuxVerbThereIs
+T2A::EN::AddVerbNegation
+T2A::EN::AddAdjAdvNegation
+T2A::DropPersPronSbImper
+
+T2A::ProjectClauseNumber
+T2A::AddParentheses
+T2A::AddSentFinalPunct
+## TODO create for English
+#T2A::EN::AddSubordClausePunct -- seems that this is solved by AddIntroPunct
+T2A::EN::AddCoordPunct
+T2A::EN::AddIntroPunct
+T2A::EN::AddAppositionPunct
+T2A::EN::AddPhrasalPunct
+
+T2A::EN::FixLemmas
+# clear unknown keys from morphcat for Flect
+Util::Eval anode='my $mc = $.get_attr("morphcat"); foreach my $key (keys %$mc){ $mc->{$key} = undef if ($mc->{$key} // ".") =~ /^\.?$/ }; $.set_attr("morphcat", $mc);'
+# Lookup unambiguous forms in the Morphodita dictionary (and skip pronouns an VB, since these tags are assigned incorrectly)
+T2A::EN::GenerateWordformsMorphodita  skip_tags='^(PRP.*|VB)$' 
+# Guess the remaining forms using Flect
+T2A::EN::GenerateWordforms  
+Util::Eval anode='$.set_form($.lemma) if ($.form eq "," and $.morphcat_pos eq "P");' # Quickfix for Flect's lapses. Remove after retraining
+T2A::EN::IndefArticlePhonetics
+
+T2A::DeleteSuperfluousAuxCP
+T2A::EN::CapitalizeSentStart
+A2W::EN::ConcatenateTokens

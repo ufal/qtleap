@@ -1,0 +1,36 @@
+Util::SetGlobal language=en selector=
+Util::Eval zone='$zone->remove_tree("t") if $zone->has_tree("t");'
+#W2A::EN::FixSharedSubjects
+W2A::FixQuotes
+A2T::EN::MarkEdgesToCollapse
+A2T::EN::MarkEdgesToCollapseNeg
+A2T::BuildTtree
+A2T::SetIsMember
+A2T::EN::MoveAuxFromCoordToMembers
+A2T::EN::FixTlemmas
+A2T::EN::SetCoapFunctors
+A2T::EN::FixEitherOr
+A2T::EN::FixHowPlusAdjective
+A2T::FixIsMember
+A2T::EN::MarkClauseHeads
+# A2T::EN::MarkPassives
+A2T::EN::SetFunctors
+A2T::EN::MarkInfin
+A2T::EN::MarkRelClauseHeads
+A2T::EN::MarkRelClauseCoref
+A2T::EN::MarkDspRoot
+A2T::MarkParentheses
+A2T::SetNodetype
+A2T::EN::SetTense
+A2T::EN::SetGrammatemes
+A2T::SetSentmod
+A2T::EN::SetFormeme
+A2T::EN::RehangSharedAttr
+A2T::EN::SetVoice
+A2T::EN::FixImperatives
+A2T::EN::SetIsNameOfPerson
+A2T::EN::SetGenderOfPerson
+A2T::EN::AddCorAct
+T2T::SetClauseNumber
+A2T::EN::FixRelClauseNoRelPron
+A2T::EN::FindTextCoref

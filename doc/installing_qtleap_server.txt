@@ -1,0 +1,171 @@
+#!/bin/bash # NOTE: this is not fully automatic bash script! This line just helps my editor to do nice syntax highlighting.
+
+# How I installed QTLeap Pilot 1 server on a new Ubuntu 14.04.1 (virtual) machine.
+
+################ Installing the machine #################
+# These steps are probably CUNI-specific.
+# Take it just as an inspiration.
+sudo apt-get install unattended-upgrades # keep the server safe
+sudo useradd -c "QTLeap MT Pilot 1" -d /home/pilot1 -g qtleap -m -N -s /bin/bash pilot1
+sudo passwd pilot1
+
+sudo nano /etc/group
+# user "pilot1" added to the group "sudo"
+# An alternative is to use "visudo" and add there a line
+# pilot1        ALL=(ALL:ALL) ALL
+# After the installation is finished, we can remove pilot1 from the sudoers (for safety?).
+# Now, I can log to the machine directly as the new "pilot1" user
+# ssh -p 1122 pilot1@quest.ms.mff.cuni.cz
+
+# Perl complained about "Setting locale failed",
+# so according to http://stackoverflow.com/questions/2499794/how-can-i-fix-a-locale-warning-from-perl,
+# I did
+sudo locale-gen en_US.UTF-8
+LANG=C sudo dpkg-reconfigure locales
+
+# basic packages
+sudo apt-get update
+sudo apt-get install bash-completion build-essential git subversion
+sudo apt-get install gcc-4.8 g++-4.8
+# Some Treex modules depend on Tk (perl module for GUI) and it needs X11
+# It was easier for me to install it (although I don't need any GUI at this server).
+sudo apt-get install xorg-dev
+sudo apt-get install libxml2-dev zlib1g-dev # for Treex::PML
+
+# Some Java is needed for MST parser and several other blocks.
+# Java 1.8 is needed for Treex::Block::A2N::EN::StanfordNER2015, so let's install this newest Java.
+# It is included in Ubuntu 14.10 repositories, but not in Ubuntu 14.04, so let's add ppa:openjdk-r/ppa
+sudo apt-get install software-properties-common python-software-properties # needer for add-apt-repository
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+# No java was installed on this machine before, so I don't need to set the default to 1.8
+#sudo update-alternatives --config java
+#sudo update-alternatives --config javac
+
+################ Installing Perl (for Treex) #################
+
+# Install Perlbrew, Perl 5.20 and basic Perl modules
+# Why Perlbrew?
+# * We don't want to use the system perl for Treex (the system Perl may get updated by unattended-upgrades).
+# * It allows us to easily switch to different Perl version and Perl modules versions later on (for Pilot2), without changing this Pilot1.
+
+wget -O - http://install.perlbrew.pl | bash
+echo -e '\nsource ~/perl5/perlbrew/etc/bashrc' >> ~/.bashrc
+perlbrew install-cpanm
+perlbrew install -j 4 perl-5.20.2
+perlbrew switch perl-5.20.2
+cpanm -n PerlIO::Util # -n = skip test, known problems
+# Tk tests pop up hundreds of windows, which is slow and does not work over ssh (without -X or -Y), let's skip the tests.
+# I am used to install Tk from GitHub, but "cpanm -n Tk" should work as well.
+cpanm -n -v git://github.com/eserte/perl-tk.git
+# We want to use Treex::Core from svn, so just install its dependencies
+cpanm --installdeps Treex::Core
+# There are dependencies of other (non-Core) Treex modules
+cpanm Ufal::MorphoDiTa Ufal::NameTag Lingua::Interset
+cpanm URI::Find::Schemeless PerlIO::gzip Text::Iconv AI::MaxEntropy Cache::Memcached Email::Find XML::Twig String::Util String::Diff List::Pairwise MooseX::Role::AttributeOverride YAML::Tiny Graph Tree::Trie Text::Brew
+cpanm App::Ack # just for me now, ack is much better than grep
+
+################ Installing Treex #################
+
+# For Flect
+# either
+#   sudo apt-get install python-sklearn
+# but I prefer pip over apt-get
+pip install --user sklearn
+pip install --user scikit-learn
+pip install --user numpy scipy scikit-learn
+
+# Treex svn checkout (read-only access)
+svn --username public --password https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/treex
+echo "
+export PERL5LIB=$HOME/treex/lib
+export PATH='$HOME/treex/bin:$PATH'
+export TMT_ROOT=$HOME" >> .bashrc
+
+# I prefer to have the "Treex share" in a non-hidden directory ~/share
+mkdir ~/share
+cat << END > ~/.treex/config.yaml 
+---
+resource_path:
+ - $HOME/share
+share_dir: $HOME/share
+share_url: http://ufallab.ms.mff.cuni.cz/tectomt/share
+tmp_dir: /tmp
+pml_schema_dir: $HOME/treex/lib/Treex/Core/share/tred_extension/treex/resources
+END
+
+# For Morce English tagger and NADA coreference resolver, we need
+svn --username public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/libs/packaged
+svn --username public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/install/tool_installation
+
+(mkdir -p share/data/models/morce/en/ && cd share/data/models/morce/en/ && wget http://ufallab.ms.mff.cuni.cz/tectomt/share/data/models/morce/en/{morce.{alph,dct,ft,ftrs},tags_for_form-from_wsj.dat})
+(cd packaged/Morce-English && perl Build.PL && ./Build && ./Build test && ./Build install)
+(cd tool_installation/NADA && perl Makefile.PL && make && make install)
+
+################ TectoMT via MTMonkey #################
+
+# Install the required Perl modules
+cpanm RPC::XML UUID::Generator::PurePerl
+
+# Download translation models for your langauge pairs into ~/share
+# (otherwise the makefiles in devel/qtleap will try to train them anew)
+
+# Go to QTLeap directory
+cd ~/treex/devel/qtleap
+
+# Create a subdirectory for server scenarios
+# We need to generate the scenarios anew, because those in scenario/translation/*.scen
+# contain placeholders such as __FORMEME_STATIC_TM__
+mkdir server
+
+# Run a translation experiment to get the scenario with full model pathnames
+# I recommend to test that you'll get exactly the same BLEU scores as expected.
+make TRANSL_PAIR=en_cs TEST_DATASET=Batch2a translate eval
+make TRANSL_PAIR=cs_en TEST_DATASET=Batch2q translate eval
+
+# Then copy the created makefile to the subdirectory you have just created
+# For example:
+cp tmp/en_cs/runs-Batch1a/005_2015-03-16_15-41-11_en_cs_translation_w2w/scenario.scen server/en_cs_translation_w2w.scen
+cp tmp/cs_en/runs-Batch1q/004_2015-03-17_05-37-35_cs_en_translation_w2w/scenario.scen server/cs_en_translation_w2w.scen
+
+# The rest of this file was written by Ondřej Dušek (odusek@ufal.mff.cuni.cz)
+
+# Start Treex socket servers
+treex-socket-server.pl --detail --port=7001 --source_zone=en:src --target_zone=cs:tst --scenario=server/en_cs_translation_w2w.scen >> tmp/en_cs/socketserver.log 2>&1 &
+treex-socket-server.pl --detail --port=7002 --source_zone=cs:src --target_zone=en:tst --scenario=server/cs_en_translation_w2w.scen >> tmp/cs_en/socketserver.log 2>&1 &
+treex-socket-server.pl --detail --port=7004 --source_zone=nl:src --target_zone=en:tst --scenario=server/nl_en_translation_w2w.scen >> tmp/nl_en/socketserver.log 2>&1 &
+treex-socket-server.pl --detail --port=7003 --source_zone=en:src --target_zone=nl:tst --scenario=server/en_nl_translation_w2w.scen >> tmp/en_nl/socketserver.log 2>&1 &
+
+# Start Treex MTMonkey workers (point them to the socket server port via the -s parameter)
+treex-mtmworker.pl -p 8001 -s 7001 >> tmp/en_cs/mtmserver.log 2>&1 &
+treex-mtmworker.pl -p 8002 -s 7002 >> tmp/cs_en/mtmserver.log 2>&1 &
+treex-mtmworker.pl -p 8003 -s 7003 >> tmp/en_nl/mtmserver.log 2>&1 &
+treex-mtmworker.pl -p 8004 -s 7004 >> tmp/nl_en/mtmserver.log 2>&1 &
+
+# If the workers are accessible from outside, you are done now (send their URL and port to DFKI).
+#
+# Otherwise, you may want to set up a MTMonkey Appserver to connect to the workers -- please
+# refer to https://github.com/ufal/mtmonkey/tree/master/install#application-server-installation 
+# for instructions.
+# 
+# The appserver configuration file (appserver-your_version/config/appserver.cfg) should then
+# point to your workers, e.g.:
+#
+#PORT = 8001  # port at which the service is accessible from outside
+#WORKERS = {
+#  'en-cs':[ 'xmlrpc http://qtleap-pilot1:8001/' ],
+#  'cs-en':[ 'xmlrpc http://qtleap-pilot1:8002/' ],
+#  'en-nl':[ 'xmlrpc http://qtleap-pilot1:8003/' ],
+#  'nl-en':[ 'xmlrpc http://qtleap-pilot1:8004/' ],
+#}
+#URL = '/qtpilot1' # path at which the service is accessible from outside
+#
+# Then run the appserver by:
+
+appserver-your_version/scripts/run_appserver
+
+# You can now query the translation at http://your-machine:8001/qtpilot1 (send this address to DFKI,
+# indicating that they should add "json http://your-machine:8001/qtpilot1" into their Appserver
+# configuration).
+#

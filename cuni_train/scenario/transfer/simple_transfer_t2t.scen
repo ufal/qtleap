@@ -1,0 +1,4 @@
+T2T::TrFAddVariants static_model=__FORMEME_STATIC_TM__ discr_model=__FORMEME_MAXENT_TM__
+T2T::TrLAddVariants static_model=__TLEMMA_STATIC_TM__ discr_model=__TLEMMA_MAXENT_TM__
+Util::DefinedAttr tnode=t_lemma,formeme message="after simple transfer"
+T2T::SetClauseNumber

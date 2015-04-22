@@ -1,0 +1,28 @@
+1	Bai	bai	PRT	PRT	_	2	prtmod	_	_
+2	posible_da	posible_izan	ADI	ADI_ADK	ASP:PNT|MDN:A1	0	ROOT	_	_
+3	,	,	PUNT_MARKA	PUNT_KOMA	_	2	PUNC	_	_
+4	besterik_gabe	besterik_gabe	LOT	LOT_LOK	ERL:MOD	0	lotat	_	_
+5	,	,	PUNT_MARKA	PUNT_KOMA	_	4	PUNC	_	_
+6	arrastatu	arrastatu	ADI	ADI_SIN	ADM:PART	2	xcomp_obj	_	_
+7	pertsonaren	pertsona	IZE	IZE_ARR	KAS:GEN|NUM:S	8	ncmod	_	_
+8	profila	profil	IZE	IZE_ARR	KAS:ABS|NUM:S	6	ncobj	_	_
+9	hainbat	hainbat	DET	DET_DZG	_	10	detmod	_	_
+10	nahia	nahi	IZE	IZE_ARR	KAS:ABS|NUM:S	8	aponcmod	_	_
+11	zirkulu	zirkulu	IZE	IZE_ARR	KAS:ABS	10	aponcmod	_	_
+12	$.	$.	PUNT_MARKA	PUNT_PUNT	_	11	PUNC	_	_
+
+1	Linksys	Linksys	IZE	IZE_IZB	KAS:ABS|NUM:S	3	ncsubj	_	_
+2	bideratzailea	bideratzaile	IZE	IZE_ARR	KAS:ABS|NUM:S	3	ncobj	_	_
+3	dut	ukan	ADT	ADT	ASP:PNT|MDN:A1|NR:HURA|NK:NI	0	ROOT	_	_
+4	$.	$.	PUNT_MARKA	PUNT_PUNT	_	3	PUNC	_	_
+
+1	Spamdun	Spamdun	IZE	IZE_IZB	_	3	ncmod	_	_
+2	email	email	IZE	IZE_ARR	_	3	ncmod	_	_
+3	mezuak	mezu	IZE	IZE_ARR	KAS:ERG|NUM:S	8	ncsubj	_	_
+4	ez	ez	PRT	PRT	_	8	ncmod	_	_
+5	dira	izan	ADL	ADL	MDN:A1	8	auxmod	_	_
+6	AVG	AVG	IZE	IZE_IZB	KAS:ABS|NUM:S	8	ncsubj	_	_
+7	Anti-spamekin	anti-spam	IZE	IZE_ARR	KAS:SOZ|NUM:P	8	ncmod	_	_
+8	detektatu	detektatu	ADI	ADI_SIN	ADM:PART|ASP:BURU	0	ROOT	_	_
+9	$.	$.	PUNT_MARKA	PUNT_PUNT	_	8	PUNC	_	_
+

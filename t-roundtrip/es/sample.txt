@@ -1,0 +1,200 @@
+Estaba escribiendo un texto y me ha aparecido una página en blanco encima del texto y no puedo suprimirla.
+Coloque el cursor al inicio de la página en blanco y use la tecla DELETE tantas veces como sea necesario hasta colocar el texto en el lugar deseado.
+No tengo acceso a internet, ¿podría ayudarme a configurar el router?
+Para configurar el router tiene que acceder a la página interna del mismo, la cual cambia de un dispositivo a otro. Consulte el manual de instrucciones para saber la dirección, el nombre de usuario y la contraseña.
+No puedo pasar música del ordenador a un disco duro externo.
+Si el ordenador no reconoce el disco, intente cambiar de puerto USB.
+No puedo conectarme a una red inalámbrica.
+Confirme la contraseña de su red inalámbrica, debe estar debajo del propio router, salvo si la contraseña ha sido modificada.
+No tengo acceso a mi correo electrónico, ¿podría ayudarme?
+Compruebe que tiene acceso al correo electrónico en Webmail y confirme la configuración cliente del correo electrónico.
+No puedo configurar la cuenta de sapo para Iphone
+Siga las instrucciones de esta página: http://fotos.sapo.pt/sapoptmail/fotos/?uid=wp6t4AZGbkMVELZvItYK#grande
+No hay acceso a Internet a través de una red inalámbrica con un teléfono móvil.
+Active la red inalámbrica de su teléfono y configure la red wifi que desea con la clave de seguridad correcta.
+Tengo un correo electrónico que va directamente a la carpeta de correo no deseado, cómo puedo cambiarlo?
+Acceda a los correos no deseados y elimine de la lista negra el correo que quiera recibir en la bandeja de entrada.
+Intento optimizar el sistema operativo
+Haga una limpieza del disco. Si tiene Windows Vista, o Windows 7, en"Inicio" > "Ejecutar" escriba "cleanmgr". Si tiene Windows 8, escriba el mismo comando en la opción de búsqueda. Siga las instrucciones.
+Cómo realizar un cambio de NAT para PS3
+Encienda la PS3 en el panel de Configuración de red" "Configuración" ">" "Configuración de red" "."
+Mi IP está en la lista negra
+Póngase en contacto con su proveedor de internet e infórmele del problema.
+Quiero saber si el antivirus ha detectado algún problema.
+Haga doble clic en el icono de su antivirus, el cual se encuentra en la esquina inferior derecha del escritorio. El panel mostrará si hay alguna alerta antivirus.
+No consigo recibir correos electrónicos, creo que mi IP está en la lista negra, ¿qué debo hacer?
+Puede ser un problema de virus, haga un análisis con el antivirus.
+Imprimir PDF.
+Intente instalar el PDF writer http://www.cutepdf.com/products/cutepdf/writer.asp
+No hay señal wifi.
+Compruebe si el PC detecta la red inalámbrica. La tarjeta inalámbrica puede estar desactivada, en ese caso, el equipo debe tener un botón físico para encender y apagar la red inalámbrica.
+¿Cómo restaurar el sistema?
+Acceda a Herramientas del Sistema > Restaurar el Sistema y siga las instrucciones.
+¿Cómo actualizo el ordenador?
+Compruebe si el Windows Update está activado.
+No consigo conectarme a internet con el teléfono móvil
+Compruebe que está conectado a la red.
+El ordenador no se enciende
+Intente conectarlo a otra toma de corriente.
+¿Dónde encuentro la contraseña de la red inalámbrica de mi domicilio?
+La contraseña de la red wifi original está debajo del router proporcionado por su ISP.
+Problema de inicio de sesión con Skype.
+Confirme el nombre de usuario y la contraseña. Si el problema persiste, haga una recuperación de la cuenta.
+No tengo internet, hay una cruz roja en el icono de internet.
+Ese símbolo significa que no está conectado a ninguna red. Si está conectado a través de un cable, compruebe el cable, si está conectado de forma inalámbrica, asegúrese de que está conectado a la red.
+Necesito ayuda para eliminar ficheros duplicados de mi ordenador.
+Seleccione los ficheros que quiere eliminar y pulse la tecla Suprimir del teclado.
+No tengo internet a través de una red inalámbrica.
+Compruebe que está correctamente conectado al router .
+No detecto mi red inalámbrica pero detecto otras redes.
+Realice una conexión por cable de red a su router. Acceda al panel de control, entre en las configuraciones wifi y asegúrese de que la red inalámbrica está conectada. Si su router tiene un asistente, ejecútelo.
+No hay acceso a la red por cable.
+Intente reiniciar el router.
+No puedo instalar el lápiz inalámbrico.
+En el cd de instalación que viene con el dispositivo están los drivers de instalación. En caso de no tener el cd puede descargarlos en la página web del fabricante.
+No hay acceso a internet a través de red inalámbrica con el iPad.
+Desactive la red inalámbrica y conéctese de nuevo con los datos correctos.
+Cómo configurar un repetidor de ZON
+Compruebe que está sincronizado con el emisor de señal y que la clave es correcta.
+Mi ordenador no muestra ninguna imagen, ¿cómo debo proceder?
+Intente conectar el ordenador a otro monitor, si se trata de un ordenador portátil, conéctelo a un monitor externo. Si no funciona, hay un problema con el monitor.
+Conexión de PS3 a una red.
+Conecte la PS3 y vaya a Configuración>Configuraciones de Red, seleccione la red y escriba sus credenciales.
+No consigo abrir un puerto en el router.
+Acceda al panel de control del router y compruebe que las configuraciones NAT permiten el reenvío de puertos.
+No tengo internet ni con cable ni a través de una red inalámbrica.
+Desenchufe el router y vuelva a conectarlo 30 segundos más tarde.
+No consigo visualizar mi red inalámbrica.
+Intente reiniciar el router.
+Puedo conectar un router WOW a un PC de sobremesa?
+Dicha operación no es posible.
+No hay acceso a internet a través de red inalámbrica
+Compruebe que su red inalámbrica está disponible.
+No tengo acceso a mi red inalámbrica.
+Compruebe que el botón wifi del ordenador portátil está encendido, si es así compruebe que está conectado a su propia red inalámbrica.
+¿Cuál es mi contraseña de red?
+Asegúrese de que la clave está en la parte inferior del router.
+Durante la visualización de vídeos, estos se paran muchas veces.
+Puede ser debido a un bajo nivel de descarga de internet, o a que el ordenador es lento. Intente hacer una limpieza del ordenador.
+Ayuda para instalar una impresora.
+Intente instalar los drivers con el CD que viene con la impresora. Si no tiene el CD, puede acceder a la página web del fabricante.
+Problema para acceder a la página www.isssp.pt
+Acceda a la página web de JAVA, efectúe la descarga y realice la instalación correspondiente.
+He suspendido el ordenador y ha dejado de funcionar.
+Intente reiniciar el ordenador.
+¿Cómo puedo cambiar la contraseña del router?
+Acceda al panel de control del router y modifique la contraseña.
+Cómo puedo saber si tengo un virus en mi ordenador.
+Actualice el antivirus y realice un análisis completo del ordenador.
+Mi escritorio ha desaparecido.
+Haga una restauración del sistema y realice un análisis de virus.
+¿Cómo cambiar la clave de red wifi de mi domicilio?
+Compruebe la contraseña de red inalámbrica en el panel interno del router.
+¿Es obligatorio el número de móvil en Facebook?
+No es obligatorio el número de móvil para registrarse en Facebook.
+¿Cómo puedo actualizar Java?
+Puede acceder a la página web de Java, descargar la nueva versión e instalarla.
+Cuando intento escribir, hay menús abiertos.
+Compruebe si alguna tecla del teclado ha sido presionada.
+No consigo imprimir con mi impresora conectada de forma inalámbrica al ordenador.
+Compruebe que su impresora está conectada correctamente a la red del ordenador.
+¿Dónde puedo hacer una prueba de velocidad?
+Puede hacer una prueba de velocidad en la página http://www.speedtest.net/pt/
+Cambiar la contraseña del correo electrónico sapo.
+Para cambiar la contraseña acceda a la página https://id.sapo.pt ("Cambiar Contraseña", en "Correo electrónico de acceso" seleccione de nuevo "cambiar contraseña")
+Puedo recibir correos electrónicos pero no puedo enviar.
+Tiene que acceder a la configuración cliente del correo electrónico y comprobar que el servidor de envío es correcto.
+No consigo acceder a windows, ¿podría ayudarme?
+Trate de acceder en modo seguro , cuando el equipo se esté iniciando, pulse reitaradamente la tecla F8. A continuación restaure el sistema.
+El antivirus no funciona.
+Reinicie el equipo e inténtelo de nuevo. Si el problema persiste intente reinstalar el software.
+Mi Playstation 3 no detecta el cable de red
+Probablemente hay algún problema con el cable de red. Inténtelo con otro cable.
+El router wow no funciona con el cable usb, funciona solo por wifi.
+Instale la actualización de WOW.
+¿Qué credenciales se necesitan para acceder a internet a través de PT-WIFI?
+Utilice los mismos credenciales de acceso que para el área cliente PT.
+¿El router ADB sirve de repetidor de señal?
+El router ADB no tiene esa función.
+El ordenador va lento solo cuando uso Gmail.
+Pulse simultáneamente las teclas Ctrl Shift Delete, y seleccione borrar memoria caché. A continuación seleccione borrar.
+Facebook está bloqueado, ¿cómo lo resuelvo?
+Tiene que esperar unos días hasta que se desbloquee.
+Intento crear un acceso directo a Hotmail.
+Tiene que copiar el enlace de hotmail y crear un acceso directo en el escritorio, pegando el enlace y guardándolo.
+¿Qué antivirus tengo que dejar en el ordenador, MSE o AVG?
+Ambos antivirus son válidos, elija el que mejor se adapte a sus necesidades y suprima el otro.
+Quiero imprimir una fotografía que se encuentra en el escritorio.
+Pulse el botón derecho del ratón y a continuación seleccione “Imprimir”.
+No consigo conectarme por wifi con el teléfono móvil.
+Asegúrese de que la opción wifi del teléfono está activada.
+La contraseña de red inalámbrica no es correcta.
+Compruebe que se ha introducido correctamente la clave que se encuentra debajo del router.
+Cambiar el nombre de la red wifi.
+Acceda al panel de configuración del router, consulte el manual de instrucciones, la dirección ip, el nombre de usuario y la contraseña, a continuación seleccione en los menús la opción SSID.
+Mi ordenador no tiene sonido.
+En la esquina inferior de la pantalla se encuentra el símbolo de sonido, compruebe que está al 100%.
+No logro entrar en MyZON, error de datos.
+Recupere los datos de la contraseña de acceso a MyZON.
+Quiero poner en la barra de favoritos un IE
+Alt > Ver > Barra de Herramientas > Barra de Favoritos.
+No consigo envíar un mail a través de Outlook
+Acceda a herramientas, cuentas y haga una prueba de envío. Si no funciona confirme con su proveedor de correo electrónico los credenciales cliente de dicho correo.
+Solo tengo conexión a internet via mi propio modem, no tengo internet en mi router
+Es necesario sincronizar los dispositivos desenchufándolos y reconectándolos 30 segundos más tarde.
+Intento cambiar la página inicial de google Chrome, cómo debo proceder?
+Acceda a “Configuraciones”> “”Abra una página específica o un conjunto de páginas”” y coloque la dirección de la página deseada”.
+No tengo internet, las luces del router están en intermitente.
+Reinicie el router.
+Tengo la barra de herramientas en el lado derecho de la pantalla y quiero colocarla en la parte inferior de la misma.
+Basta con arrastrar la barra al lugar deseado.
+El menú del antivirus me indica que ha detectado un virus, ¿qué debo hacer?
+Ponga el virus en cuarentena y realice un anáÏlisis completo del equipo.
+Leer ficheros H.265
+Instale VLC http://www.videolan.org/vlc/
+Cómo conectar el ordenador tras haberlo suspendido.
+Pulse el botón que usa para conectar el ordenador.
+Conectar un router al módem de ZON.
+Conecte el módem al puerto wan del router, a continuación desconecte ambos dispositivos de la toma de corriente y vuelva a conectarlos de nuevo.
+Problema de acceso al servidor de juegos.
+Tiene que acceder al router a través de la página (normalmente es el 192.168.1.1) del mismo y activar el uPnP.
+Estoy sin red inalámbrica desde hace ya 3 días.
+Compruebe que puede visualizar su red inalámbrica.
+Tengo el disco duro del ordenador estropeado, ¿existe alguna posibilidad de acceder a internet?
+Puesto que el disco duro está averiado no se puede acceder al sistema operativo, luego la única solución es introducir un CD con el sistema operativo live, sin instalación en el disco. Tiene que descargar este software en http://www.ubuntu.com/download/desktop en otro PC, gravarlo en un CD e instalarlo en el ordenador dañado.
+No tengo internet. Luz init parpadea entre rojo y verde
+Reinicie el router: pulse durante 30 segundos en el orificio de reinicio; desconecte y vuelva a conectar el dispositivo.
+He cambiado la contraseña del correo electrónico y ahora no recibo correos en los pcs.
+Cree una nueva contraseña en todas las páginas de gestión de correo electrónico.
+Cómo hacer un Backup del correo electrónico (webmail.sapo.pt)
+Instale un cliente de correo electrónico como por ejemplo Thunderbird.
+Mi router se reinicia continuamente.
+Desconecte el router de la toma de corriente durante 2 minutos. Si el problema persiste reinicie el router.
+No tengo acceso a internet a través de red inalámbrica, apenas consigo conectarme directamente al módem.
+Hay que desconectar ambos dispositivos para sincronizarlos, a continuación conecte el módem, y cuando todas las luces del módem estén encendidas conecte el router a la toma de corriente.
+La pantalla del ordenador presenta riesgos.
+Compruebe la conexión del cable VGA, que conecta el monitor al ordenador.
+No tengo internet en el ordenador.
+Compruebe que está conectado a la red.
+No consigo acceder al panel de configuración del router.
+Confirme que está conectado al router por cable. Consulte el manual de instrucciones del router en la página del router. Seleccione el menú más adecuado a la opción de internet que desea.
+Quiero digitalizar un documento y no sé cómo.
+Compruebe que tiene una impresora multifunción o un escáner y si están instalados en el ordenador.
+Conexión lenta en un horario determinado.
+Tiene que acceder al panel de configuración del router. Normalmente es la dirección (192.168.1.1). Modifique los parámetros SSID, Canal, Seguridad.
+Crear una nueva cuenta de correo electrónico.
+Acceda a la página del proveedor donde desea crear el correo electrónico, y registre la nueva cuenta.
+El antivirus ha expirado.
+Tiene que renovar la licencia o comprar un nuevo antivirus.
+No tengo los iconos de red ni de notificación de las horas.
+Puede ser un problema con los drivers de la placa de red. Intente reinstalarlos.
+Cómo puedo hacer una limpieza en el ordenador.
+Desinstale los programas que no sean imprescindibles y haga una limpieza del disco.
+No logro escribir la contraseña de acceso a internet, solo puedo escribir números y letras
+Para escribir la clave de seguridad, haga clic en el campo que está debajo del código.
+No tengo acceso a internet con mi smartphone.
+Intente comprobar si el símbolo de la red inalámbrica se encuentra visible en la pantalla del teléfono móvil.
+¿Por qué internet va tan lento?
+Intente abrir otro navegador como Firefox, Chrome o IE para ver si el problema persiste.
+Configurar una cuenta de correo electrónico Outlook Express.
+En Outlook, vaya a Herramientas > Cuentas e inserte los datos correspondientes a su cuenta de correo electrónico..
