@@ -7,7 +7,7 @@ T2T::CS2EN::TrLTryRules
 T2T::CS2EN::TrLAddVariants model_dir= static_model=__TLEMMA_STATIC_TM__ discr_model=__TLEMMA_MAXENT_TM__
 T2T::CS2EN::TrLFixTMErrors
 T2T::CS2EN::TrLFPhrases
-T2T::CS2EN::RemovePerspronGender
+T2T::CS2EN::RemovePerspronGender remove_guessed_gender=1
 T2T::SetClauseNumber
 
 T2T::CS2EN::RearrangeNounCompounds

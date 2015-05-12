@@ -2,5 +2,5 @@ Util::SetGlobal language=nl selector=src
 W2A::NL::Tokenize 
 A2P::NL::ParseAlpino 
 Util::Eval zone='$.remove_tree("a");'
-# convert to a-layer
 P2A::NL::Alpino
+A2A::NL::EnhanceInterset
