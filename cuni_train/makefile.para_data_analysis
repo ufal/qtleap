@@ -9,7 +9,8 @@ SHELL=/bin/bash
 
 include makefile.cluster_conf
 
-TREEX_LOG_DIR=log/treex/{NNN}-analysis-run-{XXXXX}
+TREEX_LOG_DIR=log/treex
+TREEX_LOG_DIR_PATTERN=$(TREEX_LOG_DIR)/{NNN}-analysis-run-{XXXXX}
 
 SRC_LANG=$(shell echo $(LANG_PAIR) | cut -f1 -d'_')
 TRG_LANG=$(shell echo $(LANG_PAIR) | cut -f2 -d'_')
@@ -113,7 +114,8 @@ endif
 for_giza : $(FOR_GIZA_DATA)
 $(FOR_GIZA_DATA) : $(SPLIT_PLAIN_SRC_LIST) $(SPLIT_PLAIN_TRG_LIST)
 	mkdir -p $(dir $@)
-	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR)" \
+	mkdir -p $(TREEX_LOG_DIR)
+	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR_PATTERN)" \
 		Read::AlignedSentences $(SRC_LANG)_src=@$(SPLIT_PLAIN_SRC_LIST) $(TRG_LANG)_src=@$(SPLIT_PLAIN_TRG_LIST) \
 		scenario/para_data_analysis/$(LANG_PAIR)_s1_analysis_w2m.scen \
 		Write::Treex storable=1 substitute='{^.*/([^\/]*)\.streex}{$(TREES_MORPHO_DIR)/$$1.streex}' \
@@ -161,7 +163,8 @@ endif
 parse : $(TREES_PARSE_LIST)
 $(TREES_PARSE_LIST) : $(GIZA_DATA) $(TREES_MORPHO_LIST)
 	mkdir -p $(dir $@)
-	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR)" \
+	mkdir -p $(TREEX_LOG_DIR)
+	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR_PATTERN)" \
 		Read::Treex from=@$(word 2,$^) \
 		Align::A::InsertAlignmentFromFile from=$(word 1,$^) \
 			inputcols=gdfa_int_left_right_revgdfa_therescore_backscore \
@@ -183,7 +186,8 @@ endif
 tecto : $(TREES_TECTO_LIST)
 $(TREES_TECTO_LIST) : $(TREES_PARSE_LIST)
 	mkdir -p $(dir $@)
-	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR)" \
+	mkdir -p $(TREEX_LOG_DIR)
+	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR_PATTERN)" \
 		Read::Treex from=@$< \
 		scenario/para_data_analysis/$(LANG_PAIR)_s4_analysis_a2t.scen \
 		Align::T::CopyAlignmentFromAlayer selector=src language=$(SRC_LANG) to_selector=src to_language=$(TRG_LANG) \

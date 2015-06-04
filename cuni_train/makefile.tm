@@ -35,13 +35,14 @@ clean_analysis clean_for_giza clean_giza clean_parse clean_tecto : clean_tm_trai
 
 TM_DATA_DIR=$(TMP_DIR)/tm_train_table
 TM_DATA=$(TMP_DIR)/tm_train_table.gz
-TREEX_LOG_DIR=log/treex/{NNN}-extract-table-run-{XXXXX}
+TREEX_LOG_DIR=log/treex
+TREEX_LOG_DIR_PATTERN=$(TREEX_LOG_DIR)/{NNN}-extract-table-run-{XXXXX}
 
 extract_table : $(TM_DATA)
 $(TM_DATA) : $(TECTO_DATA_LIST)
 	mkdir -p $(TM_DATA_DIR)
 	mkdir -p $(TREEX_LOG_DIR)
-	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR)" -L$(PARA_DATA_SRC_LANG) \
+	$(TREEX_BIN) --workdir="$(TREEX_LOG_DIR_PATTERN)" -L$(PARA_DATA_SRC_LANG) \
 		Read::Treex from=@$< \
 		Print::VectorsForTM selector=$(PARA_DATA_SRC_SEL) trg_lang=$(TRG_LANG) compress=1 to='.' substitute='{^.*/([^\/]*).gz$$}{$(TM_DATA_DIR)/$$1.txt.gz}'
 	find $(TM_DATA_DIR) -name "*.txt.gz" | sort | xargs zcat | gzip -c > $@
