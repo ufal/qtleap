@@ -10,7 +10,7 @@ ML_METHOD=maxent
 
 #DATA=???
 
-SCRIPT_DIR=$(TMT_ROOT)/treex/training/mt/transl_models
+SCRIPT_DIR=../tm_train
 #TMP_DIR=/COMP.TMP/train_tm_$$$$
 #SORT_TMP_DIR=$(TMP_DIR)/sort
 SORT_TMP_DIR_PATTERN=$(TMP_DIR)/sort_XXXXX
