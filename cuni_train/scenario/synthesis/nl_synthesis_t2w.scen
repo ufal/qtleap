@@ -65,4 +65,4 @@ A2W::NL::GenerateSentenceAlpino
 # *** Postprocessing
 A2W::NL::DetokenizeSentence
 
-Util::Eval bundle='my $sz=$.get_zone("nl","tst"); if($sz){ my $tz = $.create_zone("nl","tstAlpinoOut"); $tz->set_sentence($sz->sentence); }' # Debugging: copy the sentence to another bundle so it's visible in TrEd
+Util::Eval bundle='my $sz=$.get_zone("nl","tst"); if($sz){ my $tz = $.create_zone("nl","tstAlpinoOut", {overwrite=>1}); $tz->set_sentence($sz->sentence); }' # Debugging: copy the sentence to another bundle so it's visible in TrEd
