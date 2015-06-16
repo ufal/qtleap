@@ -1,7 +1,8 @@
 Util::SetGlobal language=es selector=tst
 
-#T2T::CopyTtree
 T2T::SetClauseNumber
+#T2T::CopyTtree source_language=es source_selector=tst language=es selector=backup
+T2T::EN2ES::AddNounGender
 T2A::ES::FixAttributeOrder
 
 # *** Starting synthesis, filling morphological attributes that are needed later
@@ -30,10 +31,12 @@ T2A::AddParentheses
 T2A::ES::AddSentmodPunct
 T2A::ES::AddSubordClausePunct
 
-Util::Eval anode='$.set_tag(join " ", $.get_iset_values())'
+Util::Eval anode='$.set_tag(join "+", $.get_iset_values())'
 
 # *** Morphology & detokenization
 T2A::ES::GenerateWordformsPerl
-T2A::DeleteSuperfluousAuxCP
+#A2A::BackupTree to_selector=DeleteAurretik
+T2A::ES::DeleteSuperfluousAuxCP
+#A2A::BackupTree to_selector=DeleteOndoren
 T2A::CapitalizeSentStart
 A2W::ES::ConcatenateTokens
