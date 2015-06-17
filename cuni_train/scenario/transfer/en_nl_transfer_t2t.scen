@@ -5,3 +5,4 @@ simple_transfer_t2t.scen
 T2T::EN2NL::TrLFPhrases
 T2T::EN2NL::FixCompounds
 T2T::EN2NL::AddNounGender
+T2T::EN2NL::ApplyCorefRules
