@@ -58,7 +58,7 @@ CASE :=
 SHOW_RECENT := 10
 BASE_TRY := $(shell [ -r $(RUNS_DIR)/baseline ] && echo -n $(RUNS_DIR)/ && cat $(RUNS_DIR)/baseline || echo no_baseline_available )
 
-COMPARE_STATS_SCRIPT=../en2cs/compare_stats.pl
+COMPARE_STATS_SCRIPT=bin/compare_stats.pl
 
 eval: $(SRC_SEGM_ADJUST_DATA) $(REF_SEGM_ADJUST_DATA)
 	@echo Preparing data in $(NEW_TRY)/results
