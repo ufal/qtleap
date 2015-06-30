@@ -4,7 +4,7 @@ Util::SetGlobal language=en selector=src
 W2A::ResegmentSentences
 W2A::EN::HideIT
 
-../analysis/en_s1_analysis_w2m.scen
+../analysis/en_nl_s1_analysis_w2m.scen
 ../analysis/en_s3_analysis_m2a.scen
 ../analysis/en_s4_analysis_a2t.scen
 
