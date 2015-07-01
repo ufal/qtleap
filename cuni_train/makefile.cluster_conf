@@ -6,7 +6,8 @@ MEM=7G
 TREEX_BIN=treex
 ifeq ($(LRC), 1)
 LRC_FLAGS = -p --mem=$(MEM) --jobs $(JOBS)
-LRC_FLAGS_TEST = -p --mem=$(MEM) --jobs $(JOBS_TEST) --qsub '-q "*@lucifer*"'
+#LRC_FLAGS_TEST = -p --mem=$(MEM) --jobs $(JOBS_TEST) --qsub '-q "*@lucifer*"'
+LRC_FLAGS_TEST = -p --mem=$(MEM) --jobs $(JOBS_TEST)
 TREEX_BIN=-treex $(LRC_FLAGS)
 #or 
 #LRC_FLAGS = -p --mem=0 --qsub '-hard -l mem_free=$(MEM) -l act_mem_free=$(MEM) -l h_vmem=$(MEM)' --jobs $(JOBS)
