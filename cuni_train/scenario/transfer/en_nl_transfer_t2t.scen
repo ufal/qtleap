@@ -6,3 +6,4 @@ T2T::EN2NL::TrLFPhrases
 T2T::EN2NL::FixCompounds
 T2T::EN2NL::AddNounGender
 T2T::EN2NL::ApplyCorefRules
+T2T::EN2NL::TrLFFixTMErrors
