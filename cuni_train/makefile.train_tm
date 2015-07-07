@@ -75,7 +75,7 @@ $(TRANSL_MODEL_LRC1) : $(DATA_SPLIT_LIST)
 	@bin/log.sh INFO "Training partial TMs on cluster: $(DATA_SPLIT_LIST) => $(MODEL_SPLIT_DIR)/" >&2
 	mkdir -p $(MODEL_SPLIT_DIR)
 	cat $< | while read i; do \
-		qsubmit --jobname="train_tm.$$i" --mem="15g" --priority="-100" --logdir="$(TRAIN_LOG_DIR)" \
+		./qsubmit --jobname="train_tm.$$i" --mem="15g" --priority="-100" --logdir="$(TRAIN_LOG_DIR)" \
 			"zcat $(DATA_SPLIT_DIR)/$$i | $(SCRIPT_DIR)/train.pl \
 				$(ML_METHOD) \
 				-i $(INSTANCES) -m $(MIN_INSTANCES) \
