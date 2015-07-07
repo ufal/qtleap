@@ -7,4 +7,4 @@ T2T::EN2NL::TrLFPhrases
 T2T::EN2NL::FixCompounds
 T2T::EN2NL::AddNounGender
 
-T2T::EN2CS::TrGazeteerItems gazeteer_path='data/models/gazeteer/nl_en/nl.app_labels.v1.gaz.gz'
+T2T::EN2CS::TrGazeteerItems gazeteer_path='data/models/gazeteer/nl_en/nl.app_labels.v3.gaz.gz'
