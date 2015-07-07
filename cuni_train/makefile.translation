@@ -58,10 +58,8 @@ CASE :=
 SHOW_RECENT := 10
 BASE_TRY := $(shell [ -r $(RUNS_DIR)/baseline ] && echo -n $(RUNS_DIR)/ && cat $(RUNS_DIR)/baseline || echo no_baseline_available )
 
-COMPARE_STATS_SCRIPT=../en2cs/compare_stats.pl
+COMPARE_STATS_SCRIPT=bin/compare_stats.pl
 
-# Better alternative would be: 
-# bin/mteval-v13a.pl --international-tokenization $(CASE)
 eval: $(SRC_SEGM_ADJUST_DATA) $(REF_SEGM_ADJUST_DATA)
 	@echo Preparing data in $(NEW_TRY)/results
 	mkdir -p $(NEW_TRY)/results
@@ -69,7 +67,7 @@ eval: $(SRC_SEGM_ADJUST_DATA) $(REF_SEGM_ADJUST_DATA)
 	 bin/wrap-xml.perl $(TRG_LANG) $(SRC_SEGM_ADJUST_DATA) TectoMT > $(NEW_TRY)/results/$(TEST_DATA_STEM)-tst.$(TRG_LANG).sgm
 	export TMT_VERSION=`cat $(NEW_TRY)/svn_revision` && \
 	export DESCRIPTION=`cat $(NEW_TRY)/description` && \
-	bin/mteval-v11b.pl $(CASE) \
+	bin/mteval-v13a.pl --international-tokenization $(CASE) \
 	 -r $(REF_SEGM_ADJUST_DATA) \
 	 -s $(SRC_SEGM_ADJUST_DATA) \
 	 -t $(NEW_TRY)/results/$(TEST_DATA_STEM)-tst.$(TRG_LANG).sgm |\
