@@ -1,22 +1,20 @@
 #!/bin/bash
 
 URL=http://download.documentfoundation.org/libreoffice/src/4.4.0/libreoffice-translations-4.4.0.3.tar.xz
-XZ_FILE=${URL##*/}
+PACKED_FILE=${URL##*/}
 PO_PATH=libreoffice-4.4.0.3/translations/source/cs
 
-PO_CONCAT_FILE=libreoffice.po_concat.po
-
-EN_GAZFILE=en.libreoffice.gaz
-OTHERLANG_GAZFILE=cs.libreoffice.gaz
-ID_PREFIX=libreoffice_
+EN_GAZFILE=$1
+OTHERLANG_GAZFILE=$2
+ID_PREFIX=$3
 
 
 #wget $URL
-#tar -xvvJf $XZ_FILE
-find $PO_PATH -name '*.po' -exec cat {} \; > $PO_CONCAT_FILE
-./po2gaz.pl $EN_GAZFILE $OTHERLANG_GAZFILE $ID_PREFIX < $PO_CONCAT_FILE
+#tar -xvvJf $PACKED_FILE
+find $PO_PATH -name '*.po' -exec cat {} \; | \
+    ./po2gaz.pl $EN_GAZFILE $OTHERLANG_GAZFILE $ID_PREFIX
 
-if [ "_$1" == "clean" ]; then
-    rm $XZ_FILE
-    rm -rf ${URL%%/*}
+if [ "_$4" == "clean" ]; then
+    rm $PACKED_FILE
+    rm -rf ${PO_PATH%%/*}
 fi

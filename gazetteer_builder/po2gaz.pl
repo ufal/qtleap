@@ -55,8 +55,9 @@ if (@ARGV < 3) {
 
 
 
-open my $en_fh, ">", $ARGV[0];
-open my $lang_fh, ">", $ARGV[1];
+print STDERR $ARGV[0] . "\n";
+open my $en_fh, ">", $ARGV[0] or die $!;
+open my $lang_fh, ">", $ARGV[1] or die $!;
 
 my $id_name = $ARGV[2];
 
