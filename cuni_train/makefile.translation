@@ -39,6 +39,8 @@ translate : $(TRANSL_MODELS) $(SRC_TEXT_SPLIT_LIST) $(TRG_TEXT_SPLIT_LIST)
 	sed -i 's|__TLEMMA_MAXENT_TM__|$(TLEMMA_MAXENT_TM)|g' $(NEW_TRY)/scenario.scen
 	sed -i 's|__FORMEME_STATIC_TM__|$(FORMEME_STATIC_TM)|g' $(NEW_TRY)/scenario.scen
 	sed -i 's|__FORMEME_MAXENT_TM__|$(FORMEME_MAXENT_TM)|g' $(NEW_TRY)/scenario.scen
+	sed -i 's|__TLEMMA_TMS__|"$(TLEMMA_TMS)"|g' $(NEW_TRY)/scenario.scen
+	sed -i 's|__FORMEME_TMS__|"$(FORMEME_TMS)"|g' $(NEW_TRY)/scenario.scen
 	time treex $(LRC_FLAGS_TEST) $(MEMCACHED_FLAGS) \
 		--name="qtl-transl" --workdir=$(NEW_TRY) \
 		Read::AlignedSentences $(SRC_LANG)_src='@$(SRC_TEXT_SPLIT_LIST)' $(TRG_LANG)_ref='@$(TRG_TEXT_SPLIT_LIST)' \
