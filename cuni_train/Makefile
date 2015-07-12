@@ -113,6 +113,10 @@ full_resource_path=$(word 1,$(realpath $(foreach dir,$(TMT_RESOURCE_PATHS),$(dir
 TLEMMA_TMS ?= static 0.5 $(TLEMMA_STATIC_TM)  maxent 1.0 $(TLEMMA_MAXENT_TM)
 FORMEME_TMS?= static 1.0 $(FORMEME_STATIC_TM) maxent 0.5 $(FORMEME_MAXENT_TM)
 
+# TODO: removed the functionality which went along
+# TLEMMA_STATIC_TM_FULLPATH =$(or $(call full_resource_path,$(TLEMMA_STATIC_TM)),$(TM_TLEMMA_DIR)/model.static.gz)
+# (don't know what it is used for, so don't know how to update it...)
+
 TRANSL_MODELS = $(foreach item,$(shell echo $(TLEMMA_TMS) $(FORMEME_TMS) | tr " " "\n" | grep gz),$(call full_resource_path,$(item)))
 
 PARA_DATA_SRC_SEL?=src
