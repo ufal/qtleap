@@ -94,8 +94,6 @@ export LRC
 #### TRANSL MODELS ####
 #######################
 
-# TODO TRAIN_DATA_STEM cannot now refer to two different datasets...!
-
 TRAIN_DATA_STEM=$(shell bin/para_data_stem.pl "$(TRAIN_DATA)")
 TRAIN_TMP_DIR=tmp/$(TRANSL_PAIR)/$(TRAIN_DATA_STEM)
 
@@ -107,17 +105,18 @@ TLEMMA_MAXENT_TM?=$(TM_TLEMMA_DIR)/model.maxent.gz
 FORMEME_STATIC_TM?=$(TM_FORMEME_DIR)/model.static.gz
 FORMEME_MAXENT_TM?=$(TM_FORMEME_DIR)/model.maxent.gz
 
+TLEMMA_TMS ?=static 0.5 $(TLEMMA_STATIC_TM)  maxent 1.0 $(TLEMMA_MAXENT_TM)
+FORMEME_TMS?=static 1.0 $(FORMEME_STATIC_TM) maxent 0.5 $(FORMEME_MAXENT_TM)
+
 TMT_RESOURCE_PATHS := $(shell perl -e 'use Treex::Core::Config; my @a = Treex::Core::Config->resource_path(); print join " ", @a; print "\n";')
 full_resource_path=$(word 1,$(realpath $(foreach dir,$(TMT_RESOURCE_PATHS),$(dir)/$1)))
 
-TLEMMA_TMS ?= static 0.5 $(TLEMMA_STATIC_TM)  maxent 1.0 $(TLEMMA_MAXENT_TM)
-FORMEME_TMS?= static 1.0 $(FORMEME_STATIC_TM) maxent 0.5 $(FORMEME_MAXENT_TM)
+TLEMMA_STATIC_TM_FULLPATH =$(or $(call full_resource_path,$(TLEMMA_STATIC_TM)),$(TM_TLEMMA_DIR)/model.static.gz)
+TLEMMA_MAXENT_TM_FULLPATH =$(or $(call full_resource_path,$(TLEMMA_MAXENT_TM)),$(TM_TLEMMA_DIR)/model.maxent.gz)
+FORMEME_STATIC_TM_FULLPATH=$(or $(call full_resource_path,$(FORMEME_STATIC_TM)),$(TM_FORMEME_DIR)/model.static.gz)
+FORMEME_MAXENT_TM_FULLPATH=$(or $(call full_resource_path,$(FORMEME_MAXENT_TM)),$(TM_FORMEME_DIR)/model.maxent.gz)
 
-# TODO: removed the functionality which went along
-# TLEMMA_STATIC_TM_FULLPATH =$(or $(call full_resource_path,$(TLEMMA_STATIC_TM)),$(TM_TLEMMA_DIR)/model.static.gz)
-# (don't know what it is used for, so don't know how to update it...)
-
-TRANSL_MODELS = $(foreach item,$(shell echo $(TLEMMA_TMS) $(FORMEME_TMS) | tr " " "\n" | grep gz),$(call full_resource_path,$(item)))
+TRANSL_MODELS=$(TLEMMA_STATIC_TM_FULLPATH) $(TLEMMA_MAXENT_TM_FULLPATH) $(FORMEME_STATIC_TM_FULLPATH) $(FORMEME_MAXENT_TM_FULLPATH)
 
 PARA_DATA_SRC_SEL?=src
 
