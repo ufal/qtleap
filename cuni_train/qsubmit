@@ -1,0 +1,267 @@
+#!/usr/bin/perl
+# Prepares a shell script to run the given command on sge and submits it
+
+use strict;
+use Getopt::Long qw(GetOptionsFromString);
+use File::Temp ();
+use File::Path;
+
+my $engine = "ge"; # or pbs or console
+my $env = "ufal"; # SGE environment (used for option mapping)
+my $hostname = `hostname`;
+if ($hostname =~ /^cluster-cn-/i) {
+  $env = "rwth";
+} elsif ($hostname =~ /cerit-sc/i) {
+  $env = "metacentrum";
+}
+
+my $jobname = "qsubmit";
+my $console = 0; # don't use qsub, run on console; outdated, use --engine=console
+my $logdir = undef;
+my $queue = undef;
+my $sync = 0;
+my @holds = ();
+my $priority = -100; # qsubmit uses a lower priority by default
+my $exclude_comp = undef; # exclude a single computer
+my $mem = "6g"; # memory requirements
+my $disk = undef; # informative temp disk requirements
+my $time = undef; # time limit
+
+my @optionspecs = (
+  "engine=s"=>\$engine,
+  "console"=>\$console,
+  "sync"=>\$sync,
+  "queue=s"=>\$queue,
+  "jobname=s"=>\$jobname,
+  "logdir=s"=>\$logdir, # where to put the logfile
+  "exclude-comp=s"=>\$exclude_comp,
+  "hold=i"=>\@holds,
+  "priority=i"=>\$priority,
+  "mem:s"=>\$mem, # set e.g. to 10m or 4g; set to '' to run with no limits
+    # but risk killing the machine
+  "disk=s"=>\$disk, # format: 10g
+  "time=s"=>\$time, # format: hh:mm:ss
+);
+
+# use default options, if available
+my $default_opt_file = "$ENV{HOME}/.qsubmitrc";
+if (-e $default_opt_file) {
+  print STDERR "Loading default options from $default_opt_file\n";
+  my $h = my_open($default_opt_file);
+  my $defaultoptstr = "";
+  while (<$h>) {
+    next if /^\s*#/;
+    $defaultoptstr .= $_;
+  }
+  close $h;
+  GetOptionsFromString($defaultoptstr, @optionspecs)
+    or die "Bad options in $default_opt_file";
+}
+
+# add options from command line
+GetOptions(@optionspecs) or exit 1;
+
+die "Bad queing engine '$engine', accepted are: ge, pbs, console"
+  if $engine ne "pbs" && $engine ne "ge" && $engine ne "console";
+
+if ($console) {
+  print STDERR "Deprecated --console for qsubmit. Use --engine=console instead.\n";
+  $engine = "console";
+}
+
+my $cmd = shift;
+
+die "Usage: qsubmit cmd" if !$cmd;
+
+
+my $timediff = "$ENV{HOME}/tools/shell/timediff";
+$timediff = "~bojar/tools/shell/timediff" if ! -x $timediff;
+
+my $pwd = `pwd`; chomp $pwd;
+my $tmp = new File::Temp(
+  DIR => $pwd,
+  UNLINK => 0, # the script will delete itself after it has been completed
+  TEMPLATE=>'.qsubmit-XXXXXX',
+  SUFFIX => '.bash' );
+
+my $cmdescaped = $cmd;
+$cmdescaped =~ s/'/'"'"'/g;
+
+my $script = << "KONEC"
+#!/bin/bash
+
+# load UFAL SGE profile, if exists
+[ -e /net/projects/SGE/user/sge_profile ] \\
+  && . /net/projects/SGE/user/sge_profile
+
+hard=`qstat -j \$JOB_ID | grep -e '^hard resource_list' | cut -d ' ' -f 11-`
+#soft=`qstat -j \$JOB_ID | grep -e '^soft resource_list' | cut -d ' ' -f 11-`
+
+sdate=`date`
+
+echo "=============================="
+echo "== Server:    "`hostname`
+echo "== Directory: "`pwd`
+echo '== Command:   $cmdescaped'
+echo "== Hard res:  \$hard"
+echo "== Started:   \$sdate"
+echo "== Sourcing:  \$HOME/\.bashrc"
+echo "=============================="
+
+# Source the bashrc
+. \$HOME/.bashrc
+
+# Renice ourselves
+renice 10 \$\$
+
+# Run the command
+$cmd
+
+# Collect exit status
+exitstatus=\$?
+if [ 0 != "\$exitstatus" ]; then
+  exitinfo="FAILED (exit status \$exitstatus)"
+fi
+
+fdate=`date`
+
+# remove this temporary script
+rm $tmp
+
+# print all we know about ourselves
+#qstat -j \$JOB_ID
+
+echo "Getting usage and peak mem info (works for SGE, not PBS yet)"
+usage=`qstat -j \$JOB_ID | grep "^usage" | cut -b 29-`
+maxvmem=`qstat -j \$JOB_ID | grep -e '^usage' | cut -f 5 -d, | cut -d = -f 2`
+
+echo "=============================="
+echo "== Server:    "`hostname`
+echo "== Directory: "`pwd`
+echo '== Command:   $cmdescaped'
+echo "== Usage:     \$usage"
+echo "== Peak mem:  \$maxvmem"
+echo "== Started:   \$sdate"
+echo "== Finished:  \$fdate     \$exitinfo"
+echo "== Duration:  "`$timediff --both "\$sdate" "\$fdate"`
+echo "=============================="
+
+KONEC
+;
+
+print $tmp $script;
+close $tmp;
+
+# debugging: print the script
+# print $script;
+
+# foreground execution:
+# safesystem(("/bin/bash", $tmp));
+
+if (defined $logdir) {
+  if (! -d $logdir) {
+    mkpath($logdir) or die "Failed to create logdir '$logdir'.";
+  }
+  -w $logdir or die "Logdir '$logdir' not writeable.";
+}
+
+my @opts = ();
+if (defined $jobname) {
+  $jobname =~ s/\//_/g; # no slashes allowed in jobnames
+  $jobname =~ s/^\.+//g; # remove leading dots
+  push @opts, ("-N", $jobname);
+}
+if (defined $logdir) {
+  push @opts, ("-o", $logdir.'/$JOB_NAME.o$JOB_ID');
+  # we use -o, because we always join stdout and stderr
+}
+if ($sync) {
+  push @opts, ("-sync", "yes");
+}
+if (defined $queue) {
+  push @opts, ("-q", $queue);
+}
+if (defined $exclude_comp) {
+  die "Cannot use --queue and --exclude-comp at the same time"
+    if defined $queue;
+  push @opts, ("-q", "*@*&!$exclude_comp");
+}
+if (defined $time) {
+  push @opts, ('-l', "h_rt=".$time);
+}
+if (defined $mem && $mem ne "") {
+  if ($env eq "rwth") {
+    push @opts, ('-hard', '-l', "h_vmem=".$mem);
+  } elsif ($env eq "metacentrum") {
+    # options in PBS format!
+  } else {
+    # UFAL setup
+    push @opts, ('-hard', '-l', "mf=".$mem); # current free
+    push @opts, ('-hard', '-l', "h_data=".$mem); # and also consumable
+  }
+}
+if (defined $disk) {
+  if ($env eq "rwth") {
+    die "Unsupported -disk at rwth.";
+  } else {
+    # UFAL setup
+    push @opts, ('-hard', '-l', "mnthf=".$disk);
+  }
+}
+
+push @opts, map { ("-hold_jid", $_) } @holds;
+
+if ($engine eq "ge") {
+  # qsub execution
+  safesystem((qw(qsub -j y -cwd -S /bin/bash), "-p", $priority, @opts, $tmp));
+} elsif ($engine eq "pbs") {
+  # qsub execution
+  my $cwd = `pwd`; chomp $cwd;
+  safesystem((qw(qsub -j oe -d), $cwd, qw(-S /bin/bash), "-p", $priority, @opts, $tmp));
+} elsif ($engine eq "console") {
+  # execution on the console
+  safesystem((qw(/bin/bash), $tmp)) or die;
+} else {
+  die "Nonsense! Unsupported engine '$engine'"
+}
+
+
+
+sub safesystem {
+  print STDERR "Executing: @_\n";
+  system(@_);
+  if ($? == -1) {
+      print STDERR "Failed to execute: @_\n  $!\n";
+      exit(1);
+  }
+  elsif ($? & 127) {
+      printf STDERR "Execution of: @_\n  died with signal %d, %s coredump\n",
+          ($? & 127),  ($? & 128) ? 'with' : 'without';
+      exit(1);
+  }
+  else {
+    my $exitcode = $? >> 8;
+    print STDERR "Exit code: $exitcode\n" if $exitcode;
+    return ! $exitcode;
+  }
+}
+
+sub my_open {
+  my $f = shift;
+  die "Not found: $f" if ! -e $f;
+
+  my $opn;
+  my $hdl;
+  my $ft = `file $f`;
+  # file might not recognize some files!
+  if ($f =~ /\.gz$/ || $ft =~ /gzip compressed data/) {
+    $opn = "zcat $f |";
+  } elsif ($f =~ /\.bz2$/ || $ft =~ /bzip2 compressed data/) {
+    $opn = "bzcat $f |";
+  } else {
+    $opn = "$f";
+  }
+  open $hdl, $opn or die "Can't open '$opn': $!";
+  binmode $hdl, ":utf8";
+  return $hdl;
+}

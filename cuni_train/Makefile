@@ -105,6 +105,9 @@ TLEMMA_MAXENT_TM?=$(TM_TLEMMA_DIR)/model.maxent.gz
 FORMEME_STATIC_TM?=$(TM_FORMEME_DIR)/model.static.gz
 FORMEME_MAXENT_TM?=$(TM_FORMEME_DIR)/model.maxent.gz
 
+TLEMMA_TMS ?=static 0.5 $(TLEMMA_STATIC_TM)  maxent 1.0 $(TLEMMA_MAXENT_TM)
+FORMEME_TMS?=static 1.0 $(FORMEME_STATIC_TM) maxent 0.5 $(FORMEME_MAXENT_TM)
+
 TMT_RESOURCE_PATHS := $(shell perl -e 'use Treex::Core::Config; my @a = Treex::Core::Config->resource_path(); print join " ", @a; print "\n";')
 full_resource_path=$(word 1,$(realpath $(foreach dir,$(TMT_RESOURCE_PATHS),$(dir)/$1)))
 
