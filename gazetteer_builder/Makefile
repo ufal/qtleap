@@ -7,7 +7,7 @@ TMP_DIR=tmp/$(LANGUAGE)
 EXTRACT_SCRIPTS_DIR=extract_scripts/$(LANGUAGE)
 
 #SOURCE_NAMES=$(shell for i in $(EXTRACT_SCRIPTS_DIR)/*; do prefix=$${i%.sh}; echo $${prefix\#\#*/}; done)
-SOURCE_NAMES=libreoffice vlc
+SOURCE_NAMES=libreoffice vlc kde
 EN_GAZ_LIST=$(shell for i in $(SOURCE_NAMES); do echo "$(BUILD_DIR)/$(LANGUAGE)_en.en.$$i.gaz"; done)
 OTHERLANG_GAZ_LIST=$(shell for i in $(SOURCE_NAMES); do echo "$(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).$$i.gaz"; done)
 
