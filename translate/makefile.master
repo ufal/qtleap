@@ -1,0 +1,120 @@
+SHELL=/bin/bash
+# To use this makefile, you need to define
+# variable         example value
+# SRC_LANG         en
+# TRG_LANG         cs
+# SCENARIO         Scen::EN2CS
+# INPUT_SRC        path/to/Batch1a_en.txt
+# INPUT_REF        path/to/Batch1a_cs.txt
+
+# config
+RUNS_DIR=runs
+IN_DIR=$(RUNS_DIR)/input
+ALL_RES=results.tsv
+
+# Directory of this makefile.master
+TOPDIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+include $(TOPDIR)/makefile.cluster_conf
+
+# Short description of the experiment
+D :=
+DATE := $(shell date +%Y-%m-%d_%H-%M-%S)
+LAST_TRY := $(shell ls -d -t $(RUNS_DIR)/[0-9]* 2>/dev/null | head -n 1)
+NEW_NUM  := $(shell perl -e '$$m=0; for(<$(RUNS_DIR)/*>){/\/(\d+)_/ and $$1 > $$m and $$m=$$1;} printf "%03d", $$m+1;')
+NEW_TRY  := $(RUNS_DIR)/$(NEW_NUM)_$(DATE)
+TRANSL_PAIR = $(SRC_LANG)-$(TRG_LANG)
+
+define HELP_MESSAGE
+# Go to translate/en-cs/batch2a/ (or other directory with Makefile) and run
+make translate eval
+# If you don't want to print commands being executed, use "make -s".
+# All the experiments are saved in "$(RUNS_DIR)" in a subdirectory with current date in name.
+# You can add a short description of the experiment to be logged:
+make translate eval D="changed regexp in block XY"
+# Don't use SGE (Sun Grid Engine) parallelization
+make translate LRC=0
+# Use SGE with a non-default number of jobs (default is $(JOBS)) and memory (default is $(MEM))
+make translate LRC=1 JOBS=10 MEM=8G
+# Compare the last experiment with the baseline experiment:
+make compare
+# Set the last experiment as the baseline (after you have checked it is better than the previous one).
+# This will print the name of the last experiment directory to $(RUNS_DIR)/baseline.
+make baseline
+# Set experiment with prefix number 042 as the baseline:
+make baseline-042
+# Compare experiments with numbers 042 and 046 (without changing $(RUNS_DIR)/baseline):
+make compare-042:046
+# Evaluate experiment number 046 (if you have forgotten to add eval after translate):
+make eval-046
+# Copy Pilot 0 (Moses) output to $(RUNS_DIR)/000_pilot0, compute its BLEU:
+make pilot0 eval-000
+endef
+export HELP_MESSAGE
+
+help:
+	@echo "$$HELP_MESSAGE" | egrep --color '^(make.*|)'
+
+
+LINES_PER_FILE = 50
+$(IN_DIR):
+	mkdir -p $(IN_DIR)
+	split -a 4 -d -l $(LINES_PER_FILE) $(INPUT_SRC) $(IN_DIR)/src_
+	split -a 4 -d -l $(LINES_PER_FILE) $(INPUT_REF) $(IN_DIR)/ref_
+
+translate: $(IN_DIR)
+	@mkdir -p $(NEW_TRY)/treexfiles
+	echo "$(D)" > $(NEW_TRY)/description
+	sleep 10 && treex --dump_scenario $(SCENARIO) > $(NEW_TRY)/scenario.scen &
+	time treex $(LRC_FLAGS) $(MEMCACHED_FLAGS) \
+		--name="qtleap-$(TRANSL_PAIR)" --workdir=$(NEW_TRY) \
+		Read::AlignedSentences $(SRC_LANG)_src='!$(IN_DIR)/src*' $(TRG_LANG)_ref='!$(IN_DIR)/ref*' \
+		$(SCENARIO) \
+		Write::Treex storable=1 path=$(NEW_TRY)/treexfiles/ \
+		Print::TranslationResume source_language=$(SRC_LANG) > $(NEW_TRY)/output.txt
+	cat $(NEW_TRY)/output.txt | grep '^TST' | cut -f 2- > $(NEW_TRY)/plain_output.txt
+	@rm -f $(NEW_TRY)/treexfiles/*~
+
+
+BASE_TRY := $(shell [ -r $(RUNS_DIR)/baseline ] && echo -n $(RUNS_DIR)/ && cat $(RUNS_DIR)/baseline || echo no_baseline_available )
+# Set the last experiment as the baseline
+baseline:
+	echo $(notdir $(LAST_TRY)) > $(RUNS_DIR)/baseline
+
+# Set the experiment with given prefix number as the baseline
+baseline-%:
+	basename $(RUNS_DIR)/$*_* > $(RUNS_DIR)/baseline
+
+SHOW_RECENT := 10
+eval: qtleap-corpus
+	export DESCRIPTION=`cat $(NEW_TRY)/description` && \
+	$(TOPDIR)/../qtleap-corpus/eval/wrap-mteval.pl $(INPUT_REF) < $(NEW_TRY)/plain_output.txt 2> $(NEW_TRY)/scores_mteval.txt | \
+	perl -E 'chomp(($$bleu,$$nist)=<>); say join("\t",$$bleu,$$nist,"$(NEW_NUM)","$(DATE)","$$ENV{DESCRIPTION}")' >> $(ALL_RES)
+	tail -n $(SHOW_RECENT) $(ALL_RES)
+
+qtleap-corpus: $(TOPDIR)/../qtleap-corpus
+$(TOPDIR)/../qtleap-corpus:
+	git clone gitolite@redmine.ms.mff.cuni.cz:qtleap/qtleap-corpus.git $@
+
+
+# make eval-042 evaluates experiment number 042
+eval-%:
+	export new_try=`ls -d $(RUNS_DIR)/$*_*` && \
+	make $(@:-$*=) NEW_NUM=$* NEW_TRY=$$new_try DATE=`echo $$new_try | cut -d_ -f2-`
+
+COMPARE_STATS_SCRIPT=$(TOPDIR)/bin/compare_stats.pl
+COMPARE_HTML_OUTPUT?=0
+ifeq ($(COMPARE_HTML_OUTPUT), 1)
+	COMPARE_FLAGS= --html
+endif 
+c compare:
+	$(COMPARE_STATS_SCRIPT) $(COMPARE_FLAGS) $(BASE_TRY)/output.txt $(LAST_TRY)/output.txt | less -R
+
+compare-%:
+	$(COMPARE_STATS_SCRIPT) $(COMPARE_FLAGS) $(RUNS_DIR)/`echo $* | cut -d: -f1`*/output.txt $(RUNS_DIR)/`echo $* | cut -d: -f2`*/output.txt | less -R
+
+pilot0:
+	if [ -z "$(PILOT0_FILE)" ]; then echo "No PILOT0_FILE file with Pilot0 translation specified"; exit 1; fi
+	mkdir -p $(RUNS_DIR)/000_pilot0
+	cp $(PILOT0_FILE) $(RUNS_DIR)/000_pilot0/plain_output.txt
+	treex Read::AlignedSentences $(SRC_LANG)_src=$(INPUT_SRC) $(TRG_LANG)_ref=$(INPUT_REF) $(TRG_LANG)_tst=$(PILOT0_FILE) \
+	       Print::TranslationResume source_language=$(SRC_LANG) language=$(TRG_LANG) selector=tst > $(RUNS_DIR)/000_pilot0/output.txt

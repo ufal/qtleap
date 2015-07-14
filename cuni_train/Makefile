@@ -36,7 +36,7 @@ make prepare_test_data TRANSL_PAIR=cs_en
 # Then, a particular dataset is selected by setting the <TEST_DATASET> variable to the dataset's label.
 
 make translate eval TRANSL_PAIR=cs_en
-make translate eval TRANSL_PAIR=cs_en TEST_DATASET=newstest2012
+make translate eval TRANSL_PAIR=cs_en TEST_DATASET=batch2q
 # It translates and evaluates the specified test data.
 # If the translation models are not present, it tries to train them.
 # If you want to use already trained models, copy them into share and specify the paths 

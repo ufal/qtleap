@@ -1,0 +1,18 @@
+LRC?=1
+
+JOBS=50
+MEM=7G
+ifeq ($(LRC), 1)
+LRC_FLAGS = -p --mem=$(MEM) --jobs=$(JOBS)
+#or 
+#LRC_FLAGS = -p --mem=0 --qsub '-hard -l mem_free=$(MEM) -l act_mem_free=$(MEM) -l h_vmem=$(MEM)' --jobs $(JOBS)
+endif
+
+
+USE_MEMCACHED?=0
+
+MODEL_MEM=15
+MEMCACHED_MEMORY=5
+ifeq ($(USE_MEMCACHED), 1)
+MEMCACHED_FLAGS=--cache=$(MEMCACHED_MEMORY),$(MODEL_MEM)
+endif
