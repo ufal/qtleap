@@ -1,6 +1,6 @@
 function download_xz {
     url=$1
-    tmp_dir=$2
+    tmp_dir=${2-.}
     xz_file=${url##*/}
     cd $tmp_dir
     wget $URL
@@ -21,7 +21,7 @@ function build_gazeteers {
     otherlang_gazfile=$3
     id_prefix=$4
     find $po_path -name '*.po' -exec cat {} \; | \
-        $BASH_SOURCE/po2gaz.pl $en_gazfile $otherlang_gazfile $id_prefix
+        `dirname $BASH_SOURCE`/po2gaz.pl $en_gazfile $otherlang_gazfile $id_prefix
 }
 
 #if [ "_$4" == "clean" ]; then
