@@ -2,8 +2,8 @@
 
 source `dirname $BASH_SOURCE`/../common.sh
 
-URL=http://download.documentfoundation.org/libreoffice/src/4.4.0/libreoffice-translations-4.4.0.3.tar.xz
-PO_PATH=libreoffice-4.4.0.3/translations/source/nl
+URL=http://downloads.videolan.org/pub/videolan/vlc/2.1.5/vlc-2.1.5.tar.xz
+PO_PATH=vlc-2.1.5/po/pt_PT.po
 
 EN_GAZFILE=$1
 OTHERLANG_GAZFILE=$2

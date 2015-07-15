@@ -11,5 +11,5 @@ ID_PREFIX=$3
 
 TMP_DIR=$4
 
-download_xz $URL $TMP_DIR
+download_xz $URL $PO_PATH $TMP_DIR
 build_gazeteers $PO_PATH $EN_GAZFILE $OTHERLANG_GAZFILE $ID_PREFIX $TMP_DIR

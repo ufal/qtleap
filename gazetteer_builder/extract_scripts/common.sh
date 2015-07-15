@@ -1,10 +1,11 @@
 function download_xz {
     url=$1
-    tmp_dir=${2-.}
+    subdir=$2
+    tmp_dir=${3-.}
     xz_file=${url##*/}
     cd $tmp_dir
     wget $URL
-    tar -xvvJf $xz_file
+    tar -xvvJf $xz_file $subdir
     cd ~-
 }
 
