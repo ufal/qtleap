@@ -54,9 +54,12 @@ export HELP_MESSAGE
 help:
 	@echo "$$HELP_MESSAGE" | egrep --color '^(make.*|)'
 
+qtleap-corpus: $(TOPDIR)/../qtleap-corpus
+$(TOPDIR)/../qtleap-corpus:
+	git clone gitolite@redmine.ms.mff.cuni.cz:qtleap/qtleap-corpus.git $@
 
 LINES_PER_FILE = 50
-$(IN_DIR):
+$(IN_DIR): qtleap-corpus
 	mkdir -p $(IN_DIR)
 	split -a 4 -d -l $(LINES_PER_FILE) $(INPUT_SRC) $(IN_DIR)/src_
 	split -a 4 -d -l $(LINES_PER_FILE) $(INPUT_REF) $(IN_DIR)/ref_
@@ -90,11 +93,6 @@ eval: qtleap-corpus
 	$(TOPDIR)/../qtleap-corpus/eval/wrap-mteval.pl $(INPUT_REF) < $(NEW_TRY)/plain_output.txt 2> $(NEW_TRY)/scores_mteval.txt | \
 	perl -E 'chomp(($$bleu,$$nist)=<>); say join("\t",$$bleu,$$nist,"$(NEW_NUM)","$(DATE)","$(SCENARIO)","$$ENV{DESCRIPTION}")' >> $(ALL_RES)
 	tail -n $(SHOW_RECENT) $(ALL_RES)
-
-qtleap-corpus: $(TOPDIR)/../qtleap-corpus
-$(TOPDIR)/../qtleap-corpus:
-	git clone gitolite@redmine.ms.mff.cuni.cz:qtleap/qtleap-corpus.git $@
-
 
 # make eval-042 evaluates experiment number 042
 eval-%:
