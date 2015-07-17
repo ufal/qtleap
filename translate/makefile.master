@@ -9,7 +9,7 @@ SHELL=/bin/bash
 
 # config
 RUNS_DIR=runs
-IN_DIR=$(RUNS_DIR)/input
+IN_DIR=$(RUNS_DIR)/input/
 ALL_RES=results.tsv
 
 # Directory of this makefile.master
