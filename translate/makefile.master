@@ -88,7 +88,7 @@ SHOW_RECENT := 10
 eval: qtleap-corpus
 	export DESCRIPTION=`cat $(NEW_TRY)/description` && \
 	$(TOPDIR)/../qtleap-corpus/eval/wrap-mteval.pl $(INPUT_REF) < $(NEW_TRY)/plain_output.txt 2> $(NEW_TRY)/scores_mteval.txt | \
-	perl -E 'chomp(($$bleu,$$nist)=<>); say join("\t",$$bleu,$$nist,"$(NEW_NUM)","$(DATE)","$$ENV{DESCRIPTION}")' >> $(ALL_RES)
+	perl -E 'chomp(($$bleu,$$nist)=<>); say join("\t",$$bleu,$$nist,"$(NEW_NUM)","$(DATE)","$(SCENARIO)","$$ENV{DESCRIPTION}")' >> $(ALL_RES)
 	tail -n $(SHOW_RECENT) $(ALL_RES)
 
 qtleap-corpus: $(TOPDIR)/../qtleap-corpus
