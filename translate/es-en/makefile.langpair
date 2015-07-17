@@ -1,0 +1,3 @@
+SRC_LANG=es
+TRG_LANG=en
+SCENARIO=Scen::ES2EN domain=IT resegment=1
