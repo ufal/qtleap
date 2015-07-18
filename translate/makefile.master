@@ -44,6 +44,8 @@ make baseline
 make baseline-042
 # Compare experiments with numbers 042 and 046 (without changing $(RUNS_DIR)/baseline):
 make compare-042:046
+# Compare also the scenarios of the two experiments:
+make scenariocompare-042:046
 # Evaluate experiment number 046 (if you have forgotten to add eval after translate):
 make eval-046
 # Copy Pilot 0 (Moses) output to $(RUNS_DIR)/000_pilot0, compute its BLEU:
@@ -108,6 +110,12 @@ c compare:
 
 compare-%:
 	$(COMPARE_STATS_SCRIPT) $(COMPARE_FLAGS) $(RUNS_DIR)/`echo $* | cut -d: -f1`*/output.txt $(RUNS_DIR)/`echo $* | cut -d: -f2`*/output.txt | less -R
+
+DIFFTOOL:=vimdiff
+scenariocompare:
+	$(DIFFTOOL) $(BASE_TRY)/scenario.scen $(LAST_TRY)/scenario.scen
+scenariocompare-%:
+	$(DIFFTOOL) $(RUNS_DIR)/`echo $* | cut -d: -f1`*/scenario.scen $(RUNS_DIR)/`echo $* | cut -d: -f2`*/scenario.scen
 
 pilot0:
 	if [ -z "$(PILOT0_FILE)" ]; then echo "No PILOT0_FILE file with Pilot0 translation specified"; exit 1; fi
