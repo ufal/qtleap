@@ -44,6 +44,8 @@ make baseline
 make baseline-042
 # Compare experiments with numbers 042 and 046 (without changing $(RUNS_DIR)/baseline):
 make compare-042:046
+# Compare also the scenarios of the two experiments:
+make scenariocompare-042:046
 # Evaluate experiment number 046 (if you have forgotten to add eval after translate):
 make eval-046
 # Copy Pilot 0 (Moses) output to $(RUNS_DIR)/000_pilot0, compute its BLEU:
@@ -54,9 +56,11 @@ export HELP_MESSAGE
 help:
 	@echo "$$HELP_MESSAGE" | egrep --color '^(make.*|)'
 
+$(TOPDIR)/../qtleap-corpus:
+	git clone gitolite@redmine.ms.mff.cuni.cz:qtleap/qtleap-corpus.git $@
 
 LINES_PER_FILE = 50
-$(IN_DIR):
+$(IN_DIR): $(TOPDIR)/../qtleap-corpus
 	mkdir -p $(IN_DIR)
 	split -a 4 -d -l $(LINES_PER_FILE) $(INPUT_SRC) $(IN_DIR)/src_
 	split -a 4 -d -l $(LINES_PER_FILE) $(INPUT_REF) $(IN_DIR)/ref_
@@ -85,16 +89,11 @@ baseline-%:
 	basename $(RUNS_DIR)/$*_* > $(RUNS_DIR)/baseline
 
 SHOW_RECENT := 10
-eval: qtleap-corpus
+eval:
 	export DESCRIPTION=`cat $(NEW_TRY)/description` && \
 	$(TOPDIR)/../qtleap-corpus/eval/wrap-mteval.pl $(INPUT_REF) < $(NEW_TRY)/plain_output.txt 2> $(NEW_TRY)/scores_mteval.txt | \
-	perl -E 'chomp(($$bleu,$$nist)=<>); say join("\t",$$bleu,$$nist,"$(NEW_NUM)","$(DATE)","$$ENV{DESCRIPTION}")' >> $(ALL_RES)
+	perl -E 'chomp(($$bleu,$$nist)=<>); say join("\t",$$bleu,$$nist,"$(NEW_NUM)","$(DATE)","$(SCENARIO)","$$ENV{DESCRIPTION}")' >> $(ALL_RES)
 	tail -n $(SHOW_RECENT) $(ALL_RES)
-
-qtleap-corpus: $(TOPDIR)/../qtleap-corpus
-$(TOPDIR)/../qtleap-corpus:
-	git clone gitolite@redmine.ms.mff.cuni.cz:qtleap/qtleap-corpus.git $@
-
 
 # make eval-042 evaluates experiment number 042
 eval-%:
@@ -111,6 +110,12 @@ c compare:
 
 compare-%:
 	$(COMPARE_STATS_SCRIPT) $(COMPARE_FLAGS) $(RUNS_DIR)/`echo $* | cut -d: -f1`*/output.txt $(RUNS_DIR)/`echo $* | cut -d: -f2`*/output.txt | less -R
+
+DIFFTOOL:=vimdiff
+scenariocompare:
+	$(DIFFTOOL) $(BASE_TRY)/scenario.scen $(LAST_TRY)/scenario.scen
+scenariocompare-%:
+	$(DIFFTOOL) $(RUNS_DIR)/`echo $* | cut -d: -f1`*/scenario.scen $(RUNS_DIR)/`echo $* | cut -d: -f2`*/scenario.scen
 
 pilot0:
 	if [ -z "$(PILOT0_FILE)" ]; then echo "No PILOT0_FILE file with Pilot0 translation specified"; exit 1; fi

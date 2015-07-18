@@ -2,7 +2,11 @@ SHELL=bash
 
 define HELP_MESSAGE
 # USAGE:
-#
+
+make qtleap-corpus
+(cd ../qtleap-corpus/ && git pull)
+# First, make sure you have the newest version of the QTLeap Corpus.
+
 # The only parameter that must be specified in all the following commands is the translation pair, 
 # e.g. for translation from English to Czech
 # <TRANSL_PAIR=en_cs>
@@ -133,3 +137,7 @@ clean_tm clean_tm_train_table clean_analysis clean_for_giza clean_giza clean_tec
 ##################### translation ##########################
 include makefile.test_data
 include makefile.translation
+
+qtleap-corpus: ../qtleap-corpus
+../qtleap-corpus:
+	git clone gitolite@redmine.ms.mff.cuni.cz:qtleap/qtleap-corpus.git $@

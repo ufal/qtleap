@@ -1,6 +1,6 @@
 LRC?=1
 
-JOBS=50
+JOBS=20
 MEM=7G
 ifeq ($(LRC), 1)
 LRC_FLAGS = -p --mem=$(MEM) --jobs=$(JOBS)
