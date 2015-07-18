@@ -9,7 +9,7 @@ SCENARIO=Scen::EN2ES domain=general resegment=1
 INPUT_SRC=../../../qtleap-corpus/references/news_en.txt
 INPUT_REF=../../../qtleap-corpus/references/news_es.txt
 
-$(IN_DIR): qtleap-corpus $(INPUT_SRC) $(INPUT_REF)
+$(IN_DIR): $(INPUT_SRC) $(INPUT_REF)
 $(INPUT_SRC): ../../../qtleap-corpus/references/news2012_en.txt ../../../qtleap-corpus/references/news2013_en.txt 
 	cat $^ > $@
 
