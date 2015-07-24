@@ -1,5 +1,6 @@
 include ../../makefile.master
 include ../makefile.langpair
+DATASET=news
 
 # ../makefile.langpair contains domain=IT, but we want to override it
 SCENARIO=Scen::EU2EN domain=general resegment=1

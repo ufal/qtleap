@@ -68,7 +68,7 @@ $(IN_DIR): $(TOPDIR)/../qtleap-corpus
 translate: $(IN_DIR)
 	@mkdir -p $(NEW_TRY)/treexfiles
 	echo "$(D)" > $(NEW_TRY)/description
-	sleep 10 && treex --dump_scenario $(SCENARIO) > $(NEW_TRY)/scenario.scen &
+	sleep 10 && make meta NEW_TRY=$(NEW_TRY) SCENARIO="$(SCENARIO)" D="$D" &
 	time treex $(LRC_FLAGS) $(MEMCACHED_FLAGS) \
 		--name="qtleap-$(TRANSL_PAIR)" --workdir=$(NEW_TRY) \
 		Read::AlignedSentences $(SRC_LANG)_src='!$(IN_DIR)/src*' $(TRG_LANG)_ref='!$(IN_DIR)/ref*' \
@@ -78,6 +78,12 @@ translate: $(IN_DIR)
 	cat $(NEW_TRY)/output.txt | grep '^TST' | cut -f 2- > $(NEW_TRY)/plain_output.txt
 	@rm -f $(NEW_TRY)/treexfiles/*~
 
+meta:
+	treex --dump_scenario $(SCENARIO) > $(NEW_TRY)/scenario.scen
+	treex_sha=`cd $(dir $(shell whichpm Treex)) && git rev-parse HEAD` \
+	&& qtleap_sha=`git rev-parse HEAD` \
+	&& echo -e "commits:\n - https://github.com/ufal/treex/commit/$$treex_sha\n - https://github.com/ufal/qtleap/commit/$$qtleap_sha\n"\
+	"scenario: $(SCENARIO)\ndescription: $(D)" >> $(NEW_TRY)/meta.yaml
 
 BASE_TRY := $(shell [ -r $(RUNS_DIR)/baseline ] && echo -n $(RUNS_DIR)/ && cat $(RUNS_DIR)/baseline || echo no_baseline_available )
 # Set the last experiment as the baseline
@@ -92,13 +98,8 @@ SHOW_RECENT := 10
 eval:
 	export DESCRIPTION=`cat $(NEW_TRY)/description` && \
 	$(TOPDIR)/../qtleap-corpus/eval/wrap-mteval.pl $(INPUT_REF) < $(NEW_TRY)/plain_output.txt 2> $(NEW_TRY)/scores_mteval.txt | \
-	perl -E 'chomp(($$bleu,$$nist)=<>); say join("\t",$$bleu,$$nist,"$(NEW_NUM)","$(DATE)","$(SCENARIO)","$$ENV{DESCRIPTION}")' >> $(ALL_RES)
+	perl -E 'chomp(($$bleu,$$nist)=<>); `echo "bleu: $$bleu\nnist: $$nist" >> $(NEW_TRY)/meta.yaml`; say join("\t",$$bleu,$$nist,"$(NEW_NUM)","$(DATE)","$(SCENARIO)","$$ENV{DESCRIPTION}")' >> $(ALL_RES)
 	tail -n $(SHOW_RECENT) $(ALL_RES)
-
-# make eval-042 evaluates experiment number 042
-eval-%:
-	export new_try=`ls -d $(RUNS_DIR)/$*_*` && \
-	make $(@:-$*=) NEW_NUM=$* NEW_TRY=$$new_try DATE=`echo $$new_try | cut -d_ -f2-`
 
 COMPARE_STATS_SCRIPT=$(TOPDIR)/bin/compare_stats.pl
 COMPARE_HTML_OUTPUT?=0
@@ -116,6 +117,20 @@ scenariocompare:
 	$(DIFFTOOL) $(BASE_TRY)/scenario.scen $(LAST_TRY)/scenario.scen
 scenariocompare-%:
 	$(DIFFTOOL) $(RUNS_DIR)/`echo $* | cut -d: -f1`*/scenario.scen $(RUNS_DIR)/`echo $* | cut -d: -f2`*/scenario.scen
+
+archive:
+	cp $(NEW_TRY)/plain_output.txt $(TOPDIR)/../qtleap-corpus/pilot2/pilot2-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).txt
+	cp $(NEW_TRY)/meta.yaml $(TOPDIR)/../qtleap-corpus/pilot2/pilot2-$(SRC_LANG)-$(TRG_LANG)-$(DATASET)_meta.yaml
+
+pok:
+	treex_sha=`cd $(dir $(shell whichpm Treex)) && git rev-parse HEAD` \
+	&& qtleap_sha=`git rev-parse HEAD` \
+	&& echo $$treex_sha $$qtleap_sha
+
+# make eval-042 evaluates experiment number 042
+eval-% archive-%:
+	export new_try=`ls -d $(RUNS_DIR)/$*_*` && \
+	make $(@:-$*=) NEW_NUM=$* NEW_TRY=$$new_try DATE=`echo $$new_try | cut -d_ -f2-`
 
 pilot0:
 	if [ -z "$(PILOT0_FILE)" ]; then echo "No PILOT0_FILE file with Pilot0 translation specified"; exit 1; fi
