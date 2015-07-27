@@ -62,6 +62,7 @@ $(TOPDIR)/../qtleap-corpus:
 LINES_PER_FILE = 50
 $(IN_DIR): $(TOPDIR)/../qtleap-corpus
 	mkdir -p $(IN_DIR)
+	touch $(IN_DIR)
 	split -a 4 -d -l $(LINES_PER_FILE) $(INPUT_SRC) $(IN_DIR)/src_
 	split -a 4 -d -l $(LINES_PER_FILE) $(INPUT_REF) $(IN_DIR)/ref_
 
