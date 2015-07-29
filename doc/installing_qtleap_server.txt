@@ -147,7 +147,11 @@ treex-mtmworker.pl -p 8002 -s 7002 >> tmp/cs_en/mtmserver.log 2>&1 &
 treex-mtmworker.pl -p 8003 -s 7003 >> tmp/en_nl/mtmserver.log 2>&1 &
 treex-mtmworker.pl -p 8004 -s 7004 >> tmp/nl_en/mtmserver.log 2>&1 &
 
-# If the workers are accessible from outside, you are done now (send their URL and port to DFKI).
+# If the workers are accessible from outside, you are done now,
+# send their URL and port to DFKI ('xmlrpc http://qtleap-pilot1-outside-name:8001/').
+# Note that treex-mtmworker.pl communicates with users (or DFKI) via XML-RPC
+# and it actually ignores sourceLang and targetLang parameters
+# (the translation direction is decided by the port number).
 #
 # Otherwise, you may want to set up a MTMonkey Appserver to connect to the workers -- please
 # refer to https://github.com/ufal/mtmonkey/tree/master/install#application-server-installation 
@@ -170,6 +174,8 @@ treex-mtmworker.pl -p 8004 -s 7004 >> tmp/nl_en/mtmserver.log 2>&1 &
 appserver-your_version/scripts/run_appserver
 
 # You can now query the translation at http://your-machine:8001/qtpilot1 (send this address to DFKI,
-# indicating that they should add "xmlrpc http://your-machine:8001/qtpilot1" into their Appserver
+# indicating that they should add "json http://your-machine:8001/qtpilot1" into their Appserver
 # configuration).
-#
+# Note that in this case MT-Monkey Appserver communicates with users (or DFKI) via JSON
+# and that the MT-Monkey Appserver has one public URL (one port) and distributes
+# the queries to treex-mtmworker.pl workers based on sourceLang and targetLang parameters.
