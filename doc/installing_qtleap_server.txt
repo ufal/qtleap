@@ -170,6 +170,6 @@ treex-mtmworker.pl -p 8004 -s 7004 >> tmp/nl_en/mtmserver.log 2>&1 &
 appserver-your_version/scripts/run_appserver
 
 # You can now query the translation at http://your-machine:8001/qtpilot1 (send this address to DFKI,
-# indicating that they should add "json http://your-machine:8001/qtpilot1" into their Appserver
+# indicating that they should add "xmlrpc http://your-machine:8001/qtpilot1" into their Appserver
 # configuration).
 #
