@@ -179,3 +179,18 @@ appserver-your_version/scripts/run_appserver
 # Note that in this case MT-Monkey Appserver communicates with users (or DFKI) via JSON
 # and that the MT-Monkey Appserver has one public URL (one port) and distributes
 # the queries to treex-mtmworker.pl workers based on sourceLang and targetLang parameters.
+
+# You can test xmlrpc workers with
+echo '<?xmlversion="1.0"?><methodCall><methodName>process_task</methodName>
+<params><param><value><struct><member><name>action</name><value>
+<string>translate</string></value></member><member><name>sourceLang</name>
+<value><string>en</string></value></member><member><name>text</name><value>
+<string>This is a test.</string></value></member></struct></value></param>
+</params></methodCall>' > query.xml
+curl -X POST -d @query.xml http://your-server:8001
+
+# You can test json workers (MT-Monkey appserver) with POST&JSON
+curl -i -H "Content-Type: application/json" -X POST -d '{"action":"translate", "sourceLang":"en", "targetLang":"cs", "text":"This is a test.", "systemId":"pilot1" }' http://your-server:8001
+
+# or with GET
+curl 'http://blade-3.dfki.uni-sb.de:8100/?action=translate&sourceLang=nl&targetLang=en&text=Dit%20is%20een%20test.&systemId=pilot1'
