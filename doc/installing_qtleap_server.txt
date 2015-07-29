@@ -23,6 +23,10 @@ sudo nano /etc/group
 sudo locale-gen en_US.UTF-8
 LANG=C sudo dpkg-reconfigure locales
 
+# If "date" shows a wrong time zone, you select the correct one and restart cron
+sudo dpkg-reconfigure tzdata
+sudo service cron restart
+
 # basic packages
 sudo apt-get update
 sudo apt-get install bash-completion build-essential git subversion
@@ -134,8 +138,8 @@ cp tmp/cs_en/runs-Batch1q/004_2015-03-17_05-37-35_cs_en_translation_w2w/scenario
 # Start Treex socket servers
 treex-socket-server.pl --detail --port=7001 --source_zone=en:src --target_zone=cs:tst --scenario=server/en_cs_translation_w2w.scen >> tmp/en_cs/socketserver.log 2>&1 &
 treex-socket-server.pl --detail --port=7002 --source_zone=cs:src --target_zone=en:tst --scenario=server/cs_en_translation_w2w.scen >> tmp/cs_en/socketserver.log 2>&1 &
-treex-socket-server.pl --detail --port=7004 --source_zone=nl:src --target_zone=en:tst --scenario=server/nl_en_translation_w2w.scen >> tmp/nl_en/socketserver.log 2>&1 &
 treex-socket-server.pl --detail --port=7003 --source_zone=en:src --target_zone=nl:tst --scenario=server/en_nl_translation_w2w.scen >> tmp/en_nl/socketserver.log 2>&1 &
+treex-socket-server.pl --detail --port=7004 --source_zone=nl:src --target_zone=en:tst --scenario=server/nl_en_translation_w2w.scen >> tmp/nl_en/socketserver.log 2>&1 &
 
 # Start Treex MTMonkey workers (point them to the socket server port via the -s parameter)
 treex-mtmworker.pl -p 8001 -s 7001 >> tmp/en_cs/mtmserver.log 2>&1 &
