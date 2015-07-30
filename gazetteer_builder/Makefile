@@ -32,10 +32,10 @@ BUILD_DIR=build/$(LANGUAGE)
 TMP_DIR=tmp/$(LANGUAGE)
 EXTRACT_SCRIPTS_DIR=extract_scripts/$(LANGUAGE)
 
-SOURCE_NAMES=$(shell for i in $(EXTRACT_SCRIPTS_DIR)/*; do prefix=$${i%.sh}; echo $${prefix\#\#*/}; done)
+SOURCE_NAMES:=$(shell for i in $(EXTRACT_SCRIPTS_DIR)/*; do prefix=$${i%.sh}; echo $${prefix\#\#*/}; done)
 #SOURCE_NAMES=libreoffice vlc kde
-EN_GAZ_LIST=$(shell for i in $(SOURCE_NAMES); do echo "$(BUILD_DIR)/$(LANGUAGE)_en.en.$$i.gaz"; done)
-OTHERLANG_GAZ_LIST=$(shell for i in $(SOURCE_NAMES); do echo "$(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).$$i.gaz"; done)
+EN_GAZ_LIST:=$(shell for i in $(SOURCE_NAMES); do echo "$(BUILD_DIR)/$(LANGUAGE)_en.en.$$i.gaz"; done)
+OTHERLANG_GAZ_LIST:=$(shell for i in $(SOURCE_NAMES); do echo "$(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).$$i.gaz"; done)
 
 $(BUILD_DIR) :
 	mkdir -p $(BUILD_DIR)
@@ -51,3 +51,16 @@ $(BUILD_DIR)/$(LANGUAGE)_en.en.all.gaz.gz : $(EN_GAZ_LIST)
 	cat $^ | gzip -c > $@
 
 build : $(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).all.gaz.gz $(BUILD_DIR)/$(LANGUAGE)_en.en.all.gaz.gz
+
+PUBLISH_DIR=$(TMT_ROOT)/share/data/models/gazeteer/$(LANGUAGE)_en
+LAST_VERSION:=$(shell find $(PUBLISH_DIR) -name '*en.gaz.gz' | sed 's|^.*/||' | cut -d'.' -f1 | cut -d'_' -f2 | sort -n | tail -n1)
+NEXT_VERSION:=$(shell printf "%03d\n" $$(($(LAST_VERSION)+1)))
+DATE:=$(shell date +%Y%m%d)
+
+publish : $(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).all.gaz.gz $(BUILD_DIR)/$(LANGUAGE)_en.en.all.gaz.gz
+	mkdir -p $(PUBLISH_DIR)
+	cp $(word 1,$^) $(PUBLISH_DIR)/$(DATE)_$(NEXT_VERSION).IT.$(LANGUAGE)_en.$(LANGUAGE).gaz.gz
+	cp $(word 2,$^) $(PUBLISH_DIR)/$(DATE)_$(NEXT_VERSION).IT.$(LANGUAGE)_en.en.gaz.gz
+	echo -n "$(DATE)_$(NEXT_VERSION).IT.$(LANGUAGE)_en.*.gaz.gz" >> $(PUBLISH_DIR)/VERSIONS.txt
+	echo -e "\t$(D)" >> $(PUBLISH_DIR)/VERSIONS.txt
+
