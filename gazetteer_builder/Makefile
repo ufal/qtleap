@@ -59,6 +59,7 @@ DATE:=$(shell date +%Y%m%d)
 
 publish : $(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).all.gaz.gz $(BUILD_DIR)/$(LANGUAGE)_en.en.all.gaz.gz
 	mkdir -p $(PUBLISH_DIR)
+	chmod a+rxw $(PUBLISH_DIR)
 	cp $(word 1,$^) $(PUBLISH_DIR)/$(DATE)_$(NEXT_VERSION).IT.$(LANGUAGE)_en.$(LANGUAGE).gaz.gz
 	cp $(word 2,$^) $(PUBLISH_DIR)/$(DATE)_$(NEXT_VERSION).IT.$(LANGUAGE)_en.en.gaz.gz
 	echo -n "$(DATE)_$(NEXT_VERSION).IT.$(LANGUAGE)_en.*.gaz.gz" >> $(PUBLISH_DIR)/VERSIONS.txt
