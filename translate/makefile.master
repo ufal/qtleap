@@ -127,7 +127,7 @@ scenariocompare-%:
 
 archive:
 	cp $(NEW_TRY)/plain_output.txt $(TOPDIR)/../qtleap-corpus/pilot2/pilot2-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).txt
-	cp $(NEW_TRY)/meta.yaml $(TOPDIR)/../qtleap-corpus/pilot2/pilot2-$(SRC_LANG)-$(TRG_LANG)-$(DATASET)_meta.yaml
+	cp $(NEW_TRY)/meta.yaml $(TOPDIR)/../qtleap-corpus/pilot2/pilot2-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).meta
 
 pok:
 	treex_sha=`cd $(dir $(shell whichpm Treex)) && git rev-parse HEAD` \
