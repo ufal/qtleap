@@ -107,6 +107,18 @@ svn --username public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/inst
 (cd packaged/Morce-English && perl Build.PL && ./Build && ./Build test && ./Build install)
 (cd tool_installation/NADA && perl Makefile.PL && make && make install)
 
+################ Installing VowpalWabbit #################
+# This step is currently needed only for CS->EN Pilot1
+cd
+git clone git://github.com/JohnLangford/vowpal_wabbit.git vowpal_wabbit-v7.7-e9f67eca58
+cd vowpal_wabbit-v7.7-e9f67eca58/
+git checkout e9f67eca58
+# this version is needed by A2T::CS::MarkTextPronCoref model data/models/coreference/CS/vw/perspron.2015-04-29.train.pdt.cs.vw.ranking.model
+sudo apt-get install libboost-program-options-dev
+make
+make test
+perl -pli -e 's{/net/cluster/TMP/mnovak/tools/vowpal_wabbit-v7.7-e9f67eca58}{/home/pilot1/vowpal_wabbit-v7.7-e9f67eca58}' /home/pilot1/treex/lib/Treex/Tool/ML/VowpalWabbit/Ranker.pm
+
 ################ TectoMT via MTMonkey #################
 
 # Install the required Perl modules
