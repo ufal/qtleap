@@ -1,3 +1,3 @@
 SRC_LANG=en
 TRG_LANG=es
-SCEN=Scen::EN2ES domain=IT resegment=1 gazetteer=0
+SCEN=Scen::EN2ES domain=IT resegment=1
