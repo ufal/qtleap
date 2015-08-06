@@ -23,6 +23,10 @@ sudo nano /etc/group
 sudo locale-gen en_US.UTF-8
 LANG=C sudo dpkg-reconfigure locales
 
+# If "date" shows a wrong time zone, you select the correct one and restart cron
+sudo dpkg-reconfigure tzdata
+sudo service cron restart
+
 # basic packages
 sudo apt-get update
 sudo apt-get install bash-completion build-essential git subversion
@@ -103,6 +107,18 @@ svn --username public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/inst
 (cd packaged/Morce-English && perl Build.PL && ./Build && ./Build test && ./Build install)
 (cd tool_installation/NADA && perl Makefile.PL && make && make install)
 
+################ Installing VowpalWabbit #################
+# This step is currently needed only for CS->EN Pilot1
+cd
+git clone git://github.com/JohnLangford/vowpal_wabbit.git vowpal_wabbit-v7.7-e9f67eca58
+cd vowpal_wabbit-v7.7-e9f67eca58/
+git checkout e9f67eca58
+# this version is needed by A2T::CS::MarkTextPronCoref model data/models/coreference/CS/vw/perspron.2015-04-29.train.pdt.cs.vw.ranking.model
+sudo apt-get install libboost-program-options-dev
+make
+make test
+perl -pli -e 's{/net/cluster/TMP/mnovak/tools/vowpal_wabbit-v7.7-e9f67eca58}{/home/pilot1/vowpal_wabbit-v7.7-e9f67eca58}' /home/pilot1/treex/lib/Treex/Tool/ML/VowpalWabbit/Ranker.pm
+
 ################ TectoMT via MTMonkey #################
 
 # Install the required Perl modules
@@ -134,8 +150,8 @@ cp tmp/cs_en/runs-Batch1q/004_2015-03-17_05-37-35_cs_en_translation_w2w/scenario
 # Start Treex socket servers
 treex-socket-server.pl --detail --port=7001 --source_zone=en:src --target_zone=cs:tst --scenario=server/en_cs_translation_w2w.scen >> tmp/en_cs/socketserver.log 2>&1 &
 treex-socket-server.pl --detail --port=7002 --source_zone=cs:src --target_zone=en:tst --scenario=server/cs_en_translation_w2w.scen >> tmp/cs_en/socketserver.log 2>&1 &
-treex-socket-server.pl --detail --port=7004 --source_zone=nl:src --target_zone=en:tst --scenario=server/nl_en_translation_w2w.scen >> tmp/nl_en/socketserver.log 2>&1 &
 treex-socket-server.pl --detail --port=7003 --source_zone=en:src --target_zone=nl:tst --scenario=server/en_nl_translation_w2w.scen >> tmp/en_nl/socketserver.log 2>&1 &
+treex-socket-server.pl --detail --port=7004 --source_zone=nl:src --target_zone=en:tst --scenario=server/nl_en_translation_w2w.scen >> tmp/nl_en/socketserver.log 2>&1 &
 
 # Start Treex MTMonkey workers (point them to the socket server port via the -s parameter)
 treex-mtmworker.pl -p 8001 -s 7001 >> tmp/en_cs/mtmserver.log 2>&1 &
@@ -143,7 +159,11 @@ treex-mtmworker.pl -p 8002 -s 7002 >> tmp/cs_en/mtmserver.log 2>&1 &
 treex-mtmworker.pl -p 8003 -s 7003 >> tmp/en_nl/mtmserver.log 2>&1 &
 treex-mtmworker.pl -p 8004 -s 7004 >> tmp/nl_en/mtmserver.log 2>&1 &
 
-# If the workers are accessible from outside, you are done now (send their URL and port to DFKI).
+# If the workers are accessible from outside, you are done now,
+# send their URL and port to DFKI ('xmlrpc http://qtleap-pilot1-outside-name:8001/').
+# Note that treex-mtmworker.pl communicates with users (or DFKI) via XML-RPC
+# and it actually ignores sourceLang and targetLang parameters
+# (the translation direction is decided by the port number).
 #
 # Otherwise, you may want to set up a MTMonkey Appserver to connect to the workers -- please
 # refer to https://github.com/ufal/mtmonkey/tree/master/install#application-server-installation 
@@ -168,4 +188,21 @@ appserver-your_version/scripts/run_appserver
 # You can now query the translation at http://your-machine:8001/qtpilot1 (send this address to DFKI,
 # indicating that they should add "json http://your-machine:8001/qtpilot1" into their Appserver
 # configuration).
-#
+# Note that in this case MT-Monkey Appserver communicates with users (or DFKI) via JSON
+# and that the MT-Monkey Appserver has one public URL (one port) and distributes
+# the queries to treex-mtmworker.pl workers based on sourceLang and targetLang parameters.
+
+# You can test xmlrpc workers with
+echo '<?xmlversion="1.0"?><methodCall><methodName>process_task</methodName>
+<params><param><value><struct><member><name>action</name><value>
+<string>translate</string></value></member><member><name>sourceLang</name>
+<value><string>en</string></value></member><member><name>text</name><value>
+<string>This is a test.</string></value></member></struct></value></param>
+</params></methodCall>' > query.xml
+curl -X POST -d @query.xml http://your-server:8001
+
+# You can test json workers (MT-Monkey appserver) with POST&JSON
+curl -i -H "Content-Type: application/json" -X POST -d '{"action":"translate", "sourceLang":"en", "targetLang":"cs", "text":"This is a test.", "systemId":"pilot1" }' http://your-server:8001
+
+# or with GET
+curl 'http://blade-3.dfki.uni-sb.de:8100/?action=translate&sourceLang=nl&targetLang=en&text=Dit%20is%20een%20test.&systemId=pilot1'

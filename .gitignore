@@ -1,0 +1,5 @@
+/cuni_train/tmp/
+/cuni_train/res.*
+/qtleap-corpus/
+/translate/*/*/runs/
+/translate/*/*/results.tsv

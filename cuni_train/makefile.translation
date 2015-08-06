@@ -20,6 +20,8 @@ baseline:
 baseline-%:
 	basename $(RUNS_DIR)/$*_* > $(RUNS_DIR)/baseline
 
+# TODO: $(TRANSL_MODELS) may not be an adequate prerequisite
+# if models to use are specified using TLEMMA_TMS and FORMEME_TMS
 translate : $(TRANSL_MODELS) $(SRC_TEXT_SPLIT_LIST) $(TRG_TEXT_SPLIT_LIST)
 	@if [ -z "$(D)" ]; then \
 		echo -n "The experiment description is empty (D=\"\"). Are you sure you want to proceed (Y/N)? "; \
@@ -39,6 +41,8 @@ translate : $(TRANSL_MODELS) $(SRC_TEXT_SPLIT_LIST) $(TRG_TEXT_SPLIT_LIST)
 	sed -i 's|__TLEMMA_MAXENT_TM__|$(TLEMMA_MAXENT_TM)|g' $(NEW_TRY)/scenario.scen
 	sed -i 's|__FORMEME_STATIC_TM__|$(FORMEME_STATIC_TM)|g' $(NEW_TRY)/scenario.scen
 	sed -i 's|__FORMEME_MAXENT_TM__|$(FORMEME_MAXENT_TM)|g' $(NEW_TRY)/scenario.scen
+	sed -i 's|__TLEMMA_TMS__|"$(TLEMMA_TMS)"|g' $(NEW_TRY)/scenario.scen
+	sed -i 's|__FORMEME_TMS__|"$(FORMEME_TMS)"|g' $(NEW_TRY)/scenario.scen
 	time treex $(LRC_FLAGS_TEST) $(MEMCACHED_FLAGS) \
 		--name="qtl-transl" --workdir=$(NEW_TRY) \
 		Read::AlignedSentences $(SRC_LANG)_src='@$(SRC_TEXT_SPLIT_LIST)' $(TRG_LANG)_ref='@$(TRG_TEXT_SPLIT_LIST)' \
@@ -60,8 +64,6 @@ BASE_TRY := $(shell [ -r $(RUNS_DIR)/baseline ] && echo -n $(RUNS_DIR)/ && cat $
 
 COMPARE_STATS_SCRIPT=bin/compare_stats.pl
 
-# Better alternative would be: 
-# bin/mteval-v13a.pl --international-tokenization $(CASE)
 eval: $(SRC_SEGM_ADJUST_DATA) $(REF_SEGM_ADJUST_DATA)
 	@echo Preparing data in $(NEW_TRY)/results
 	mkdir -p $(NEW_TRY)/results
@@ -69,7 +71,7 @@ eval: $(SRC_SEGM_ADJUST_DATA) $(REF_SEGM_ADJUST_DATA)
 	 bin/wrap-xml.perl $(TRG_LANG) $(SRC_SEGM_ADJUST_DATA) TectoMT > $(NEW_TRY)/results/$(TEST_DATA_STEM)-tst.$(TRG_LANG).sgm
 	export TMT_VERSION=`cat $(NEW_TRY)/svn_revision` && \
 	export DESCRIPTION=`cat $(NEW_TRY)/description` && \
-	bin/mteval-v11b.pl $(CASE) \
+	bin/mteval-v13a.pl --international-tokenization $(CASE) \
 	 -r $(REF_SEGM_ADJUST_DATA) \
 	 -s $(SRC_SEGM_ADJUST_DATA) \
 	 -t $(NEW_TRY)/results/$(TEST_DATA_STEM)-tst.$(TRG_LANG).sgm |\

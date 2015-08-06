@@ -2,9 +2,11 @@ Util::SetGlobal language=en selector=tst
 T2T::CopyTtree source_language=cs source_selector=src
 
 T2T::CS2EN::TrFTryRules
-T2T::CS2EN::TrFAddVariants model_dir= static_model=__FORMEME_STATIC_TM__ discr_model=__FORMEME_MAXENT_TM__
+#T2T::CS2EN::TrFAddVariants model_dir= static_model=__FORMEME_STATIC_TM__ discr_model=__FORMEME_MAXENT_TM__
+T2T::CS2EN::TrFAddVariantsInterpol model_dir= models=__FORMEME_TMS__
 T2T::CS2EN::TrLTryRules
-T2T::CS2EN::TrLAddVariants model_dir= static_model=__TLEMMA_STATIC_TM__ discr_model=__TLEMMA_MAXENT_TM__
+#T2T::CS2EN::TrLAddVariants model_dir= static_model=__TLEMMA_STATIC_TM__ discr_model=__TLEMMA_MAXENT_TM__
+T2T::CS2EN::TrLAddVariantsInterpol model_dir= models=__TLEMMA_TMS__
 T2T::CS2EN::TrLFixTMErrors
 T2T::CS2EN::TrLFPhrases
 T2T::CS2EN::RemovePerspronGender remove_guessed_gender=1

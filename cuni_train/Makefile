@@ -2,7 +2,11 @@ SHELL=bash
 
 define HELP_MESSAGE
 # USAGE:
-#
+
+make qtleap-corpus
+(cd ../qtleap-corpus/ && git pull)
+# First, make sure you have the newest version of the QTLeap Corpus.
+
 # The only parameter that must be specified in all the following commands is the translation pair, 
 # e.g. for translation from English to Czech
 # <TRANSL_PAIR=en_cs>
@@ -36,7 +40,7 @@ make prepare_test_data TRANSL_PAIR=cs_en
 # Then, a particular dataset is selected by setting the <TEST_DATASET> variable to the dataset's label.
 
 make translate eval TRANSL_PAIR=cs_en
-make translate eval TRANSL_PAIR=cs_en TEST_DATASET=newstest2012
+make translate eval TRANSL_PAIR=cs_en TEST_DATASET=batch2q
 # It translates and evaluates the specified test data.
 # If the translation models are not present, it tries to train them.
 # If you want to use already trained models, copy them into share and specify the paths 
@@ -105,6 +109,9 @@ TLEMMA_MAXENT_TM?=$(TM_TLEMMA_DIR)/model.maxent.gz
 FORMEME_STATIC_TM?=$(TM_FORMEME_DIR)/model.static.gz
 FORMEME_MAXENT_TM?=$(TM_FORMEME_DIR)/model.maxent.gz
 
+TLEMMA_TMS ?=static 0.5 $(TLEMMA_STATIC_TM)  maxent 1.0 $(TLEMMA_MAXENT_TM)
+FORMEME_TMS?=static 1.0 $(FORMEME_STATIC_TM) maxent 0.5 $(FORMEME_MAXENT_TM)
+
 TMT_RESOURCE_PATHS := $(shell perl -e 'use Treex::Core::Config; my @a = Treex::Core::Config->resource_path(); print join " ", @a; print "\n";')
 full_resource_path=$(word 1,$(realpath $(foreach dir,$(TMT_RESOURCE_PATHS),$(dir)/$1)))
 
@@ -130,3 +137,7 @@ clean_tm clean_tm_train_table clean_analysis clean_for_giza clean_giza clean_tec
 ##################### translation ##########################
 include makefile.test_data
 include makefile.translation
+
+qtleap-corpus: ../qtleap-corpus
+../qtleap-corpus:
+	git clone gitolite@redmine.ms.mff.cuni.cz:qtleap/qtleap-corpus.git $@
