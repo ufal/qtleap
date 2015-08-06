@@ -5,20 +5,4 @@ T2T::CopyTtree
 T2T::SetClauseNumber
 
 # and do the synthesis
-T2A::CopyTtree
-T2A::MarkSubject
-T2A::InitMorphcat
-T2A::AddPrepos
-T2A::AddSubconjs
-T2A::AddCoordPunct
-T2A::ImposeSubjpredAgr
-T2A::ImposeAttrAgr
-T2A::DropPersPronSb
-
-T2A::ProjectClauseNumber
-T2A::AddParentheses
-T2A::AddSentFinalPunct
-
-T2A::BG::MoveDefiniteness
-
-Util::Eval anode='$.set_tag(join " ", $.get_iset_values())'
+Scen::Synthesis::BG

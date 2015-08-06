@@ -1,0 +1,3 @@
+SRC_LANG=en
+TRG_LANG=pt
+SCEN=Scen::EN2PT domain=IT resegment=1 gazetteer=0
