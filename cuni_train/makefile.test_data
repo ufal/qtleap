@@ -10,7 +10,7 @@ endif
 TEST_DATA_STEM=$(shell bin/para_data_stem.pl "$(TEST_DATA)")
 TEST_TMP_DIR=tmp/$(TRANSL_PAIR)/$(TEST_DATA_STEM)
 
-PREPARE_TEST_DATA_PARAMS=DATA="$(TEST_DATA)" STAGE=$(TEST_DATA_STAGE) LANG_PAIR=$(PARA_DATA_PAIR) TMP_DIR=tmp/$(PARA_DATA_PAIR)/$(TEST_DATA_STEM) SENTS_PER_DOC=11
+PREPARE_TEST_DATA_PARAMS=DATA="$(TEST_DATA)" STAGE=$(TEST_DATA_STAGE) LANG_PAIR=$(PARA_DATA_PAIR) TMP_DIR=tmp/$(PARA_DATA_PAIR)/$(TEST_DATA_STEM) SENTS_PER_DOC=1
 
 LANG1_TEXT_SPLIT_LIST := $(shell $(MAKE) -s --no-print-directory -f makefile.para_data_analysis plain_split_src_list $(PREPARE_TEST_DATA_PARAMS))
 LANG2_TEXT_SPLIT_LIST := $(shell $(MAKE) -s --no-print-directory -f makefile.para_data_analysis plain_split_trg_list $(PREPARE_TEST_DATA_PARAMS))
