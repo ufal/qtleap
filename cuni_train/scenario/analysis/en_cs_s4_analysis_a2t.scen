@@ -38,7 +38,7 @@ A2T::EN::AddCorAct
 T2T::SetClauseNumber
 A2T::EN::FixRelClauseNoRelPron
 A2T::EN::MarkReferentialIt resolver_type=nada threshold=0.5 suffix=nada_0.5 # you need Treex::External::NADA installed for this
-#A2T::EN::FindTextCoref
+A2T::EN::FindTextCoref
 #A2T::EN::MarkTextPronCoref
 #Coref::EN::ResolveStanfordCoreNLP
 #Coref::EN::ResolveBART2

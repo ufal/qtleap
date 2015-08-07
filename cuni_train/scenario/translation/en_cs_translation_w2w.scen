@@ -2,14 +2,15 @@
 Util::SetGlobal language=en selector=src
 
 W2A::ResegmentSentences
-W2A::EN::HideIT
+Scen::EN2CS
+#W2A::EN::HideIT
 
-../analysis/en_cs_analysis.scen
+#../analysis/en_cs_analysis.scen
 
 # transfer
-../transfer/en_cs_transfer_t2t.scen
+#../transfer/en_cs_transfer_t2t.scen
 
 # synthesis
-../synthesis/cs_synthesis_t2w.scen
+#../synthesis/cs_synthesis_t2w.scen
 
-A2W::ShowIT
+#A2W::ShowIT

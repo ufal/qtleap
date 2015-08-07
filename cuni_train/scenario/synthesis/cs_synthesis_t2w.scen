@@ -2,12 +2,17 @@ Util::SetGlobal language=cs selector=tst
 T2A::CS::CopyTtree
 T2A::CS::DistinguishHomonymousMlemmas
 T2A::CS::ReverseNumberNounDependency
-T2A::CS::InitMorphcat disable_svuj=1
+
+#T2A::CS::InitMorphcat disable_svuj=1
+T2A::CS::InitMorphcat
+
 T2A::CS::FixPossessiveAdjs
 Util::DefinedAttr tnode=t_lemma,formeme,functor,clause_number anode=lemma message="after InitMorphcat and FixPossessiveAdjs" #on_error=die
 T2A::CS::MarkSubject
 T2A::CS::ImposePronZAgr
-#T2A::CS::ImposeRelPronAgr
+
+T2A::CS::ImposeRelPronAgr
+
 T2A::CS::ImposeSubjpredAgr
 T2A::CS::ImposeAttrAgr
 T2A::CS::ImposeComplAgr
