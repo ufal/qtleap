@@ -1,0 +1,5 @@
+0.1144	5.2603	newscom.test/001	2015-07-05_15-33-31	en_nl_translation_w2w	qtleap.coref:1fd453bde7 qtleap scen: no coref
+0.1145	5.2549	newscom.test/002	2015-07-05_16-00-43	en_nl_translation_w2w	qtleap.coref:1fd453bde7 qtleap scen: Treex-relat
+0.1021	4.4779	newscom.test/003	2015-07-05_16-27-03	en_nl_translation_w2w	qtleap.coref:1fd453bde7 qtleap scen: Treex-relat+other
+0.1145	5.2549	newscom.test/004	2015-07-05_16-53-41	en_nl_translation_w2w	qtleap.coref:1fd453bde7 qtleap scen: Treex-relat+Stanford
+0.1143	5.2490	newscom.test/005	2015-07-05_17-21-23	en_nl_translation_w2w	qtleap.coref:1fd453bde7 qtleap scen: Treex-relat+BART

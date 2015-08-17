@@ -1,0 +1,10 @@
+0.1095	5.0011	newstest2012-src/039	2015-07-04_16-29-24	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: with Stanford Coref
+0.1097	5.0108	newstest2012-src/040	2015-07-04_16-42-39	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: with BART
+0.1097	5.0108	newstest2012-src/041	2015-07-04_16-55-24	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: with BART
+0.1095	5.0011	newstest2012-src/043	2015-07-04_17-10-08	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: with Stanford Coref
+0.1103	5.0196	newstest2012-src/044	2015-07-04_18-39-49	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: FindGramCorefForReflPron for English analysis
+0.1062	4.9506	newstest2012-src/045	2015-07-05_13-49-36	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: no coref
+0.1094	4.9987	newstest2012-src/046	2015-07-05_14-07-14	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: Treex-relat
+0.1103	5.0196	newstest2012-src/047	2015-07-05_14-21-00	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: Treex-relat+other
+0.1095	5.0011	newstest2012-src/048	2015-07-05_14-34-27	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: Treex-relat+Stanford
+0.1097	5.0108	newstest2012-src/049	2015-07-05_15-09-05	en_cs_translation_w2w	qtleap.coref:1fd453bde7 best scen: Treex-relat+BART
