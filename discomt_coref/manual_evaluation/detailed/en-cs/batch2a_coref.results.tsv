@@ -1,0 +1,7 @@
+31.32	7.2623	002	2015-08-06_15-14-36	Scen::EN2CS domain=IT resegment=1 coref=bart+treex-relat	FindGramCorefForReflPron used in transfer
+30.55	7.1706	004	2015-08-06_16-27-20	Scen::EN2CS domain=IT resegment=1 coref=0 	no coreference
+31.08	7.2337	006	2015-08-06_16-41-31	Scen::EN2CS domain=IT resegment=1 coref=treex-relat 	
+30.55	7.1706	007	2015-08-06_16-50-09	Scen::EN2CS domain=IT resegment=1 coref=0 	FindGramCorefForReflPron removed from transfer
+31.08	7.2356	008	2015-08-06_16-58-15	Scen::EN2CS domain=IT resegment=1 coref=treex-relat+other 	
+31.1	7.2362	009	2015-08-06_17-08-08	Scen::EN2CS domain=IT resegment=1 coref=stanford+treex-relat 	
+31.09	7.2410	012	2015-08-06_17-30-53	Scen::EN2CS domain=IT resegment=1 coref=bart+treex-relat 	

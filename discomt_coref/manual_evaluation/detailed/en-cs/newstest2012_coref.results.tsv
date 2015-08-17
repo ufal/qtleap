@@ -1,0 +1,9 @@
+0		001	2015-08-07_14-00-19	Scen::EN2CS domain=IT resegment=1 coref=0	
+0		002	2015-08-07_14-04-29	Scen::EN2CS domain=IT resegment=1 coref=treex-relat	
+0		003	2015-08-07_14-08-44	Scen::EN2CS domain=IT resegment=1 coref=treex-relat+other	
+10.21	4.7635	005	2015-08-07_14-35-06	Scen::EN2CS domain=IT resegment=1 	testing eval
+11.12	5.0906	006	2015-08-07_14-41-23	Scen::EN2CS resegment=1 coref=0	
+11.45	5.1392	007	2015-08-07_14-45-52	Scen::EN2CS resegment=1 coref=treex-relat	
+11.54	5.1578	008	2015-08-07_14-50-19	Scen::EN2CS resegment=1 coref=treex-relat+other	
+11.48	5.1500	010	2015-08-07_15-06-11	Scen::EN2CS resegment=1 coref=bart+treex-relat	
+11.45	5.1390	011	2015-08-07_15-17-24	Scen::EN2CS resegment=1 coref=stanford+treex-relat	testing eval
