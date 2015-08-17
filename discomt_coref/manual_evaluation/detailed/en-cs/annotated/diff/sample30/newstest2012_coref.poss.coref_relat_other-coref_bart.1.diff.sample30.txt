@@ -1,0 +1,384 @@
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/002.streex##14.t_tree-en_src-s13-n518
+SRC_FORM: their
+TST_FORM: jejich
+SRC_SENT_2: However, our lifestyle is neither unique nor the best one and would not, most probably, be suitable for, for example, the people of Libya.
+SRC_SENT_1: In fact, it is a wonder that the Islamic fighters accepted help from the nonbelievers.
+SRC_SENT_0: Their only excuse is that from <their> point of view , NATO raids were not controlled by an American general , but Allah , the greatness of whom they celebrated with each strike .
+TST_SENT_2: Však náš styl je jedinečný, ani nejlepší jeden a nejpravděpodobněji by nebyl pro vhodné například, lidé z Libye.
+TST_SENT_1: Ve skutečnosti to je zázrak, že islámští bojovníci přijali pomoc od nevěřících.
+TST_SENT_0: Jejich jediná omluva je , z <jejich> místa pohledu NATO útoky nebyly ovládány americkým generálem , ale že Alláh sláva , jehož slavili s každým úderem .
+REF_SENT_2: Jenomže náš způsob života není ani jediný, ani objektivně nejlepší a nejspíše by pro změnu nevyhovoval třeba právě zmíněným Libyjcům.
+REF_SENT_1: Vlastně je s podivem, že islámští bojovníci vzali zavděk pomocí od nevěřících psů.
+REF_SENT_0: Omlouvá je jedině to, že z jejich pohledu neřídil nálety NATO nějaký generál z Ameriky, nýbrž Aláh, jehož velikost při každém povedeném zásahu oslavovali.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/006.streex##35.t_tree-en_src-s34-n1150
+SRC_FORM: their
+TST_FORM: jejich
+SRC_SENT_2: "Many participants from the survey control group showed a significant shift of preferences towards healthy food when completing a questionnaire after the end of the Obesity is No Accident educational lecture," project results show.
+SRC_SENT_1: This was quite significant, for example, in case of sweet soft drinks, where more children would begin to prefer plain water.
+SRC_SENT_0: In addition , for <their> main course , children ticked poultry and fish more often , limiting sweet meals and dumplings .
+TST_SENT_2: „Mnoho účastníků z kontrolní skupiny průzkumů ukázalo významný posun preferencí ke zdravému jídlu kdy celému dotazník po skončení obezity, není žádná vzdělávací přednáška nehody,“ výsledky projektů ukazují.
+TST_SENT_1: Bylo to docela významné, například by v případě sladkých alkoholických nápojů kde další děti začaly dávat čistou vodu.
+TST_SENT_0: Navíc pro <jejich> hlavní chod děti tikaly drůbež a rybu častěji , omezí sladká jídla a knedlíky .
+REF_SENT_2: "U kontrolní skupiny účastníků průzkumu, kteří vyplňovali dotazník po skončení osvětové přednášky Obezita není náhoda, nastal v řadě případů výrazný posun preferencí směrem k zásadám zdravé výživy," uvádí se ve výsledcích projektu.
+REF_SENT_1: Markantní to bylo například u sladkých limonád, kde by začalo víc dětí dávat přednost obyčejné vodě.
+REF_SENT_0: Děti rovněž mnohem častěji zaškrtly v dotazníku drůbež a rybu jako hlavní jídlo dne a omezily by sladká jídla a knedlíky.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/008.streex##74.t_tree-en_src-s73-n2706
+SRC_FORM: its
+TST_FORM: jeho
+SRC_SENT_2: You and your car get into a subway tunnel (let's say you do), where you speed down the tracks in the darkness (let's say you do).
+SRC_SENT_1: Your speedometer shows numbers from 150 to 200 km/h (let's say it does), when suddenly, a subway train comes running down from behind you, turning your car into a pile of scrap metal.
+SRC_SENT_0: For several days , our editorial staff kept discussing whether when designing the game no one thought for a moment or whether <its> authors really think we are such morons .
+TST_SENT_2: Vy a vaše auto jsou do podzemního tunelu (nechte říkat, máte), kde jste spee down stopy ve tmě (nechte říkat, máte).
+TST_SENT_1: Váš tachometr ukazuje čísla z na 150 200 hodiny (nechte říkat, dělá), kdy náhle vlak metra je, běží dolů zpoza vás, proměníš vaše auto v hromadu odpadního kovu.
+TST_SENT_0: Několik dní naši zaměstnanci úvodníku měli , diskutuje , ať kdy navrhne hru , nikdo nikdo nepřemýšlel chvíli nebo zda se <jeho> autoři skutečně domnívají , že jsme tito blbci .
+REF_SENT_2: Se svým vozem se dostanete do tunelu metra (budiž), kde si to ženete ve tmě po kolejích (budiž).
+REF_SENT_1: Na tachometru vám blikají čísla mezi 150 a 200 km/h (budiž) a v tom se zezadu přiřítí souprava metra a nekompromisně vás sešrotuje.
+REF_SENT_0: V redakci nám tak asi ještě na pár dní vydrží diskuse o tom, zda při tvorbě hry opravdu nikdo ani trochu nepřemýšlel, nebo zda nás autoři mají za opravdu tak velké blbce.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/011.streex##5.t_tree-en_src-s5-n1739
+SRC_FORM: its
+TST_FORM: jejímu
+SRC_SENT_2: Should someone search for the word that would best express the IMB strategy, the closest one would probably be "long-term."
+SRC_SENT_1: To the wide public, IMB is a symbol of technological revolution; the company is seen as a highly temporary one, yet it was founded over a hundred years ago.
+SRC_SENT_0: The company 's durability goes back to <its> first boss , a visionary , Thomas J . Watson Sr .
+TST_SENT_2: Mám někdo hledání slova, které by dobře vyjadřovalo IMB strategii, nejbližší by pravděpodobně byl „dlouhodobý“.
+TST_SENT_1: Pro širokou veřejnost IMB je symbol technologické revoluce; společnost je považována za vysoce dočasné a byla založena před sto lety.
+TST_SENT_0: Trvanlivost společnosti je zpět k visionářskému <jejímu> prvnímu šéfovi Thomasi J . Watsonovi Steradiánu .
+REF_SENT_2: Kdyby někdo hledal slovo, které nejpřesněji vyjádří strategii IBM, nejblíže by asi byla "dlouhodobost".
+REF_SENT_1: Pro širokou veřejnost je IBM symbolem technologické revoluce, je to firma vnímaná jako velmi současná, a přesto od jejího založení už uplynulo sto let.
+REF_SENT_0: Základ této dlouhodobosti položil první šéf firmy, vizionář Thomas J. Watson Sr.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/011.streex##44.t_tree-en_src-s41-n2273
+SRC_FORM: its
+TST_FORM: jeho
+SRC_SENT_2: During the same time, it has invested 58 billion dollars into purchasing of perspective technologies.
+SRC_SENT_1: It has continued the investments even after 2008, when the modern economic crisis first hit the world.
+SRC_SENT_0: IBM follows the legacy of <its> first director , Thomas J . Watson , who increased the amount of investments during the Great Depression .
+TST_SENT_2: Během stejné doby investovalo 58 miliard dolarů do nákupu perspektivních technologií.
+TST_SENT_1: Pokračovalo v investicích i po roce 2008, kdy moderní hospodářská krize poprvé zasáhla svět.
+TST_SENT_0: IBM následuje odkaz <jeho> prvního ředitele Thomase J . Watsona , který zvýšil množství investic během Velké krize .
+REF_SENT_2:  
+REF_SENT_1: V investicích pokračuje i od roku 2008, kdy se poprvé světem přehnala novodobá finanční krize.
+REF_SENT_0: IBM jedná podle odkazu svého prvního šéfa Thomase J. Watsona, který během velké hospodářské krize také zvýšil objem investic.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/011.streex##62.t_tree-en_src-s57-n2497
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: IBM, as its name suggests, started by producing and selling various business machines - from meat and cheese cutters to cash registers.
+SRC_SENT_1: During the first four years of Watson's leadership, the revenue doubled to nine million dollars, and company's vast expansion into all continents commenced.
+SRC_SENT_0: Watson became so essential for the company , that after nearly forty years , his position in the director 's chair was taken by <his> son , Thomas Watson Junior .
+TST_SENT_2: Jak IBM jeho název napovídá, začal, vyrábí a prodejem různých obchodních strojů - a masa sýra nástrojů rejstříkům pokladen.
+TST_SENT_1: Během prvních čtyř let vedení Watsona, příjem zdvojnásobil na devět miliónů dolarů a obrovská expanze společnosti do všech kontinentů začaly.
+TST_SENT_0: Watson se byl tak důležitý pro společnost , že po téměř čtyřiceti letech jeho postavení v křesle ředitele bylo přijato <jeho> synem Thomasem Watsonem mladým .
+REF_SENT_2: IBM, tak jak napovídá její název, začínala s výrobou a prodejem všemožných strojů pro byznys - od kráječů masa a sýra po pokladny.
+REF_SENT_1: Během prvních čtyř let, co Watson firmě šéfoval, se zdvojnásobil obrat na devět milionů dolarů a začala rozsáhlá expanze firmy do všech světadílů.
+REF_SENT_0: Watson byl pro firmu tak nepostradatelný, že skoro po čtyřiceti letech v šéfovském křesle jej vystřídal jeho syn, Thomas Watson Junior.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/014.streex##17.t_tree-en_src-s16-n964
+SRC_FORM: my
+TST_FORM: mé
+SRC_SENT_2: "I love playing with him."
+SRC_SENT_1: "I don't; want to say he's the best league player, but he's definitely among the best three," said Jágr, complimenting his center.
+SRC_SENT_0: `` I never thought that at the end of <my> career I would play with a hockey player like him . ''
+TST_SENT_2: „Miluji, hraju s ním.“
+TST_SENT_1: „; nechci říci, je nejlepší hráč ligy, ale je rozhodně mezi nejlepšími třemi,“ řekl Jágr, chválí jeho centrum.
+TST_SENT_0: „ Nikdy jsem nenapadl , že bych na konci <mé> kariéry hrál s hokejista hokejistou jako on . “
+REF_SENT_2: "Miluji s ním hrát."
+REF_SENT_1: "Nechci říkat, že je nejlepším hráčem v lize, ale určitě patří mezi nejlepší tři," ocenil Jágr svého centra.
+REF_SENT_0: "Nikdy by mě nenapadlo, že na konci své kariéry budu hrát s hokejistou jako je on."
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/016.streex##72.t_tree-en_src-s65-n4567
+SRC_FORM: its
+TST_FORM: jeho
+SRC_SENT_2: Paclík claims he would dare to manage the association.
+SRC_SENT_1: He refers to his skills from management of private companies; since last summer, he has been managing the Pilsen team that, with his support, celebrated its first league triumph in May.
+SRC_SENT_0: `` I have the strength to make the football environment change , to support <its> improvement . ''
+TST_SENT_2: Paclík tvrdí, dovolil by řídit asociaci.
+TST_SENT_1: Odkazuje na své schopnosti z řízení soukromých společností; protože loňské léto řídil plzeňský tým, s jeho podporou oslavila jeho první ligový triumf v květnu.
+TST_SENT_0: „ Mám sílu , je fotbalovou změnu prostředí podpořit <jeho> zlepšení . “
+REF_SENT_2: Paclík tvrdí, že by si na vedení asociace troufl.
+REF_SENT_1: Odvolává se na své schopnosti z řízení soukromých firem, od minulého léta šéfuje také Plzni, která s jeho podporou v květnu oslavila premiérový ligový triumf.
+REF_SENT_0: "Mám sílu na to, aby se ve fotbalovém prostředí něco změnilo, abych přispěl k jeho určité kultivaci."
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/016.streex##75.t_tree-en_src-s67-n4600
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: "To limit the influence of some interest groups that tend to influence the disciplinary and appeal board, leading to disgusting situations," Paclík said.
+SRC_SENT_1: He does not hide his antipathy for, e.g. Sparta's Director, Daniel Křetínský.
+SRC_SENT_0: One of <his> priorities would be the strengthening of relations between FAČR and the Czech Olympic Committee , with whose support he would lobby at the political top to get more money for sports from the lottery tax .
+TST_SENT_2: „K omezení vlivu některých zájmových skupin, které mají, ovlivňují disciplinární a odvolací komisi, vede k odporu situacím,“ řekl Paclík.
+TST_SENT_1: Neskrývá svou antipatii ředitele například Sparty Daniela Křetínského.
+TST_SENT_0: Jedna z <jeho> priorit by byly posilování vztahů mezi FAČR a Českým olympijským výborem s jehož podporou , kterou by lobboval v politické špičce , dostane další peníze sporty z daně loterie .
+REF_SENT_2: "Abych omezil vlivy některých zájmových skupin, které třeba mají tendenci ovlivňovat disciplinární a odvolací komisi, což zachází až do nechutných situací," uvedl Paclík, který netají své antipatie například ke sparťanskému šéfovi Danielu Křetínskému.
+REF_SENT_1:  
+REF_SENT_0: Za jednu z priorit by také považoval utužení vztahů FAČR s Českým olympijským výborem, s jehož pomocí by u politických špiček lobboval za to, aby se do sportu dostalo víc peněz z loterijní daně.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/016.streex##81.t_tree-en_src-s73-n4685
+SRC_FORM: my
+TST_FORM: mých
+SRC_SENT_2: Pelta is connected to Jablonec, and Rajchl to Prague Dukla.
+SRC_SENT_1: "It's not ideal."
+SRC_SENT_0: `` Yet , I do n't see a point in transferring <my> shares in the Pilsen club hypocritically to someone else , while coming back there in six months , `` Paclík says .
+TST_SENT_2: Pelta je připojen k Jablonci a Rajchl Praha Duklu.
+TST_SENT_1: „Není to ideální.“
+TST_SENT_0: „ Ještě nevidím bod při převodu <mých> podílů v plzeňském klubu pokrytecky někomu ještě , zatímco tam je zpět v šesti měsících , říká „ Paclík .
+REF_SENT_2: Pelta je zase spojený s Jabloncem, Rajchl s pražskou Duklou.
+REF_SENT_1: "Není to ideální."
+REF_SENT_0: "Nevidím ale ani smysl v tom, abych na někoho pokrytecky převáděl své akcie v plzeňském klubu a za rok a půl se tam vracel," uvedl Paclík.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/016.streex##104.t_tree-en_src-s94-n5024
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: "This is too, is why some of them now doubt his true character," Pelta said about his rival.
+SRC_SENT_1: Pelta himself claims to be true to the proclamations he announced in September.
+SRC_SENT_0: He sees <his> strongest weapon in knowledge of football , from the lowest competitions to representation .
+TST_SENT_2: „Je to tak, je, proč někteří z nich nyní pochybují o jeho pravém charakteru,“ řekl Pelta o jeho soupeři.
+TST_SENT_1: Sám Pelta tvrdí, že je věrný proklamacím, které oznámil v září.
+TST_SENT_0: Vidí <jeho> nejsilnější zbraň ve znalosti fotbalu z nejnižších soutěží do reprezentace .
+REF_SENT_2: "I proto řada z nich nyní pochybuje o jeho skutečném charakteru," řekl na protivníkovu adresu Pelta, jenž prý zůstává věrný proklamacím, které oznámil už v září.
+REF_SENT_1:  
+REF_SENT_0: Jeho nejsilnější zbraní je podle něj znalost fotbalu od nejnižších soutěží až po reprezentaci.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/016.streex##127.t_tree-en_src-s116-n5372
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: Critical atmosphere in football movement supposedly made him doubt his candidature.
+SRC_SENT_1: "I'm known to work 20 hours a day."
+SRC_SENT_0: `` But I need to know if it has any sense ; and that I wo n't be surrounded by people throwing sticks under my feet and question my every move , '' he explained <his> hesitation .
+TST_SENT_2: Kritická atmosféra ve fotbalovém pohybu údajně byla pochybovat o jeho kandidatuře.
+TST_SENT_1: „Poznán jsem, pracuji 20 hodin za den.“
+TST_SENT_0: „ Ale potřebuji vědět , jestli nemá žádný smysl , ; a přeji si , nejsem , , neobklopoval jsem lidmi , kteří házejí klacky pod mé nohy a že nezpochybňuji můj každý krok , “ vysvětlil <jeho> váhání .
+REF_SENT_2: Kvůli kritické atmosféře ve fotbalovém hnutí prý uvažoval o tom, že znovu kandidovat nebude.
+REF_SENT_1: "O mně se ví, že dělám 20 hodin denně."
+REF_SENT_0: "Ale potřebuju vědět, že to bude mít smysl a že za sebou nebudu mít lidi, kteří mi budou neustále házet klacky pod nohy a zpochybňovat každý můj krok," vysvětlil, proč váhal.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/025.streex##32.t_tree-en_src-s29-n995
+SRC_FORM: its
+TST_FORM: jeho
+SRC_SENT_2: The bank primarily plans to bolster its capital quota with the net profit from the sale to meet tougher regulations.
+SRC_SENT_1: The aircraft manufacturer Boeing gained, limiting losses on the Dow.
+SRC_SENT_0: The share price went up 1.5 percent after the corporation picked up the biggest order in <its> history .
+TST_SENT_2: Banka především plánuje podpořit jeho kapitálovou kvótu s čistým ziskem z prodeje, splní tvrdší předpisy.
+TST_SENT_1: Výrobce letadel Boeing získal, omezí ztráty z Dow.
+TST_SENT_0: Cena akcií šla nahoru 1,5 procenta poté , co společnost zvedla , největších objednávek v <jeho> historii .
+REF_SENT_2: Institut chce čistým ziskem z obchodu především vyplnit svou kapitalovou kvótu a tak dostát tvrdším regulačním požadavkům.
+REF_SENT_1: Výrobce letadel Boeing mírně stoupl a snížil tak ztráty v Dow.
+REF_SENT_0: Akcie získala 1,5 procenta, když koncern posbíral největší zakázku svých dějin.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/031.streex##4.t_tree-en_src-s4-n1389
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: Peter Englund's intense and bighearted new book, "The Beauty and the Sorrow: An Intimate History of the First World War," begins with a long dramatis personae of the sort that can make your heart sink. 
+SRC_SENT_1: Here is advice for proceeding: Gently excise this page and make it your bookmark.
+SRC_SENT_0: You will be getting to know these people very well in Mr. Englund 's novelistic telling , and this dramatis personae will function as your GPS , a beacon during those few moments when , like one of <his> men and women , you are confused and bereft in the fog of war .
+TST_SENT_2: Intenzivní a bighearted nová kniha Petera Englunda „a krásy smutku: intimní historie první světové války“ začíná dlouhým dramatis obsazením druhu, který může být váš dřez srdce.
+TST_SENT_1: Zde je rada pro řízení: jemně spotřební tato stránka a buďte vaše záložka.
+TST_SENT_0: Budete , znáte tyto lidi velmi dobře v novelistické telling pana Englunda a toto dramatis obsazení bude působit jako váš GPS maják průběh těch několika okamžiků kdy jako jeden z <jeho> mužů a žen , jste , zmatených a zbavil jsi , v mlze války .
+REF_SENT_2: Emočně silná nová kniha Petera Englunda s názvem Krása a zármutek: Důvěrná historie první světové války (The Beauty and the Sorrow: An Intimate History of the First World War) začíná tak dlouhým seznamem vystupujících postav, až se vám z toho zatočí hlava.
+REF_SENT_1: Jedna rada, jak se v tu chvíli zachovat: Opatrně tuhle stránku vytrhněte a udělejte si z ní záložku.
+REF_SENT_0: Se všemi osobami se totiž v románovém vyprávění pana Englunda velmi dobře seznámíte a tento seznam vám bude sloužit jako navigace - jako jakýsi maják - ve chvílích, kdy se stejně jako muži a ženy v příběhu budete cítit zmatení a ztracení v různých situacích.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/031.streex##41.t_tree-en_src-s40-n1948
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: Other observations are about an old Europe falling away, and about new types of terror.
+SRC_SENT_1: "The conflict has increasingly become an economic competition," Mr. Englund writes, "a war between factories."
+SRC_SENT_0: He catches the arrival of what he calls `` a new species in the bestiary of the young century : the articulate and ideologically convinced mass murderer in well-cut clothes who performs <his> butchery while sitting behind a desk . ''
+TST_SENT_2: Další pozorování jsou asi stará Evropa, klesá pryč a o nových typech teroru.
+TST_SENT_1: „Konflikt se stále byl hospodářskou soutěží,“ píše pan Englund „Válku mezi továrnami“.
+TST_SENT_0: Chytá příchod , čemu říká „ nové druhy v bestiary mladého století : artikulované a ideologicky přesvědčeného masového vraha v dobře vyjme oblečení , který vykonává <jeho> řeznictví při sezení za stolem . “
+REF_SENT_2: Další poznámky se týkají odchodu staré Evropy a nástupu nových hrůz.
+REF_SENT_1: "Konflikt se čím dál více stával ekonomickou soutěží a konkurenčním bojem," píše pan Englund, "válkou mezi továrnami."
+REF_SENT_0: Zachytil to, čemu říká "nový druh bestie nastupujícího století: výřečný a ideologicky zapřisáhlý masový vrah v šatech střižených na míru, který svá krveprolití provádí, aniž by vstal od stolu."
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/038.streex##3.t_tree-en_src-s3-n1230
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: Walls Have Eyes: How Researchers Are Studying You on Facebook
+SRC_SENT_1: Before he became the new face of right-wing extremism in Europe, Anders Behring Breivik was just another guy airing his anti-immigration views online.
+SRC_SENT_0: On Monday , Breivik , who admitted to a killing spree in Norway in July which left 77 people dead , faced <his> first public court hearing .
+TST_SENT_2: Zdi mají oči: jak vás pracovníci zkoumají o Facebook
+TST_SENT_1: Než se stal novou tváří pravicového extremismu v Evropě, Anders Behring Breivik byl jen další chlap vzduchem, jeho protiimigrační názory online.
+TST_SENT_0: V pondělí Breivik , který přiznal zabíjející horečku v Norsku v červenci , která zanechala 77 lidí mrtvá , čelil <jeho> prvnímu veřejnému soudnímu sluchu .
+REF_SENT_2: Zdi mají oči: Jak vás vědci zkoumají na Facebooku
+REF_SENT_1: Než se Anders Behring Breivik stal novou tváří pravicového extremismu v Evropě, byl jen dalším mladým mužem, který své protipřistěhovalecké názory prezentoval na internetu.
+REF_SENT_0: V pondělí se Braivik, který se přiznal k červencovému vraždícímu běsnění, po němž zbylo v Norsku 77 mrtvých, zúčastnil svého prvního veřejného soudního slyšení.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/039.streex##2.t_tree-en_src-s2-n519
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_1: "Cold and Inhuman": Anders Behring Breivik Makes First Public Court Appearance
+SRC_SENT_0: Anders Behring Breivik , the man who confessed to masterminding twin attacks that killed 77 people in Norway this summer , has described himself as a `` resistance '' fighter during <his> first public court appearance in Oslo .
+TST_SENT_1: „Chlad a krutý“: Anderse Behringa Breivik dělá Prvního veřejného Kurta vzhled
+TST_SENT_0: Anders Behring Breivik , muž , který se přiznal , že mastermind dva útoky , které zabily 77 lidí v Norsku toto léto , se popsal jako bojovník „ odporu “ během <jeho> prvního veřejného soudního vystoupení v Oslu .
+REF_SENT_1: "Chladný a nelidský": Anders Behring Breivik se účastní svého prvního veřejného soudního přelíčení
+REF_SENT_0: Anders Behring Breivik, muž, který se přiznal k zosnování dvou útoků, během nichž bylo letos v létě v Norsku zabito 77 lidi, během svého prvního veřejného soudního slyšení v Oslu sám sebe popsal jako bojovníka "odboje".
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/043.streex##12.t_tree-en_src-s11-n668
+SRC_FORM: her
+TST_FORM: jejího
+SRC_SENT_2: The PRI is hoping to win the presidential election in July.
+SRC_SENT_1: Vallejo appears to have only narrowly edged out Calderon, who had led polls before election day.
+SRC_SENT_0: Calderon , a candidate for <her> brother 's conservative National Action Party , or PAN , refused to recognize Vallejo as the winner .
+TST_SENT_2: PRI doufá, že vyhraje prezidentskou volbu v červenci.
+TST_SENT_1: Vallejo se zdá, že má, jen těsně okraji Calderóna, který vedl průzkumy před dnem voleb.
+TST_SENT_0: Calderón , kandidát konzervativní Národní akční strany <jejího> bratra nebo PAN , odmítl uznat Valleja za vítěze .
+REF_SENT_2: Strana PRI doufá, že zvítězí i v červenci v prezidentských volbách.
+REF_SENT_1: Zdá se, že Vallejo porazil Calderonovou, která ještě den před volbami vedla, jen velmi těsně.
+REF_SENT_0: Calderonová, kandidátka za konzervativní stranu svého bratra National Action Party, neboli PAN, odmítla Vallejona uznat jako vítěze.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/046.streex##46.t_tree-en_src-s45-n1653
+SRC_FORM: their
+TST_FORM: jejich
+SRC_SENT_2: This renders the answer perceptual rather than factual and is often a red flag.
+SRC_SENT_1: There's no magic bullet for detecting lies, but developing skills to ferret out deception is possible.
+SRC_SENT_0: These skills will enhance anyone 's chances of avoiding victimization by scam artists in <their> professional and personal lives .
+TST_SENT_2: Je to odpověď vjemová než faktická a je často červená vlajka.
+TST_SENT_1: Není žádná kouzelná kulka pro zjišťování lží, ale rozvoj, který dovednosti vyčenichají, podvod je možný.
+TST_SENT_0: Tyto dovednosti zlepší šance někoho vyhnout se pronásledování podvod umělců v <jejich> profesních a osobních životech .
+REF_SENT_2: V takové odpovědi se příliš faktů nedozvíme a často jde o další varovný signál.
+REF_SENT_1: Neexistuje žádné kouzlo, kterým by se dala odhalit každá lež, ale je možné si osvojit dovednosti, pomocí nichž se dá lež vyslídit.
+REF_SENT_0: Pomocí těchto dovedností bude mít člověk větší šanci, že ve svém osobním i pracovním nenaletí nějakému lháři a podvodníkovi.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/048.streex##2.t_tree-en_src-s2-n553
+SRC_FORM: their
+TST_FORM: své
+SRC_SENT_1: Patti LaBelle Sued for Allegedly Causing Toddler to Vomit out of Fear
+SRC_SENT_0: A New York family claims that disco diva Patti LaBelle launched into a rampage in the lobby of <their> Manhattan building , terrifying their toddler daughter to the point where she threw up in fear .
+TST_SENT_1: Patti LaBelle Suedová pro Allegedly Causing Toddler zvratek ze strachu
+TST_SENT_0: Rodina New Yorků tvrdí , že diskotéka Divo Patti LaBelleová spustila do řádění v hale <své> manhattanské budovy , děsí jejich batole dceru na bod , kde zvracela strach .
+REF_SENT_1: Patti LaBelle je obviněna z toho, že se kvůli ní batole pozvracelo strachy
+REF_SENT_0: Newyorská rodina tvrdí, že zpěvačka Patti LaBelle zuřivě vtrhla do vestibulu jejich manhattanského domu a vyděsila jejich dceru tak, že ta se z toho strachy pozvracela.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/048.streex##5.t_tree-en_src-s5-n628
+SRC_FORM: their
+TST_FORM: své
+SRC_SENT_2: The "Lady Marmalade" singer's tirade frightened 18-month-old Genevieve Monk so badly that she suffered "personality changes, sleep disorder" and "increased fear of strangers," her family says in the Manhattan Supreme Court suit.
+SRC_SENT_1: It was Nov. 10 of last year when stagehand Kevin Monk, his kindergarten-teacher wife, Roseanna, and Genevieve were getting ready to go on a family trip.
+SRC_SENT_0: While Kevin Monk got the car , Roseanna Monk came down to the lobby of <their> Riverside Boulevard building with their luggage , carrying Genevieve .
+TST_SENT_2: Tiráda „marmeláda“ zpěvačky Lady děsila 18 starou měsíce Genevieve Mnichovou tak špatně že, trpěla „změny osobností, porucha spánku“ a „zvýšená obava z cizinců,“ říká její rodina v Manhattanském obleku nejvyššího soudu.
+TST_SENT_1: Byl to nov. 10 loňského roku, kdy, kulisák Kevin Monk, jeho manželka učitele školky, Roseanna a Genevieve se připravila, aby šla na rodinný výlet.
+TST_SENT_0: Zatímco Kevin Mnich měl auto , Roseanna Mnichová přijela do haly <své> Riverside budovy bulváru s jejich zavazadlem , nese Genevieve .
+REF_SENT_2: Výstup zpěvačky hitu "Lady Marmalade" vystrašil osmnáctiměsíční Genevieve Monk tak moc, že utrpěla "změny osobnosti, poruchu spánku" a "zvýšený strach z cizích lidí," tvrdí její rodina v žalobě podané k Manhattanskému nejvyššímu soudu.
+REF_SENT_1: 10. listopadu loňského roku se jevištní technik Kevin Monk, jeho manželka Roseanna, učitelka ve školce, a Genevieve chystali na rodinný výlet.
+REF_SENT_0: Když Kevin Monk přistavil auto, Roseanna Monková sešla se zavazadly dolů do vestibulu jejich domu v části Riverside Boulevard a nesla s sebou i Genevieve.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/052.streex##10.t_tree-en_src-s10-n859
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: With this argument, both the Senate and the Chamber of Deputies promoted two constitutional controversies to contradict the decree, and to support the claims, the minister Sánchez Cordero suspended the application of the decree and all actions stipulated there regarding the digital transition.
+SRC_SENT_1: At the ministers" meeting there was also decided to reject the claim filed by the Chamber of Deputies, without entering into the discussion of the project, also in charge of the minister Sánchez Cordero.
+SRC_SENT_0: In <his> speech , the minister said he did not agree with the arguments of the project in the sense that the federal executive can not structure through general rules the measures for the public administration to get prepared .
+TST_SENT_2: S tímto argumentem Senát a Komora sněmovny podpořily dva ústavní spory, aby odporoval rozhodnutí a na podporu tvrzení ministr Sánchez Cordero pozastavil uplatňování výnosu a všechny akce tam stanovily, jdou o digitální přechod.
+TST_SENT_1: Na ministrech“ schůzka být byla rozhodnuta odmítnout nárok podaný Komora sněmovny, aniž vstupují do diskuse o projektu také do starosti ministra Sáncheze Cordero.
+TST_SENT_0: V <jeho> projevu ministr řekl , nesouhlasil s argumenty projektu v smyslu , že federální exekutiva nemůže strukturovat obecnými pravidly , aby opatření pro veřejnou správu byla , připravila .
+REF_SENT_2: S tímto argumentem jak Senát, tak Poslanecká sněmovna podpořili ústavní spor ve snaze bojovat proti dekretu. Ministryně Sánchez Cordero přijala požadavky a pozastavila uplatňování dekretu a všech akcí v něm popsaných, vedoucích k přechodu k digitalizaci.
+REF_SENT_1: Schůze ministrů se také rozhodla odmítnout žalobu podanou Poslaneckou sněmovnou, aniž by vstoupila do diskuze o návrhu, který má na starosti rovněž ministryně Sánchez Cordero.
+REF_SENT_0: Ve svém vystoupení ministerský předseda prohlásil, že se neztotožňuje s argumenty návrhu v tom smyslu, že federální exekutiva nemůže strukturovat prostřednictvím obecných norem opatření k tomu, aby se připravila veřejná správa.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/054.streex##9.t_tree-en_src-s9-n847
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: At 5:30 in the afternoon he received the reconnaissance of the Technological Institute of Saltillo organized by his former high school classmates and the football team, that Felipe Bacio was a part of, during his high school preparation.
+SRC_SENT_1: "His wish was to return to Saltillo, and his ashes to be spread in the mountains of Zapalinamé, he always said this to his family and friends," this is what was announced by Sandra Cortes Bacio the sister of the pilot.
+SRC_SENT_0: For her , the lieutenant colonel had fulfilled all his dreams , she considers that he was at the height of <his> life , `` he was a successful man , an extraordinary father , son , and a loving brother and devoted to his family . ''
+TST_SENT_2: V 5:30 v odpoledni dostal průzkum Technologického institutu Saltillo, který organizoval jeho bývalí střední škola spolužáci a fotbalový tým, Felipe Bacio byl část během své přípravy střední školy.
+TST_SENT_1: „Jeho přání se bylo vrátit do Saltillo a jeho popel, jsou rozšiřovány v horách Zapalinamé, to vždy řekl on, rodině a přátelům,“ je to, byl oznámeno Sandrou Cortesovou Bacio sestru pilota.
+TST_SENT_0: Pro ni podplukovník podplukovník splnil všechny jeho sny , považuje , že byl na vrcholu <jeho> života , „ byl úspěšný muž , mimořádný otec , syn a milující bratr a věnoval jeho rodině . “
+REF_SENT_2: V 5:30 odpoledne proběhlo rozloučení v Technologickém institutu v Saltillo, které zorganizovali jeho bývalí spolužáci z technologické střední školy a členové týmu amerického fotbalu, jehož byl Felipe Bacio v době přípravy na maturitu také členem.
+REF_SENT_1: "Chtěl se vrátit do Saltilla a jeho přáním bylo, aby jeho popel byl rozptýlen v pohoří Zapalinamé. Takto to vždy říkal své rodině a přátelům", uvedla Sandra Bacio Cortés, pilotova sestra.
+REF_SENT_0: Podle ní si podplukovník splnil všechna přání, byl na vrcholu života, "byl to báječný muž, mimořádný otec, syn, milující bratr žijící pro svou rodinu".
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/056.streex##10.t_tree-en_src-s10-n1015
+SRC_FORM: its
+TST_FORM: jeho
+SRC_SENT_2: Monti did not say explicitly that he could form a government but the tone of his comments indicated that the obstacles had been overcome.
+SRC_SENT_1: The "framework is now well delineated," he said.
+SRC_SENT_0: Monti has completed the process of forming a government in less than three days , much less than the normal , while Italy fought a political and financial crisis that has driven the cost of <its> debt to unsustainable levels .
+TST_SENT_2: Monti neřekl výslovně, že by mohl tvořit vládu, ale tón svých komentářů naznačoval, že překážky byly překonány.
+TST_SENT_1: „Rámec nyní dobře je vylíčen,“ řekl.
+TST_SENT_0: Monti dokončil proces vytvořit vládu v méně než tři dnech mnohem méně než normální , zatímco Itálie bojovala s politickou a finanční krizí , která poháněla náklad na <jeho> dluh do udržitelných úrovní .
+REF_SENT_2: Monti explicitně neřekl, že bude moci vytvořit vládu, ale tón jeho komentářů naznačoval, že překážky jsou překonány.
+REF_SENT_1: "Rámec je nyní dobře vyznačený", dodal.
+REF_SENT_0: Monti dokončil proces vytváření vlády za necelé tři dny, tedy v mnohem kratší době než je obvyklé. Mezitím se Itálie snaží bojovat proti politické a finanční krizi, kvůli které se výše dluhu vyšplhala na neudržitelnou úroveň.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/062.streex##4.t_tree-en_src-s4-n339
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: President Alvaro Colom said on Tuesday that the extradition process of the ex leader Alfonso Portillo has begun in order to respond in the United States of laundering $ 70 million.
+SRC_SENT_1: Thus ends the process for Guatemala to respond to the request of north country that claimed for Portillo to judge him there.
+SRC_SENT_0: At a press conference , Colom said that <his> decision is according to the independence of judiciary and executive powers , taking into account that a trial court had already ordered the extradition .
+TST_SENT_2: Prezident Alvaro Colom řekl v úterý, že proces osoby ex vůdce Alfonsa Portilla začal, reagujte ve Spojených státech prát 70 miliónů dolarů.
+TST_SENT_1: Tak končí proces, Guatemala reaguje na požadavek severní země, který tvrdil na Portilla, že ho tam soudí.
+TST_SENT_0: Na tiskové konferenci Colom řekl podle nezávislosti <jeho> rozhodnutí soudní a výkonné moci , která vezme v úvahu , že soudní soud už nařídil vydání .
+REF_SENT_2: Prezident Álvaro Colom v úterý oznámil, že postoupil kroky v otázce vydání bývalého prezidenta Alfonse Portilla, který se má ve Spojených státech zodpovídat ze spiknutí za účelem praní 70 milionů amerických dolarů.
+REF_SENT_1: Takto končí proces, jehož cílem bylo, aby Guatemala odpověděla na žádost severní země, která požaduje vydání Portilla, aby ho mohla soudit.
+REF_SENT_0: Na tiskové konferenci Colom potvrdil, že jeho rozhodnutí je v souladu s nezávislostí soudní a výkonné moci a že má na paměti, že trestní soud již nařídil vydání.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/068.streex##15.t_tree-en_src-s15-n1213
+SRC_FORM: its
+TST_FORM: její
+SRC_SENT_2: Cruz Lopez said that this research reflects the concern of health professionals for the alarming weight gain in children.
+SRC_SENT_1: Health Surveys made between 1999 and 2006 reported that in only six years there was an increase in the case of the boys, 77 percent were obese, and 47 percent in the case of the girls; in terms of overweight there was also observed a dramatic rise, "said the specialist of the MSSI.
+SRC_SENT_0: He said the justification for searching the markers is based on that the population of the country differs from other in <its> genetic history .
+TST_SENT_2: Cruz Lopez řekl, že tento výzkum odráží zájem zdravotnických odborníků na alarmující přírůstek hmotnosti dětí.
+TST_SENT_1: Průzkumy zdraví, které byly mezi rokem 1999 a rokem 2006, oznámily, že v pouze šesti letech bylo zvýšení případu chlapců, 77 procent, bylo obézní a 47 procent v případě dívek; v dobách nadváha, byla také, pozorovala dramatický nárůst, řekl „odborník MSSI.
+TST_SENT_0: Řekl , ospravedlnění pro vyhledávání značek je založeno , populace země se liší od jiného v <její> genetické historii .
+REF_SENT_2: Cruz López uvedl, že tento výzkum odráží znepokojení zdravotníků nad alarmujícím nárůstem dětské váhy.
+REF_SENT_1: 'Zdravotní ankety realizované mezi lety 1999 a 2006 ukázaly, že za pouhých šest let došlo pouze u chlapců k nárůstu obezity o 77% a u dívek o 47%. K dramatickému nárůstu došlo také v případě nadváhy', uvedl odborník z IMSS.
+REF_SENT_0: Uvedl, že jedním z důvodů hledání ukazatelů je domněnka, že obyvatelstvo země se liší od ostatních populací svou genetickou historií.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/069.streex##4.t_tree-en_src-s4-n882
+SRC_FORM: his
+TST_FORM: jeho
+SRC_SENT_2: Rafael Herrera, a researcher at the Faculty of Chemistry of UNAM, develops polymer-modified asphalt to produce a mixture with the best performance, regardless of the environmental conditions and temperature
+SRC_SENT_1: If the signals sent by the road surface were attended, it would be necessary to repair about 200 thousand potholes every rainy season in the Metropolitan Area of Valley of Mexico, said Rafael Herrera Najera, a researcher at the Chemistry Faculty (CF) of the UNAM, who said that if the process of construction and maintenance of an asphalt pavement is adequate, the potholes could be reduced or even completely eliminated.
+SRC_SENT_0: In <his> lecture A technological view of the pothole , issued under the International Year of Chemistry , announced that the laboratory he is responsible for is developing a polymer modified asphalt to produce a mixture with characteristics similar to the asphalt , but with a better mechanical strength , both at high and low temperatures .
+TST_SENT_2: Rafael Herrera, pracovník z fakulty chemie UNAM, rozvíjí modifikovaný polymeru asfalt, vytvoří směs s nejlepším výkonem nezávisle životní podmínky a teplota
+TST_SENT_1: Pokud signály odeslané povrchem vozovky byly dány, bylo by nutné opravit asi 200 tisíc výmolů každé deštivé období v Metropolitní oblasti údolí Mexika, řekl Rafael Herrera Najera, pracovník z chemické fakulty (CF) UNAM, který řekl, že, kdyby proces budování a údržby asfaltového chodníku byl dostatečný, výmoly mohou, buďte, snížili jste nebo i jste zcela vyloučili.
+TST_SENT_0: V <jeho> přednášce technologický pohled výmolu vystaveného podle mezinárodního roku chemie oznámil , laboratoř , kterou je zodpovědný , vyvíjí polymer modifikovaný asfalt , vytvoří směs s charakteristikami podobnými asfaltu , ale s lépe mechanickou silou na obou vysokých a nízkých teplotách .
+REF_SENT_2: Rafael Herrera, vědec z Chemické fakulty UNAM vytváří modifikované asfalty s polymery a vytváří tak směs mající lepší funkčnost, nezávisle na klimatických podmínkách a teplotě
+REF_SENT_1: Kdyby se správně pečovalo o dláždění, nebylo by třeba opravovat téměř 200 tisíc výmolů po každém období dešťů v Metropolitní oblasti Valle de México, upozornil Rafael Herrera Nájera, vědec z Chemické fakulty (FQ) z UNAM, který zároveň dodal, že kdyby konstrukce a údržba asfaltových dláždění byla adekvátní, došlo by k významnému omezení výmolů, nebo dokonce by bylo možné je zcela odstranit.
+REF_SENT_0: Ve své přednášce Technologická příčina výmolů, kterou pronesl v rámci Mezinárodního roku chemie, oznámil, že laboratoř pod jeho vedením vyvíjí modifikované asfalty s polymery, čímž by měla vzniknout směs mající podobné charakteristiky jako asfalt, ale zároveň větší mechanickou odolnost, a to jak při nízkých, tak při vysokých teplotách.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/074.streex##16.t_tree-en_src-s16-n868
+SRC_FORM: their
+TST_FORM: jejich
+SRC_SENT_2: With a stronger currency, the products are more expensive abroad, a serious slap for a country whose economic line is determined by the health of large technological groups.
+SRC_SENT_1: Toyota or Sony, for example, blamed the yen for their weak results between July and September.
+SRC_SENT_0: As markets continue <their> siege of the peripheral countries of the EU , the Government of Yoshihiko Noda does not lower the guard .
+TST_SENT_2: Se silnější měnou produkty jsou dražší zahraničí vážná facka pro zemi, jejíž ekonomická čára je určována zdravím velkých technologických skupin.
+TST_SENT_1: Toyota nebo Sony například vinila jen jejich slabé výsledky červencem a mezi zářím.
+TST_SENT_0: Jak trhy pokračují v <jejich> obléhání periferních zemí EU , Vláda Yoshihiko Nody nesnižuje stráž .
+REF_SENT_2: Se silnější měnou jsou produkty v zahraničí dražší, což je negativní pro zemi, jejíž ekonomika je určována finančním zdravím velkých technologických skupin.
+REF_SENT_1: Například Toyota nebo Sony přičítaly své slabé výsledky v červenci až v září právě kurzu yenu.
+REF_SENT_0: Zatímco trhy i nadále obléhají okrajové země EU, vláda Yoshihiko Noda je obezřetná.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/089.streex##7.t_tree-en_src-s7-n1197
+SRC_FORM: their
+TST_FORM: své
+SRC_SENT_2: It is healthy that an electoral rendezvous should be an occasion for reflecting on such stakes and the place occupied by nuclear power.
+SRC_SENT_1: The debate will not be fruitful, unless it explores all the economic, social and environmental consequences of the proposed options.
+SRC_SENT_0: The French must base <their> opinion on the objective facts of rational data .
+TST_SENT_2: Je to zdravé, že by volební setkání mělo být příležitost, že přemýšlí o těchto podílech a místě, které zaujímalo jaderná energie.
+TST_SENT_1: Debata nebude plodná, pokud nezkoumá všechny ekonomické, sociální a ekologické důsledky navrhovaných možností.
+TST_SENT_0: Francouzština musí založit <své> stanovisko k objektivním skutečnostem racionálních údajů .
+REF_SENT_2: Je přirozené, aby setkání při volbách bylo příležitostí k přemýšlení o takových vkladech a o místě, které zaujímá energie z jádra.
+REF_SENT_1: Debata bude úspěšná jenom tehdy, když se prozkoumají všechny ekonomické, sociální a environmentální důsledky navrhovaných možností.
+REF_SENT_0: Francouzi musejí založit svůj postoj na objektivních skutečnostech a racionálních údajích.
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/091.streex##4.t_tree-en_src-s4-n837
+SRC_FORM: its
+TST_FORM: jeho
+SRC_SENT_2: Democracy is a precious possession; it is also a fragile one.
+SRC_SENT_1: The European continent should be able to remember that having invented it in Athens over two thousand years ago, it experienced during the XXth century the tragedies of the World War, of totalitarisms, the Holocaust, the gulag, but also Franco in Spain, Salazar in Portugal and the colonels in Greece.
+SRC_SENT_0: Some believed that it was enough for democracy to finally triumph over <its> enemies , to exercise the vote , and to do so as directly as possible .
+TST_SENT_2: Demokracie je cenný majetek; je to také křehká.
+TST_SENT_1: Evropský kontinent by měl pamatovat, že, vynalezl ho v Aténách před dvěma tisíci lety, zažil během xxth století tragédie světové války totalitarism, ale v holocaustu gulag také Franca ve Španělsku, Salazara v Portugalsku a v plukovnících Řecka.
+TST_SENT_0: Některý věřil , že to bylo dost pro demokracii , konečně zvítězí nad <jeho> nepřáteli , , vykonává hlasování a že dělá tak co přímo jako možný .
+REF_SENT_2: Demokracie je vzácné a taky velmi křehké zboží.
+REF_SENT_1: Evropský kontinent by si na to měl vzpomenout, vždyť přesto, že ji v Aténách před dvěma tisíci let vymyslel, zažil v průběhu XX. století tragédie světových válek, totalitních režimů, holokaustu, gulagů, ale též Franca ve Španělsku, Salazara v Portugalsku a plukovníky v Řecku.
+REF_SENT_0: Někteří lidé mohli věřit, že k tomu, aby demokracie definitivně triumfovala nad svými nepřáteli, bude stačit provádět volbu a provádět ji co nejpřímějším způsobem.

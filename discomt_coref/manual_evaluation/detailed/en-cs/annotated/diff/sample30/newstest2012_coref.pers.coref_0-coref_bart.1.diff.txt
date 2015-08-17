@@ -1,0 +1,419 @@
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/006.streex##10.t_tree-en_src-s9-n826
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: However, this concerns a majority of families of current schoolchildren - only 15% of the children said their parents find time for sports activities at least once a week.
+SRC_SENT_1: The research was performed among 900 children.
+SRC_SENT_0: The research took place at the end of last year 's school year ; <it> included almost 900 elementary school children from throughout Bohemia .
+TST_SENT_2: Však se týká většinu rodin současných školáků - pouze 15 % dětí řeklo, jejich rodiče jdou čas na sportovní aktivity nejméně jednou v týdnu.
+TST_SENT_1: Výzkum byl prováděn mezi 900 dětmi.
+TST_SENT_0: Výzkum proběhl na konci loňského školního roku; byl téměř 900 základní škola dětí z Čech.
+REF_SENT_2:  
+REF_SENT_1: Průzkum mezi 900 dětmi
+REF_SENT_0: Průzkum se uskutečnil na konci loňského školního roku a zúčastnilo se ho bezmála 900 dětí ze základních škol z celého Česka.
+ANNOT:+
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/008.streex##60.t_tree-en_src-s59-n2470
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: Obviously, your rival has to get in front of you no matter what.
+SRC_SENT_1: The thing is that when he is driving in front of you, he makes your vision worse, which causes you to crash the car a few times in the section.
+SRC_SENT_0: One can understand the attempt at making the game more interesting and adrenalin-filled , but it is so obvious <it> gets annoying quickly .
+TST_SENT_2: Samozřejmě váš soupeř nemusí být před vámi žádná věc co.
+TST_SENT_1: Je to, že, když jede před vámi, je horší vaši vizi, která způsobuje, že havarujete auto několik dob v sekci.
+TST_SENT_0: Jeden může rozumět pokusu být hru více, zajímavou a plnou adrenalinu, ale je tak jasná, že je, otravuje rychle.
+REF_SENT_2: Protivník se tam před vás musí dostat zjevně snad za jakoukoliv cenu.
+REF_SENT_1: Když jede před vámi, tak vám totiž zhoršuje přehled o protijedoucích vozech, takže se tam zpočátku asi párkrát pěkně rozmašírujete.
+REF_SENT_0: Dá se pochopit záměr udělat hru napínavější a adrenalinovější, ale provedení je tak zjevné, že vás to spolehlivě rychle znechutí.
+ANNOT:-
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/011.streex##4.t_tree-en_src-s4-n1731
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: The IMB Innovator Starts the Second Century of Its Existence
+SRC_SENT_1: Should someone search for the word that would best express the IMB strategy, the closest one would probably be "long-term."
+SRC_SENT_0: To the wide public , IMB is a symbol of technological revolution ; the company is seen as a highly temporary one , yet <it> was founded over a hundred years ago .
+TST_SENT_2: IMB inovátor začíná Druhé století své existence
+TST_SENT_1: Mám někdo hledání slova, které by dobře vyjadřovalo IMB strategii, nejbližší by pravděpodobně byl „dlouhodobý“.
+TST_SENT_0: Pro širokou veřejnost IMB je symbol technologické revoluce; společnost je považována za vysoce dočasné a byla založena před sto lety.
+REF_SENT_2: Inovátor IBM začíná druhé století své existence
+REF_SENT_1: Kdyby někdo hledal slovo, které nejpřesněji vyjádří strategii IBM, nejblíže by asi byla "dlouhodobost".
+REF_SENT_0: Pro širokou veřejnost je IBM symbolem technologické revoluce, je to firma vnímaná jako velmi současná, a přesto od jejího založení už uplynulo sto let.
+ANNOT:+
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/011.streex##8.t_tree-en_src-s8-n1787
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: He believed in his motto saying that numerous world problems can be easily solved if people are willing to think.
+SRC_SENT_1: His motto: 'Think!' thus become an imprint around which the life of the future giant would unfold (as well as the name of its internal magazine that IMB started to publish in 1935).
+SRC_SENT_0: Moreover , <it> was the foundation of company culture Watson was building carefully .
+TST_SENT_2: Věřil na své motto, říká, že četné světové problémy snadno mohou být vyřešeny, pokud lidé jsou ochotni myslet.
+TST_SENT_1: Jeho motto: ' myslí ', tak buďte se otiskem, asi který by život budoucího obra rozložil (i jméno jeho vnitřního časopisu IMB začala publikovat v roce 1935).
+TST_SENT_0: Navíc byl, základ kultury společnosti Watsona stavěl opatrně.
+REF_SENT_2: Už on razil heslo, že řada světových problémů může být lehce vyřešena, pokud jsou lidé ochotni přemýšlet.
+REF_SENT_1: Jeho heslo "Think!" se tak stalo otiskem, kolem nějž se bude odvíjet život budoucího gigantu (a také názvem interního časopisu, který v IBM začal vycházet už v roce 1935).
+REF_SENT_0: Bylo také základem Watsonem pečlivě budované firemní kultury.
+ANNOT:-
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/011.streex##36.t_tree-en_src-s34-n2194
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:anim:sg
+SRC_SENT_2: For example, IBM failed with its own operating system OS/2; Prodigy on-line services; and IBM PCjr computers.
+SRC_SENT_1: "If your business is defined by movement forward, you cannot be emotionally attached to the past,' says Samuel J. Palmisano.
+SRC_SENT_0: That is why IBM easily builds its foundations on many platforms - if they do not work , <it> leaves them .
+TST_SENT_2: Například IBM selhala s vlastním operačním systémem OS / 2; Prodigy on-line službami; a IBM PCjr počítačů.
+TST_SENT_1: „Pokud vaše věc je definována pohybem vpřed, citově nemůžete být připojeni k minulosti, říká ' Samuel J. Palmisano.
+TST_SENT_0: Je to, proč IBM snadno vytváří své základy mnoha platforem - pokud nefungují, ponechává je.
+REF_SENT_2:  
+REF_SENT_1: "Pokud je váš byznys postaven na pohybu vpřed, nemůžete se emocionálně poutat na minulost," poznamává k tomu Samuel J. Palmisano.
+REF_SENT_0: Proto IBM nemá problém budovat své základy na mnoha platformách - a když nefungují, tak je opustit.
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/011.streex##52.t_tree-en_src-s48_1of2-n2355
+SRC_FORM: It
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: IBM (International Business Machines) was founded in New York, a hundred years ago.
+SRC_SENT_1: Its original name "Computing Tabulating Recording Corporation" was quite complicated.
+SRC_SENT_0: <It> took the name of IBM in 1924 .
+TST_SENT_2: IBM (International obchodní stroje) byla založena v New Yorku před sto lety.
+TST_SENT_1: Jeho původní jméno „výpočetní Tabelace záznam Corporation“ dost složité.
+TST_SENT_0: Vzal jméno IBM v roce 1924.
+REF_SENT_2: Společnost IBM (International Business Machines) vznikla v New Yorku před sto lety, původně měla složitý název Computing Tabulating Recording Corporation.
+REF_SENT_1:  
+REF_SENT_0: Jméno IBM převzala až v roce 1924 - původně šlo o značku používanou pro pobočky firmy v Kanadě a Jižní Americe.
+ANNOT:0
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/016.streex##15.t_tree-en_src-s13-n3812
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: This single point has been partially settled since, thanks to a recommendation of the Institute of State and Law, according to which representation based on power of attorney is not possible.
+SRC_SENT_1: Arguments concerning the election rules continue, though.
+SRC_SENT_0: The Executive Board has not been of much help either , though at its meetings , both regular and extraordinary , <it> is mostly preoccupied by this issue .
+TST_SENT_2: Tento jediný bod částečně byl řešen od díků doporučení Ústavu státního a právního podle kterého, kterou zastoupení založené na moci zástupce není možné.
+TST_SENT_1: Argumenty, které jdou o volebních pravidlech, pokračují přesto.
+TST_SENT_0: Výkonná rada nebyla mnoho pomoci také, když na jejích zasedáních pravidelných a mimořádných většinou je zabrána tímto problémem.
+REF_SENT_2: V tomto jediném bodu od té doby nastala částečná shoda, k čemuž pomohlo i doporučení Ústavu pro stát a právo, podle kterého zastupování na základě plné moci není možné.
+REF_SENT_1: Spory ale stále panují ohledně volebního řádu.
+REF_SENT_0: Příliš jasno do situace nevnesl ani výkonný výbor, který už na svých jednáních, ať už řádných či mimořádných, neřeší v podstatě nic jiného.
+ANNOT:+
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/021.streex##23.t_tree-en_src-s22-n789
+SRC_FORM: It
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: Investors and regulators have brought a vast number of claims for compensation or to punish misconduct.
+SRC_SENT_1: The Federal Housing Finance Agency (FHFA) has been behind the largest wave of claims.
+SRC_SENT_0: <It> accuses 18 major international banks of having taken in US lenders Fannie Mae and Freddie Mac on mortgage transactions valued at around 200 billion dollars .
+TST_SENT_2: Investoři a regulátory přinesly obrovské množství nároků na náhradu nebo potrestat pochybení.
+TST_SENT_1: Federální agentura bytových financí (FHFA) byla za největší vlnou nároků.
+TST_SENT_0: Obviňuje 18 velkých mezinárodních bank být v USA věřitelé Fannie Mae a ve Freddiem Macovi hypotečními transakcemi hodnotnými na přibližně 200 miliard dolarech.
+REF_SENT_2: Investoři a dozorčí úřady podaly četné žaloby, aby dosáhly nápravy nebo postihly pochybení.
+REF_SENT_1: Federal Housing Finance Agency (FHFA) spustila největší vlnu žalob.
+REF_SENT_0: Vytýká 18 mezinárodním velkobankám, že dva státní americké finančníky zabývající se nemovitostmi Fannie Mae a Freddie Mac při obchodech s hypotékami v objemu asi 200 miliard dolarů znevýhodnily.
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/022.streex##25.t_tree-en_src-s25-n849
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: His almost infallible instinct for making money has earned him a nickname as the "Oracle from Omaha."
+SRC_SENT_1: The IBM share price rose by one percent before the markets opened following the announcement of Buffett's investment.
+SRC_SENT_0: `` Big Blue , '' as IBM is also known , is worth more than 220 billion dollars on the stock exchange , making <it> one of the most valuable technology companies in the world alongside Apple and Microsoft .
+TST_SENT_2: Jeho téměř neomylný instinkt, že je peníze, mu získal přezdívku jako „Věštec z Omahy“.
+TST_SENT_1: Cena IBM akcií vzrostla o jedno procento, než trhy otevřely, následují oznámení investice Buffett.
+TST_SENT_0: „Velká Blue“, jak IBM také je poznána, má hodnotu více než 220 miliard dolarů na burzu akcie, je jednu z nejcennějších technologických společností ve světě vedle Applu a Microsoftu.
+REF_SENT_2: Jeho skoro neomylný smysl pro vydělávání peněz mu přinesl přezdívku "Orakel z Omaha (Zázrak z Omahy".
+REF_SENT_1: Když se Buffettova investice stala známou, stouply akcie IBM před zahájením burzy o jedno procento.
+REF_SENT_0: "Big Blue", jak je IBM také nazýváno, má na burze celkovou cenu více než 220 miliard dolarů a je pokládán spolu s firmami Apple a Microsoft za nejcennější technologické podniky světa.
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/023.streex##18.t_tree-en_src-s16-n1038
+SRC_FORM: It
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: "Germany's present on the fiftieth anniversary" is the title of one article on the Haber X Turkish internet platform, which comments on the circumstances around the series of murders.
+SRC_SENT_1: The German edition of Hürriyet also does not miss the chance to make this connection.
+SRC_SENT_0: `` <It> is beginning to stink , '' is the title of the column by Ahmet Külahci .
+TST_SENT_2: „Přítomnost Německa padesátého výročí“ je název jednoho článku o Haber X turecké internetové platformě, která komentuje k okolnostem po sérii vražd.
+TST_SENT_1: Německá edice Hürriyet také nechybí šance být tuto souvislost.
+TST_SENT_0: „Začíná smrdět,“ je název sloupce Ahmetem Külahci.
+REF_SENT_2:  
+REF_SENT_1: Také vydání listu "Hürriyet" pro Německo si nedá vzít, aby neprovedlo toto myšlenkové spojení.
+REF_SENT_0: "Začíná to zapáchat", zní titulek sloupku od Ahmeta Külahci.
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/024.streex##37.t_tree-en_src-s37-n3054
+SRC_FORM: It
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: The bank actually managed to find investors, but investors many bankers would have respectfully declined a short while earlier - a less than transparent Asian sovereign wealth fund from Singapore and an Arabic sovereign wealth fund that was so secretive, even its name was not disclosed.
+SRC_SENT_1: That was just the first blow.
+SRC_SENT_0: <It> got a lot worse in April 2008 .
+TST_SENT_2: Bance se skutečně podařilo najít investory, ale investoři by mnoho bankéřů mělo uctivě, odmítli krátkou chvíli dříve - méně než průhledný asijský státní fond majetku ze Singapuru a arabský suverénní fond majetku, který byl tak tajnůstkářský, i jeho jméno nebylo odhaleno.
+TST_SENT_1: Byl to jen první úder.
+TST_SENT_0: Měl mnohem horší v dubnu 2008.
+REF_SENT_2: Zato nalezla skutečně investory, ovšem takové, nad nimiž by nedávno ještě ohrnovala nos: Neprůhledný asijský státní fond ze Singapuru a arabský státní fond, který byl tak diskrétní, že se člověk ani nedověděl jeho název.
+REF_SENT_1: Ale to byl jen první náraz.
+REF_SENT_0: V dubnu 2008 se to vyvíjelo hůře.
+ANNOT:-
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/024.streex##108.t_tree-en_src-s101-n3928
+SRC_FORM: It
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: To plug the hole, UBS entered on an adventure that almost cost it its existence.
+SRC_SENT_1: Hungry for growth, the bank itself and a hedge fund founded by the bank invested in US subprime securities.
+SRC_SENT_0: <It> developed into a vast machine that packaged up securities based on US mortgage credit and passed them on - while itself continuing to bear risks .
+TST_SENT_2: Zapojí díru, UBS vstoupil dobrodružství, které ji téměř stálo její existence.
+TST_SENT_1: Hlad růstu, sama banka a hedgeový fond, založila banka, která investovala do USA podprime papírů.
+TST_SENT_0: Vyvinula se v obrovský stroj, který balení papírů založených na USA hypotečním úvěru a prošel je - zatímco pokračuje, nese rizika.
+REF_SENT_2: Aby tuto mezeru uzavřela, odhodlala se UBS k dobrodružství, které ji skoro stálo existenci.
+REF_SENT_1: Hladové po růstu, investovaly jak banka samotná tak i jí založený fond na zajištění rizik do amerických investic Subprime.
+REF_SENT_0: Rozvinula se v mohutný stroj, který cenné papíry přebaloval na americké hypotéční úvěry a předával dále - přitom si ale také sám ponechával rizika.
+ANNOT:+
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/037.streex##54.t_tree-en_src-s52-n2281
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: As for whether the case filed by Lyman and her fellow plaintiffs moves forward, it's a long shot, says John Turley, professor of law at George Washington University Law School.
+SRC_SENT_1: However, he notes, "In my view they should be able to move forward."
+SRC_SENT_0: What stands between them and a verdict is this doctrine that has been criticized since <it> was first issued .
+TST_SENT_2: Jako, zda případ podaný Lyman a její ostatní žalobci postupuje vpřed, to je dlouhý výstřel, říká John Turley, profesor práva na George Washington právní fakultě univerzity.
+TST_SENT_1: Však by, konstatuje, „v mém názoru měli postupovat vpřed.“
+TST_SENT_0: Co stojí mezi nimi a rozsudek je tato doktrína, která byla kritizována, protože poprvé byla vydána.
+REF_SENT_2: Ať už se případ Lymanové a ostatních žalobců pohne do další fáze nebo ne, je to běh na dlouhou trať, říká John Turley, profesor práva na Právnické univerzitě George Washingtona.
+REF_SENT_1: Ovšem, poznamenává, "Z mého úhlu pohledu, by měli být schopni postoupit do dalších fází projednávání."
+REF_SENT_0: Mezi nimi a verdiktem však stojí zmíněná doktrína, která byla kritizována od první chvíle, co spatřila světlo světa.
+ANNOT:+
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/039.streex##4.t_tree-en_src-s4-n558
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: Anders Behring Breivik, the man who confessed to masterminding twin attacks that killed 77 people in Norway this summer, has described himself as a "resistance" fighter during his first public court appearance in Oslo.
+SRC_SENT_1: "I am a military commander in the Norwegian resistance movement and Knights Templar Norway," he said before a courtroom packed with 500 people.
+SRC_SENT_0: `` I object to the court because you received your mandate from organizations that support hate ideology and because <it> supports multiculturalism . ''
+TST_SENT_2: Anders Behring Breivik, muž, který se přiznal, že mastermind dva útoky, které zabily 77 lidí v Norsku toto léto, se popsal jako bojovník „odporu“ během jeho prvního veřejného soudního vystoupení v Oslu.
+TST_SENT_1: „Jsem vojenský velitel v norském hnutí odporu a Templář rytíře Norsku,“ řekl před síní balenou 500 lidmi.
+TST_SENT_0: „Protestuji soud, protože jste obdrželi svůj mandát od organizací, které podporují nenávistnou ideologii a protože podporuje multikulturalizmus.“
+REF_SENT_2: Anders Behring Breivik, muž, který se přiznal k zosnování dvou útoků, během nichž bylo letos v létě v Norsku zabito 77 lidi, během svého prvního veřejného soudního slyšení v Oslu sám sebe popsal jako bojovníka "odboje".
+REF_SENT_1: "Jsem vojenským velitelem v Norském hnutí odporu a mezi norskými templářskými rytíři," prohlásil před soudem, kde se shromáždilo 500 lidí.
+REF_SENT_0: "Vznáším námitku proti soudnímu dvoru, protože vám mandát udělily organizace podporující ideologii nenávisti a protože podporuje multikulturalismus."
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/040.streex##6.t_tree-en_src-s6-n1931
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: He was certainly a designer, dreamer and self-identified hippie, but he was also a meticulous organizer and flow-chart tweaker - a man who believed that many business executives suffered from "a disease of thinking that a really great idea is 90 percent of the work... [but] there's a tremendous amount of craftsmanship between a great idea and a great product." 
+SRC_SENT_1: Back in 1995, Bob Cringely was developing the TV series Triumph of the Nerds about the dawn of the personal computer, and he sat down for more than an hour with Jobs for a rare, extended conversation.
+SRC_SENT_0: At that point in time <it> had been roughly 10 years since Jobs had been forced out of Apple , and he was already hard at work at his new computer company NeXT , looking forward to the popular adoption of the Internet .
+TST_SENT_2: Byl určitě návrhář, snílek a sebeidentifikovaný hipík, ale byl také pečlivý organizátor a graf toku tweaker - muž, který se domníval, že mnoho pracovníků podniků trpělo „nemocí domnívat se, opravdu skvělý nápad je 90 procent práce..., [, ale ], že je obrovské množství řemesla mezi skvělým nápadem a velkým výrobkem.“
+TST_SENT_1: Zpět do roku 1995 Bob Cringely vyvíjel televizní řadu triumfů pitomců o úsvitu osobního počítače a sedl si na hodinu s Jobsem vzácné rozšířené konverzace.
+TST_SENT_0: V tom okamžiku v okamžiku, který byl zhruba 10 roky, protože Jobs byl nucen z Applu a byl již tvrdě v práci ve svém novém Nextu počítačové společnosti, vypadá vpřed populárnímu přijetí internetu.
+REF_SENT_2: Byl úžasným designérem, snílkem a samozvaným členem hnutí hippie, ale zároveň také pedantským organizátorem a člověkem, který každou drobnost ladí do nejmenších detailů - věřil, že mnoho podnikatelů trpí "představou, že skutečně skvělý nápad je z 90 procent jejich práce... [ale] mezi výborným nápadem a výborným výsledným produktem je ještě dlouhá cesta sousta práce."
+REF_SENT_1: V roce 1995 pracoval Bob Cringely na TV pořadu Triumf počítačových bláznů, který pojednával o úsvitu osobních počítačů. Během natáčení se odehrál unikátní, více než hodinový rozhovor.
+REF_SENT_0: Tou dobou tomu bylo již deset let od chvíle, co byl Jobs přinucen opustit společnost Apple, a měl plné ruce práce se svojí novou počítačovou společností NeXT, a netrpělivě vyhlížel, jak široká veřejnost přijme internet.
+ANNOT:0
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/040.streex##8.t_tree-en_src-s8-n1968
+SRC_FORM: It
+TST_FORM: TLEMMA: #PersPron:anim:sg
+SRC_SENT_2: At that point in time it had been roughly 10 years since Jobs had been forced out of Apple, and he was already hard at work at his new computer company NeXT, looking forward to the popular adoption of the Internet.
+SRC_SENT_1: While a small portion of Cringely's interview was used in Nerds, he says that the interview's master copies went missing in shipping.
+SRC_SENT_0: <It> was only following Jobs '' death that a complete VHS copy was discovered in the director 's garage .
+TST_SENT_2: V tom okamžiku v okamžiku, který byl zhruba 10 roky, protože Jobs byl nucen z Applu a byl již tvrdě v práci ve svém novém Nextu počítačové společnosti, vypadá vpřed populárnímu přijetí internetu.
+TST_SENT_1: Zatímco malá část rozhovoru Cringely byla použita v Nerds, říká, že hlavní kopie rozhovoru byly, chybějí v dopravě.
+TST_SENT_0: Pouze sledoval Jobse“ smrt, Úplná VHS kopie byla objevena v garáži ředitele.
+REF_SENT_2: Tou dobou tomu bylo již deset let od chvíle, co byl Jobs přinucen opustit společnost Apple, a měl plné ruce práce se svojí novou počítačovou společností NeXT, a netrpělivě vyhlížel, jak široká veřejnost přijme internet.
+REF_SENT_1: V TV pořadu byla nakonec použita jen krátká část celého Cringelyho rozhovoru a o původních kopiích interview se tradovalo, že se ztratily při převozu.
+REF_SENT_0: Krátce po Jobsově smrti však byly VHS kopie nalezeny v režisérově garáži.
+ANNOT:-
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/040.streex##20.t_tree-en_src-s20-n2177
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: A quick rundown of seven notable Lost Interview sequences:
+SRC_SENT_1: On how he learned to run a business:
+SRC_SENT_0: `` Throughout the years in business , I 'd always ask : `` Why do you do things ? '' and the answers you invariably get are : `` Oh , that 's just the way <it> 's done . '' ''
+TST_SENT_2: Rychlý sešlý sedmi významných ztracených sekvencí rozhovoru:
+TST_SENT_1: Jak se naučil vést podnik:
+TST_SENT_0: „Během let v podnikání bych se vždy ptal: „ proč, děláte věci“ a odpovědi, které nevždy jste, jsou: „je to tak způsob, který je dělán.“.“
+REF_SENT_2: Rychlý souhrn sedmi scén ze Ztraceného interview, které rozhodně stojí za povšimnutí:
+REF_SENT_1: Jak se naučil řídit podnik:
+REF_SENT_0: "Během let podnikání, jsem se vždycky ptal: Proč tohle děláte? a odpověď byla pokaždé stejná: No, takhle se to prostě dělá."
+ANNOT:0
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/052.streex##13.t_tree-en_src-s13-n948
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:anim:sg
+SRC_SENT_2: "Nor do I consider that if made would affect the autonomy of the regulatory body," and recalled that the planning of public policies in strategic areas such as the telecommunications sector correspond to the federal executive, who has a constitutional mandate, the guidance of the State.
+SRC_SENT_1: The replacement of analog to digital is one of the most important changes that have hit the world in recent years, and results in a better utilization of the radio-electric spectrum, better signal quality and more channels.
+SRC_SENT_0: Delaying the change , he said , would mean delaying the benefits of digitization , which involves a public interest decision , which has not only a technical dimension , `` as <it> covers economic , social , political and national security issues . ''
+TST_SENT_2: „Ani považuji, kdybych, byl jsem, měl autonomii regulačního orgánu,“ a připomněl plánování veřejné politiky ve strategických oblastech jako sektor telekomunikací odpovídá federální exekutivě, která má ústavní mandát vedení státu.
+TST_SENT_1: Náhrada analogového na digitální je jedna z nejdůležitějších změn, které zasáhly svět do posledních let a výsledky lepšího využití rádiového elektrického spektra a kvality lépe signálu dalších kanálů.
+TST_SENT_0: Zpoždění změny by, řekl, znamenalo odložit výhody digitalizace, které zahrnují rozhodnutí veřejného zájmu, které nemá nejen technický rozměr „jak kryje hospodářský, sociální, politický a národní bezpečnostní otázky.“
+REF_SENT_2: "Nemyslím si, že i kdyby to udělala, dotklo by se to autonomie regulačního orgánu", a připomněl, že plánování veřejných politik ve strategických oblastech jako je sektor telekomunikací přísluší federální exekutivě, která má ústavní mandát k tomu, aby určovala směřování státu.
+REF_SENT_1: Náhrada analogických signálů digitálními je jednou z největších změn, kterou zažil svět za poslední roky. Souvisí s lepším využitím radioelektrického spektra, lepší kvalitou signálu a více kanály.
+REF_SENT_0: Domnívá se, že oddálit změnu by znamenalo oddálit užitek z digitalizace, která vyžaduje rozhodnutí ve věci veřejného zájmu. Digitalizace totiž nemá pouze technický rozměr, ale "dotýká se také ekonomických, sociálních, politických a národně bezpečnostních otázek".
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/058.streex##35.t_tree-en_src-s34-n2451
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:anim:sg
+SRC_SENT_2: How come?
+SRC_SENT_1: I think it's partly because we have nine discs and we can play more than 120 songs and everyone likes different songs, so it's difficult to choose which songs to play every night.
+SRC_SENT_0: When we have two or three songs in the repertoire that we have not been playing for a while , this keeps us focused and keeps us surprised because <it> reminds us the reasons why we liked those songs and that we might have forgotten .
+TST_SENT_2: Jak byl?
+TST_SENT_1: Myslím, že to je částečně, protože máme devět disků a můžeme hrát více než 120 písní a všichni mají různé písničky, takže je těžké vybrat, což písně hrajte každou noc.
+TST_SENT_0: Kdy máme dvě nebo tři písně v repertoáru, mějte, nehráli jsme chvíli, udržuje, byli jsme a máme, překvapili jsme, protože nám připomíná důvody, proč jsme se líbili ty písně a že bychom mohli zapomenout.
+REF_SENT_2: Proč?
+REF_SENT_1: Myslím si, že částečně je to proto, že máme devět alb a můžeme hrát více než 120 skladeb a každý má rád jiné skladby, proto je těžké vybrat, jaké písničky budeme hrát každou noc.
+REF_SENT_0: Když máme v repertoáru dvě tři písničky, které jsme dlouho nehrály, soustředíme se na ně a také jsme překvapení, protože si vzpomeneme na to, proč se nám tak líbily a že už jsme na to možná zapomněli.
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/058.streex##62.t_tree-en_src-s61-n2801
+SRC_FORM: it
+TST_FORM: ji
+SRC_SENT_2: As we have grown, it has been easier to find a balance.
+SRC_SENT_1: We take care of not being too much on tour because it is easy to fall into this game of big crowds and people who love your music.
+SRC_SENT_0: While one remembers that people are there for the music , that reminds you that you must respect the music and what brought <it> , without setting your mind on being famous and being a rock star , something that none of us really cares about .
+TST_SENT_2: Jak jsme rostli, bylo snazší najít rovnováhu.
+TST_SENT_1: Jsme, postaráme se, že není příliš moc na cestě, protože to je snadné spadat do této hry velkých davů a lidí, kteří milují vaši hudbu.
+TST_SENT_0: Zatímco jeden si pamatuji , že tam lidé jsou pro hudbu , která vám připomíná , musíte respektovat hudbu a co <ji> přivedlo , aniž nastaví vaši mysl , že je slavná a aniž je rocková hvězda ta , jeden z nás opravdu záleží .
+REF_SENT_2: Tím, jak jsme rostli, bylo postupně čím dál tím snazší najít rovnováhu.
+REF_SENT_1: Snažíme se nejezdit příliš na turné, protože je velmi jednoduché spadnout do této pasti davů a lidí, kteří milují naši hudbu.
+REF_SENT_0: Když si uvědomíte, že lidé přišli kvůli hudbě, připomenete si, že musíte hudbu a to, co jste jí dali, respektovat. Nesmíte se nechat unést tím, že jste slavní, rockové hvězdy. Tohle ani jednoho z nás nikdy doopravdy nezajímalo.
+ANNOT:+
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/066.streex##10.t_tree-en_src-s10-n831
+SRC_FORM: it
+TST_FORM: její
+SRC_SENT_2: On October 19th he was transferred to Cadereyta allegedly for blackmailing with a half million of pesos the owners of Red Casino, but he stayed there only a few hours in the medium-security prison because there were death threats against him.
+SRC_SENT_1: The authorities allowed him to continue the trial in the municipal cells boarding San Nicolas of Garza.
+SRC_SENT_0: On October 25th he an arrest order was issued by the clerk of Second Criminal District Court , Jorge Yanez , who said that after nearly two months of inquiries there was enough evidence to establish the guilt of Jonas , such as the collection of 1.5 million pesos from the representatives of the bookmaker in exchange for allowing the operation of <it> .
+TST_SENT_2: 19. října byl převeden na Cadereyta údajně, že vydírá půl milion pes majitelé Červeného kasina, ale zůstal pouze několik hodin ve vězení středního zabezpečení, protože byly hrozby smrti vůči němu.
+TST_SENT_1: Úřady povolily pokračovat v procesu v městských buňkách palubních do Sana Nicolase Garzu.
+TST_SENT_0: 25. října zatčený příkaz byl vydán úředníkem druhého trestního okresního soudu Jorgeho Janeze , který řekl , že téměř po dvou měsících vyšetřování byl dostatečný důkaz , který stanoví vinu Jonase , jako sbírka 1,5 miliónů pes ze zástupců bookmakera výměny , že umožňuje <její> operaci .
+REF_SENT_2: Dne 19. října byl převezen k trestnímu soudu v Cadereyta pro podezření z vydírání majitelů Casina Red částkou jeden a půl milionu peso. Nicméně zůstal pouze pár hodin ve věznici se středně těžkým dohledem, protože mu bylo vyhrožováno smrtí.
+REF_SENT_1: Vedoucí představitelé mu povolili během procesu zůstat v městských celách v San Nicolás de los Garza.
+REF_SENT_0: 25. října mu byl předložen příkaz k zatčení, který vydal tajemník Druhého trestního soudu, Jorge Yánez, který prohlásil, že téměř po dvou měsících vyšetřování bylo shromážděno dostatek důkazů umožňujících prokázat Jonásovu vinu. Mezi důkazy patří například vyplacení částky 1,5 milionů peso zástupcům kasina výměnou za příslib, že operace bude umožněna.
+ANNOT:+
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/067.streex##5.t_tree-en_src-s5-n836
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: During a press conference, Dionisio Perez Jacome, Minister of Communications and Transport, said that before the aircraft took off, the pilot found that weather conditions were suitable for the flight.
+SRC_SENT_1: "The elements that seem to indicate that the unit had several contacts with the ground, the blades came into contact with trees at 25 meters where the unit lost the fuselage."
+SRC_SENT_0: He also reported that the unit was designed for 19 people , so <it> fulfilled the necessary requirements to transport people .
+TST_SENT_2: Během tiskové konference Dionisio Perez Jacome, ministr Komunikací a dopravy, řekl, letadlo vzlétlo, pilot zjistil, že povětrnostní podmínky byly vhodné pro let.
+TST_SENT_1: „Prvky, které jsou, uvedou, jednotka měla několik kontaktů se zemí, listy přišly do kontaktu se stromy na 25 metrech, kde jednotka ztratila trup.“
+TST_SENT_0: Také oznámil, že jednotka byla navržena pro 19 lidí, takže splnila nezbytné požadavky, aby přepravila lidi.
+REF_SENT_2: Na tiskové konferenci Dionisio Pérez Jácome, tajemník pro Komunikace a dopravu, uvedl, že před startem letadla pilot konstatoval, že klimatické podmínky let umožňují.
+REF_SENT_1: "Části, které se objevují, nasvědčují, že jednotka přišla několikrát do kontaktu s terénem, křídla se zapletla do větví stromů 25 metrů od místa, kde jednotka ztratila trup".
+REF_SENT_0: Také informoval, že jednotka byla určena pro 19 osob, proto splňovala veškeré požadavky na převoz personálu.
+ANNOT:+
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/067.streex##27.t_tree-en_src-s27-n1082
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: There was not detected evidence of fire or explosion:
+SRC_SENT_1: On the area of the accident there remains undisclosed evidence in the wreckage of the craft, some kind of explosion or fire.
+SRC_SENT_0: Recent research results indicate <it> may have had multiple contacts with the ground .
+TST_SENT_2: Nebyl zjištěno důkaz požár nebo o výbuchu:
+TST_SENT_1: V oblasti nehody zůstává nezveřejňovaný důkaz v trosce plavidla nějakým druhem exploze nebo ohně.
+TST_SENT_0: Výsledky nedávných výzkumů naznačují, mohl mít několik kontaktů se zemí.
+REF_SENT_2: Nebyl zaznamenán požár ani výbuch.
+REF_SENT_1: Na místě neštěstí nebyly zaznamenány žádné důkazy, které by svědčily o tom, že došlo k výbuchu nebo k požáru.
+REF_SENT_0: Poslední výsledky vyšetřování ukazují, že mohlo dojít k několika kontaktům s pevninou.
+ANNOT:-
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/069.streex##12.t_tree-en_src-s12-n1070
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: Among the most superficial layers is the asphalt, composed of small stones dipped into the asphalt and then compacted.
+SRC_SENT_1: Each of the stones which compose this covering, he said, is dipped with asphalt.
+SRC_SENT_0: When driving vehicles and generating effort , <it> allows the forces to spread very well on the pavement .
+TST_SENT_2: Mezi nejpovrchovějšími vrstvami je asfalt složený z malých kamenů, sáhly do asfaltu a pak kompaktních.
+TST_SENT_1: Každý z kamenů, které tvoří tento obal, řekl, je ponořen s asfaltem.
+TST_SENT_0: Kdy řídit vozidla a vytvořené úsilí se umožňuje síly šířit velmi dobře na chodníku.
+REF_SENT_2: Mezi nejsvrchnějšími vrstvami se nachází asfaltová vložka, tvořená malými kamínky zalitými v asfaltu a poté stlačenými.
+REF_SENT_1: Zdůraznil, že každý kámen, který tvoří vložku, je zalit asfaltem.
+REF_SENT_0: Při průjezdu aut nebo při vytváření tlaku je tak možné, aby se síly v dlažbě dobře rozložily.
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/069.streex##16.t_tree-en_src-s16-n1144
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: On the asphalt covering, he added, is placed a final layer called rolling covering, which is made ​​of a fine stone material, meaning sand also dipped into the asphalt.
+SRC_SENT_1: Since this is the layer that will be in contact with the wheels of the vehicle, it must have a better mechanical strength than the asphalt covering and provide road friction.
+SRC_SENT_0: As being the part of the pavement that will receive and diffuse the efforts , the rolling covering also requires proper thickness and the material <it> is made of must be take into consideration .
+TST_SENT_2: Na asfaltový obal, přidal, je umístěn poslední vrstvu nazvanou, kutálí krytinu, která je vyrobena ​​of jemný kamenný materiál, znamená, že písek také namočil do asfaltu.
+TST_SENT_1: Protože to je vrstva, která bude v kontaktu s koly vozidla, musí mít lépe mechanickou sílu než asfaltová krytina a musí poskytnout silniční tření.
+TST_SENT_0: Jako je část chodníku, který bude přijímat a bude šířit úsilí, kolejová krytina také vyžaduje řádnou tloušťku a materiál, který je udělán, musí být, vezměte v úvahu.
+REF_SENT_2: Dodal, že na asfaltovou vložku se umístí poslední vrstva nazvaná plášť, tvořená jemným kamením, tedy pískem rovněž zalitým v asfaltu.
+REF_SENT_1: Vzhledem k tomu, že tato vrstva bude přicházet do kontaktu s ráfky vozidel, musí mít větší mechanickou sílu než asfaltová vložka a musí zajistit tření vozovky.
+REF_SENT_0: Vzhledem k tomu, že jako součást dláždění bude vystaven velké zátěži, musí mít plášť dostatečnou tloušťku a musí se dát pozor na materiál, ze kterého je zhotoven.
+ANNOT:0
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/075.streex##6.t_tree-en_src-s6-n592
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: The feeling that the "consent" of the new transitional government of Hellene comes imposed more by the demands of Brussels than by a genuine conviction of political forces began to be confirmed by facts.
+SRC_SENT_1: While the new prime minister, Lukas Papademos warned yesterday that there is no alternative to structural reforms and that the period of one hundred days agreed in his appointment may be underestimated for applying them, the leader of the conservative New Democracy party, Antonis Samaras, ensured that he will not support new austerity measures in any case and reiterated his demand for new elections scheduled on February 19th.
+SRC_SENT_0: `` The main task of this Government is implementing the decisions of the summit of October 26th , '' Papademos said yesterday when opening a parliamentary debate that <it> will culminate tomorrow with a vote of confidence to the new Executive .
+TST_SENT_2: Pocit „souhlas“ nové přechodné vlády Řeka je, uložil více požadavky Bruselu, skutečné odsouzení politických sil začalo být potvrzována fakty.
+TST_SENT_1: Zatímco nový premiér Lukas Papademos varoval včera, že není žádná alternativa k strukturálním reformám a že období jedněch sto dní dohodnuté ve svém jmenování může být podceňováno, že je použije, vůdce konzervativní Nové demokracie strany Antonis Samaras zajistil, aby nepodporoval nová úsporná opatření v každém případě a opakoval jeho požadavek po nových volbách plánovaných 19. února.
+TST_SENT_0: „Hlavní úkol této vlády provádí rozhodnutí summitu 26. října,“ řekl Papademos včera, kdy otevře parlamentní debatu, vyvrcholí zítra hlas důvěry nové výkonnému.
+REF_SENT_2: Domněnka, že "shoda" nové přechodné řecké vlády je dána spíše požadavky Bruselu než opravdovým přesvědčením politických sil, se začíná potvrzovat.
+REF_SENT_1: Zatímco nový premiér, Lukas Papadimos, včera připustil, že pro strukturální reformy neexistuje alternativa a že doba 100 dní, kterou dostal při svém jmenování, bude pravděpodobně krátká pro jejich aplikaci, předseda konzervativní strany Nová demokracie, Antonis Samaras, prohlásil, že nová úsporná opatření v žádném případě nepodpoří a zopakoval svůj požadavek vypsání nových voleb na předpokládané datum 19. února.
+REF_SENT_0: "Hlavním úkolem této vlády je aplikovat rozhodnutí summitu z 26. října", prohlásil včera Papadimos během parlamentní debaty, která vyvrcholí zítra hlasováním o důvěře vládě.
+ANNOT:1
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/080.streex##7.t_tree-en_src-s7-n1085
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: Only 9% of Canadians agree to speak with their doctor when they want to die and take steps to that end.
+SRC_SENT_1: This is one the conclusions of an imposing report by the Royal Society of Canada, in which six experts in different fields took part, including ethics, the law and medicine.
+SRC_SENT_0: This committee recommends to the government to modify the criminal code , so as to permit assisted suicide and euthanasia when <it> is elected by a patient deemed competent to make such a decision .
+TST_SENT_2: Pouze 9 % Kanaďanů souhlasí s tím, že mluví s jejich lékařem, když chtějí, aby zemřeli a přijali kroky do toho konce.
+TST_SENT_1: Je to závěry uložené zprávy Královské společnosti Kanada, ve které šest odborníků v různých oborech bylo část zahrnující etiku zákon a lék.
+TST_SENT_0: Tento výbor doporučuje vládě, aby změnila trestní kód, tak, v míře dovolte, pomohli jste sebevraždě a eutanazii, kdy je volen pacientem, považoval příslušný učinit takové rozhodnutí.
+REF_SENT_2: Pouze 9% Kanaďanů skutečně akceptuje možnost mluvit s lékařem o podmínkách, v nichž chtějí zemřít, a přijímá rozhodnutí v tomto smyslu.
+REF_SENT_1: To je jeden ze závěrů rozsáhlé zprávy Královské kanadské společnosti, na níž se podílelo šest expertů pracujících v různých oblastech, mezi nimiž byla etika, právo a medicína.
+REF_SENT_0: Tato komise doporučuje vládě změnit trestní právo tak, aby dovolovalo asistovanou sebevraždu a eutanazii, jeví-li se tato volba jako nutná u pacienta považovaného za kompetentního přijmout takové rozhodnutí.
+ANNOT:0
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/085.streex##8.t_tree-en_src-s8-n454
+SRC_FORM: It
+TST_FORM: TLEMMA: #PersPron:fem:sg
+SRC_SENT_2: Twitter, which has been known so far for being rather unintuitive, and for its use of somewhat esoteric terms (RT for re-posting someone else's message, #followfriday for recommending following other users), much to the delight of experienced users, is thus opening itself to a wider audience by offering a user experience closer to those of popular social networks Facebook and Google+.
+SRC_SENT_1: On the network, users debated this innovation via "tweets" on internet.
+SRC_SENT_0: `` <It> is useless , invasive and resembles Facebook excessively ''
+TST_SENT_2: Twitter, který byl poznán tak daleko, je spíše unintuitive a jeho použití poněkud esoterických výrazů (RT pro znovuzúčtovacího někoho jiné zpráva # followfriday pro doporučení sledovat ostatní uživatele), se hodně pro radost zkušených uživatelů tak otevírá širšímu publiku, že nabízí uživatelskou zkušenost bližší k těm populárních sociálních sítí, Facebook a Google+.
+TST_SENT_1: O síti uživatelé diskutovali o této inovaci prostřednictvím „píp“ na internetu.
+TST_SENT_0: „Je zbytečná, invazivní a podobá se Facebook nadměrně,“
+REF_SENT_2: Twitter, který byl znám svým málo instinktivním fungováním, s termíny poněkud nesrozumitelnými (RT pro opakované šíření příspěvku někoho jiného, followfriday pour recommander de suivre un autre utilisateur) faisant le bonheur des initiés, s'ouvre ainsi a un public plus large avec un maniement plus comparable a celui des réseaux grand public Facebook et Google+.
+REF_SENT_1: Na síti uživatelé ihned ve svých"tweets" rozdílně posuzují význam této inovace.
+REF_SENT_0: "Je to zbytečné, zabírá to mnoho místa a příliš se to podobá Facebooku", píše @jemb123.
+ANNOT:0
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/091.streex##20.t_tree-en_src-s20-n1103
+SRC_FORM: it
+TST_FORM: ní
+SRC_SENT_2: There is disquiet about the transfer of sovereignty to Europe, but it is the entire Europe, which is gradually losing its sovereignty, and with its each of its nations.
+SRC_SENT_1: The urgency concerns the return to popular sovereignty, the direction of the European project.
+SRC_SENT_0: Because it is by all working together , that Europeans will be able reduce the weight of their individual debts , to free themselves from the markets and to prepare for the future by investing in <it> .
+TST_SENT_2: Je neklid o přesunu suverenity do Evropy, ale je to celá Evropa, což postupně ztrácí její suverenitu a s jeho každým z jejích národů.
+TST_SENT_1: Naléhavost se týká o návratu do populární svrchovanosti směru evropského projektu.
+TST_SENT_0: Protože všechno pracuje společně Evropané , snižují váhu jejich jednotlivých dluhů , , uvolňují se z trhů a připravují na budoucnost investicí do <ní> .
+REF_SENT_2: Zneklidňujeme se při přenosu svrchovanosti na Evropu - ale je to celá Evropa, která pomalu ztrácí svou svrchovanost a s ní každý z jejích národů.
+REF_SENT_1: Naléhavě je třeba vrátit řízení evropského projektu demokratické svrchovanosti.
+REF_SENT_0: Neboť pouze společně budou moci Evropané snižovat tíži svých dluhů, zbavit se vlády trhů a investováním připravovat budoucnost.
+ANNOT:-
+
+ID: newstest2012_coref/runs/010_2015-08-07_15-06-11/treexfiles/094.streex##27.t_tree-en_src-s27-n1028
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:inan:sg
+SRC_SENT_2: But the attack is not so easy.
+SRC_SENT_1: The population judges as positive Obama's the balance of national security, which eliminated Bin Laden.
+SRC_SENT_0: Since Iraq , <it> distrusts military interventions , which run into quicksands .
+TST_SENT_2: Ale útok není tak snadný.
+TST_SENT_1: Soudci populace jako pozitivní Obama jsou rovnováha národní bezpečnosti, která odstranila Bin Ládina.
+TST_SENT_0: Od Iráku důvěřuje vojenským zásahům, které vedou do písků.
+REF_SENT_2: Ale útok není nijak snadný.
+REF_SENT_1: Obyvatelstvo posuzuje národní bezpečnostní politiku prezidenta Obamy, který odstranil Ben Ládina, spíše pozitivně.
+REF_SENT_0: Od Iráku nemá důvěru k vojenským zásahům, které vedou k zabřednutí.
+ANNOT:1

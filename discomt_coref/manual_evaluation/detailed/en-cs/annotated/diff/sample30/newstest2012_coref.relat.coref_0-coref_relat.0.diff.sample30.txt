@@ -1,0 +1,375 @@
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/001.streex##3.t_tree-en_src-s3-n223
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: Parliament Does Not Support Amendment Freeing Tymoshenko
+SRC_SENT_1: Today, the Ukraine parliament dismissed, within the Code of Criminal Procedure amendment, the motion to revoke an article based on which the opposition leader, Yulia Tymoshenko, was sentenced.
+SRC_SENT_0: The amendment <that> would lead to freeing the imprisoned former Prime Minister was revoked during second reading of the proposal for mitigation of sentences for economic offences .
+TST_SENT_2: Parlament dělá ne podpora změna Freeing Tymošenkové
+TST_SENT_1: Dnes ukrajinský parlament odmítl, rámec kodexu změny Trestního řádu návrh, aby zrušil článek založený na kterém, vůdce opozice Julio Tymošenkové byl odsouzen.
+TST_SENT_0: Změna , <které> by vedlo k uvolňování , uvěznil , bývalého předsedy premiéra , byla odvolána během druhého čtení návrhu na zmírnění trestů za hospodářské činy .
+REF_SENT_2: Parlament nepodpořil novelu osvobozující Tymošenkovou
+REF_SENT_1: Ukrajinský parlament dnes zamítl návrh zrušit v rámci novely trestního zákoníku paragraf, na jehož základě byla odsouzena vůdkyně opozice Julija Tymošenková.
+REF_SENT_0: Úpravu, která by otevřela cestu k osvobození vězněné expremiérky, poslanci odmítli při druhém čtení návrhu na zmírnění trestů za hospodářské delikty.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/010.streex##9.t_tree-en_src-s9-n1081
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_2: Moreover, Vicenová praised the work of new long-term President of the European Council, Herman Van Rompuy:
+SRC_SENT_1: "At first, critics said he was plain, a grey office mouse who cannot fulfil any roles; I have to say everyone was amazed at how wonderfully he acquitted his role."
+SRC_SENT_0: `` He is a person who can listen to all twenty-seven member states , communicate with them perfectly , and <who> has a clear vision of where the EU should be headed . ''
+TST_SENT_2: Navíc Vicenová chválila práci nového dlouhodobého prezidenta Evropské rady Hermana Vana Rompuy:
+TST_SENT_1: „V první kritici řekli, byl to jasný šedá kancelářská myš, který nemůže splnit žádné role; musím říci, všichni byli překvapeni, jak báječně zprostil jeho roli.“
+TST_SENT_0: „ Je to osoba , který může poslouchat všech 27 členských států , komunikujte s nimi dokonale a <který> má jasnou představu , kde , EU by měla být , směřovala . “
+REF_SENT_2: Vicenová také pochválila práci nového stálého předsedy Evropské rady Hermana Van Rompuye:
+REF_SENT_1: "Nejdřív se objevovala kritika, že je nevýrazný, že je to šedý úředník, že nemůže plnit žádnou roli, a musím říct, že všem vyrazilo dech, že se té role zhostil výborně."
+REF_SENT_0: "Je to člověk, který umí naslouchat dvaceti sedmi členským státům, výborně s nimi komunikovat a má jasnou vizi, kam by Evropská unie měla jít."
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/011.streex##7.t_tree-en_src-s7-n1771
+SRC_FORM: which
+TST_FORM: kterou
+SRC_SENT_2: The company's durability goes back to its first boss, a visionary, Thomas J. Watson Sr.
+SRC_SENT_1: He believed in his motto saying that numerous world problems can be easily solved if people are willing to think.
+SRC_SENT_0: His motto : ' Think ! ' thus become an imprint around <which> the life of the future giant would unfold ( as well as the name of its internal magazine that IMB started to publish in 1935 ) .
+TST_SENT_2: Trvanlivost společnosti je zpět k visionářskému jeho prvnímu šéfovi Thomasi J. Watsonovi Steradiánu.
+TST_SENT_1: Věřil na jeho motto, říká, že četné světové problémy snadno mohou být vyřešeny, pokud lidé jsou ochotni myslet.
+TST_SENT_0: Jeho motto : ' myslí ' , tak buďte se otiskem , asi <kterou> by život budoucího obra rozložil ( i jméno jeho vnitřního časopisu IMB začala publikovat v roce 1935 ) .
+REF_SENT_2: Základ této dlouhodobosti položil první šéf firmy, vizionář Thomas J. Watson Sr.
+REF_SENT_1: Už on razil heslo, že řada světových problémů může být lehce vyřešena, pokud jsou lidé ochotni přemýšlet.
+REF_SENT_0: Jeho heslo "Think!" se tak stalo otiskem, kolem nějž se bude odvíjet život budoucího gigantu (a také názvem interního časopisu, který v IBM začal vycházet už v roce 1935).
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/011.streex##37.t_tree-en_src-s35-n2206
+SRC_FORM: which
+TST_FORM: který
+SRC_SENT_2: "If your business is defined by movement forward, you cannot be emotionally attached to the past,' says Samuel J. Palmisano.
+SRC_SENT_1: That is why IBM easily builds its foundations on many platforms - if they do not work, it leaves them.
+SRC_SENT_0: This is how it differs from , for example , its competitor , Microsoft , <which> basically stands and falls on Windows , its operating system .
+TST_SENT_2: „Pokud vaše věc je definována pohybem vpřed, citově nemůžete být připojeni k minulosti, říká ' Samuel J. Palmisano.
+TST_SENT_1: Je to, proč IBM snadno vytváří jeho základy mnoha platforem - pokud nefungují, ponechává je.
+TST_SENT_0: Je to , jak odlišuje například , jeho konkurent Microsoft <který> podstatě stojí a spadá na Windows jeho operační systém .
+REF_SENT_2: "Pokud je váš byznys postaven na pohybu vpřed, nemůžete se emocionálně poutat na minulost," poznamává k tomu Samuel J. Palmisano.
+REF_SENT_1: Proto IBM nemá problém budovat své základy na mnoha platformách - a když nefungují, tak je opustit.
+REF_SENT_0: Na rozdíl třeba od konkurenčního Microsoftu, který v zásadě stojí a padá na operačním systému Windows.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/016.streex##8.t_tree-en_src-s6_2of2-n3712
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_2: Jindřich Rajchl, Miroslav Pelta, and Tomáš Paclík are eager to lead Czech football.
+SRC_SENT_1: Hašek resigned from his function in June.
+SRC_SENT_0: When leaving , he called to his colleagues to unite and find a strong personality <who> would lead football in the future .
+TST_SENT_2: Jindřich Rajchl, Miroslav Pelta a Tomáš Paclík jsou dychtiví vést český fotbal.
+TST_SENT_1: Hašek odstoupil z jeho funkce v červnu.
+TST_SENT_0: Když odejde , volal na jeho kolegy , aby se sjednotil a našel silnou osobnost , <který> by vedl fotbal v budoucnu .
+REF_SENT_2: Zájem vést český fotbal mají Jindřich Rajchl, Miroslav Pelta a Tomáš Paclík.
+REF_SENT_1: Hašek rezignoval na funkci v červnu a při svém odchodu vyzval kolegy, aby se sjednotili a našli silnou osobnost, která by vedla fotbal v budoucnu.
+REF_SENT_0:  
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/016.streex##64.t_tree-en_src-s57-n4464
+SRC_FORM: whom
+TST_FORM: kterou
+SRC_SENT_2: He is now more detached from his former statement saying he would "sell the Pilsen club if Pelta became President."
+SRC_SENT_1: In case Paclík wins on Thursday, he could imagine cooperation with Pelta in the future.
+SRC_SENT_0: This opinion is shared by another candidate , Rajchl , <whom> Paclík supported before the September general meeting that ended as a fiasco .
+TST_SENT_2: Teď je oddělen od jeho bývalého prohlášení, který říká, „Prodal by plzeňský klub, pokud se Pelta byl prezidentem.“
+TST_SENT_1: Kdyby Paclík byl ve čtvrtek, mohl by si představit spolupráci s Peltou v budoucnu.
+TST_SENT_0: Tento názor je sdílen jiným kandidátem Rajchlem , <kterou> Paclík podporoval před valnou hromadou září , které skončilo jako fiasko .
+REF_SENT_2:  
+REF_SENT_1: V případě, že by Paclík ve čtvrteční volbě triumfoval, dokázal by si ale s Peltou představit budoucí spolupráci.
+REF_SENT_0: Stejně uvažuje i další kandidát Rajchl, kterého Paclík podporoval před zářijovou valnou hromadou, jež skončila fiaskem.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/016.streex##143.t_tree-en_src-s132_1of2-n5603
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: "This would prevent the current situation, where there are just three Moravian units in the league, which is a problem concerning young players in Moravia," Rajchl said.
+SRC_SENT_1: As the Presidential fight has been joined by Pilsen club Manager, Tomáš Paclík, Rajchl does not dare to estimate his chances to win.
+SRC_SENT_0: `` Nevertheless , I can still feel a strong support in the Czech chamber <that> elected me its Vice President , and can see I have achieved some clear successes , '' Rajchl said .
+TST_SENT_2: „Zabránilo by současné situaci, kde jsou jen tři moravské jednotky v lize, který je problém, který se týká o mladých hráčích Moravy,“ řekl Rajchl.
+TST_SENT_1: Jak prezidentský boj byl připojen ředitelem klubu Plzně, Tomáš Paclík se Rajchl neodvažuje odhadnout jeho šance, že vyhrají.
+TST_SENT_0: „ Přesto stále mohu cítit silnou podporu v české komoře , <které> mě zvolilo místopředsedu viceprezidenta a může vidět , dosáhl jsem některé jasné úspěchy , “ Rajchl řekl .
+REF_SENT_2: "Nenastala by tak současná situace, kdy jsou v lize jen tři moravské celky, což je problém směrem k mladým hráčům na Moravě," řekl Rajchl.
+REF_SENT_1: Jelikož se do boje o předsedu zapojil i šéf plzeňského klubu Tomáš Paclík, netroufá si Rajchl odhadovat své šance na zvolení.
+REF_SENT_0: "Stále ale cítím silnou podporu v české komoře, která mě zvolila za svého místopředsedu a vidí, že za mnou stojí jasné úspěchy," uvedl Rajchl, který za své úspěchy považuje ušetření desítek milionů korun na nevýhodných smlouvách, dojednání televizních kontraktů a jednání o loterijním zákonu.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/026.streex##24.t_tree-en_src-s21_1of2-n988
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_2: Without the surrounding area, the problem in the cities will not be solved, said Leer's mayor, Wolfgang Kellner.
+SRC_SENT_1: A combination of deterring birds from sensitive residential areas and offering incentives for them to move back to other areas would be an option.
+SRC_SENT_0: `` Information boards instead of chain saws '' was the slogan proposed by the psychologist and ethnologist Uta Maria Jürgens , <who> argued for a totally different approach to the birds .
+TST_SENT_2: Bez okolní oblasti problém ve městech nebude vyřešen, řekl starosta Leera Wolfgang Kellner.
+TST_SENT_1: Kombinace odradit ptáky z citlivých obytných oblastí a nabízejících pobídek, aby přesunuli zpět do jiných oblastí, by byla možnost.
+TST_SENT_0: „ Informační desky místo řetězových pil “ byly slogan navržený psychologem a etnologem Utou Maria Jürgensovou , <který> argumentoval zcela jiný přístup k ptákům .
+REF_SENT_2: Bez okolního území nelze problém měst řešit, byl názor starosty Wolfganga Kellnera z Leeru.
+REF_SENT_1: Myslitelná je kombinace vyhánění zvířat z citlivých obytných oblastí a jejich přivábení, aby se na jiných místech usadila.
+REF_SENT_0: "Informační tabule místo řetězových pil" propagovala naproti tomu psycholožka a etnoložka Uta Maria Jürgens kvůli zcela jinému zacházení se zvířaty: "Jeden uhřík v obličeji můžeme nakonec nejlépe přestát se sebevědomím."
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/027.streex##27.t_tree-en_src-s27-n1456
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: Goalie Petr Cech prevented a potential own goal from Tomas Sivok in the 9th minute with a split-second reflex.
+SRC_SENT_1: Montenegro had its best opportunities when the Stevan Jovetic and Dejan Damjanovic duo were on the field.
+SRC_SENT_0: Damjanovic took a shot from the edge of the penalty area <that> just missed Cech 's goal in the 40th minute .
+TST_SENT_2: Brankář Petr Cech zabránil potenciálnímu vlastnímu cíli z Tomase Sivoka v 9. minutě s rozdělí druhým reflexem.
+TST_SENT_1: Hora měla jeho nejlepší příležitosti, kdy Stevan Jovetic a Dejan Damjanovic duo bylo na poli.
+TST_SENT_0: Damjanovic vzal ránu z okraje oblasti trestu , <které> právě minulo cíl Cechu v 40. minutě .
+REF_SENT_2: Brankář Petr Čech zabránil reflexně v posledním okamžiku možné vlastní brance Tomáše Sivoka (9.).
+REF_SENT_1: Černá Hora měla své největší možnosti, když duo Stevan Jovetic a Dejan Damjanovic bylo v akci.
+REF_SENT_0: Damjanovic vystřelil ve 40. minutě z otáčky od hranice trestného území jen těsně kolem Čechovy branky.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/031.streex##2.t_tree-en_src-s2-n1344
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_1: Mass Slaughter on a Personal Level
+SRC_SENT_0: Peter Englund 's intense and bighearted new book , `` The Beauty and the Sorrow : An Intimate History of the First World War , '' begins with a long dramatis personae of the sort <that> can make your heart sink .
+TST_SENT_1: Množství Slaughterová Personálu Levelu
+TST_SENT_0: Intenzivní a bighearted nová kniha Petera Englunda „ a krásy smutku : intimní historie první světové války “ začíná dlouhým dramatis obsazením druhu , <které> může být váš dřez srdce .
+REF_SENT_1: Masakr na osobní úrovni
+REF_SENT_0: Emočně silná nová kniha Petera Englunda s názvem Krása a zármutek: Důvěrná historie první světové války (The Beauty and the Sorrow: An Intimate History of the First World War) začíná tak dlouhým seznamem vystupujících postav, až se vám z toho zatočí hlava.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/032.streex##14.t_tree-en_src-s14-n1329
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_2: The orders to move into the park came down at the "last minute," said someone familiar with the orders, which referred to the assignment only as "an exercise."
+SRC_SENT_1: "The few cops that I know that were called into this thing, they were not told it was for going into Zuccotti Park," said the person, who spoke on the condition of anonymity.
+SRC_SENT_0: `` The only people <who> were aware of them going into Zuccotti Park were at the very highest levels of the department . ''
+TST_SENT_2: Příkazy přesunout do parku sešly v „poslední chvíli, řekl“ někdo známý příkazy který uvedené na úkol pouze jako „cvičení“.
+TST_SENT_1: „Několik policajtů, vím, že bylo zavoláno do této věci, nebyli řečeni, bylo to, že jde do Zuccotti Parku,“ řekla osoba, který mluvil k podmínce anonymity.
+TST_SENT_0: „ Jediní lidé , <který> , ví je , byl do Zuccotti Parku , byli na velmi nejvyšších úrovních oddělení . “
+REF_SENT_2: Rozkazy k přesunu do parku přišly doslova "na poslední chvíli" prohlásil někdo, komu byla akce původně vysvětlena pouze jako "cvičení".
+REF_SENT_1: "Znám pár policistů, kteří byli do této akce také povoláni, a těm rozhodně nikdo neřekl, že se jede do parku Zuccotti," řekla osoba, která promluvila pouze pod podmínkou, že zůstane v anonymitě.
+REF_SENT_0: "O tom, že se jede do parku Zuccotti, věděli jen nejvýše postavení členové oddělení."
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/034.streex##17.t_tree-en_src-s17-n1369
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_2: The NATO mission officially ended Oct. 31.
+SRC_SENT_1: Now the Senate may be ready to act.
+SRC_SENT_0: The Foreign Relations Committee resolution `` congratulates the people of Libya for their tremendous courage and extraordinary resilience in liberating themselves '' and `` commends the men and women of the United States Armed Forces and their coalition partners <who> engaged in military operations to protect the people of Libya for their extraordinary bravery and professionalism . ''
+TST_SENT_2: NATO mise oficiálně ukončila 31. října.
+TST_SENT_1: Nyní Senát může být, připraví, aby jednal.
+TST_SENT_0: Zahraniční usnesení výboru vztahu „ blahopřeje lidu Libye jejich obrovské odvahy a mimořádné odolnosti při osvobození sebe , “ a „ chválí muže a ženy Spojených státních ozbrojených sil a jejich koaličních partnerů , <který> se účastnil vojenské operace , chrání lidi z Libye jejich mimořádnou odvahu a profesionalitu . “
+REF_SENT_2: Mise Nato oficiálně skončila 31. října.
+REF_SENT_1: Nyní je Senát možná připraven jednat.
+REF_SENT_0: Komise pro mezinárodní vztahy ve svém prohlášení "gratuluje obyvatelům Libye za jejich nezměrnou odvahu a obdivuhodnou houževnatost, kterou vynaložili ve snaze osvobodit svůj lid" a "chválí muže a ženy ozbrojených sil Spojených států i jejich spojence, kteří se zapojili do operace na ochranu libyjského obyvatelstva, za mimořádnou statečnost a profesionalitu."
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/040.streex##66.t_tree-en_src-s66-n2891
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_2: Picasso said that good artists copy, great artists steal.
+SRC_SENT_1: We've always been shameless about stealing great ideas.
+SRC_SENT_0: It 's part of what made the Macintosh great , was that the people who were working on it were musicians , poets , artists , zoologists , historians <who> just happened to be the best computer scientists in the world .
+TST_SENT_2: Picasso řekl, že, dobří umělci kopírují, velcí umělci kradou.
+TST_SENT_1: Vždy jsme byli nestoudní, ukradneme skvělé nápady.
+TST_SENT_0: Je , součást , co bylo Mac velké , byla , že lidé , který pracoval na tom , byli hudebníci básníků umělců , zoologové se historici <který> právě stal , jsou nejlepší počítačoví vědci ve světě .
+REF_SENT_2: Picasso řekl, že dobří umělci kopírují, ale ti nejlepší umělci kradou.
+REF_SENT_1: Nikdy jsem se nestyděl za to, že jsem ty nejlepší nápady uloupil.
+REF_SENT_0: Společnost Macintosh byla tak úžasná a úspěšná proto, že lidé, kteří v ní pracovali, byli vynikající hudebníci, básnící, umělci, zoologové, historici a shodou okolností zároveň také nejlepší počítačoví odborníci na světě.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/041.streex##20.t_tree-en_src-s19-n1119
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_2: Nevertheless, the sheer proximity of Scalia and Thomas to two of the law firms in the case, as well as to a company with a massive financial interest, was enough to alarm ethics-in-government activists.
+SRC_SENT_1: "This stunning breach of ethics and indifference to the code belies claims by several justices that the court abides by the same rules that apply to all other federal judges," said Bob Edgar, the president of Common Cause.
+SRC_SENT_0: `` The justices were wining and dining at a black-tie fundraiser with attorneys <who> have pending cases before the court . ''
+TST_SENT_2: Přesto naprostá blízkost Scalia a Thomase dva z právních firem v případě i společnosti s masivním finančním zájmem byla, stačí, aby vyděsil aktivisty vlády etiky.
+TST_SENT_1: „Toto úžasné porušení etiky a lhostejnosti ke kódu popírá nároky několika spravedlnosti, že soud dodržuje stejná pravidla, které platí na všechny ostatní federální soudce,“ řekl Bob Edgar, prezident Společné příčiny.
+TST_SENT_0: „ Soudci hodovali a večeřeli v mytí černých kravat s advokáty , <který> má vyřízené případy před soudem . “
+REF_SENT_2: Přesto však vztah Scalii a Thomase ke dvěma právnickým firmám účinkujícím v případu, a rovněž společnosti s obrovským finančním zájmem v tomto případu, bohatě stačil, aby zalarmoval aktivisty volající po etice ve vládě.
+REF_SENT_1: "Toto šokující porušení etiky a lhostejnost vůči kódu chování je v rozporu s tvrzením několika soudců, že se nejvyšší soud chová podle stejných pravidel, která platí pro všechny ostatní federální soudce," prohlásil Bob Edgar, prezident organizace Common Cause.
+REF_SENT_0: "Soudci popíjeli a večeřeli na společenské benefici společně s právními zástupci, kteří čekají na projednání svého případu před soudem."
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/043.streex##3.t_tree-en_src-s3-n550
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: Mexico president's sister apparently defeated in Michoacan vote
+SRC_SENT_1: Luisa Maria Calderon alleges that drug traffickers helped opponent Fausto Vallejo of the PRI in the governor's race.
+SRC_SENT_0: President Felipe Calderon 's sister appears to have lost her bid for governor of Michoacan during violent state elections , and she alleged Monday <that> drug traffickers helped tip the race in favor of one of her opponents .
+TST_SENT_2: Sestra prezidenta Mexika zřejmě porazila v Michoacan hlasování
+TST_SENT_1: Luisa Maria Calderónová tvrdí, že překupníci drog pomohli protivníkovi Fausto Vallejovi PRI v závodě guvernéra.
+TST_SENT_0: Sestra prezidenta Felipeho Calderóna se zdá , že ztratí její nabídku guvernéra Michoacanu během násilných státních voleb a tvrdila pondělí , <které> vleklo , překupníci pomohli tip závodu na prospěch jednoho z jejích protivníků .
+REF_SENT_2: Sestra mexického prezidenta byla podle všeho v michoacánských volbách poražena
+REF_SENT_1: Luisa Maria Calderonová tvrdí, že jejímu protivníkovi, Faustovi Vallejonovi z PRI, pomohli v honbě za guvernérským křeslem překupníci s drogami.
+REF_SENT_0: Zdá se, že sestra Felipe Calderona v násilných státních volbách o post guvernéra v Michoacánu prohrála. V pondělí následně prohlásila, že jednomu z jejích protivníků k vítězství dopomohli překupníci drog.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/044.streex##2.t_tree-en_src-s2-n741
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_1: ADB urges Asia to help rescue eurozone
+SRC_SENT_0: The Asian Development Bank has called for India and China to be ready to help rescue the eurozone from its sovereign debt crisis to avoid a long-term downturn <that> will stunt the growth of Asian economies .
+TST_SENT_1: ADB vyzývá, aby Asie pomohla záchrana eurozóně
+TST_SENT_0: Asijská rozvojová banka vyzvala Indii a Čínu , aby byla , připraví , aby pomohly zachránit eurozónu z jeho suverénní dluhové krize , vyhnete se dlouhodobému poklesu <které> zakrnělému růst asijských ekonomik .
+REF_SENT_1: Banka ADB vyzývá Asii, aby pomohla zachránit Eurozónu
+REF_SENT_0: Banka Asian Development Bank vyzvala Indii a Čínu, aby byly připravené pomoci se záchranou Eurozóny před její závažnou dluhovou krizí, jinak by mohlo dojít k celkovému poklesu světové ekonomiky, který by měl negativní dopad i na růst ekonomik v Asii.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/053.streex##8.t_tree-en_src-s8-n915
+SRC_FORM: that
+TST_FORM: kterému
+SRC_SENT_2: The same November 9th, the Supreme Court of Justice (SCJ) resolved the constitutional controversy promoted by the local legislature and described as "invalid and illegal" the vote of the state representative for the constitutional reforms, since he has no right "to sanction or vote them."
+SRC_SENT_1: Interviewed about the possibility of the "vote by vote," Maria de los Angeles Llanderal stated that with the adoption of the appropriate guidelines by the General Council of the MEI it will be possible to perform partial and total counts of the vote by the local electoral body.
+SRC_SENT_0: Thus , the partial recount of one or more electoral boxes may occur in the assumptions <that> : the results of the records do not match ; there is no record of the count on the record of the box or they are not included in the power of the president ; or when there are obvious errors or alterations of the minutes .
+TST_SENT_2: Stejného 9. listopadu Nejvyšší soud dvora (SCJ) vyřešil ústavní spor podporující místním sborem a popisoval, „protože neplatný a nezákonný“ hlas státního zástupce ústavních reforem nemá žádné právo „na sankci nebo volit“.
+TST_SENT_1: Rozhovoru o možnosti „hlasu hlas,“ prohlásila Maria de Los Angeles Llanderalová, že s přijetím příslušných směrnic Generální radou MEI bude možné provést částečný a celkový počet hlasu místní volební orgán.
+TST_SENT_0: Tak částečný hlas jedněch nebo hodně volebních krabic může dojít v předpokladech , <kterému> : výsledky záznamů neodpovídají ; není žádný záznam o počtu na záznamu krabice nebo nejsou zahrnuti do moci prezidenta ; nebo kdy jsou zjevné chyby nebo změny minut .
+REF_SENT_2: 9. listopadu Nejvyšší státní soud (SCJN) vyřešil ústavní spor iniciovaný místní legislativní mocí a prohlásil hlas hlavy státu ve věci ústavních reforem za "neplatný a nelegální", protože nemá právo je "ani schvalovat, ani vetovat".
+REF_SENT_1: Na otázku možnosti sčítání "hlas po hlase" María de los Ángeles Llanderal odpověděla, že díky schválení příslušných opatření Generální radou IEM bude možné, aby částečné i celkové sčítání provedl místní volební orgán.
+REF_SENT_0: Tímto způsobem částečné sčítání hlasů, jednoho nebo více volebních balíků, bude možné provést za následujících podmínek: volební výsledky nesouhlasí; neexistuje zápis o sčítání hlasů a výpočet v příslušném políčku nebo jej nemá daný předseda k dispozici; nebo pokud došlo k chybám a zřejmým porušením volebních výsledků.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/055.streex##2.t_tree-en_src-s2-n516
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_1: Three bodies are found left in the NL Cadereyta farm
+SRC_SENT_0: Hours before the discovery , the military authority presented in media eleven persons <who> were detained in the same municipality for crimes related to organized crime .
+TST_SENT_1: Tři těla jsou nalezena, nechala v NL Cadereyta farmě
+TST_SENT_0: Hodiny před objevením vojenský orgán prezentoval v médiích jedenáct osob , <který> byl zadržen ve stejné obci na zločiny související s organizovaným zločinem .
+REF_SENT_1: Byla nalezena tři opuštěná mrtvá tělo na statku Cadereyta NL
+REF_SENT_0: Několik hodin před nálezem vojenští představitelé představili sdělovacím prostředkům 11 osob, které byly zadrženy v této oblasti pro trestné činy spojené s organizovaným zločinem.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/057.streex##24.t_tree-en_src-s24-n1134
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: While Nacho Moreal has only four games and Jordi Alba two, in Costa Rica Victor Bolivar has only one Olman Vargas and Nelson Edder did not debut yet.
+SRC_SENT_1: The leading scorer of Spain is David Villa is, with 50 goals, followed by Fernando Torres with 27.
+SRC_SENT_0: For Costa Rica , Bryan Ruiz is the one <that> registers more points , two more than Carlos Hernandez and three more than Roy Myrie and Parks .
+TST_SENT_2: Zatímco Nachos Moreal má pouze čtyři hry a Jordi alba dvě, Costa Kostarika Victor Bolívar má jen jednu, Olman Vargas a Nelson Edder ještě nebyli debut.
+TST_SENT_1: Vedoucí scorer Španělska je, David Villa je s 50 cíli následovanými Fernandem Torresem s 27.
+TST_SENT_0: Costa Kostarika to Bryan Ruiz je , <které> registruje další body , více než dva Carlos Hernandezová a více než tři Roy Myrie a více než Parks .
+REF_SENT_2: Zatímco Nacho Moreal má pouze čtyři hry a Jordi Alba dvě, v Kostarice Víctor Bolívar má pouze jednu a Ólman Vargas a Edder Nelson ještě na svůj první zápas čekají.
+REF_SENT_1: Nejlepším střelcem Španělska je David Villa s 50 góly a za ním následuje Fernando Torres s 27.
+REF_SENT_0: Na kostarické straně má nejvíce zásahů Bryan Ruiz, devět, o dva více než Carlos Hernández a o tři více než Roy Myrie a Parks.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/059.streex##9.t_tree-en_src-s9-n471
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: He had surgery four times for cancer of the tongue, has a weight loss of 18 kilos to which other diseases were added such as severe erosive gastritis, pancreatic cysts, kidney stones, high blood pressure and circulation problems in the legs, listed the doctor.
+SRC_SENT_1: Fujimori is in prison since September 2007 in the Police National Department of Special Operations.
+SRC_SENT_0: In April 2009 he was sentenced to 25 years of prison for killing 25 people at the hands of a squad of annihilation of the army <that> operated clandestinely in the early years of his government .
+TST_SENT_2: Měl operaci jazyka čtyř dob rakoviny, má úbytek hmotnosti 18 kilogramů jehož, jiné nemoci byly přidány jako těžká erosive gastritida, jako pankreatické cysty, jako ledvinové kameny, jako vysoký krevní tlak a když problémy s oběhem v nohou uvedly lékař.
+TST_SENT_1: Fujimori je ve vězení od září 2007 v Národním oddělení policie zvláštní operace.
+TST_SENT_0: V dubnu 2009 byl odsouzen k 25 letům vězení za zabití 25 lidí v rukou skupiny zničení armády , <které> působilo tajně v prvních letech jeho vlády .
+REF_SENT_2: Byl čtyřikrát operován kvůli rakovině jazyka, shodil 18 kilogramů a k těmto problémům se přidaly i další neduhy jako těžká erozivní gastritida, cysta na slinivce, ledvinové kameny, vysoký tlak a oběhové problémy v nohách, vyjmenoval lékař.
+REF_SENT_1: Fujimori si odpykává trest od září 2007 v Národním ředitelství speciálních policejních operací.
+REF_SENT_0: V dubnu 2009 byl odsouzen k 25 letům vězení za smrt 25 osob, které zabila vraždící eskadra vojska působící nelegálně v prvních letech jeho vlády.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/060.streex##9.t_tree-en_src-s9-n619
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: Mexico presides since November, the G20, a group composed of the world's most powerful developed and emerging countries, and has in effect with the South American country since January this year, an agreement to exchange tax information in order to avoid double taxation.
+SRC_SENT_1: The Uruguayan government has attempted in recent years to speed up the conclusion of tax exchanging arrangements in order to leave the "gray list" of the Organization for Economic Cooperation and Development (OECD), composed of countries that did not implement all international standards of tax cooperation.
+SRC_SENT_0: On the trade plan , Mexico and Uruguay have in force since 2004 a Free Trade Agreement ( FTA ) <that> has increased the exchange of goods between both countries .
+TST_SENT_2: Mexiko předsedá od listopadu G20 skupina složená ze světa, je, nejsilnější vyvinul a nové země a má ve vlivu na jižní americkou zemi od ledna letošní dohody, který vyměňují daňovou informaci, vyhne se dvojímu zdanění.
+TST_SENT_1: Uruguayská vláda se pokusila v posledních letech urychlit závěr daně, který vymění opatření nechat „šedý seznam“ Organizace hospodářskou spolupráci a rozvoj (OECD) složený ze zemí, které nepoužívalo všechny mezinárodní standardy daňové spolupráce.
+TST_SENT_0: Obchodní plán Mexiko a Uruguay mají v platnosti od roku 2004 dohoda o volném obchodě ( FTA ) , <které> zvýšilo výměnu zboží mezi oběma zeměmi .
+REF_SENT_2: Mexiko předsedá G20 od listopadu. G20 je skupina tvořená nejmocnějšími rozvíjejícími se a rozvinutými zeměmi světa. Se zmíněnou latinskoamerickou zemí má od ledna tohoto roku uzavřenu dohodu o výměně informací mající zabránit dvojímu zdanění.
+REF_SENT_1: Uruguayská vláda v posledních letech usiluje o konkretizaci dohod o fiskální výměně s cílem dostat se z "černé listiny" Organizace pro ekonomickou spolupráci a rozvoj (OECD), na které jsou země, které nezavedly všechny požadované mezinárodní standardy spolupráce v oblasti daní.
+REF_SENT_0: Z obchodního hlediska Mexiko a Uruguay mají od roku 2004 uzavřenu Dohodu o volném obchodu (FTA), díky které došlo k posílení výměny zboží mezi oběma zeměmi.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/061.streex##6.t_tree-en_src-s6-n600
+SRC_FORM: which
+TST_FORM: který
+SRC_SENT_2: "Mario is the character who has to say how it should work the stereoscopy without glasses," said the press head of Nintendo in Spain, Omar Alvarez, during the presentation of the game in Madrid.
+SRC_SENT_1: Alvarez said that "Super Mario 3D Land" is "the first video game of Nintendo originally designed for this support," because until now successes like "Star Fox 64 3D" or "Zelda: Ocarina of Time 3D" were adaptations of existing titles.
+SRC_SENT_0: Nintendo spokesman has claimed that , despite being in 3D , `` Super Mario 3D Land '' is an `` accessible '' video game <which> allows enjoying a quick and fluid game .
+TST_SENT_2: „Mario je postava, který musí říci, jak by mělo pracovat stereoskopie bez brýlí,“ řekla tisková hlava Nintendo ve Španělsku Omarovi Alvarezi během prezentace hry v Madridu.
+TST_SENT_1: Alvarez řekl, že „Super Mario 3D země“ je „první video hra Nintendo původně určená pro tuto podporu“, protože teď úspěch jako „Star Foxové 64 3D“ nebo „jako Zelda: Ocarina čas 3D“ byl adaptace existujících titulů.
+TST_SENT_0: Mluvčí Nintendo tvrdil , že , Přestože je v 3D , „ Super Mario 3D země “ je „ přístupná “ video hra , <který> umožňuje užívat rychlou a plynulou hru .
+REF_SENT_2: "Mario je postava, která musí říct, jak má fungovat stereoskopie bez brýlí", uvedl pracovník tisku specializovaného na Nintendo ve Španělsku, Omar Álvarez, během prezentace videohry v Madridu.
+REF_SENT_1: Álvarez uvedl, že "Super Mario 3D Land" je "první videohra Nintendo vytvořená speciálně pro tento nosič", protože až do této chvíle úspěšné snímky jako "Star Fox 64 3D" nebo "Zelda: Ocarine of time 3D" byly adaptace již existujících titulů.
+REF_SENT_0: Mluvčí Nintendo uvedl, že kromě toho, že snímek je 3D, "Super Mario 3D Land" je "dostupná" videohra, která umožňuje užít si rychlou a plynulou partii.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/065.streex##30.t_tree-en_src-s29-n1314
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: Tighter to the question, Modolo believes that simplifying the Collserola valley side "can be understood as a park, Barcelona, ​​not" by a purely topographical issue.
+SRC_SENT_1: Modolo remembers that there is already a work done by the Board of Collserola that "should not fall on deaf ears," although he is grateful for the opportunity that the city hall offers to his profession to intervene in this project "from the very beginning."
+SRC_SENT_0: And further , understands that the proximity of the mountain with the city is the pass <that> allows architects to enter the debate , but `` he doubts '' about whether this technical profile is the one that should lead multidisciplinary teams ( `` a success , '' he points ) that have had to create : `` The architects should be only a tool . ''
+TST_SENT_2: Tighter na otázku Modolo věří, že, zjednoduší Collserola stranu údolí, „může být rozuměno jako park Barcelona ​​not“ ryze topografický problém.
+TST_SENT_1: Modolo si pamatuje, že je už dílo, který dělal Rada Collserola, „neměl by padnout na hluché uši,“ ačkoliv je vděčný pro příležitost, který městská radnice nabízí jeho profesi, zasáhne do tohoto projektu „ze samotného začátku“.
+TST_SENT_0: A dál rozumí , že blízkost hory s městem je průsmyk , <které> umožňuje architekti vstoupit do debaty , ale „ pochybuje , “ zda to tento technický profil je , které by mělo vést multidisciplinární týmy ( „ úspěch “ ukazuje ) , které muselo vytvořit : „ architekti by měli být pouze nástroj . “
+REF_SENT_2: Zaměříme-li se detailněji na otázku, Modol se domnívá, že údolní svah Collserola lze "považovat za park", ale barcelonskou část nikoliv, a to z důvodů čistě topografických.
+REF_SENT_1: Modol také připomněl, že již existuje práce, kterou provedl Patronat de Collserola, která "nesmí skončit na smetišti", i když vítá skutečnost, že radnice nabízí jeho grémiu, že do projektu zasáhne od "první chvíle".
+REF_SENT_0: A navíc rozumí tomu, že blízkost hory a města je jakousi propustkou, která umožňuje architektům zapojit se do debaty, ale "pochybuje", že by to měl být právě tento technický profil, který povede multidisciplinární týmy ("je to všechno o dovednosti", dodává), které je třeba vytvořit: "Architekti by měli být pouze nástroje".
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/068.streex##3.t_tree-en_src-s3-n925
+SRC_FORM: which
+TST_FORM: který
+SRC_SENT_2: MSS announces a protocol for finding obesity gene
+SRC_SENT_1: Social Security directs a research to find the gene for obesity in children and young people; it is supported by specialists from the IPN
+SRC_SENT_0: The Mexican Social Security Institute ( MSSI ) has announced that conducts a research to discover the gene for obesity in children and young people , called the protocol of ' Genetics of obesity in childhood and adolescence ' , <which> will provide counting on markers associated with overweight .
+TST_SENT_2: MSS oznamuje protokol, že najde gen obezity
+TST_SENT_1: Sociální zabezpečení řídí výzkum, najde gen obezity v dětech a mladí lidé; je podporováno specialisty z IPN
+TST_SENT_0: Mexický institut sociálního zabezpečení ( MSSI ) oznámil , provádí průzkum , objeví gen obezity v dětech a mladých lidech , nazvaný protokol ' genetiky obezity v dětství a dospívání ' , <který> zajistí , počítá se značkami spojenými s nadváhou .
+REF_SENT_2: Mexický institut zdravotního pojištění zahájil výzkum genu, který způsobuje obezitu
+REF_SENT_1: Institut zdravotního pojištění vede výzkum s cílem objevit gen odpovědný za obezitu dětí a dospívajících. Výzkum realizuje s podporou odborníků z institutu IPN
+REF_SENT_0: Mexický institut zdravotního pojištění (IMSS) oznámil, že vede výzkum s cílem odhalit gen způsobující obezitu u dětí a mladých. Výzkum nazvaný "Genetika obezity u dětí a mladistvých" umožní získat výsledky týkající se nadváhy.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/070.streex##10.t_tree-en_src-s9_1of2-n1458
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: What was missing?
+SRC_SENT_1: Because the result is the defeat of a big favorite who in each performance showed that she had everything to be the new Miss Colombia, not in vain she was elected Queen of the Police and Best Jolie Face of Vogue, titles that were obtained by queens as Taliana Vargas or Natalia Navarro, who took the crown of Miss Colombia.
+SRC_SENT_0: The first key factor in the decision of the jury to designate her as First Princess is that she did not convince with her answer to the question '' ' What is the book <that> has marked you and why ?
+TST_SENT_2: Co chybělo?
+TST_SENT_1: Protože výsledek je porážka velkého favoritu, který v každém výkonu prokázal, že měla všechno, je nová slečna Kolumbie ne ve vain, kterou byla zvolena královnu policie a dobré Jolie tváře módy titulů, které bylo získáno královnami jako Taliana Vargas nebo Natálie Navarrová, který vzal korunu slečny Kolumbie.
+TST_SENT_0: První klíčový faktor rozhodnutí poroty , označí ji první princeznou , je , že nepřesvědčila s její odpovědí na otázku , “ ' , co je kniha , <které> vás označilo a proč ?
+REF_SENT_2: Výsledkem je totiž porážka velké favoritky, která ve všech předchozích kolech ukázala, že má na to, aby se stala novou Miss Kolumbie, a ne nadarmo se stala Královnou policie a Nejhezčí tváří Joile de Volgue.
+REF_SENT_1: Těchto titulů dosáhly například Taliana Vargas nebo Natalia Navarro, které si následně odnesly i titul Miss Kolumbie.
+REF_SENT_0: Jedním z klíčových faktorů, který rozhodl o tom, že porota se rozhodla ji jmenovat pouze První vícemiss, je fakt, že nepřesvědčila svou odpovědí na otázku: "Která kniha se vám nejvíce líbila a proč?", kterou položil Martín Murillo Gómez z literární redakce Leamos.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/070.streex##33.t_tree-en_src-s31-n1909
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: Her body was never her strong advantage and here is where she was punished.
+SRC_SENT_1: For this award, which for the first time is given by the National Beauty Contest, after the swimsuit parade a cruel prophecy was fulfilled last night, it was said that this was the flicker that Raymundo granted to Melina for not giving her the pleasure of taking the crown.
+SRC_SENT_0: Reality or not , the fact is that Melina today begins a year of reign , not as sovereign , but as a princess , a position <that> gives her the opportunity to represent Colombia in one of the international competitions designated by the National Competition itself .
+TST_SENT_2: Její tělo nebylo nikdy její silná výhoda a zde, je, kde byla potrestána.
+TST_SENT_1: Pro toto ocenění, který poprvé je dáno Národní soutěží krásy, to po přehlídce plavek, kruté proroctví bylo naplněno poslední noc, bylo, říkalo, že to byl záblesk, že Raymundo udělil Melina, že jí není potěšení vzít korunu.
+TST_SENT_0: Realita nebo skutečnost není , Melina dnešní začíná rok panování , ne tak suverénní , ale jako princezna pozice , <které> jí dává příležitost zastupovat Kolumbii v jedné z mezinárodních soutěží určených samotnou Národní soutěží .
+REF_SENT_2: Tělo nebylo nikdy její silná stránka a tady si vybralo svou daň".
+REF_SENT_1: Z důvodu tohoto ocenění, které poprvé udělovalo Národní shromáždění krásy, po přehlídce v plavkách došlo ke kruté předpovědi, která se naplnila. Tvrdilo se, že toto bylo uspokojení, které Raymundo Melině dopřál, aby jí nemusel nakonec udělit nejvyšší korunku.
+REF_SENT_0: Ať už je to pravda nebo ne, jisté je, že Melina dnešním dnem zahájila rok svého panování, ne jako královna, ale jako princezna, z pozice, která jí dává možnost reprezentovat Kolumbii na různých mezinárodních soutěžích, kam bude jmenována samotnou Národní soutěží.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/071.streex##1.t_tree-en_src-s1-n886
+SRC_FORM: who
+TST_FORM: který
+SRC_SENT_0: Such was the work of the person <who> identified the body of Alfonso Cano
+TST_SENT_0: Sucho bylo práce osoby , <který> identifikoval tělo Alfonsa Cana
+REF_SENT_0: Taková byla práce obyvatele Cali, který identifikoval mrtvolu Alfonse Cana
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/076.streex##8.t_tree-en_src-s8-n950
+SRC_FORM: that
+TST_FORM: které
+SRC_SENT_2: Spain is "still working" to expand the network of beneficiaries all over the world, and assumes the task with "responsibility" said Mrs. Sofia, who hoped that the efforts and contributions originated in the Summit, which will be held until Thursday, will "ensure the creation of new capabilities and better opportunities for the poorest people, and especially for women," the main beneficiaries of these loans.
+SRC_SENT_1: There are "many achievements" and "many challenges we are facing."
+SRC_SENT_0: The Microcredit Summit arises not only as a forum for debate , but also as a platform <that> promotes `` two basic goals . ''
+TST_SENT_2: Španělsko „stále pracuje,“ aby rozšířilo síť příjemců po celém světě a přebírá úkol s „odpovědností“, řekla paní Sophie, který doufal že snahy a příspěvky pocházející ze Summitu, který bude držen do čtvrtka, „zajistí vytvoření nových kapacit a lepších příležitostí pro nejchudší lidi a zejména ženy“ hlavní příjemci těchto půjček.
+TST_SENT_1: Je „mnoho úspěchů“ a „mnoho výzev, kterou čelíme.“
+TST_SENT_0: Microcredit summit nevzniká nejen forem pro diskusi , ale také jako platforma , <které> podporuje „ dva základní cíle “ .
+REF_SENT_2: Španělsko "bude i nadále pracovat" a rozšiřovat síť dobrovolníků "ve všech koutech planety a bere tento úkol zodpovědně", zdůraznila královna Sofie, která doufá, že iniciativy a přínos Summitu, jenž potrvá až do čtvrtka, "zajistí vytvoření lepších kapacit a příležitostí pro ty nejchudší a zejména pro ženy", kterým jsou tyto půjčky určeny především.
+REF_SENT_1: "Dosáhli jsme již mnohého" a "mnoho výzev je ještě stále před námi".
+REF_SENT_0: Summit o mikropůjčkách má být nejen diskuzním fórem, ale také platformou, která podpoří "základní cíle".
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/076.streex##9.t_tree-en_src-s9-n981
+SRC_FORM: which
+TST_FORM: kterého
+SRC_SENT_2: There are "many achievements" and "many challenges we are facing."
+SRC_SENT_1: The Microcredit Summit arises not only as a forum for debate, but also as a platform that promotes "two basic goals."
+SRC_SENT_0: Thus , His Majesty explained that she hopes that at the end of 2015 , 175 million poor families will have acceded to these financial services and one hundred million of these households will get out of the poverty in <which> they are immersed .
+TST_SENT_2: Je „mnoho úspěchů“ a „mnoho výzev, kterou čelíme.“
+TST_SENT_1: Microcredit summit nevzniká nejen forem pro diskusi, ale také jako platforma, které podporuje „dva základní cíle“.
+TST_SENT_0: Tak jeho veličenstvo vysvětlilo , že doufá , že na konci roku 2015 175 miliónů chudých rodin přistoupí k těmto finančním službám a jedna sto miliony z těchto domácností se dostanou z chudoby , do <kterého> jsou ponořeni .
+REF_SENT_2: "Dosáhli jsme již mnohého" a "mnoho výzev je ještě stále před námi".
+REF_SENT_1: Summit o mikropůjčkách má být nejen diskuzním fórem, ale také platformou, která podpoří "základní cíle".
+REF_SENT_0: Její Veličenstvo vysvětlila, že cílem je, aby do konce roku 2015 175 milionů chudých rodin mělo přístup k těmto finančním službám a aby se 100 milionů rodin dostalo nad práh chudoby, pod kterým momentálně žijí.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/088.streex##27.t_tree-en_src-s27-n1068
+SRC_FORM: which
+TST_FORM: který
+SRC_SENT_2: France has recorded an economic growth of 0,4% in the third quarter, a little better than the expected 0,3%, due to increased household consumption.
+SRC_SENT_1: The Inseen nevertheless revised downwards the figure for the second quarter, with a fall of 0,1% of the gross internal product (PIB) instead of stagnation.
+SRC_SENT_0: And it is really the fourth quarter , <which> most disquiets the economists .
+TST_SENT_2: Francie zaznamenala hospodářský růst 0,4 % v třetím čtvrtletí trochu lepší než očekávající 0,3 % kvůli zvýšené spotřebě domácností.
+TST_SENT_1: Inseen přesto upravil dolů čísel pro druhé čtvrtletí s pádem 0,1 % hrubého vnitřního produktu (PIB) místo stagnace.
+TST_SENT_0: A je to opravdu čtvrté čtvrtletí , <který> nejvíce znepokojí ekonomové .
+REF_SENT_2: Statistická čísla říkají, že Francie zaznamenala ve třetím čtvrtletí hospodářský růst o 0,4% způsobený především spotřebou domácností, tj. trochu lepší než očekávaný růst o 0,3%.
+REF_SENT_1: Francouzský národní institut pro statistiku a ekonomické studie INSEE nicméně revidoval směrem dolů čísla za druhé čtvrtletí na pokles o 0,1% HDP namísto stagnace.
+REF_SENT_0: A po pravdě je to čtvrté čtvrtletí, které ekonomy znepokojuje nejvíce.

@@ -1,0 +1,260 @@
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/008.streex##60.t_tree-en_src-s59-n2466
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: Obviously, your rival has to get in front of you no matter what.
+SRC_SENT_1: The thing is that when he is driving in front of you, he makes your vision worse, which causes you to crash the car a few times in the section.
+SRC_SENT_0: One can understand the attempt at making the game more interesting and adrenalin-filled , but <it> is so obvious it gets annoying quickly .
+TST_SENT_2: Samozřejmě váš soupeř nemusí být před vámi žádná věc co.
+TST_SENT_1: Je to, že, když jede před vámi, je horší vaši vizi, který způsobuje, že havarujete auto několik dob v sekci.
+TST_SENT_0: Jeden může rozumět pokusu být hru více, zajímavou a plnou adrenalinu, ale je tak jasné, že je, otravuje rychle.
+REF_SENT_2: Protivník se tam před vás musí dostat zjevně snad za jakoukoliv cenu.
+REF_SENT_1: Když jede před vámi, tak vám totiž zhoršuje přehled o protijedoucích vozech, takže se tam zpočátku asi párkrát pěkně rozmašírujete.
+REF_SENT_0: Dá se pochopit záměr udělat hru napínavější a adrenalinovější, ale provedení je tak zjevné, že vás to spolehlivě rychle znechutí.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/011.streex##10.t_tree-en_src-s10-n1810
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: Moreover, it was the foundation of company culture Watson was building carefully.
+SRC_SENT_1: "For us in IMB, long-term thinking means continuous movement towards the future.
+SRC_SENT_0: IMB survived and flourished for a hundred years , because <it> remained true to its original values , while it was not afraid to change everything around itself .
+TST_SENT_2: Navíc bylo, základ kultury společnosti Watsona stavěl opatrně.
+TST_SENT_1: „Pro nás v IMB dlouhodobé myšlení znamená plynulý pohyb k budoucnosti.
+TST_SENT_0: IMB přežila a vzkvétala sto let protože zůstalo věrné jeho původním hodnotám, zatímco nemělo strach změnit kolem sebe všechno.
+REF_SENT_2: Bylo také základem Watsonem pečlivě budované firemní kultury.
+REF_SENT_1: "Pro nás z IBM znamená dlouhodobé myšlení kontinuální pohyb směrem k budoucnosti.
+REF_SENT_0: IBM přežila a prosperovala sto let kvůli tomu, že zůstala věrná svým základním hodnotám a přitom se nebála vše ostatní kolem sebe měnit.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/019.streex##10.t_tree-en_src-s9-n1074
+SRC_FORM: It
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: Schwanzer's pavilion won the Grand Prix d'Architecture in 1958 for its light floating steel-glass structure.
+SRC_SENT_1: The building is considered a milestone in contemporary architecture.
+SRC_SENT_0: <It> made the architect so famous that he also built Austria 's pavilion at the next world 's fair .
+TST_SENT_2: Pavilon Schwanzera získal Grand Prix d'Architecture v roce 1958 za jeho světlo plovoucí skleněnou oceli strukturu.
+TST_SENT_1: Budova je považována milník v současné architektuře.
+TST_SENT_0: Bylo architekta tak slavného, že také postavil rakouský pavilon na výstavě dalšího světa.
+REF_SENT_2: Schwanzerův pavilon obdržel tehdy Grand Prix d'Architecture za svou lehkou a vznosně působící konstrukci z oceli a skla.
+REF_SENT_1: Stavba je pokládána dosud za milník současné architektury.
+REF_SENT_0: Proslavil architekta tak, že také za příští světové výstavy vybudoval pavilon Rakouska.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/019.streex##13.t_tree-en_src-s12-n1140
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: He finally shot to fame internationally in 1973 with his legendary four-cylinder BMW Tower and its bowl-shaped sister building.
+SRC_SENT_1: The pavilion, planned as a temporary exhibition building, was relocated to the Schweizer Garten near Vienna's Südbahnhof, converted and opened as the Museum of the 20th Century in 1962 - and is widely referred to as the "20er Haus" for this reason.
+SRC_SENT_0: However , the building was not suitable as a museum for technical and spatial reasons - <it> had no walls to hang artworks and poor air conditioning .
+TST_SENT_2: Konečně střílel, aby proslavil mezinárodně v roce 1973, jeho legendární čtyřválcovou BMW věží a jeho sesterskou budovou tvaru misky.
+TST_SENT_1: Pavilon, plánoval jako budova dočasné výstavy, byl přemístěn do Garten Schweizera poblíž vídeňské Südbahnhof, převedl a otevřel muzeum 20. století v roce 1962 - a obecně je uveden na jako „20er Hausu“ pro tento důvod.
+TST_SENT_0: Však budova nebyla vhodná jako muzeum z technických a prostorových důvodů - žádné stěny nemá díla a špatný vzduch klimatizaci.
+REF_SENT_2: Se svým legendárním čtyřválcovým BMW-palácem plus jako klíč provedenou vedlejší stavbou v Mnichově se nakonec 1973 mezinárodně proslavil.
+REF_SENT_1: Jeho jako dočasnou výstavní stavbu projektovaný pavilon po světové výstavě umístili ve Schweizer Garten u vídeňského Südbahnhof (Jižního nádraží), zrekonstruovali a v ní 1962 otevřeli Museum 20. století - bylo pojmenováno jako "Dům 20. století".
+REF_SENT_0: Vhodná ale pro museum budova nebyla, ani prostorově ani technicky - chyběly stěny pro zavěšení uměleckých exponátů, žádné vyhovující klima.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/019.streex##14.t_tree-en_src-s13-n1150
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: The pavilion, planned as a temporary exhibition building, was relocated to the Schweizer Garten near Vienna's Südbahnhof, converted and opened as the Museum of the 20th Century in 1962 - and is widely referred to as the "20er Haus" for this reason.
+SRC_SENT_1: However, the building was not suitable as a museum for technical and spatial reasons - it had no walls to hang artworks and poor air conditioning.
+SRC_SENT_0: Nonetheless , <it> continued to be used until contemporary art in Vienna was given a new home .
+TST_SENT_2: Pavilon, plánoval jako budova dočasné výstavy, byl přemístěn do Garten Schweizera poblíž vídeňské Südbahnhof, převedl a otevřel muzeum 20. století v roce 1962 - a obecně je uveden na jako „20er Hausu“ pro tento důvod.
+TST_SENT_1: Však budova nebyla vhodná jako muzeum z technických a prostorových důvodů - žádné stěny nemá díla a špatný vzduch klimatizaci.
+TST_SENT_0: Přesto pokračovalo, je používáno, než současné umění ve Vídni nebylo dáno nový domov.
+REF_SENT_2: Jeho jako dočasnou výstavní stavbu projektovaný pavilon po světové výstavě umístili ve Schweizer Garten u vídeňského Südbahnhof (Jižního nádraží), zrekonstruovali a v ní 1962 otevřeli Museum 20. století - bylo pojmenováno jako "Dům 20. století".
+REF_SENT_1: Vhodná ale pro museum budova nebyla, ani prostorově ani technicky - chyběly stěny pro zavěšení uměleckých exponátů, žádné vyhovující klima.
+REF_SENT_0: Přesto byla používána, dokud se současné umění nedočkalo ve Vídni nového stánku.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/023.streex##26.t_tree-en_src-s23-n1138
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: "That will be the best self-defence."
+SRC_SENT_1: "Peace in Germany depends very strongly on how the entire network is uncovered and on the appropriateness of punishment," writes "Selen."
+SRC_SENT_0: The attacks on Mölln and Solingen in the 90s are an example of what <it> means for peace in Germany to be at risk .
+TST_SENT_2: „Bude to nejlepší sebeobrana.“
+TST_SENT_1: „Mír v Německu závisí, velmi silně jak celá síť je odhalena a na vhodnosti trestu,“ píše „Selen“.
+TST_SENT_0: Útoky na Mölln a Solingen v 90 jsou příklad, co znamená pro mír v Německu, je v riziku.
+REF_SENT_2: "To bude snad nejlepší sebeobrana".
+REF_SENT_1: "Na kvalitě objasnění a přiměřenosti potrestání celé sítě velmi silně závisí vnitřní mír v Německu ", píše "Selen".
+REF_SENT_0: Co znamená, jestliže je vnitřní mír v Německu ohrožen, objasňují atentáty v Mölln a Solingen v devadesátých letech.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/033.streex##14.t_tree-en_src-s14-n961
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: It points out that while there were no layoffs on Staten Island and few layoffs in schools in the Upper East Side or TriBeCa, 17 school aides lost their jobs in District 23 in Brownsville, Brooklyn, and 46 were let go in Districts 8 and 9 in the South Bronx.
+SRC_SENT_1: Noting the loss of five out of eight school aides employed by Public School 36 in Harlem, where 68 percent of the students live in poverty, the lawsuit says, "This is not a neighborhood of well-heeled parents who can fund-raise to make up the budget shortfalls."
+SRC_SENT_0: P . S . 36 '' s budget was cut by 3.26 percent this year , and it also lost money when the city changed the way <it> calculates the extra financing for each poor student schools enroll .
+TST_SENT_2: Poukazuje, zatímco nebylo žádné propouštění na Staten ostrově a několika propouštění ve školách v Horní East straně nebo Tribeca 17 školních poradcích, ztratili jejich práce v okrsku 23 v Brownsville v Brooklynu a 46 bylo puštěno, pojďte v okrscích 8 a 9 v Jižním Bronxu.
+TST_SENT_1: Bere ztrátu pěti z osmi školní asistenti, který zaměstnal veřejná škola 36 v Harlemu, kde 68 procent studentů žije v chudobě, žaloba říká „Není to čtvrt zazobaných rodičů, který může zvýšit fondu, nahradí schodky rozpočtu.“
+TST_SENT_0: P. S., 36“ lze, rozpočet byl snížen 3,26 procenty letošní rok a také přišlo peníze, když město změnilo způsob, kterou vypočítává další financování, každé chudé student školy zapište.
+REF_SENT_2: Poukazují na to, že zatímco ve školách v části Staten Island se nepropouštělo vůbec a v části Upper East Side jen minimálně, v Brooklynu, v části District 23 v Brownsville přišlo o práci 17 školních asistentů a v částech District 8 a 9 v Jižním Bronxu bylo propuštěno dokonce 46 asistentů.
+REF_SENT_1: Připomíná, že ve škole Public School 36 v Harlemu ztratilo práci pět z osmi asistentů, přestože jde o školu, kde 68 procent studentů žije v chudobě. V žalobě se říká: "Nejde o sousedství plné movitých rodičů, kteří mohou obstarávat finanční prostředky k vyrovnání schodku v rozpočtu."
+REF_SENT_0: Rozpočet školy Public School 36 byl letos snížen o 3,26 procent a škola rovněž přišla o peníze, když město změnilo způsob vypočítávání bonusových financí za každého přihlášeného chudého studenta.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/036.streex##16.t_tree-en_src-s15-n803
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: The troops are lavished with praise for their sacrifices.
+SRC_SENT_1: But the praise comes with a price, service members say.
+SRC_SENT_0: The public increasingly acts as if <it> feels sorry for those in uniform .
+TST_SENT_2: Vojáci jsou zahrnuti chválou za jejich oběti.
+TST_SENT_1: Ale chvála jde s cenou, říkají členové služeb.
+TST_SENT_0: Veřejnost stále jedná, jako je líto ty v uniformě.
+REF_SENT_2: Vojsko je bezbřeze zahrnováno chválou za svoje oběti.
+REF_SENT_1: Jenže tato chvála něco stojí, říkají vojáci.
+REF_SENT_0: Veřejnost se stále více chová, jako by jedince v uniformě litovala.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/037.streex##35.t_tree-en_src-s34-n1989
+SRC_FORM: it
+TST_FORM: ho
+SRC_SENT_2: At Yale Law School, the Veterans" Legal Services Clinic is preparing a case against the four major military academies for allegedly fostering a misogynistic atmosphere.
+SRC_SENT_1: Separately, the nonprofit Vietnam Veterans of America is assembling a suit against the military that focuses on the "personality disorder" diagnoses assigned to rape victims in order to discharge them from service - a common occurrence, according to activists such as Anu Bhagwati of the Service Women's Action Network, a human-rights group.
+SRC_SENT_0: Her group filed a suit in December against the Veterans Administration , charging <it> with discriminatory practices in the way it handles benefit claims for people who say they were sexually assaulted in the service .
+TST_SENT_2: Na Yale právní školu Veterán“ Právní služba klinika připravuje případ proti čtyřem hlavním vojenským akademiím údajně pro podporu misogynní atmosféry.
+TST_SENT_1: Odděleně neziskový vietnamský veterán Ameriky shromažďuje oblek proti armádě, které je na „poruchu osobnosti“, diagnostikuje, přidělila znásilněným obětem, propustí je ze služby - společné události, podle aktivistů jako Anu Bhagwati Akční sítě Ženy služby skupina lidských práv.
+TST_SENT_0: Její skupina podala žalobu v prosinci proti Správě veteránů , obviní <ho> z diskriminačních praktik ve způsobu , kterou pracuje nároky na dávku lidí , který tvrdí , sexuálně byli napadeni ve službě .
+REF_SENT_2: Na právnické škole Yale připravují návštěvníci veteránského semináře o právních službách žalobu na čtyři hlavní vojenské akademie za domnělé rozvíjení atmosféry podporující nenávist k ženám.
+REF_SENT_1: Nezávisle na tom nezisková organizace amerických vietnamských veteránů shromažďuje podklady pro svoji žalobu mířící proti armádě. Tato žaloba se zaměřuje na diagnózu "poruchy osobnosti", která byla údajně zjištěna u obětí znásilnění, aby měla armáda záminku k jejich propuštění - podle aktivistů, jako je například Anu Bhagwatiová patřící ke skupině bojovníků za lidská práva Service Women's Action Network, jde o naprosto běžnou praxi.
+REF_SENT_0: Její skupina již v prosinci podala návrh žaloby proti státní organizaci pro jednání s veterány, kterou obviňuje z diskriminačních praktik, k nimž mělo dojít při zpracovávání žádostí o pomoc ze strany osob, které tvrdily, že byly ve službě sexuálně napadeny.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/045.streex##26.t_tree-en_src-s26-n1349
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: "It's a paper tiger, an Army of barracks, buildings and bombs without enough trained soldiers able to accomplish the mission," Panetta said in his opening remarks at the Pentagon.
+SRC_SENT_1: "It's a force that suffers low morale, poor readiness and is unable to keep up with potential adversaries."
+SRC_SENT_0: `` In effect , <it> invites aggression . . ''
+TST_SENT_2: „Je to papírový tygr armáda kasáren, budov a bomb bez dostatečných vycvičených vojáků, mohou splnit misi,“ řekl Panetta v jeho otevřených poznámkách v Pentagonu.
+TST_SENT_1: „Je to síla které, trpí nízkou morálku a špatné pohotovosti, nemůže držet s potenciálními protivníky.“
+TST_SENT_0: „Účinek zve agresivitu..“
+REF_SENT_2: "Bude jako papírový tygr, jako armáda kasáren, budov a bomb bez dostatečného počtu trénovaných vojáků, kteří by mohli dokončit misi," řekl Panetta na začátku proslovu v Pentagonu.
+REF_SENT_1: "Bude jako jednotka bez morálky, nepřipravená a neschopná vyrovnat se možnému nepříteli."
+REF_SENT_0: "V důsledku toho bude vítat agresi..."
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/052.streex##3.t_tree-en_src-s3-n716
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: The court validates "digital television transition" in Mexico in 2015
+SRC_SENT_1: The replacement of analog with digital is one of the most important changes that has hit the world in recent years
+SRC_SENT_0: The Supreme Court of Justice ( SCJ ) rejected the constitutional controversies brought by the Senate and House of Representatives against the presidential decree that brings forward the so-called `` digital television transition '' from 2021 to 2015 , since the eight votes needed to invalidate <it> were not obtained .
+TST_SENT_2: Soud ověřuje „přechod digitální televize“ v Mexiku v roce 2015
+TST_SENT_1: Nahrazení analogového digitálním je jedna z nejdůležitějších změn, které zasáhlo svět do posledních let
+TST_SENT_0: Nejvyšší soud dvora (SCJ) zamítl ústavní spory přinést Senát a Dům reprezentantů proti prezidentskému dekretu, které přináší dopředu takzvaný „přechod digitální televize“ z roku 2021 na rok 2015 od osmi hlasů potřebných zrušit, nebylo získáno.
+REF_SENT_2: Soudní dvůr schvaluje "konec analogického vysílání" v Mexiku v roce 2015
+REF_SENT_1: Nahrazení analogických signálů digitálními je jedna z nejdůležitějších změn, kterou svět zažil v posledních letech.
+REF_SENT_0: Nejvyšší státní soud (SCJN) zamítl ústavní žalobu předloženou Senátem a Poslaneckou sněmovnou proti prezidenstkému dekretu, který chce uspíšit takzvané "vypnutí analogických signálů" a realizovat jej v roce 2015 místo 2021. Konstatoval, že se nenašlo potřebných osm hlasů, které by jej zneplatnily.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/069.streex##7.t_tree-en_src-s7-n980
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: Herrera Nájera said that this type of modified asphalt could be used in places where the weather is extremely hot, as some cities in the north, to improve its performance and, therefore, the formation of potholes.
+SRC_SENT_1: He explained that the asphalt, the heavier oil part is a set of hydrocarbon molecules, some of high molecular weight, called asphaltenes, and other of low molecular weight, called maltenes, which together give the road surface its viscoelastic characteristic behavior.
+SRC_SENT_0: The viscoelastic behavior of the asphalt consists in the fact that at high temperatures near 180 degrees , <it> behaves like a liquid at 120° C , its viscosity is very high and at 50 degrees Celsius has a nearly solid state , whereas at very low temperatures the asphalt becomes fragile , he said .
+TST_SENT_2: Herrera Nájera řekla, že by tento typ modifikovaného asfaltu mohl být použit v místech, kde počasí je velmi horko, jako některá města na severu, aby zlepšil jeho výkon a proto jako tvorba výmolů.
+TST_SENT_1: Vysvětlil, že asfalt část těžšího oleje je soubor uhlovodíkových molekul, některé vysoké molekulární hmotnosti zvané asphaltene a druhé nízké molekulární hmotnosti zvané maltene, který dohromady dává jeho viskoelastické charakteristické chování povrchů vozovek.
+TST_SENT_0: Viskoelastické chování asfaltu spočívá ve skutečnosti, že se ve vysokých teplotách kolem 180 stupňů chová jako kapalina v 120° C, jeho viskozita je velmi vysoká a v 50 stupních, Celsius je téměř pevný stav, že se ve velmi nízkých teplotách asfalt je křehký, řekl.
+REF_SENT_2: Herrera Nájera se domnívá, že tento druh modifikovaných asfaltů by se mohl používat na místech s extrémně teplým klimatem, například v některých městech na severu země. Zlepšila by se tak funkčnost a snížilo vytváření výmolů.
+REF_SENT_1: Vysvětlil, že asfalt, nejtěžší část ropy, je uskupení molekul uhlovodíků, molekul s velkou molekulární hmotností, které se nazývají asfalteny, a dalších s nízkou molekulární hmotností, které se nazývají malteny. Společně dodávají asfaltu typický viskoelastický charakter.
+REF_SENT_0: Viskoelastický charakter asfaltu spočívá v tom, že za vysokých teplot, okolo 180 stupňů, se chová jako tekutina, při 120 stupních má vysokou viskozitu a při 50 stupních je téměř v pevném stavu, zatímco při nízkých teplotách má asfalt tendenci se lámat, dodal.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/069.streex##13.t_tree-en_src-s13-n1081
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: Each of the stones which compose this covering, he said, is dipped with asphalt.
+SRC_SENT_1: When driving vehicles and generating effort, it allows the forces to spread very well on the pavement.
+SRC_SENT_0: If it were modified asphalt <it> would spread even better , said the chemical engineer .
+TST_SENT_2: Každý z kamenů, který tvoří tento obal, řekl, je ponořen s asfaltem.
+TST_SENT_1: Kdy řídit vozidla a vytvořené úsilí se umožňuje síly šířit velmi dobře na chodníku.
+TST_SENT_0: Jestli bylo upraveno asfalt, kterou by se rozšířilo ještě lépe, řekl chemický inženýr.
+REF_SENT_2: Zdůraznil, že každý kámen, který tvoří vložku, je zalit asfaltem.
+REF_SENT_1: Při průjezdu aut nebo při vytváření tlaku je tak možné, aby se síly v dlažbě dobře rozložily.
+REF_SENT_0: Kdyby šlo o modifikovaný asfalt, rozložily by se ještě lépe, domnívá se chemický inženýr.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/072.streex##16.t_tree-en_src-s16-n1206
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: Mayor Bloomberg told reporters that, because of that court order, the city had suspended the reopening of the public space and protesters were informed, however, that local laws do not allow them to re-install with camping shops and sleeping bags.
+SRC_SENT_1: The councilman personally defended the evacuation of the Zuccotti square carried out at dawn, an operation in which about 200 arrests were made and this was decided so because protesters were "violating the law."
+SRC_SENT_0: Bloomberg said he gave the order to evacuate the square because <it> was becoming `` a place where people did not come to protest , but to break the law and , in some cases , to do harm to others '' as `` Some businesses had received threats ' and neighbors feared '' for the quality of life . ''
+TST_SENT_2: Město Bloomberg řekl novinářům, že důsledek toho soudního příkazu, město pozastavilo, otevře veřejného prostoru a odpůrci byli informováni však, že místní zákony neumožňují znovunainstalovat ohledně tábora obchodů a se spacími pytli.
+TST_SENT_1: Radní osobně hájil, evakuace Zuccotti náměstí provedla v počátku operaci, ve kterém asi 200 zatčení bylo provedeno a bylo rozhodnuto, protože tak odpůrci „porušili zákon.“
+TST_SENT_0: Bloomberg řekl, vydal příkaz evakuovat náměstí, protože se bylo „místem, kde, lidé nebyli, přišli protestovat ale porušte zákon a podle některých případů poškoďte dalších,“ „některé firmy získaly hrozby a sousedy obávat se“ za kvalitu života.“
+REF_SENT_2: Starosta Bloomberg uvedl pro tisk, že vzhledem k tomuto soudnímu příkazu město pozastavilo znovu otevření veřejného prostoru a manifestanty upozornil, že místní zákony jim nedovolují vrátit se stany a spacáky.
+REF_SENT_1: Nejvyšší představitel města osobně bránil ranní vystěhování náměstí Zuccotti, operaci, při které bylo zadrženo na 200 osob a ke které bylo přistoupeno, protože manifestanti "porušovali zákon".
+REF_SENT_0: Bloomberg vysvětlil, že nařídil evakuovat náměstí, protože se stávalo "místem, na které lidé nechodili protestovat, ale porušovat zákony a v některých případech ubližovat ostatním", protože "některé obchody dostaly výhružné dopisy" a "sousedé se obávali o kvalitu svého života".
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/080.streex##16.t_tree-en_src-s16-n1255
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: Now, according to the experts who also reviewed the position of all countries where these actions have been legalised or decriminalised, there is no proof that the aid decriminalisation involves abuses of application, that is to say, the practice of euthanasia, or of assisted suicide on persons who are not competent, or not consenting.
+SRC_SENT_1: On the contrary, affirmed during a teleconference, Jocelyn Downie, who submitted the report, more such cases were found precisely in those countries, where euthanasia and assisted suicide have not been legalised.
+SRC_SENT_0: `` Euthanasia is practised in Canada , where <it> is clearly illegal . ''
+TST_SENT_2: Nyní podle odborníků který rovněž přezkoumal pozici všech zemí, kde tyto akce byly legalizovány nebo decriminalise, není žádný důkaz, že pomoc decriminalisation obsahuje zneužívání aplikace, je to říci praxe eutanazie nebo o jsoucí sebevraždě osob kterých, je, ne příslušných nebo ne, který souhlasí.
+TST_SENT_1: Naopak při potvrdí během telekonference Jocelyn Downieová, který předložil zprávu, hodně těchto případů byl zjištěno právě v těch zemích, kde eutanazie a jsoucí sebevražda nebyly legalizovány.
+TST_SENT_0: „Eutanazie je prováděna v Kanadě, kde je jasně nelegální.“
+REF_SENT_2: Podle expertů, kteří rovněž podrobili kontrole všechny země, kde tyto přístupy jsou legalizovány nebo nejsou považovány za trestní případ, není žádný důkaz, že toto odkriminalizování způsobuje nějaká zneužití při aplikaci, tj. v praktikování eutanazie nebo asistované sebevraždy na osoby nepříslušné nebo nesouhlasící.
+REF_SENT_1: Naopak p. Jocelyn Downie, spoluautor zprávy, potvrdil včera při telekonferenci více než četné případy těchto přehmatů právě v zemích, kde eutanazie a asistovaná sebevražda nejsou legalizovány.
+REF_SENT_0: "Eutanazie se provádí i v Kanadě, kde je jednoznačně ilegální".
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/089.streex##6.t_tree-en_src-s6-n1185
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: The availability and cost of electricity affect directly the purchasing power and the competitiveness of companies.
+SRC_SENT_1: It is healthy that an electoral rendezvous should be an occasion for reflecting on such stakes and the place occupied by nuclear power.
+SRC_SENT_0: The debate will not be fruitful , unless <it> explores all the economic , social and environmental consequences of the proposed options .
+TST_SENT_2: Dostupnost a náklad na elektřinu ovlivňují přímo kupní sílu a konkurenceschopnost společností.
+TST_SENT_1: Je to zdravé, že by volební setkání mělo být příležitost, že přemýšlí o těchto podílech a místě, který zaujímal jaderná energie.
+TST_SENT_0: Debata nebude plodná, pokud nezkoumá všechny ekonomické, sociální a ekologické důsledky navrhovaných možností.
+REF_SENT_2: Disponibilita a cena elektřiny mají přímý vliv na kupní sílu a konkurenceschopnost podniků.
+REF_SENT_1: Je přirozené, aby setkání při volbách bylo příležitostí k přemýšlení o takových vkladech a o místě, které zaujímá energie z jádra.
+REF_SENT_0: Debata bude úspěšná jenom tehdy, když se prozkoumají všechny ekonomické, sociální a environmentální důsledky navrhovaných možností.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/091.streex##3.t_tree-en_src-s3-n809
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: Europe invented democracy, thinks in terms of European democracy
+SRC_SENT_1: Democracy is a precious possession; it is also a fragile one.
+SRC_SENT_0: The European continent should be able to remember that having invented it in Athens over two thousand years ago , <it> experienced during the XXth century the tragedies of the World War , of totalitarisms , the Holocaust , the gulag , but also Franco in Spain , Salazar in Portugal and the colonels in Greece .
+TST_SENT_2: Evropa vynalezla demokracii, myslí v termínech evropská demokracie
+TST_SENT_1: Demokracie je cenný majetek; je to také křehká.
+TST_SENT_0: Evropský kontinent by měl pamatovat, že, vynalezl ho v Aténách před dvěma tisíci lety, zažilo během xxth století tragédie světové války totalitarism, ale v holocaustu gulag také Franca ve Španělsku, Salazara v Portugalsku a v plukovnících Řecka.
+REF_SENT_2: Evropa vynalezla demokracii, zbývá promyslet evropskou demokracii
+REF_SENT_1: Demokracie je vzácné a taky velmi křehké zboží.
+REF_SENT_0: Evropský kontinent by si na to měl vzpomenout, vždyť přesto, že ji v Aténách před dvěma tisíci let vymyslel, zažil v průběhu XX. století tragédie světových válek, totalitních režimů, holokaustu, gulagů, ale též Franca ve Španělsku, Salazara v Portugalsku a plukovníky v Řecku.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/091.streex##10.t_tree-en_src-s10-n943
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: The European crisis, which we are passing through, is an economic crisis, but it is primarily a political crisis and a crisis of democracy.
+SRC_SENT_1: In this respect, the palinode of a true-false Greek referendum will have a double revelatory value, that of a need of a powerful reversal of policy, but also that of the worrying sentiment of its impossibility and of its incongruity.
+SRC_SENT_0: This ambivalence must be thought through , in order that <it> can be bypassed .
+TST_SENT_2: Evropská krize, kterou procházíme, je hospodářská krize, ale je především politická krize a krize demokracie.
+TST_SENT_1: V tomto ohledu palinode falešného pravdy řeckého referenda bude mít dvě revelatory hodnotu potřeby silného zvratu politiky, ale také znepokojivý pocit jeho nemožnosti a jeho shody.
+TST_SENT_0: Tato rozpolcenost musí být uvažována v pořadí, může být vynecháno.
+REF_SENT_2: Krize Evropy, kterou prožíváme, je krizí ekonomickou, ale je právě tak a od začátku krizí politiky a demokracie.
+REF_SENT_1: Přiznání chyby řeckého referenda typu ano-ne bude mít v tomto směru hodnotu dvojího odhalení: odhalení nutnosti velkého návratu politické moci, ale také odhalení znepokojujícího pocitu jeho nemožnosti, jeho nevhodnosti.
+REF_SENT_0: Tato ambivalence musí být promýšlena, aby mohla být překonána.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/092.streex##24.t_tree-en_src-s24-n727
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: The iPhones of some 200 clients and collaborators are going to be equipped to authorise contactless payment.
+SRC_SENT_1: The BPCE has a similar project in Strasbourg and in Marseille.
+SRC_SENT_0: And the Société Générale also said yesterday that <it> is preparing the market launch of an offer enabling its clients to pay via their mobiles .
+TST_SENT_2: IPhones některých 200 klientů a spolupracovníci budou vybaveni, aby povolili bezkontaktní platbu.
+TST_SENT_1: BPCE má podobný projekt ve Štrasburku a Marseille.
+TST_SENT_0: A Société Générale být řekl včera, že připravuje zahájení trhů nabídky, umožní jeho klientům platit prostřednictvím jejich mobilů.
+REF_SENT_2: Přístroje iPhone přibližně 200 klientů a spolupracovníků budou vybaveny pouzdrem povolujícím bezkontaktní platby.
+REF_SENT_1: Banka BPCE má podobný projekt ve Štrasburku a Marseille.
+REF_SENT_0: A také Société générale včera ohlásila, že připravuje zavést nabídku dovolující jejím klientům platit mobilním telefonem bezdotykově.
+
+ID: newstest2012_coref/runs/006_2015-08-07_14-41-23/treexfiles/098.streex##8.t_tree-en_src-s8-n588
+SRC_FORM: it
+TST_FORM: TLEMMA: #PersPron:neut:sg
+SRC_SENT_2: "I am very pleased with Eden, his progress and the fact that he is Belgian."
+SRC_SENT_1: "I want to go forward, assures the Lillois.
+SRC_SENT_0: In contrast between his respective club and selection performances , `` it is of a piece if <it> is justified . ''
+TST_SENT_2: „Jsem velmi spokojený s Edenem, jeho pokrokem a faktem, že je belgičan.“
+TST_SENT_1: „Chci jít dopředu, ujišťuje Lillois.
+TST_SENT_0: V kontrastu mezi jeho příslušnými a klubu výběru výkony „je kus, pokud je oprávněné.“
+REF_SENT_2: "Jsem s Edenem a jeho pokroky velmi spokojen, i se skutečností, že miluje svoji zemi".
+REF_SENT_1: "Chci se posunout dopředu", ujišťuje hráč francouzského Lille.
+REF_SENT_0: Pokud jde o rozdíl mezi jeho výkony v klubových zápasech a zápasech národního mužstva,"je to jedno a totéž, ospravedlňuje se."
