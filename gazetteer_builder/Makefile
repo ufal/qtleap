@@ -19,7 +19,11 @@ make build LANGUAGE=cs SOURCE_NAMES="vlc kde"
 # Build Czech-English gazetteer and store it in <build/cs>. Extraction is run for every
 # source specified by its extractor script in <extract_scripts/cs>. A subset of sources to be processed
 # can be specified by the parameter <SOURCE_NAMES>.
+
+make publish LANGUAGE=cs
+# Copy Czech-English gazetteer stored in <build/cs> to TectoMT share, specified by the variable <PUBLISH_DIR>.
 endef
+
 export HELP_MESSAGE
 
 help:
