@@ -4,7 +4,7 @@ function download_xz {
     tmp_dir=${3-.}
     xz_file=${url##*/}
     cd $tmp_dir
-    wget $url
+    wget $url -O $xz_file
     tar -xvvJf $xz_file $subdir
     cd ~-
 }
