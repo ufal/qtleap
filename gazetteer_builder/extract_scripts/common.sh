@@ -24,7 +24,7 @@ function extract_zip {
         echo "The file $tmp_dir/$zip_file is missing. Ask Michal Novák <mnovak@ufal.mff.cuni.cz> to get it." >&2
         exit 1
     fi
-    unzip $zip_file $subdir
+    unzip -o $zip_file $subdir
     cd ~-
 }
 
