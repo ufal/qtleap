@@ -20,8 +20,10 @@ make build LANGUAGE=cs SOURCE_NAMES="vlc kde"
 # source specified by its extractor script in <extract_scripts/cs>. A subset of sources to be processed
 # can be specified by the parameter <SOURCE_NAMES>.
 
-make publish LANGUAGE=cs
+make publish LANGUAGE=cs D="a new gazetteer version: vlc + kde"
 # Copy Czech-English gazetteer stored in <build/cs> to TectoMT share, specified by the variable <PUBLISH_DIR>.
+# This will be reported to the VERSIONS.txt file in <PUBLISH_DIR>, including also the description message
+# supplied under the parameter <D>.
 endef
 
 export HELP_MESSAGE
