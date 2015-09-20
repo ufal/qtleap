@@ -5,7 +5,7 @@ use warnings;
 
 use Treex::Core::Common;
 
-use TranslationModel::Factory;
+use Treex::Tool::TranslationModel::Factory;
 
 use Getopt::Long;
 
@@ -40,7 +40,7 @@ my $modelfile = shift @ARGV;
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
 
-my $model_factory = TranslationModel::Factory->new();
+my $model_factory = Treex::Tool::TranslationModel::Factory->new();
 my $model = $model_factory->create_model($model_type);
 $model->load_specified($modelfile);
 

@@ -5,7 +5,7 @@ use strict;
 
 use Treex::Core::Common;
 
-use TranslationModel::Factory;
+use Treex::Tool::TranslationModel::Factory;
 
 my $USAGE = <<"USAGE_END";
 
@@ -32,7 +32,7 @@ if (@models_paths == 0) {
     log_fatal "Directory $models_dir is empty";
 }
 
-my $model_factory = TranslationModel::Factory->new();
+my $model_factory = Treex::Tool::TranslationModel::Factory->new();
 
 my $whole_model = $model_factory->create_model($model_type);
 

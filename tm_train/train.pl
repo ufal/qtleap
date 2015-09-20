@@ -5,8 +5,7 @@ use warnings;
 
 use Treex::Core::Common;
 
-use TranslationModel::Factory;
-#use TranslationModel::MaxEnt::FeatureExtractor::EN2CS;
+use Treex::Tool::TranslationModel::Factory;
 
 use Getopt::Long;
 use Carp;
@@ -152,7 +151,7 @@ close $tmp_fh;
 
 $learner_params->{input_counts} = \%input_counts;
 
-my $model_factory = TranslationModel::Factory->new();
+my $model_factory = Treex::Tool::TranslationModel::Factory->new();
 my $learner = $model_factory->create_learner($model_type, $learner_params);
 
 open $tmp_fh, "<:gzip:encoding(UTF8)", $tmp_fp || die $!;
