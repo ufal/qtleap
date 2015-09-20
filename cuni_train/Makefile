@@ -25,57 +25,6 @@ make transl_models TRANSL_PAIR=cs_en
 # To analyze parallel training data and create t-lemma and formeme translation models.
 # These models will be used for translation.
 
-make prepare_test_data TRANSL_PAIR=cs_en
-# Prepare the test data, i.e. split plain text to several documents and create SGM files,
-# which are needed for MT evaluation.
-# The data can be specified by assigning paths to the <TEST_DATA> variable in the following format:
-# <TEST_DATA="path_to_data/czech.data.sgm; path_to_data/english.data.sgm">
-# The English part of the parallel data must be always specified as the second.
-# Two formats of the test data are supported: plain text and SGM. The format can be specified
-# assigning the variable <TEST_DATA_STAGE> the value <orig_plain> (default) or <segm>, respectively.
-# To facilitate the test dataset setting, one can store a list of the frequently used datasets 
-# with their labels to the <TEST_DATASET_HASH> variable in the config file (see e.g. <conf/cs_en.conf>).
-# If any dataset is in SGM format, its label has to be contained in a space-separated list 
-# assigned to <TEST_DATASET_IN_SGM> variable.
-# Then, a particular dataset is selected by setting the <TEST_DATASET> variable to the dataset's label.
-
-make translate eval TRANSL_PAIR=cs_en
-make translate eval TRANSL_PAIR=cs_en TEST_DATASET=batch2q
-# It translates and evaluates the specified test data.
-# If the translation models are not present, it tries to train them.
-# If you want to use already trained models, copy them into share and specify the paths 
-# in the config file (e.g. see <conf/en_cs.conf> for English to Czech translation models)
-
-make translate eval S=scenarios/02_my_alternative.scen
-# TODO S is not yet supported
-# Now try an alternative scenario
-# All the experiments are saved in $(RUNS_DIR) in a subdirectory with current date in name.
-
-make translate eval TRANSL_PAIR=cs_en D="changed regexp in block XY"
-# You can add a short description of the experiment to be logged
-
-make compare
-# Useful comparison of outputs of the two scenarios is saved in compared_with_* files. 
-# With this command you can see the same info which compares the baseline with the last experiment.
-
-make baseline
-# Write this to set the last experiment as the baseline (after you have checked it is better than the previous one).
-# It will print the name of the last experiment directory to $(RUNS_DIR)/baseline.
-
-make baseline-042
-# If you want to comfortably set another experiment as the baseline, look up its prefix number and call, e.g. this,
-# which will set $(RUNS_DIR)/042_2010-01-14_14-07-02_my_scenario (let's say) as the baseline.
-
-make compare-042:046
-# Compare experiments with numbers 042 and 046 (without changing $(RUNS_DIR)/baseline).
-
-make eval-046
-# Evaluate experiment number 046 (if you have forgotten to add eval after translate).
-
-make pilot0 eval-000
-# Copy Pilot 0 (moses) output to $(RUNS_DIR)/000_pilot0, compute its BLEU
-
-# If you don't want to print commands being executed, use "make -s".
 endef
 export HELP_MESSAGE
 
@@ -132,11 +81,6 @@ $(TRANSL_MODELS) :
 
 clean_tm clean_tm_train_table clean_analysis clean_for_giza clean_giza clean_tecto :
 	$(MAKE) -f makefile.tm $@ TRANSL_PAIR=$(TRANSL_PAIR) DATA="$(TRAIN_DATA)" STAGE=$(TRAIN_DATA_STAGE) LRC=$(LRC)
-
-
-##################### translation ##########################
-include makefile.test_data
-include makefile.translation
 
 qtleap-corpus: ../qtleap-corpus
 ../qtleap-corpus:
