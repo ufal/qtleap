@@ -1,7 +1,8 @@
 
 dataset_files="corpora/europarl/ep.enpt.gz"
 
-train_hostname="qtleap-worker"
+#train_hostname="qtleap-worker"
+train_hostname="*"
 
 static_train_opts="\
     --instances 10000 \
@@ -24,3 +25,5 @@ formeme_maxent_train_opts="$maxent_train_opts"
 
 rm_giza_files=false
 
+treex_socket_server_ports="7001 7002"
+treex_mtmworker_ports="8001 8002"
