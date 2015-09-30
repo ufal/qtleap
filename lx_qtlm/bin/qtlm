@@ -1,0 +1,190 @@
+#! /bin/bash
+#? qtleap manager 0.1
+#?
+#? February 2015, Luís Gomes <luismsgomes@gmail.com>
+#?
+
+##? Usage: qtlm <command> <args>...
+##?
+##? List of commands:
+##?
+##?   train
+##?         Trains the transfer models for the current configuration.
+##?
+##?   adapt <out_domain_train_dir> <in_domain_train_dir>
+##?         Creates domain-adapted transfer models for the current configuration.
+##?
+##?   start
+##?         Starts two MTMonkey workers, one for each translation direction.
+##?
+##?   stop
+##?         Stops MTMonkey workers.
+##?
+##?   evaluate <src> <trg> [testset]...
+##?         Evaluates current pipeline using given testset or all configured
+##?         testsets if a testset is not specified.
+##?
+##?   list scores
+##?         Lists BLEU scores from all evaluations in current directory.
+##?
+##?   clean <src> <trg> [testset]...
+##?         Cleans cache files from last evaluation. Use this if you changed
+##?         the <src> languages analysis.
+##?
+##?   *save <testset> <description>
+##?         Saves a snapshot of the current evaluation of <testset>.
+##?         <description> should be a brief description of what changed since
+##?         last save. Note that <testset> must have been evaluated in both
+##?         translation directions before saving a snapshot.
+##?         Snapshots are uploaded to the share server.
+##?
+##?   *list snapshots
+##?         Lists all snapshots in reverse chronological order.
+##?
+##?   *compare [snapshot_id]
+##?         Compare current evaluations with specified snapshot (or with
+##?         latest snapshot if snapshot_id is not given).
+##?
+##?   translate <src> <trg>
+##?         Translates text from STDIN (expects one sentence per line) and
+##?         writes translations to STDOUT.
+##?         If environment variable $save_trees is set, then trees are saved
+##?         into the directory specified by the variable.
+##?
+##?   install
+##?         Attempts to install missing CPAN modules.
+##?
+##?   help
+##?         Shows this help.
+##?
+##?   version
+##?         Shows qtleap script version.
+##?
+##?
+##? Note: commands "save", "list snapshots" and "compare" are under development.
+##?
+##?
+
+function main {
+    if ! test -d "$QTLM_ROOT"; then
+        echo "$0: check environment variable QTLM_ROOT" >&2
+        exit 1
+    fi
+    if ! test -d "$TMT_ROOT"; then
+        echo "$0: check environment variable TMT_ROOT" >&2
+        exit 1
+    fi
+    if test -f "$QTLM_ROOT/conf/env/$USER.sh"; then
+        source "$QTLM_ROOT/conf/env/$USER.sh"
+    else
+        source "$QTLM_ROOT/conf/env/default.sh"
+    fi
+    source "$QTLM_ROOT/lib/bash/utils.sh" || exit 1
+    source "$QTLM_ROOT/lib/bash/qtlm/common.sh" || exit 1
+    source "$QTLM_ROOT/lib/bash/qtlm/train.sh" || exit 1
+    source "$QTLM_ROOT/lib/bash/qtlm/adapt.sh" || exit 1
+    source "$QTLM_ROOT/lib/bash/qtlm/evaluate.sh" || exit 1
+    source "$QTLM_ROOT/lib/bash/qtlm/translate.sh" || exit 1
+    source "$QTLM_ROOT/lib/bash/qtlm/serve.sh" || exit 1
+    source "$QTLM_ROOT/lib/bash/qtlm/install.sh" || exit 1
+    set_pedantic_bash_options
+    if test $# == 0; then
+        stderr "no command given"
+        help
+        exit 1
+    fi
+    cmd=$1
+    shift
+    # set apropriate variables for each command from command line arguments
+    case $cmd in
+        train|help|version|start|stop|install)
+            if test $# -gt 0; then
+                fatal "command $cmd takes no arguments"
+            fi
+            $cmd
+        ;;
+        adapt)
+            if test $# -lt 2; then
+                fatal "command $cmd requires two arguments: <out_domain_train_dir> <in_domain_train_dir>"
+            fi
+            out_domain_train_dir="$1"
+            shift
+            in_domain_train_dir="$1"
+            shift
+            adapt
+        ;;
+        list)
+            if test $# -ne 1; then
+                fatal "command $cmd requires one argument: (snapshots|scores)"
+            fi
+            if test "$1" == "snapshots"; then
+                list_snapshots
+            elif test "$1" == "scores"; then
+                list_scores
+            else
+                fatal "invalid argument for command $cmd: $1"
+            fi
+        ;;
+        evaluate|clean)
+            if test $# -lt 2; then
+                fatal "command $cmd requires at least two arguments: <src> <trg>"
+            fi
+            src="$1"
+            shift
+            trg="$1"
+            shift
+            if test $# -eq 0; then
+                load_config
+                testsets=$(list_all_testsets | grep -vP "^_")
+            else
+                testsets=$@
+            fi
+            for testset in $testsets; do
+                $cmd
+            done
+        ;;
+        save)
+            if test $# -ne 2; then
+                fatal "command $cmd requires two arguments: <testset> <description>"
+            else
+                testset=$1
+                shift
+                snapshot_description=$1
+                shift
+            fi
+            save
+        ;;
+        compare)
+            if test $# -eq 0; then
+                snapshot_id=$(get_latest_snapshot_id)
+            elif test $# == 1; then
+                snapshot_id="$1"
+            else
+                fatal "too many arguments given for command $cmd"
+            fi
+        ;;
+        translate)
+            if test $# -ne 2; then
+                fatal "command $cmd takes exactly two arguments: <src> <trg>"
+            fi
+            src="$1"
+            trg="$2"
+            translate
+        ;;
+        *)
+        stderr "invalid command \"$cmd\""
+        help
+        exit 1
+        ;;
+    esac
+}
+
+function help {
+    grep "^##?" "$QTLM_ROOT/bin/qtlm" | cut -c 5-
+}
+
+function version {
+    grep "^#?"  "$QTLM_ROOT/bin/qtlm" | cut -c 4-
+}
+
+main "$@"
