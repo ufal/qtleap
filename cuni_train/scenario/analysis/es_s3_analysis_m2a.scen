@@ -2,4 +2,5 @@ Util::SetGlobal selector=src language=es
 
 HamleDT::ES::Harmonize
 W2A::ES::FixTagAndParse
-W2A::FixQuotes
+#W2A::FixQuotes
+W2A::ES::FixMultiwordPrepAndConj

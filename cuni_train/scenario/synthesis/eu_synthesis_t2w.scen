@@ -25,7 +25,7 @@ T2A::AddParentheses
 T2A::AddSentFinalPunct
 T2A::AddSubordClausePunct
 
-Util::Eval anode='$.set_tag(join " ", $.get_iset_values())'
+Util::Eval anode='$.set_tag(join "+", $.get_iset_values())'
 T2A::EU::GenerateWordforms
 T2A::DeleteSuperfluousAuxCP
 T2A::CapitalizeSentStart

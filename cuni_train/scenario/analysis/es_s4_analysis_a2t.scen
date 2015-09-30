@@ -12,15 +12,13 @@ A2T::MoveAuxFromCoordToMembers
 A2T::MarkClauseHeads
 A2T::MarkRelClauseHeads
 A2T::MarkRelClauseCoref 
-#A2T::DeleteChildlessPunctuation # this block makes more elegant t-layer, but worse BLEU scores
-#A2T::ES::FixTlemmas 
 A2T::SetNodetype
-A2T::SetFormeme 
+A2T::ES::SetFormeme 
 A2T::ES::SetGrammatemes
 A2T::ES::SetGrammatemesFromAux
 A2T::AddPersPronSb
 A2T::MinimizeGrammatemes
-#A2T::ES::SetFunctors
-A2T::SetNodetype
 A2T::FixAtomicNodes
-A2T::MarkReflpronCoref 
+A2T::MarkReflpronCoref
+A2T::ES::FixReflexiveVerbs
+#A2T::ES::FixTlemmas 

@@ -1,7 +1,6 @@
 Util::SetGlobal selector=src language=eu
 
-HamleDT::EU::Harmonize
-
+HamleDT::EU::Harmonize iset_driver=eu::eustagger
 W2A::EU::FixTagAndParse
-
-W2A::FixQuotes
+W2A::EU::FixModalVerbs
+#W2A::FixQuotes
