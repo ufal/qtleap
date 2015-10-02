@@ -11,13 +11,14 @@ use Term::ANSIColor;
 use Getopt::Long;
 use Carp;
 
-my ($NO_COLOR, $HIDE_ZERO, $HTML, $title) = (0, 0, 0, "");
+my ($NO_COLOR, $HIDE_ZERO, $HTML, $title, $STRICT) = (0, 0, 0, "", 0);
 
 GetOptions(
     'no_color' => \$NO_COLOR,
     'hide_zero' => \$HIDE_ZERO,
     'html' => \$HTML,
-    'title' => \$title
+    'title' => \$title,
+    'strict' => \$STRICT,
 );
 
 my %MARKUP = (
@@ -56,6 +57,32 @@ sub c {
 
 my $total_diff = 0;
 my %data;
+my $warnings = 0;
+
+sub format_diff {
+    my ($str1, $str2) = @_;
+    my($old, $new) = String::Diff::diff( $str1, $str2,
+      remove_open => c($MARKUP{'remove_open'}->[$HTML]),
+      remove_close => c($MARKUP{'remove_close'}->[$HTML]),
+      append_open => c($MARKUP{'append_open'}->[$HTML]),
+      append_close => c($MARKUP{'append_close'}->[$HTML]),
+    );
+    return ($old, $new);
+}
+
+sub check_same {
+    my ($str1, $str2) = @_;
+    return if $str1 eq $str2;
+    my $msg = "Line $. of $input_file1 and $input_file2 is not same. That is:\n\n";
+    croak "$msg$str1\n$str2\n" if $STRICT;
+    my ($old, $new) = format_diff($str1, $str2);
+    if (!$warnings) {
+        # warn is not shown if piped to less
+        print "WARNING: $msg$old\n$new\n\n";
+        $warnings++;
+    }
+    return;
+}
 
 open my $F1, '<:encoding(utf8)', $input_file1 or croak $!;
 open my $F2, '<:encoding(utf8)', $input_file2 or croak $!;
@@ -67,15 +94,14 @@ while(<$F1>){
     my $tst1 = <$F1>;
     my $scores1 = <$F1>; chomp $scores1;
     <$F1>;
-
     my $id2  = <$F2>;
-    my $src2 = <$F2>; croak "$src\nis not the same as\n$src2" if $src ne $src2;
-    my $ref2 = <$F2>; croak "$ref\nis not the same as\n$ref2" if $ref ne $ref2;
+    my $src2 = <$F2>; check_same($src, $src2);
+    my $ref2 = <$F2>; check_same($ref, $ref2);
     my $tst2 = <$F2>;
     my $scores2 = <$F2>; chomp $scores2;
     <$F2>;
 
-    # Takove udelatko, aby si clovek mohl rychle zobrazit vety, ktere ho zajimaji
+    # Helper trick, so one can quickly open the relevant sentences in ttred
     if ($base1 && $base2 && $id1 =~ /^(.*)\(([^)]*)\)/){
         my ($id,$file1) = ($1,$2);
         my ($file2) = ($id2 =~ /\(([^)]*)\)/);
