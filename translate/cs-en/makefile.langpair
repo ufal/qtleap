@@ -1,3 +1,4 @@
 SRC_LANG=cs
 TRG_LANG=en
 SCEN=Scen::CS2EN domain=IT resegment=1
+MEM=10G
