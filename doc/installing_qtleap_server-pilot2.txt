@@ -5,7 +5,7 @@
 ################ Installing the machine #################
 # These steps are probably CUNI-specific.
 # Take it just as an inspiration.
-sudo chmod +r /dev/{urandom,null} # for some reason it was readable only for root
+sudo chmod oa+rw /dev/{urandom,null} # for some reason it was readable only for root
 sudo apt-get install nano unattended-upgrades # keep the server safe
 sudo groupadd qtleap
 sudo useradd -c "QTLeap MT Pilot 2" -d /home/pilot2 -g qtleap -m -N -s /bin/bash pilot2
@@ -17,7 +17,7 @@ sudo nano /etc/group
 # pilot2        ALL=(ALL:ALL) ALL
 # After the installation is finished, we can remove pilot2 from the sudoers (for safety?).
 # Now, I can log to the machine directly as the new "pilot2" user
-# ssh -p 1122 pilot2@quest.ms.mff.cuni.cz
+# ssh -p 55522 pilot2@quest.ms.mff.cuni.cz
 
 # Perl complained about "Setting locale failed",
 # so according to http://stackoverflow.com/questions/2499794/how-can-i-fix-a-locale-warning-from-perl,
