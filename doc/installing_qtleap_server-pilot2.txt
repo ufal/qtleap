@@ -49,6 +49,10 @@ sudo apt-get install openjdk-8-jdk
 #sudo update-alternatives --config java
 #sudo update-alternatives --config javac
 
+# Stuff needed for compiling Python modules:
+sudo apt-get install python-pip python-dev
+sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
+
 ################ Installing Perl (for Treex) #################
 
 # Install Perlbrew, Perl 5.20 and basic Perl modules
@@ -57,7 +61,8 @@ sudo apt-get install openjdk-8-jdk
 # * It allows us to easily switch to different Perl version and Perl modules versions later on (for Pilot2), without changing this pilot2.
 
 wget -O - http://install.perlbrew.pl | bash
-echo -e '\nsource ~/perl5/perlbrew/etc/bashrc' >> ~/.bashrc
+echo -e '\nsource ~/perl5/perlbrew/etc/bashrc' >> ~/.bashrc  # this will make it work on next login
+source ~/perl5/perlbrew/etc/bashrc # this will make it work for the current session
 perlbrew install-cpanm
 perlbrew install -j 4 perl-5.20.2
 perlbrew switch perl-5.20.2
@@ -65,7 +70,7 @@ cpanm -n PerlIO::Util # -n = skip test, known problems
 # Tk tests pop up hundreds of windows, which is slow and does not work over ssh (without -X or -Y), let's skip the tests.
 # I am used to install Tk from GitHub, but "cpanm -n Tk" should work as well.
 cpanm -n -v git://github.com/eserte/perl-tk.git
-# We want to use Treex::Core from svn, so just install its dependencies
+# We want to use Treex::Core from Github, so just install its dependencies
 cpanm --installdeps Treex::Core
 # There are dependencies of other (non-Core) Treex modules
 cpanm Ufal::MorphoDiTa Ufal::NameTag Lingua::Interset
@@ -78,16 +83,19 @@ cpanm App::Ack # just for me now, ack is much better than grep
 # either
 #   sudo apt-get install python-sklearn
 # but I prefer pip over apt-get
-pip install --user sklearn
-pip install --user scikit-learn
 pip install --user numpy scipy scikit-learn
+# OD's side note: the apt-get version will install faster (no need to compile)
 
 # Treex svn checkout (read-only access)
-svn --username public --password https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/treex
+git clone https://github.com/ufal/treex.git
+# set Treex variables for all future sessions and the current one, too
 echo "
 export PERL5LIB=$HOME/treex/lib
 export PATH='$HOME/treex/bin:$PATH'
 export TMT_ROOT=$HOME" >> .bashrc
+export PERL5LIB=$HOME/treex/lib
+export PATH='$HOME/treex/bin:$PATH'
+export TMT_ROOT=$HOME
 
 # I prefer to have the "Treex share" in a non-hidden directory ~/share
 mkdir ~/share
