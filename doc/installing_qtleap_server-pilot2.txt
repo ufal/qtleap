@@ -1,6 +1,11 @@
-#!/bin/bash # NOTE: this is not fully automatic bash script! This line just helps my editor to do nice syntax highlighting.
+#!/bin/bash # NOTE: this is not a fully automatic bash script! This line just helps my editor to do nice syntax highlighting.
 
-# How I installed QTLeap Pilot 2 server on a new Ubuntu 14.04.3 (virtual) machine.
+# How we installed QTLeap Pilot 2 server on a new Ubuntu 14.04.3 (virtual) machine.
+# - Martin Popel, Ondřej Dušek 
+#
+# This is intended to inspire/guide you in the installation of your own TectoMT-based servers,
+# but cannot be run automatically. Please read and adjust the code before applying.
+#
 
 ################ Installing the machine #################
 # These steps are probably CUNI-specific.
@@ -77,7 +82,7 @@ cpanm -n -v git://github.com/eserte/perl-tk.git
 cpanm --installdeps Treex::Core
 # There are dependencies of other (non-Core) Treex modules
 cpanm Ufal::MorphoDiTa Ufal::NameTag Lingua::Interset
-cpanm Class::Std URI::Find::Schemeless PerlIO::gzip Text::Iconv Cache::Memcached Email::Find XML::Twig String::Util String::Diff List::Pairwise MooseX::Role::AttributeOverride YAML::Tiny Graph Tree::Trie Text::Brew
+cpanm Class::Std URI::Find::Schemeless PerlIO::gzip Text::Iconv Cache::Memcached Email::Find XML::Twig String::Util String::Diff List::Pairwise MooseX::Role::AttributeOverride YAML::Tiny Graph Tree::Trie Text::Brew JSON
 cpanm --notest AI::MaxEntropy  # AI::MaxEntropy known to fail some tests
 cpanm App::Ack # just for me now, ack is much better than grep
 cpanm Modern::Perl Text::JaroWinkler # these are needed for MonolingualGreedy, used in NL-EN
@@ -149,33 +154,27 @@ cpanm RPC::XML UUID::Generator::PurePerl
 git clone https://github.com/ufal/qtleap.git
 cd qtleap
 
-# Download the QTLeap corpus – use your username for the QTLeap Redmine repo here!
+# Download the QTLeap corpus – use your username for the QTLeap Redmine repo here
 git clone https://<username>@redmine.ms.mff.cuni.cz/qtleap/qtleap-corpus.git
 
 # Try running the translation locally to make sure that all works as expected
-# (check that nothing fails and the BLEU score is OK)
+# Replace cs with your language(s)
+# + check that nothing fails on missing dependencies and the BLEU score is OK
 sed -i 's/^LRC?=.*/LRC=0/' qtleap/translate/makefile.cluster_conf
 (cd translate/en-cs/batch2a/; make translate eval)
 (cd translate/cs-en/batch2q/; make translate eval)
 
-# Then copy the created makefile to the subdirectory you have just created
-# For example:
-cp tmp/en_cs/runs-Batch1a/005_2015-03-16_15-41-11_en_cs_translation_w2w/scenario.scen server/en_cs_translation_w2w.scen
-cp tmp/cs_en/runs-Batch1q/004_2015-03-17_05-37-35_cs_en_translation_w2w/scenario.scen server/cs_en_translation_w2w.scen
-
-# The rest of this file was written by Ondřej Dušek (odusek@ufal.mff.cuni.cz)
+# create server scenario files (the server must read the scenario from a file, for now)
+cat translate/en-cs/makefile.langpair | grep 'SCEN=' | sed 's/SCEN=//' > translate/en-cs/server.scen
+cat translate/cs-en/makefile.langpair | grep 'SCEN=' | sed 's/SCEN=//' > translate/cs-en/server.scen
 
 # Start Treex socket servers
-treex-socket-server.pl --detail --port=7001 --source_zone=en:src --target_zone=cs:tst --scenario=server/en_cs_translation_w2w.scen >> tmp/en_cs/socketserver.log 2>&1 &
-treex-socket-server.pl --detail --port=7002 --source_zone=cs:src --target_zone=en:tst --scenario=server/cs_en_translation_w2w.scen >> tmp/cs_en/socketserver.log 2>&1 &
-treex-socket-server.pl --detail --port=7003 --source_zone=en:src --target_zone=nl:tst --scenario=server/en_nl_translation_w2w.scen >> tmp/en_nl/socketserver.log 2>&1 &
-treex-socket-server.pl --detail --port=7004 --source_zone=nl:src --target_zone=en:tst --scenario=server/nl_en_translation_w2w.scen >> tmp/nl_en/socketserver.log 2>&1 &
+treex-socket-server.pl --detail --port=7001 --source_zone=en:src --target_zone=cs:tst --scenario=translate/en-cs/server.scen >> translate/en-cs/socketserver.log 2>&1 &
+treex-socket-server.pl --detail --port=7002 --source_zone=cs:src --target_zone=en:tst --scenario=translate/cs-en/server.scen >> translate/cs-en/socketserver.log 2>&1 &
 
 # Start Treex MTMonkey workers (point them to the socket server port via the -s parameter)
-treex-mtmworker.pl -p 8001 -s 7001 >> tmp/en_cs/mtmserver.log 2>&1 &
-treex-mtmworker.pl -p 8002 -s 7002 >> tmp/cs_en/mtmserver.log 2>&1 &
-treex-mtmworker.pl -p 8003 -s 7003 >> tmp/en_nl/mtmserver.log 2>&1 &
-treex-mtmworker.pl -p 8004 -s 7004 >> tmp/nl_en/mtmserver.log 2>&1 &
+treex-mtmworker.pl -p 8001 -s 7001 >> translate/en-cs/mtmworker.log 2>&1 &
+treex-mtmworker.pl -p 8002 -s 7002 >> translate/cs-en/mtmworker.log 2>&1 &
 
 # If the workers are accessible from outside, you are done now,
 # send their URL and port to DFKI ('xmlrpc http://qtleap-pilot2-outside-name:8001/').
