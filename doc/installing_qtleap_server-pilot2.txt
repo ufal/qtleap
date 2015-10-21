@@ -84,7 +84,7 @@ cpanm App::Ack # just for me now, ack is much better than grep
 # either
 #   sudo apt-get install python-sklearn
 # but I prefer pip over apt-get
-pip install --user numpy scipy scikit-learn
+pip install --user numpy scipy scikit-learn==0.15.1
 # OD's side note: the apt-get version will install faster (no need to compile)
 
 # Treex svn checkout (read-only access)
