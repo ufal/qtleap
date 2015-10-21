@@ -5,7 +5,7 @@
 ################ Installing the machine #################
 # These steps are probably CUNI-specific.
 # Take it just as an inspiration.
-sudo chmod oa+rw /dev/{urandom,null} # for some reason it was readable only for root
+sudo chmod oa+rw /dev/{random,urandom,null} # for some reason it was readable only for root
 sudo apt-get install nano unattended-upgrades # keep the server safe
 sudo groupadd qtleap
 sudo useradd -c "QTLeap MT Pilot 2" -d /home/pilot2 -g qtleap -m -N -s /bin/bash pilot2
@@ -92,13 +92,14 @@ git clone https://github.com/ufal/treex.git
 echo "
 export PERL5LIB=$HOME/treex/lib
 export PATH='$HOME/treex/bin:$PATH'
-export TMT_ROOT=$HOME" >> .bashrc
+export TMT_ROOT=$HOME" >> ~/.bashrc
 export PERL5LIB=$HOME/treex/lib
-export PATH='$HOME/treex/bin:$PATH'
+export PATH="$HOME/treex/bin:$PATH"
 export TMT_ROOT=$HOME
 
 # I prefer to have the "Treex share" in a non-hidden directory ~/share
 mkdir ~/share
+mkdir ~/.treex
 cat << END > ~/.treex/config.yaml 
 ---
 resource_path:
@@ -110,8 +111,8 @@ pml_schema_dir: $HOME/treex/lib/Treex/Core/share/tred_extension/treex/resources
 END
 
 # For Morce English tagger and NADA coreference resolver, we need
-svn --username public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/libs/packaged
-svn --username public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/install/tool_installation
+svn --username public --password public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/libs/packaged
+svn --username public --password public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/install/tool_installation
 
 (mkdir -p share/data/models/morce/en/ && cd share/data/models/morce/en/ && wget http://ufallab.ms.mff.cuni.cz/tectomt/share/data/models/morce/en/{morce.{alph,dct,ft,ftrs},tags_for_form-from_wsj.dat})
 (cd packaged/Morce-English && perl Build.PL && ./Build && ./Build test && ./Build install)
@@ -124,10 +125,11 @@ git clone git://github.com/JohnLangford/vowpal_wabbit.git vowpal_wabbit-v7.7-e9f
 cd vowpal_wabbit-v7.7-e9f67eca58/
 git checkout e9f67eca58
 # this version is needed by A2T::CS::MarkTextPronCoref model data/models/coreference/CS/vw/perspron.2015-04-29.train.pdt.cs.vw.ranking.model
-sudo apt-get install libboost-program-options-dev
+sudo apt-get install libboost-program-options-dev libboost-python-dev netcat
 make
 make test
 perl -pli -e 's{/net/cluster/TMP/mnovak/tools/vowpal_wabbit-v7.7-e9f67eca58}{/home/pilot2/vowpal_wabbit-v7.7-e9f67eca58}' /home/pilot2/treex/lib/Treex/Tool/ML/VowpalWabbit/Ranker.pm
+cd
 
 ################ TectoMT via MTMonkey #################
 
@@ -138,17 +140,16 @@ cpanm RPC::XML UUID::Generator::PurePerl
 # (otherwise the makefiles in devel/qtleap will try to train them anew)
 
 # Go to QTLeap directory
-cd ~/treex/devel/qtleap
+git clone https://github.com/ufal/qtleap.git
+cd qtleap
 
-# Create a subdirectory for server scenarios
-# We need to generate the scenarios anew, because those in scenario/translation/*.scen
-# contain placeholders such as __FORMEME_STATIC_TM__
-mkdir server
+# Download the QTLeap corpus – use your username for the QTLeap Redmine repo here!
+git clone https://<username>@redmine.ms.mff.cuni.cz/qtleap/qtleap-corpus.git
 
-# Run a translation experiment to get the scenario with full model pathnames
-# I recommend to test that you'll get exactly the same BLEU scores as expected.
-make TRANSL_PAIR=en_cs TEST_DATASET=Batch2a translate eval
-make TRANSL_PAIR=cs_en TEST_DATASET=Batch2q translate eval
+# Try running the translation locally to make sure that all works as expected
+sed -i 's/^LRC?=.*/LRC=0/' qtleap/translate/makefile.cluster_conf
+(cd translate/en-cs/batch2a/; make translate eval)
+(cd translate/cs-en/batch2q/; make translate eval)
 
 # Then copy the created makefile to the subdirectory you have just created
 # For example:
