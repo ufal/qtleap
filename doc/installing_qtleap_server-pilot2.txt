@@ -74,7 +74,8 @@ cpanm -n -v git://github.com/eserte/perl-tk.git
 cpanm --installdeps Treex::Core
 # There are dependencies of other (non-Core) Treex modules
 cpanm Ufal::MorphoDiTa Ufal::NameTag Lingua::Interset
-cpanm URI::Find::Schemeless PerlIO::gzip Text::Iconv AI::MaxEntropy Cache::Memcached Email::Find XML::Twig String::Util String::Diff List::Pairwise MooseX::Role::AttributeOverride YAML::Tiny Graph Tree::Trie Text::Brew
+cpanm Class::Std URI::Find::Schemeless PerlIO::gzip Text::Iconv Cache::Memcached Email::Find XML::Twig String::Util String::Diff List::Pairwise MooseX::Role::AttributeOverride YAML::Tiny Graph Tree::Trie Text::Brew
+cpanm --notest AI::MaxEntropy  # AI::MaxEntropy known to fail some tests
 cpanm App::Ack # just for me now, ack is much better than grep
 
 ################ Installing Treex #################
@@ -147,6 +148,7 @@ cd qtleap
 git clone https://<username>@redmine.ms.mff.cuni.cz/qtleap/qtleap-corpus.git
 
 # Try running the translation locally to make sure that all works as expected
+# (check that nothing fails and the BLEU score is OK)
 sed -i 's/^LRC?=.*/LRC=0/' qtleap/translate/makefile.cluster_conf
 (cd translate/en-cs/batch2a/; make translate eval)
 (cd translate/cs-en/batch2q/; make translate eval)
