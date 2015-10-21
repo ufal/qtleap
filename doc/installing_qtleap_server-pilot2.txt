@@ -53,6 +53,9 @@ sudo apt-get install openjdk-8-jdk
 sudo apt-get install python-pip python-dev
 sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
 
+# Alpino depends on tk8.5 (this is not needed unless you want to work with Dutch)
+sudo apt-get install tk8.5
+
 ################ Installing Perl (for Treex) #################
 
 # Install Perlbrew, Perl 5.20 and basic Perl modules
@@ -77,6 +80,7 @@ cpanm Ufal::MorphoDiTa Ufal::NameTag Lingua::Interset
 cpanm Class::Std URI::Find::Schemeless PerlIO::gzip Text::Iconv Cache::Memcached Email::Find XML::Twig String::Util String::Diff List::Pairwise MooseX::Role::AttributeOverride YAML::Tiny Graph Tree::Trie Text::Brew
 cpanm --notest AI::MaxEntropy  # AI::MaxEntropy known to fail some tests
 cpanm App::Ack # just for me now, ack is much better than grep
+cpanm Modern::Perl Text::JaroWinkler # these are needed for MonolingualGreedy, used in NL-EN
 
 ################ Installing Treex #################
 
@@ -84,8 +88,9 @@ cpanm App::Ack # just for me now, ack is much better than grep
 # either
 #   sudo apt-get install python-sklearn
 # but I prefer pip over apt-get
-pip install --user numpy scipy scikit-learn==0.15.1
-# OD's side note: the apt-get version will install faster (no need to compile)
+# and we must ensure we have the "correct" version of scikit-learn (otherwise, Flect models will be incompatible)
+pip install --user numpy scipy scikit-learn==0.15.1 nose
+
 
 # Treex svn checkout (read-only access)
 git clone https://github.com/ufal/treex.git
