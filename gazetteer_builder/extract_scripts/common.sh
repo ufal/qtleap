@@ -9,6 +9,17 @@ function download_xz {
     cd ~-
 }
 
+function download_zip {
+    url=$1
+    subdir=$2
+    tmp_dir=${3-.}
+    zip_file=${url##*/}
+    cd $tmp_dir
+    wget $url -O $zip_file
+    unzip -o $zip_file $subdir
+    cd ~-
+}
+
 function download_svn {
     url=$1
     tmp_dir=$2

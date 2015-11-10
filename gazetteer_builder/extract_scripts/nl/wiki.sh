@@ -2,7 +2,7 @@
 
 source `dirname $BASH_SOURCE`/../common.sh
 
-DOWNLOADED_FILE=gazetteers.zip
+URL=http://ufallab.ms.mff.cuni.cz/tectomt/share/data/models/gazeteer/wiki_all.zip
 TSV_PATH=gazetteerNL.tsv
 
 EN_GAZFILE=$1
@@ -11,5 +11,5 @@ ID_PREFIX=$3
 
 TMP_DIR=$4
 
-extract_zip $DOWNLOADED_FILE $TSV_PATH $TMP_DIR
+download_zip $URL $TSV_PATH $TMP_DIR
 build_gazetteers_from_rosas_tsv $TSV_PATH $EN_GAZFILE $OTHERLANG_GAZFILE $ID_PREFIX $TMP_DIR
