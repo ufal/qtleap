@@ -48,8 +48,12 @@ $(BUILD_DIR) :
 $(TMP_DIR) :
 	mkdir -p $(TMP_DIR)
 
+$(BUILD_DIR)/$(LANGUAGE)_en.en.%.gaz : $(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).%.gaz | $(BUILD_DIR) $(TMP_DIR)
+	# do nothing
+
 $(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).%.gaz : $(EXTRACT_SCRIPTS_DIR)/%.sh | $(BUILD_DIR) $(TMP_DIR)
 	$< $(BUILD_DIR)/$(LANGUAGE)_en.en.$*.gaz $@ $*_ $(TMP_DIR)
+
 
 $(BUILD_DIR)/$(LANGUAGE)_en.$(LANGUAGE).all.gaz.gz : $(OTHERLANG_GAZ_LIST)
 	cat $^ | gzip -c > $@
