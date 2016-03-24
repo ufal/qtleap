@@ -126,8 +126,8 @@ scenariocompare-%:
 	$(DIFFTOOL) $(RUNS_DIR)/`echo $* | cut -d: -f1`*/scenario.scen $(RUNS_DIR)/`echo $* | cut -d: -f2`*/scenario.scen
 
 archive:
-	cp $(NEW_TRY)/plain_output.txt $(TOPDIR)/../qtleap-corpus/pilot2/pilot2-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).txt
-	cp $(NEW_TRY)/meta.yaml $(TOPDIR)/../qtleap-corpus/pilot2/pilot2-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).meta
+	cp $(NEW_TRY)/plain_output.txt $(TOPDIR)/../qtleap-corpus/pilot3/pilot3-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).txt
+	cp $(NEW_TRY)/meta.yaml $(TOPDIR)/../qtleap-corpus/pilot3/pilot3-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).meta
 
 pok:
 	treex_sha=`cd $(dir $(shell whichpm Treex)) && git rev-parse HEAD` \
