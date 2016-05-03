@@ -24,6 +24,7 @@ NEW_NUM  := $(shell perl -e '$$m=0; for(<$(RUNS_DIR)/*>){/\/(\d+)_/ and $$1 > $$
 NEW_TRY  := $(RUNS_DIR)/$(NEW_NUM)_$(DATE)
 TRANSL_PAIR = $(SRC_LANG)-$(TRG_LANG)
 PARAMS =
+TREEX_FLAGS =
 SCENARIO = $(SCEN) $(PARAMS)
 
 define HELP_MESSAGE
@@ -39,8 +40,8 @@ make translate eval SCEN="Scen::EN2CS domain=it resegment=1 additional_param=42"
 make translate eval PARAMS="additional_param=42 another_param='hi there'"
 # Don't use SGE (Sun Grid Engine) parallelization
 make translate LRC=0
-# Use SGE with a non-default number of jobs (default is $(JOBS)) and memory (default is $(MEM))
-make translate LRC=1 JOBS=10 MEM=8G
+# Use SGE with a non-default queue, number of jobs (default is $(JOBS)) and memory (default is $(MEM))
+make translate LRC=1 JOBS=10 MEM=8G TREEX_FLAGS='--queue=troja-all.q'
 # Compare the last experiment with the baseline experiment:
 make compare
 # Set the last experiment as the baseline (after you have checked it is better than the previous one).
@@ -76,7 +77,7 @@ translate: $(IN_DIR)
 	@mkdir -p $(NEW_TRY)/treexfiles
 	echo "$(D)" > $(NEW_TRY)/description
 	sleep 10 && make meta NEW_TRY=$(NEW_TRY) SCENARIO="$(SCENARIO)" D="$D" &
-	time treex $(LRC_FLAGS) $(MEMCACHED_FLAGS) \
+	time treex $(LRC_FLAGS) $(MEMCACHED_FLAGS) $(TREEX_FLAGS) \
 		--name="qtleap-$(TRANSL_PAIR)" --workdir=$(NEW_TRY) \
 		Read::AlignedSentences $(SRC_LANG)_src='!$(IN_DIR)/src*' $(TRG_LANG)_ref='!$(IN_DIR)/ref*' \
 		$(SCENARIO) \
@@ -112,7 +113,7 @@ COMPARE_STATS_SCRIPT=$(TOPDIR)/bin/compare_stats.pl
 COMPARE_HTML_OUTPUT?=0
 ifeq ($(COMPARE_HTML_OUTPUT), 1)
 	COMPARE_FLAGS= --html
-endif 
+endif
 c compare:
 	$(COMPARE_STATS_SCRIPT) $(COMPARE_FLAGS) $(BASE_TRY)/output.txt $(LAST_TRY)/output.txt | less -R
 
@@ -128,11 +129,6 @@ scenariocompare-%:
 archive:
 	cp $(NEW_TRY)/plain_output.txt $(TOPDIR)/../qtleap-corpus/pilot3/pilot3-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).txt
 	cp $(NEW_TRY)/meta.yaml $(TOPDIR)/../qtleap-corpus/pilot3/pilot3-$(SRC_LANG)-$(TRG_LANG)-$(DATASET).meta
-
-pok:
-	treex_sha=`cd $(dir $(shell whichpm Treex)) && git rev-parse HEAD` \
-	&& qtleap_sha=`git rev-parse HEAD` \
-	&& echo $$treex_sha $$qtleap_sha
 
 # make eval-042 evaluates experiment number 042
 eval-% archive-%:
