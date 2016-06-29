@@ -1,0 +1,26 @@
+The treelet dictionary is applied on transfer and allows to translate
+non-isomorphic treelets. Furthermore, as the translation is made on
+the t-level, the resulting target nodes go through the whole synthesis
+allowing both reordering and morphologic generation. For Spanish, we
+get a 2 BLEU-point improvement when incorporating the Microsoft
+Terminology dictionary this way.
+
+As the dictionary is applied at t-level, all the dictionary entries
+have to be analyzed up to this level. To do that, download the
+terminology dictionary for your language pair
+(https://www.microsoft.com/Language/en-US/Terminology.aspx), and adapt
+the en-es or en-eu Makefiles to your language. Once the .streex files
+are created, copy both .tbx and .streex to the 'share' directory and
+add the 'T2T::TrLApplyTbxDictionary' block to your transfer
+scenario. The block needs the location of both the .tbx and .streex
+files, as well as the language codes used in those
+files. Additionally, the block allows to define blacklists of
+dictionary entries that have to be ignored. Specifically, the
+parameters used on the En2Es scenario are:
+
+'T2T::TrLApplyTbxDictionary tbx=data/dictionaries/MicrosoftTermCollection.es.tbx tbx_src_id=en-US tbx_trg_id=es-es analysis=data/dictionaries/MicrosoftTermCollection.es.streex analysis_src_language=en analysis_src_selector=src analysis_trg_language=es analysis_trg_selector=trg src_blacklist=data/dictionaries/MicrosoftTermCollection.en-es.src.blacklist.txt'
+
+Depending on the size of the dictionary, the loading time of the block
+can be long. On the other hand, the transfer time is not too slow.
+
+If you have any doubts, don't hesitate to write to gorka.labaka@ehu.eus
