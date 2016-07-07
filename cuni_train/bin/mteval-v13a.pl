@@ -944,7 +944,16 @@ sub tokenization_international
 	my ($norm_text) = @_;
 
 	$norm_text =~ s/<skipped>//g; # strip "skipped" tags
-	$norm_text =~ s/\p{Hyphen}\p{Zl}//g; # strip end-of-line hyphenation and join lines
+
+    # original mteval-v13a uses
+    #$norm_text =~ s/\p{Hyphen}\p{Zl}//g; # strip end-of-line hyphenation and join lines
+    # but in new perls it generates a warning
+    # Use of 'Hyphen' in \p{} or \P{} is deprecated because: Supplanted by Line_Break property values; see www.unicode.org/reports/tr14;
+    # New perls (and Unicode 6.0) are correct. Including e.g. NON-BREAKING HYPHEN (\x{2011}) is not proper for the intended goal.
+    # But we want to be fully compatible with mteval-v13a.pl --international-tokenization, so let's just silence the warning
+    # See http://unicode.org/Public/UNIDATA/PropList.txt and search for "Hyphen".
+    $norm_text =~ s/[\x{002D}\x{00AD}\x{058A}\x{1806}\x{2010}\x{2011}\x{2E17}\x{30FB}\x{FE63}\x{FF0D}\x{FF65}]\p{Zl}//g; # strip end-of-line hyphenation and join lines
+
 	$norm_text =~ s/\p{Zl}/ /g; # join lines
 
 	# replace entities
