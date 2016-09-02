@@ -1,0 +1,225 @@
+#!/bin/bash # NOTE: this is not a fully automatic bash script! This line just helps my editor to do nice syntax highlighting.
+
+# How we installed QTLeap Pilot 2 server on a new Ubuntu 14.04.3 (virtual) machine.
+# - Martin Popel, Ondřej Dušek 
+#
+# This is intended to inspire/guide you in the installation of your own TectoMT-based servers,
+# but cannot be run automatically. Please read and adjust the code before applying.
+#
+
+################ Installing the machine #################
+# These steps are probably CUNI-specific.
+# Take it just as an inspiration.
+sudo chmod oa+rw /dev/{random,urandom,null} # for some reason it was readable only for root
+sudo apt-get install nano unattended-upgrades # keep the server safe
+sudo groupadd qtleap
+sudo useradd -c "QTLeap MT Pilot 2" -d /home/pilot2 -g qtleap -m -N -s /bin/bash pilot2
+sudo passwd pilot2
+
+sudo nano /etc/group
+# user "pilot2" added to the group "sudo"
+# An alternative is to use "visudo" and add there a line
+# pilot2        ALL=(ALL:ALL) ALL
+# After the installation is finished, we can remove pilot2 from the sudoers (for safety?).
+# Now, I can log to the machine directly as the new "pilot2" user
+# ssh -p 55522 pilot2@quest.ms.mff.cuni.cz
+
+# Perl complained about "Setting locale failed",
+# so according to http://stackoverflow.com/questions/2499794/how-can-i-fix-a-locale-warning-from-perl,
+# I did
+sudo locale-gen en_US.UTF-8 cs_CZ.UTF-8
+LANG=C sudo dpkg-reconfigure locales
+
+# If "date" shows a wrong time zone, you select the correct one and restart cron
+sudo dpkg-reconfigure tzdata
+sudo service cron restart
+
+# basic packages
+sudo apt-get update
+sudo apt-get install bash-completion build-essential git subversion
+sudo apt-get install gcc-4.8 g++-4.8
+# Some Treex modules depend on Tk (perl module for GUI) and it needs X11
+# It was easier for me to install it (although I don't need any GUI at this server).
+sudo apt-get install xorg-dev
+sudo apt-get install libxml2-dev zlib1g-dev # for Treex::PML
+
+# Some Java is needed for MST parser and several other blocks.
+# Java 1.8 is needed for Treex::Block::A2N::EN::StanfordNER2015, so let's install this newest Java.
+# It is included in Ubuntu 14.10 repositories, but not in Ubuntu 14.04, so let's add ppa:openjdk-r/ppa
+sudo apt-get install software-properties-common python-software-properties # needer for add-apt-repository
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+# No java was installed on this machine before, so I don't need to set the default to 1.8
+#sudo update-alternatives --config java
+#sudo update-alternatives --config javac
+
+# Stuff needed for compiling Python modules:
+sudo apt-get install python-pip python-dev
+sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
+
+# Alpino depends on tk8.5 (this is not needed unless you want to work with Dutch)
+sudo apt-get install tk8.5
+
+################ Installing Perl (for Treex) #################
+
+# Install Perlbrew, Perl 5.20 and basic Perl modules
+# Why Perlbrew?
+# * We don't want to use the system perl for Treex (the system Perl may get updated by unattended-upgrades).
+# * It allows us to easily switch to different Perl version and Perl modules versions later on (for Pilot2), without changing this pilot2.
+
+wget -O - http://install.perlbrew.pl | bash
+echo -e '\nsource ~/perl5/perlbrew/etc/bashrc' >> ~/.bashrc  # this will make it work on next login
+source ~/perl5/perlbrew/etc/bashrc # this will make it work for the current session
+perlbrew install-cpanm
+perlbrew install -j 4 perl-5.20.2
+perlbrew switch perl-5.20.2
+cpanm -n PerlIO::Util # -n = skip test, known problems
+# Tk tests pop up hundreds of windows, which is slow and does not work over ssh (without -X or -Y), let's skip the tests.
+# I am used to install Tk from GitHub, but "cpanm -n Tk" should work as well.
+cpanm -n -v git://github.com/eserte/perl-tk.git
+# We want to use Treex::Core from Github, so just install its dependencies
+cpanm --installdeps Treex::Core
+# There are dependencies of other (non-Core) Treex modules
+cpanm Ufal::MorphoDiTa Ufal::NameTag Lingua::Interset
+cpanm Class::Std URI::Find::Schemeless PerlIO::gzip Text::Iconv Cache::Memcached Email::Find XML::Twig String::Util String::Diff List::Pairwise MooseX::Role::AttributeOverride YAML::Tiny Graph Tree::Trie Text::Brew JSON
+cpanm --notest AI::MaxEntropy  # AI::MaxEntropy known to fail some tests
+cpanm App::Ack # just for me now, ack is much better than grep
+cpanm Modern::Perl Text::JaroWinkler # these are needed for MonolingualGreedy, used in NL-EN
+
+################ Installing Treex #################
+
+# For Flect
+# either
+#   sudo apt-get install python-sklearn
+# but I prefer pip over apt-get
+# and we must ensure we have the "correct" version of scikit-learn (otherwise, Flect models will be incompatible)
+pip install --user numpy scipy scikit-learn==0.15.1 nose
+
+
+# Treex svn checkout (read-only access)
+git clone https://github.com/ufal/treex.git
+# set Treex variables for all future sessions and the current one, too
+echo "
+export PERL5LIB=$HOME/treex/lib
+export PATH='$HOME/treex/bin:$PATH'
+export TMT_ROOT=$HOME" >> ~/.bashrc
+export PERL5LIB=$HOME/treex/lib
+export PATH="$HOME/treex/bin:$PATH"
+export TMT_ROOT=$HOME
+
+# I prefer to have the "Treex share" in a non-hidden directory ~/share
+mkdir ~/share
+mkdir ~/.treex
+cat << END > ~/.treex/config.yaml 
+---
+resource_path:
+ - $HOME/share
+share_dir: $HOME/share
+share_url: http://ufallab.ms.mff.cuni.cz/tectomt/share
+tmp_dir: /tmp
+pml_schema_dir: $HOME/treex/lib/Treex/Core/share/tred_extension/treex/resources
+END
+
+# For Morce English tagger and NADA coreference resolver, we need
+svn --username public --password public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/libs/packaged
+svn --username public --password public co https://svn.ms.mff.cuni.cz/svn/tectomt_devel/trunk/install/tool_installation
+
+(mkdir -p share/data/models/morce/en/ && cd share/data/models/morce/en/ && wget http://ufallab.ms.mff.cuni.cz/tectomt/share/data/models/morce/en/{morce.{alph,dct,ft,ftrs},tags_for_form-from_wsj.dat})
+(cd packaged/Morce-English && perl Build.PL && ./Build && ./Build test && ./Build install)
+(cd tool_installation/NADA && perl Makefile.PL && make && make install)
+
+################ Installing VowpalWabbit #################
+# This step is currently needed only for CS->EN pilot2
+cd
+git clone git://github.com/JohnLangford/vowpal_wabbit.git vowpal_wabbit-v7.7-e9f67eca58
+cd vowpal_wabbit-v7.7-e9f67eca58/
+git checkout e9f67eca58
+# this version is needed by A2T::CS::MarkTextPronCoref model data/models/coreference/CS/vw/perspron.2015-04-29.train.pdt.cs.vw.ranking.model
+sudo apt-get install libboost-program-options-dev libboost-python-dev netcat
+make
+make test
+perl -pli -e 's{/net/cluster/TMP/mnovak/tools/vowpal_wabbit-v7.7-e9f67eca58}{/home/pilot2/vowpal_wabbit-v7.7-e9f67eca58}' /home/pilot2/treex/lib/Treex/Tool/ML/VowpalWabbit/Ranker.pm
+cd
+
+################ TectoMT via MTMonkey #################
+
+# Install the required Perl modules
+cpanm RPC::XML UUID::Generator::PurePerl
+
+# Download translation models for your langauge pairs into ~/share
+# (otherwise the makefiles in devel/qtleap will try to train them anew)
+
+# Go to QTLeap directory
+git clone https://github.com/ufal/qtleap.git
+cd qtleap
+
+# Download the QTLeap corpus – use your username for the QTLeap Redmine repo here
+git clone https://<username>@redmine.ms.mff.cuni.cz/qtleap/qtleap-corpus.git
+
+# Try running the translation locally to make sure that all works as expected
+# Replace cs with your language(s)
+# + check that nothing fails on missing dependencies and the BLEU score is OK
+sed -i 's/^LRC?=.*/LRC=0/' qtleap/translate/makefile.cluster_conf
+(cd translate/en-cs/batch2a/; make translate eval)
+(cd translate/cs-en/batch2q/; make translate eval)
+
+# create server scenario files (the server must read the scenario from a file, for now)
+cat translate/en-cs/makefile.langpair | grep 'SCEN=' | sed 's/SCEN=//' > translate/en-cs/server.scen
+cat translate/cs-en/makefile.langpair | grep 'SCEN=' | sed 's/SCEN=//' > translate/cs-en/server.scen
+
+# Start Treex socket servers
+treex-socket-server.pl --detail --port=7001 --source_zone=en:src --target_zone=cs:tst --scenario=translate/en-cs/server.scen >> translate/en-cs/socketserver.log 2>&1 &
+treex-socket-server.pl --detail --port=7002 --source_zone=cs:src --target_zone=en:tst --scenario=translate/cs-en/server.scen >> translate/cs-en/socketserver.log 2>&1 &
+
+# Start Treex MTMonkey workers (point them to the socket server port via the -s parameter)
+treex-mtmworker.pl -p 8001 -s 7001 >> translate/en-cs/mtmworker.log 2>&1 &
+treex-mtmworker.pl -p 8002 -s 7002 >> translate/cs-en/mtmworker.log 2>&1 &
+
+# If the workers are accessible from outside, you are done now,
+# send their URL and port to DFKI ('xmlrpc http://qtleap-pilot2-outside-name:8001/').
+# Note that treex-mtmworker.pl communicates with users (or DFKI) via XML-RPC
+# and it actually ignores sourceLang and targetLang parameters
+# (the translation direction is decided by the port number).
+#
+# Otherwise, you may want to set up a MTMonkey Appserver to connect to the workers -- please
+# refer to https://github.com/ufal/mtmonkey/tree/master/install#application-server-installation 
+# for instructions.
+# 
+# The appserver configuration file (appserver-your_version/config/appserver.cfg) should then
+# point to your workers, e.g.:
+#
+#PORT = 8001  # port at which the service is accessible from outside
+#WORKERS = {
+#  'en-cs':[ 'xmlrpc http://qtleap-pilot2:8001/' ],
+#  'cs-en':[ 'xmlrpc http://qtleap-pilot2:8002/' ],
+#  'en-nl':[ 'xmlrpc http://qtleap-pilot2:8003/' ],
+#  'nl-en':[ 'xmlrpc http://qtleap-pilot2:8004/' ],
+#}
+#URL = '/qtpilot2' # path at which the service is accessible from outside
+#
+# Then run the appserver by:
+
+appserver-your_version/scripts/run_appserver
+
+# You can now query the translation at http://your-machine:8001/qtpilot2 (send this address to DFKI,
+# indicating that they should add "json http://your-machine:8001/qtpilot2" into their Appserver
+# configuration).
+# Note that in this case MT-Monkey Appserver communicates with users (or DFKI) via JSON
+# and that the MT-Monkey Appserver has one public URL (one port) and distributes
+# the queries to treex-mtmworker.pl workers based on sourceLang and targetLang parameters.
+
+# You can test xmlrpc workers with
+echo '<?xmlversion="1.0"?><methodCall><methodName>process_task</methodName>
+<params><param><value><struct><member><name>action</name><value>
+<string>translate</string></value></member><member><name>sourceLang</name>
+<value><string>en</string></value></member><member><name>text</name><value>
+<string>This is a test.</string></value></member></struct></value></param>
+</params></methodCall>' > query.xml
+curl -X POST -d @query.xml http://your-server:8001
+
+# You can test json workers (MT-Monkey appserver) with POST&JSON
+curl -i -H "Content-Type: application/json" -X POST -d '{"action":"translate", "sourceLang":"en", "targetLang":"cs", "text":"This is a test.", "systemId":"pilot2" }' http://your-server:8001
+
+# or with GET
+curl 'http://blade-3.dfki.uni-sb.de:8100/?action=translate&sourceLang=nl&targetLang=en&text=Dit%20is%20een%20test.&systemId=pilot2'
