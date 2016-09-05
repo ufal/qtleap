@@ -13,16 +13,16 @@
 sudo chmod oa+rw /dev/{random,urandom,null} # for some reason it was readable only for root
 sudo apt-get install nano unattended-upgrades # keep the server safe
 sudo groupadd qtleap
-sudo useradd -c "QTLeap MT Pilot 2" -d /home/pilot2 -g qtleap -m -N -s /bin/bash pilot2
-sudo passwd pilot2
+sudo useradd -c "QTLeap MT Pilot 2" -d /home/pilot3 -g qtleap -m -N -s /bin/bash pilot3
+sudo passwd pilot3
 
 sudo nano /etc/group
-# user "pilot2" added to the group "sudo"
+# user "pilot3" added to the group "sudo"
 # An alternative is to use "visudo" and add there a line
-# pilot2        ALL=(ALL:ALL) ALL
-# After the installation is finished, we can remove pilot2 from the sudoers (for safety?).
-# Now, I can log to the machine directly as the new "pilot2" user
-# ssh -p 55522 pilot2@quest.ms.mff.cuni.cz
+# pilot3        ALL=(ALL:ALL) ALL
+# After the installation is finished, we can remove pilot3 from the sudoers (for safety?).
+# Now, I can log to the machine directly as the new "pilot3" user
+# ssh -p 55522 pilot3@quest.ms.mff.cuni.cz
 
 # Perl complained about "Setting locale failed",
 # so according to http://stackoverflow.com/questions/2499794/how-can-i-fix-a-locale-warning-from-perl,
@@ -66,7 +66,7 @@ sudo apt-get install tk8.5
 # Install Perlbrew, Perl 5.20 and basic Perl modules
 # Why Perlbrew?
 # * We don't want to use the system perl for Treex (the system Perl may get updated by unattended-upgrades).
-# * It allows us to easily switch to different Perl version and Perl modules versions later on (for Pilot2), without changing this pilot2.
+# * It allows us to easily switch to different Perl version and Perl modules versions later on (for Pilot2), without changing this pilot3.
 
 wget -O - http://install.perlbrew.pl | bash
 echo -e '\nsource ~/perl5/perlbrew/etc/bashrc' >> ~/.bashrc  # this will make it work on next login
@@ -86,6 +86,8 @@ cpanm Class::Std URI::Find::Schemeless PerlIO::gzip Text::Iconv Cache::Memcached
 cpanm --notest AI::MaxEntropy  # AI::MaxEntropy known to fail some tests
 cpanm App::Ack # just for me now, ack is much better than grep
 cpanm Modern::Perl Text::JaroWinkler # these are needed for MonolingualGreedy, used in NL-EN
+cpanm Text::Unidecode # needed for A2A::ProjectCase
+cpanm String::Util # needed for A2T::CS::SetFunctors
 
 ################ Installing Treex #################
 
@@ -130,7 +132,7 @@ svn --username public --password public co https://svn.ms.mff.cuni.cz/svn/tectom
 (cd tool_installation/NADA && perl Makefile.PL && make && make install)
 
 ################ Installing VowpalWabbit #################
-# This step is currently needed only for CS->EN pilot2
+# This step is currently needed only for CS->EN pilot3
 cd
 git clone git://github.com/JohnLangford/vowpal_wabbit.git vowpal_wabbit-v7.7-e9f67eca58
 cd vowpal_wabbit-v7.7-e9f67eca58/
@@ -139,7 +141,7 @@ git checkout e9f67eca58
 sudo apt-get install libboost-program-options-dev libboost-python-dev netcat
 make
 make test
-perl -pli -e 's{/net/cluster/TMP/mnovak/tools/vowpal_wabbit-v7.7-e9f67eca58}{/home/pilot2/vowpal_wabbit-v7.7-e9f67eca58}' /home/pilot2/treex/lib/Treex/Tool/ML/VowpalWabbit/Ranker.pm
+perl -pli -e 's{/net/cluster/TMP/mnovak/tools/vowpal_wabbit-v7.7-e9f67eca58}{/home/pilot3/vowpal_wabbit-v7.7-e9f67eca58}' /home/pilot3/treex/lib/Treex/Tool/ML/VowpalWabbit/Ranker.pm
 cd
 
 ################ TectoMT via MTMonkey #################
@@ -177,7 +179,7 @@ treex-mtmworker.pl -p 8001 -s 7001 >> translate/en-cs/mtmworker.log 2>&1 &
 treex-mtmworker.pl -p 8002 -s 7002 >> translate/cs-en/mtmworker.log 2>&1 &
 
 # If the workers are accessible from outside, you are done now,
-# send their URL and port to DFKI ('xmlrpc http://qtleap-pilot2-outside-name:8001/').
+# send their URL and port to DFKI ('xmlrpc http://qtleap-pilot3-outside-name:8001/').
 # Note that treex-mtmworker.pl communicates with users (or DFKI) via XML-RPC
 # and it actually ignores sourceLang and targetLang parameters
 # (the translation direction is decided by the port number).
@@ -191,19 +193,19 @@ treex-mtmworker.pl -p 8002 -s 7002 >> translate/cs-en/mtmworker.log 2>&1 &
 #
 #PORT = 8001  # port at which the service is accessible from outside
 #WORKERS = {
-#  'en-cs':[ 'xmlrpc http://qtleap-pilot2:8001/' ],
-#  'cs-en':[ 'xmlrpc http://qtleap-pilot2:8002/' ],
-#  'en-nl':[ 'xmlrpc http://qtleap-pilot2:8003/' ],
-#  'nl-en':[ 'xmlrpc http://qtleap-pilot2:8004/' ],
+#  'en-cs':[ 'xmlrpc http://qtleap-pilot3:8001/' ],
+#  'cs-en':[ 'xmlrpc http://qtleap-pilot3:8002/' ],
+#  'en-nl':[ 'xmlrpc http://qtleap-pilot3:8003/' ],
+#  'nl-en':[ 'xmlrpc http://qtleap-pilot3:8004/' ],
 #}
-#URL = '/qtpilot2' # path at which the service is accessible from outside
+#URL = '/qtpilot3' # path at which the service is accessible from outside
 #
 # Then run the appserver by:
 
 appserver-your_version/scripts/run_appserver
 
-# You can now query the translation at http://your-machine:8001/qtpilot2 (send this address to DFKI,
-# indicating that they should add "json http://your-machine:8001/qtpilot2" into their Appserver
+# You can now query the translation at http://your-machine:8001/qtpilot3 (send this address to DFKI,
+# indicating that they should add "json http://your-machine:8001/qtpilot3" into their Appserver
 # configuration).
 # Note that in this case MT-Monkey Appserver communicates with users (or DFKI) via JSON
 # and that the MT-Monkey Appserver has one public URL (one port) and distributes
@@ -219,7 +221,7 @@ echo '<?xmlversion="1.0"?><methodCall><methodName>process_task</methodName>
 curl -X POST -d @query.xml http://your-server:8001
 
 # You can test json workers (MT-Monkey appserver) with POST&JSON
-curl -i -H "Content-Type: application/json" -X POST -d '{"action":"translate", "sourceLang":"en", "targetLang":"cs", "text":"This is a test.", "systemId":"pilot2" }' http://your-server:8001
+curl -i -H "Content-Type: application/json" -X POST -d '{"action":"translate", "sourceLang":"en", "targetLang":"cs", "text":"This is a test.", "systemId":"pilot3" }' http://your-server:8001
 
 # or with GET
-curl 'http://blade-3.dfki.uni-sb.de:8100/?action=translate&sourceLang=nl&targetLang=en&text=Dit%20is%20een%20test.&systemId=pilot2'
+curl 'http://blade-3.dfki.uni-sb.de:8100/?action=translate&sourceLang=nl&targetLang=en&text=Dit%20is%20een%20test.&systemId=pilot3'
