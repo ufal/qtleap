@@ -1,11 +1,11 @@
 LRC?=1
 
-JOBS=200
+JOBS=100
 JOBS_TEST=50
 MEM=7G
 TREEX_BIN=treex
 ifeq ($(LRC), 1)
-LRC_FLAGS = -p --mem=$(MEM) --jobs $(JOBS)
+LRC_FLAGS = -p --mem=$(MEM) --jobs $(JOBS) --qsub="-q troja-all.q"
 LRC_FLAGS_TEST = -p --mem=$(MEM) --jobs $(JOBS_TEST)
 TREEX_BIN=-treex $(LRC_FLAGS)
 #or 

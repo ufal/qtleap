@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 use Treex::Block::T2T::TbxParser;
 
 $num_args = $#ARGV + 1;
