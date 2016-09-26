@@ -1,7 +1,7 @@
 package Treex::Block::T2A::PT::InitMorphcat;
 use Moose;
 use Treex::Core::Common;
-extends 'Treex::Block::T2A::InitMorphcat';
+extends 'Treex::Block::T2A::InitMorphcatPT';
 
 after process_tnode => sub {
     my ( $self, $t_node ) = @_;
@@ -55,7 +55,8 @@ sub should_fill {
     # In Portuguese, nouns are not marked with definiteness on the a-layer.
     # T2A::PT::AddArticles will add an article for this grammateme.
     return 0 if $grammateme eq 'definiteness';
-
+    return 0 if $grammateme eq 'negation';
+    
     return 1;
 }
 

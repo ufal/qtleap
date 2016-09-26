@@ -9,7 +9,7 @@ A2T::SetIsMember
 A2T::EN::MoveAuxFromCoordToMembers
 
 #################################3
-A2T::ProjectGazeteerInfo
+#A2T::ProjectGazeteerInfo
 
 A2T::EN::FixTlemmas
 A2T::EN::SetCoapFunctors
@@ -41,6 +41,6 @@ A2T::EN::FixRelClauseNoRelPron
 A2T::EN::MarkReferentialIt resolver_type=nada threshold=0.5 suffix=nada_0.5 
 A2T::EN::FindTextCoref
 A2T::EN::FixAdjNattrN
+MarkMWEs phrase_list_path=/home/chakaveh/code/tectomt/share/data/dictionaries/mwes/mwe.tsv.gz
 T2T::FixPunctFormemes
-#MarkMWEs phrase_list_path=/home/chakaveh/code/tectomt/share/data/dictionaries/mwes/mwe.tsv.gz
 #T2T::TrLApplyTbxDictionary tbx=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.tbx tbx_src_id=en-US tbx_trg_id=pt-pt analysis=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.streex analysis_src_language=en  analysis_src_selector=src analysis_trg_language=pt analysis_trg_selector=trg

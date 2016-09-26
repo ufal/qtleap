@@ -2,10 +2,6 @@ Util::SetGlobal language=pt
 
 #Util::DefinedAttr tnode=t_lemma,formeme message="after TrLFCompounds"
 #T2T::SelectCompatibleTlemmaFormeme
-#T2T::TrLApplyTbxDictionary tbx=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.tbx tbx_src_id=en-US tbx_trg_id=pt-pt analysis=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.streex analysis_src_language=en analysis_src_selector=src analysis_trg_language=pt analysis_trg_selector=trg
-
-
-
 T2T::SetClauseNumber
 T2T::FixPunctFormemes
 T2T::FixFormemeWrtNodetype
@@ -19,6 +15,7 @@ T2T::EN2PT::TurnVerbLemmaToAdjectives
 T2T::EN2PT::FixPunctuation
 T2T::EN2PT::TrL_ITdomain
 
+T2T::TrLApplyTbxDictionary tbx=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.tbx tbx_src_id=en-US tbx_trg_id=pt-pt analysis=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.streex analysis_src_language=en analysis_src_selector=src analysis_trg_language=pt analysis_trg_selector=trg
 
 T2A::PT::FixAttributeOrder
 T2A::CopyTtree
@@ -61,4 +58,4 @@ A2W::PT::ConcatenateTokens
 A2W::PT::DirtyTricks
 
 #################################
-A2W::ShowIT
+#A2W::ShowIT

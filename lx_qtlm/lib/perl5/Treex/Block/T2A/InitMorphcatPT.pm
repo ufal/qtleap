@@ -1,4 +1,4 @@
-package Treex::Block::T2A::InitMorphcat;
+package Treex::Block::T2A::InitMorphcatPT;
 use Moose;
 use Treex::Core::Common;
 extends 'Treex::Core::Block';
@@ -21,12 +21,15 @@ my %gram2iset = (
     'gender=inan' => 'gender=masc',
     'gender=fem'  => 'gender=fem',
     'gender=neut' => 'gender=neut',
+    'gender=nr' => 'gender=masc',  # Portuguese requires gender with all pronouns (inc. "them"), while it English it was not recognized (nr)
+
 
     'negation=neg1' => 'negativeness=neg',
 
     'number=sg' => 'number=sing',
     'number=pl' => 'number=plur',
     'number=du' => 'number=dual',
+    'number=nr' => 'number=sing', # again, because of distinguishing "you" which is needed in Portuguese
 
     'numbertype=basic' => 'numtype=card',
     'numbertype=ord'   => 'numtype=ord',
@@ -67,11 +70,12 @@ sub process_tnode {
     # Part-of-speech
     # Use mlayer_pos, if available, otherwise try sempos or syntpos from formeme
     my $mlayer_pos = $t_node->get_attr('mlayer_pos');
-    if ( defined($mlayer_pos) and $mlayer_pos !~ /^[xX]$/ ) {
+    #Disables m-layer for PT translation
+    if (undef and defined($mlayer_pos) and $mlayer_pos !~ /^[xX]$/ ) {
+        log_warn "M-layer";
         $a_node->iset->set_pos($mlayer_pos);
     }
     else {
-        # TODO: this should be probably made with sempos anyway??
         my $syntpos = $t_node->formeme;
         $syntpos =~ s/:.*//;
         my $pos = $syntpos2pos{$syntpos};
@@ -89,25 +93,10 @@ sub process_tnode {
     my $gender = $t_node->gram_gender || '';
     if ( $gender eq 'inan' ) {
         $a_node->iset->set_animateness('inan');
-    }    
-
-    # The type of pronoun is not preserved on t-layer, but at least we know it is a pronoun
-    if ( ( $t_node->gram_sempos // '' ) =~ /pron/ ) {
-        $a_node->iset->set_prontype('prn');
-
-        # and we can mark possessive pronouns + move their "gender" and "number" values
-        # into possgender and possnumber where they belong
-        if ( $t_node->formeme =~ /poss$/ ) {
-            $a_node->iset->set_poss('poss');
-            $a_node->iset->set_possgender( $a_node->iset->gender );
-            $a_node->iset->set_gender('');
-            $a_node->iset->set_possnumber( $a_node->iset->number );
-            $a_node->iset->set_number('');
-            $a_node->iset->set_possperson( $a_node->iset->person );
-            $a_node->iset->set_person('');
-        }
     }
-    
+
+
+        
     # Fill grammatemes through coref_gram.rf for reflexive pronouns
     if ( $t_node->t_lemma eq '#PersPron' and ( my ($t_antec) = $t_node->get_coref_gram_nodes() ) ){
         while ( $t_antec->get_coref_gram_nodes() ){
@@ -116,6 +105,41 @@ sub process_tnode {
         my $antec_gram = $t_antec->get_attr('gram') or return; 
         $self->fill_iset_from_gram( $t_node, $a_node, $antec_gram );
         $a_node->iset->set_reflex('reflex');    
+    }
+
+
+
+    if ($t_node->t_lemma eq "#PersPron" and $t_node->formeme =~ /poss/) {
+        $a_node->iset->set_poss('poss');
+        if ($t_node->gram_number eq "pl") {  # be careful about the nr (not recognized) value coming from English
+            $a_node->iset->set_possnumber("plur");
+        }
+        else {
+            $a_node->iset->set_possnumber("sing");  
+        }
+    }
+
+
+
+    # The type of pronoun is not preserved on t-layer, but at least we know it is a pronoun
+    if ( ( $t_node->gram_sempos // '' ) =~ /pron/ ) {
+
+        if ($t_node->t_lemma eq "#PersPron") {  # TODO: move it to a pt-specific module
+            $a_node->iset->set_prontype("prs");
+
+            if ($t_node->formeme eq "n:subj") {
+                $a_node->iset->set_case("nom");
+            }
+            elsif (not $t_node->formeme =~ /poss$/) {
+                $a_node->iset->set_case("acc"); # the oblique case
+            }
+
+        }
+        else {
+            $a_node->iset->set_prontype('prn');
+        }
+
+
     }
 
     return;
@@ -127,7 +151,7 @@ sub should_fill {
 
 sub fill_iset_from_gram {
     my ( $self, $t_node, $a_node, $grammatemes_rf ) = @_;
-    
+
     while ( my ( $name, $value ) = each %{$grammatemes_rf} ) {
         if ( defined $value && $self->should_fill( $name, $t_node ) && ( my $iset_rule = $gram2iset{"$name=$value"} ) ) {
             my ( $i_name, $i_value ) = split /=/, $iset_rule;
@@ -153,6 +177,10 @@ Fill Interset morphological categories with values derived from grammatemes and 
 =head1 AUTHORS
 
 Martin Popel <popel@ufal.mff.cuni.cz>
+
+Zdeněk Žabokrtský <zaborktsky@ufal.mff.cuni.cz>
+
+João A. Rodrigues <jrodrigues@di.fc.ul.pt>
 
 =head1 COPYRIGHT AND LICENSE
 

@@ -1,10 +1,12 @@
 package Treex::Block::T2A::PT::AddGender;
 use Moose;
-use Treex::Tool::LXSuite::LXTokenizerAndTagger;
+use Treex::Tool::LXSuite;
 use Treex::Core::Common;
+use Treex::Tool::LXSuite;
+
 extends 'Treex::Core::Block';
 
-has generator => ( is => 'rw' );
+has lxsuite => ( is => 'ro', isa => 'Treex::Tool::LXSuite', default => sub { return Treex::Tool::LXSuite->new; }, required => 1, lazy => 0 );
 
 sub process_anode {
 	my ( $self, $anode ) = @_;
@@ -14,26 +16,24 @@ sub process_anode {
 	#TODO Handle of numerals
 	return if ($anode->iset->pos !~ m/(noun|adj)/);
 
-	my ( $forms, $lemmas, $postags, $cpostags, $feats ) = $self->generator->tokenize_and_tag(lc $anode->lemma);
+	my $lxpos = "CN";
+	if ($anode->iset->pos =~ m/adj/) {
+		$lxpos = "ADJ";
+	} 
+	my $feats = $self->lxsuite->feat(lc $anode->lemma, $lxpos);
 
 	#By default the portuguese gender is set to masculine
-	if ($feats->[@$feats - 1] !~ /^(m|f)/){
+	if ($feats !~ /^(m|f)/){
 		log_warn $anode->lemma . " género por defeito...";
 		$anode->iset->set_gender('masc');
 	}
 	else{
 
-		$anode->iset->set_gender('masc') 	if ($feats->[@$feats - 1] =~ /^m/);
-		$anode->iset->set_gender('fem') 	if ($feats->[@$feats - 1] =~ /^f/);
+		$anode->iset->set_gender('masc') 	if ($feats =~ /^m/);
+		$anode->iset->set_gender('fem') 	if ($feats =~ /^f/);
 	}
 	
-
 	return;
-}
-
-sub BUILD {
-    my ( $self, $argsref ) = @_;
-	$self->set_generator(Treex::Tool::LXSuite::LXTokenizerAndTagger->new($argsref));
 }
 
 1;

@@ -15,6 +15,7 @@ sub next_document {
 has selector => ( isa => 'Treex::Type::Selector', is => 'ro', default => q{} );
 has language => ( isa => 'Treex::Type::LangCode', is => 'ro', default => 'und' );
 
+
 has from => (
     isa           => 'Treex::Core::Files',
     is            => 'rw',
@@ -168,6 +169,10 @@ after 'restart' => sub {
 1;
 
 __END__
+
+=pod
+
+=encoding utf-8
 
 =head1 NAME
 

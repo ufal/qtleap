@@ -1,38 +1,14 @@
-package Treex::Block::T2A::PT::GenerateWordforms;
+package Treex::Tool::Lexicon::Generation::PT::ClientLXSuite;
 use Moose;
+use utf8;
+use Treex::Tool::ProcessUtils;
 use Treex::Core::Common;
+use Treex::Core::Resource;
+use Treex::Tool::LXSuite::LXConjugator;
+use Treex::Tool::LXSuite::LXInflector;
 use Treex::Tool::LXSuite;
-extends 'Treex::Core::Block';
 
 has lxsuite => ( is => 'ro', isa => 'Treex::Tool::LXSuite', default => sub { return Treex::Tool::LXSuite->new; }, required => 1, lazy => 0 );
-
-sub _build_lxsuite {
-    return Treex::Tool::LXSuite->new();
-}
-
-
-sub process_anode {
-    my ( $self, $anode ) = @_;
-    return if defined $anode->form;
-
-    my ($tnode) = $anode->get_referencing_nodes('a/lex.rf');
-
-    if(defined $tnode){
-        if(defined $tnode->t_lemma_origin){
-            if($tnode->t_lemma_origin eq 'clone'){
-                $anode->set_form($tnode->t_lemma);
-                return;
-            }
-        }
-    }
-
-    if ((defined $anode->afun) && ($anode->afun eq 'Sb')){
-    	print STDERR "->Warning, Afun=Sb, Lemma: ", $anode->lemma,"\n";
-    }
-
-    $anode->set_form($self->best_form_of_lemma($anode->lemma, $anode->iset));
-    return;
-}
 
 my %PTFORM = (
     'ind pres' => 'pi',
@@ -64,6 +40,8 @@ my %PTGENDER = (
 sub best_form_of_lemma {
 
     my ( $self, $lemma, $iset ) = @_;
+
+    return "teste";
 
     if ($lemma eq ""){
         log_warn "Lemma is null";
@@ -142,27 +120,37 @@ sub best_form_of_lemma {
 
 }
 
-1;
+# sub BUILD {
+#     my $self = shift;
+#     $self->_set_conjugator(Treex::Tool::LXSuite::LXConjugator->new());
+#     $self->_set_inflector(Treex::Tool::LXSuite::LXInflector->new());
+# }
+
 
 __END__
 
 =encoding utf-8
 
-=head1 NAME 
+=head1 NAME
 
-Treex::Block::T2A::PT::GenerateWordforms
+Treex::Tool::Lexicon::Generation::PT::ClientLXSuite
 
 =head1 DESCRIPTION
 
-Portuguese verbal and noun/adjective conjugation through the LXSuite tools 
+Conjugates and inflects portuguese verbs, nouns and adjectives through the LX-Suite tools
 
-=head1 AUTHORS 
-
-Martin Popel <popel@ufal.mff.cuni.cz>
+=head1 AUTHORS
 
 João A. Rodrigues <jrodrigues@di.fc.ul.pt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © 2014 by Institute of Formal and Applied Linguistics, Charles University in Prague
+Copyright © 2015 by NLX Group, Universidade de Lisboa
+
+Copyright © 2008 by Institute of Formal and Applied Linguistics, Charles University in Prague
+
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
+
+
+

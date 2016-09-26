@@ -1,5 +1,6 @@
 Util::SetGlobal language=en
 
+#################################
 W2A::HideIT domain=IT resegment=1 gazetteer=all hideIT=1
 
 ## to m-layer
@@ -7,14 +8,16 @@ W2A::EN::Tokenize
 W2A::NormalizeForms
 W2A::EN::FixTokenization
 
+#################################
 W2A::EN::GazeteerMatch
 
 W2A::EN::TagMorce
 W2A::EN::FixTags
 W2A::EN::Lemmatize
 
+#################################
 #W2A::WSD
-
+#################################
 #W2A::ToWSD filename_prefix=wsd_in
 #W2A::RunDocWSD input_filename_prefix=wsd_in output_filename_prefix=wsd_out
 #W2A::FromWSD filename_prefix=wsd_out
@@ -44,7 +47,8 @@ A2A::ConvertTags input_driver=en::penn
 A2A::EN::EnhanceInterset
 
 # Experiment 541
-#W2A::ReplaceLemmasWithSynsetId
+#################################
+#W2A::ReplaceLemmasWithSynsetId 
 
 # Experiment 541 (b)
 #W2A::AppendSynsetIdToLemmas

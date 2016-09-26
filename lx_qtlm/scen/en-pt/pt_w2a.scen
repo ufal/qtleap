@@ -1,13 +1,17 @@
 Util::SetGlobal language=pt
 
+#################################
+W2A::HideIT domain=IT resegment=1 gazetteer=all hideIT=1
+
 W2A::PT::LXSuite
 #W2A::PT::TokenizeAndTag
 W2A::PT::FixTags
 W2A::NormalizeForms
 #W2A::MarkChunks min_quotes=3
 
-# a-layer
-#W2A::WSD
+#################################
+W2A::PT::GazeteerMatch
+
 
 #W2A::PT::Parse lxsuite_mode=conll.pos:parser:conll.usd
 HamleDT::PT::HarmonizeCintilUSD

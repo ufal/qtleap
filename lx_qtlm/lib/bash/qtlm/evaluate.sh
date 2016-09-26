@@ -114,7 +114,17 @@ function translate_from_scratch {
             T2T::TrFAddVariantsInterpol \
                 model_dir= \
                 models="$TFORMEME_TMS" \
-            T2T::TrLAddVariantsInterpol \
+	    T2T::TrLApplyTbxDictionary \
+                tbx=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.tbx \
+                tbx_src_id=en-US \
+                tbx_trg_id=pt-pt \
+                analysis=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.streex \
+                analysis_src_language=en \
+                analysis_src_selector=src \
+                analysis_trg_language=pt \
+                analysis_trg_selector=trg \
+		src_blacklist=/home/chakaveh/code/tectomt/share/MicrosoftTermCollection.en-pt.src.blacklist.txt \
+	    T2T::TrLAddVariantsInterpol \
                 model_dir= \
                 models="$TLEMMA_TMS" \
         >> $eval_dir/$test_file.${src}2${trg}.from_scratch.new.scen

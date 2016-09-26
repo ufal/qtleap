@@ -31,6 +31,12 @@ function __start {
         T2T::CopyTtree \
             source_language=$src \
             source_selector=src \
+        > treex-socket-server.${src}2${trg}.scen
+
+    if [ -z $datasets_dir ];
+    then
+
+        $TMT_ROOT/treex/bin/treex --dump_scenario \
         T2T::TrFAddVariants \
             model_dir=data/models/transfer/$dataset/$train_date/$src-$trg/formeme \
             static_model=static.model.gz \
@@ -40,7 +46,30 @@ function __start {
             static_model=static.model.gz \
             discr_model=maxent.model.gz \
         "$QTLM_ROOT/scen/$lang1-$lang2/${trg}_t2w.scen" \
-        > treex-socket-server.${src}2${trg}.scen
+        >> treex-socket-server.${src}2${trg}.scen
+    else
+        # interpolation
+        n=0
+        TFORMEME_TMS=""
+        TLEMMA_TMS=""
+        for dt in "${datasets[@]}"
+        do
+            TFORMEME_TMS="${TFORMEME_TMS}static ${formeme_maxent_weight[$n]} data/models/transfer/$dt/$src-$trg/formeme/static.model.gz maxent ${formeme_static_weight[$n]} data/models/transfer/$dt/$src-$trg/formeme/maxent.model.gz "
+            TLEMMA_TMS="${TLEMMA_TMS}static ${lemma_maxent_weight[$n]} data/models/transfer/$dt/$src-$trg/lemma/static.model.gz maxent ${lemma_static_weight[$n]} data/models/transfer/$dt/$src-$trg/lemma/maxent.model.gz "
+        done
+
+        $TMT_ROOT/treex/bin/treex --dump_scenario \
+        T2T::TrFAddVariantsInterpol \
+            model_dir= \
+            models="$TFORMEME_TMS" \
+        T2T::TrLAddVariantsInterpol \
+            model_dir= \
+            models="$TLEMMA_TMS" \
+        "$QTLM_ROOT/scen/$lang1-$lang2/${trg}_t2w.scen" \
+        >> treex-socket-server.${src}2${trg}.scen
+
+    fi
+
     local socket_server=$TMT_ROOT/treex/bin/treex-socket-server.pl
     if ! test -x $socket_server; then # we may be using an older tectomt revision
         socket_server=$QTLM_ROOT/tools/treex-socket-server.pl

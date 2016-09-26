@@ -4,7 +4,7 @@ extends 'Treex::Core::Block';
 
 sub process_anode {
     my ( $self, $anode ) = @_;
-    my $synsetid = $anode->wild->{lx_wsd} // 'UNK';
+    my $synsetid = $anode->wild->{synsetid} // 'UNK';
     if ($synsetid ne 'UNK') {
 	$anode->wild->{original_lemma} = $anode->lemma;
         my $alpha_synsetid = "$synsetid";

@@ -175,6 +175,8 @@ Contracts the portuguese prepositions.
 
 João A. Rodrigues <jrodrigues@di.fc.ul.pt>
 
+Martin Popel <popel@ufal.mff.cuni.cz>
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright © 2015 by NLX Group, Universidade de Lisboa
