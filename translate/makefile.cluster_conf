@@ -1,10 +1,10 @@
 LRC?=1
 
 JOBS=20
-MEM=7G
+MEM=12G
 ifeq ($(LRC), 1)
 LRC_FLAGS = -p --mem=$(MEM) --jobs=$(JOBS)
-#or 
+#or
 #LRC_FLAGS = -p --mem=0 --qsub '-hard -l mem_free=$(MEM) -l act_mem_free=$(MEM) -l h_vmem=$(MEM)' --jobs $(JOBS)
 endif
 
